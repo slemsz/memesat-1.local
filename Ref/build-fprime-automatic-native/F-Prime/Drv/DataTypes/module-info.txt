@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/DataTypes/DataBuffer.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/DataTypes/DataBufferPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/DataTypes/DataBufferPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/DataTypes/DataBufferPortAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/DataTypes/DataTypes.fpp
+Fw/Port

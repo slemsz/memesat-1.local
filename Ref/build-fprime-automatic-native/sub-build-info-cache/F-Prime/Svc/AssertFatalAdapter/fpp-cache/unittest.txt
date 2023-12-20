@@ -1,0 +1,5 @@
+AssertFatalAdapterGTestBase.cpp
+AssertFatalAdapterGTestBase.hpp
+AssertFatalAdapterTesterBase.cpp
+AssertFatalAdapterTesterBase.hpp
+AssertFatalAdapterTesterHelpers.cpp

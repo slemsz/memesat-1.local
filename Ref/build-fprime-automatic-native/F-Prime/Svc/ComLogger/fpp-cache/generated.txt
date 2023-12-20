@@ -1,0 +1,3 @@
+ComLoggerComponentAc.cpp
+ComLoggerComponentAc.hpp
+ComLoggerComponentAi.xml

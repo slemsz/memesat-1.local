@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileUplink/FileUplink.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileUplink/File.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileUplink/Warnings.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileUplink/FileUplinkComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileUplink/FileUplinkComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileUplink/FileUplinkComponentAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileUplink/FileUplink.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileUplink/Events.fppi;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileUplink/Telemetry.fppi
+Os;Fw/Buffer;Fw/FilePacket;Utils/Hash;CFDP/Checksum

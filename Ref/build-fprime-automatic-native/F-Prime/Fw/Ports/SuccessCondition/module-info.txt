@@ -1,0 +1,5 @@
+
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp
+

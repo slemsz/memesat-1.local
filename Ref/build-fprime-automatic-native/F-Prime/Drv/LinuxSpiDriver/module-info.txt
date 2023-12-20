@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxSpiDriver/LinuxSpiDriverComponentImplCommon.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxSpiDriver/LinuxSpiDriverComponentImpl.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver/LinuxSpiDriverComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver/LinuxSpiDriverComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver/LinuxSpiDriverComponentAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxSpiDriver/LinuxSpiDriver.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxSpiDriver/Events.fppi;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxSpiDriver/Telemetry.fppi
+

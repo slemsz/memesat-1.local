@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/Ref.dir/home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/empty.cpp.o" -o bin/Linux/Ref 

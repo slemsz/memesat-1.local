@@ -1,0 +1,5 @@
+ActiveTextLoggerGTestBase.cpp
+ActiveTextLoggerGTestBase.hpp
+ActiveTextLoggerTesterBase.cpp
+ActiveTextLoggerTesterBase.hpp
+ActiveTextLoggerTesterHelpers.cpp

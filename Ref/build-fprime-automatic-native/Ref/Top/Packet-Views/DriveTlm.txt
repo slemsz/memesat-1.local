@@ -1,0 +1,12 @@
+pingRcvr.PR_NumPings
+sendBuffComp.PacketsSent
+sendBuffComp.NumErrorsInjected
+sendBuffComp.Parameter3
+sendBuffComp.Parameter4
+sendBuffComp.SendState
+recvBuffComp.PktState
+recvBuffComp.Sensor1
+recvBuffComp.Sensor2
+recvBuffComp.Parameter1
+recvBuffComp.Parameter2
+blockDrv.BD_Cycles

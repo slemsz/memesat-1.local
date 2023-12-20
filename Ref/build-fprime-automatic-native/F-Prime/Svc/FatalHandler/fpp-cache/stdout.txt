@@ -1,0 +1,2 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Fatal/Fatal.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp

@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/TlmPacketizer/TlmPacketizer.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmPacketizer/TlmPacketizerComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmPacketizer/TlmPacketizerComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmPacketizer/TlmPacketizerComponentAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/TlmPacketizer/TlmPacketizer.fpp
+

@@ -1,0 +1,7 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferManager/Events.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferManager/Telemetry.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp

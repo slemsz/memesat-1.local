@@ -1,0 +1,2 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi

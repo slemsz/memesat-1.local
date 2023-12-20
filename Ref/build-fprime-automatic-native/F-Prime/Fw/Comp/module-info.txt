@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/QueuedComponentBase.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/ActiveComponentBase.cpp
+
+
+Fw/Cfg;Fw/Types;Fw/Obj;Fw/Port;Os;Fw/Comp

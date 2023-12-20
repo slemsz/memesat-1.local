@@ -1,0 +1,3 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Interfaces/ByteStreamDriverInterface.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Events.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Telemetry.fppi

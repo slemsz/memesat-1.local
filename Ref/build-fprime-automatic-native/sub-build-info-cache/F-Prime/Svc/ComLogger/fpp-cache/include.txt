@@ -1,0 +1,2 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/ComLogger/Commands.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/ComLogger/Events.fppi

@@ -1,0 +1,3 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileDownlink/Commands.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileDownlink/Events.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi

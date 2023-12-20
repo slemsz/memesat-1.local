@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Cycle/TimerVal.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle/CyclePortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle/CyclePortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle/CyclePortAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp
+Os;Fw/Port

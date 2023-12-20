@@ -1,0 +1,5 @@
+
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PolyIf/MeasurementStatusEnumAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PolyIf/PolyPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PolyIf/MeasurementStatusEnumAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PolyIf/MeasurementStatusEnumAc.hpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PolyIf/PolyPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PolyIf/PolyPortAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/PolyIf/PolyIf.fpp
+

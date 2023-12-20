@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/InputPortBase.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/InputSerializePort.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/OutputPortBase.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/OutputSerializePort.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/PortBase.cpp
+
+
+Fw/Cfg;Fw/Types;Fw/Logger;Fw/Obj

@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/PingReceiverComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/PingReceiverComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/PingReceiverComponentAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp
+

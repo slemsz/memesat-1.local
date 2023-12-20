@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/IpSocket.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/TcpClientSocket.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/TcpServerSocket.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/UdpSocket.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/SocketReadTask.cpp
+
+
+Os;Fw/Buffer

@@ -1,0 +1,10 @@
+SG1.Output
+SG1.Type
+SG2.Output
+SG2.Type
+SG3.Output
+SG3.Type
+SG4.Output
+SG4.Type
+SG5.Output
+SG5.Type

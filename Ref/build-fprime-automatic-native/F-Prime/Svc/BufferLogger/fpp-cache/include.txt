@@ -1,0 +1,3 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferLogger/Commands.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferLogger/Events.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferLogger/Telemetry.fppi

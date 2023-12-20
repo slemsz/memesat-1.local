@@ -1,0 +1,5 @@
+
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Ping/PingPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Ping/PingPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Ping/PingPortAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp
+Fw/Port

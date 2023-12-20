@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClient.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Interfaces/ByteStreamDriverInterface.fppi
+Fw/Logger;Drv/ByteStreamDriverModel;Drv/Ip

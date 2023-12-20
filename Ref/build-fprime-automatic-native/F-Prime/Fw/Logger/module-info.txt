@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Logger/Logger.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Logger/LogAssert.cpp
+
+
+Fw/Cfg;Fw/Types

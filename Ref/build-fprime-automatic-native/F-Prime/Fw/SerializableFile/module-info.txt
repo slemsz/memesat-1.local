@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp
+
+
+Fw/Cfg;Fw/Types

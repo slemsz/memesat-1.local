@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/TlmChan/TlmChan.cpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmChan/TlmChanComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmChan/TlmChanComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmChan/TlmChanComponentAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/TlmChan/TlmChan.fpp
+

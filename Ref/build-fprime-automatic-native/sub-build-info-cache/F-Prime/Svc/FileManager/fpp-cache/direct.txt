@@ -1,0 +1,7 @@
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Commands.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Events.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Telemetry.fppi
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp

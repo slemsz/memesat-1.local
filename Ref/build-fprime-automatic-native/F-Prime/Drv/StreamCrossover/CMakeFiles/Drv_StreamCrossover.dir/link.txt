@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/Linux/libDrv_StreamCrossover.a CMakeFiles/Drv_StreamCrossover.dir/StreamCrossover.cpp.o CMakeFiles/Drv_StreamCrossover.dir/StreamCrossoverComponentAc.cpp.o
+/usr/bin/ranlib ../../../lib/Linux/libDrv_StreamCrossover.a

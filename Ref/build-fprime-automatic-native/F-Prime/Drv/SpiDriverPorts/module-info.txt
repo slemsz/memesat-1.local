@@ -1,0 +1,5 @@
+
+
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/SpiDriverPorts/SpiReadWritePortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/SpiDriverPorts/SpiReadWritePortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/SpiDriverPorts/SpiReadWritePortAc.hpp
+/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/SpiDriverPorts/SpiDriverPorts.fpp
+

@@ -1,5 +1,0 @@
-
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Fatal/FatalEventPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Fatal/FatalEventPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Fatal/FatalEventPortAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Fatal/Fatal.fpp
-Fw/Port

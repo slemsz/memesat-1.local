@@ -1,6 +1,5 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Interfaces/ByteStreamDriverInterface.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Events.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Telemetry.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Events.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Telemetry.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp

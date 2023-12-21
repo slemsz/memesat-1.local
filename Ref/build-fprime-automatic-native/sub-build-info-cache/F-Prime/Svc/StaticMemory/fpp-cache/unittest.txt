@@ -1,5 +1,0 @@
-StaticMemoryGTestBase.cpp
-StaticMemoryGTestBase.hpp
-StaticMemoryTesterBase.cpp
-StaticMemoryTesterBase.hpp
-StaticMemoryTesterHelpers.cpp

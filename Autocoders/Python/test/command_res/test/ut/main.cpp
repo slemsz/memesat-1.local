@@ -2,10 +2,10 @@
 // Main.cpp
 // ----------------------------------------------------------------------
 
-#include "command_resTester.hpp"
+#include "Tester.hpp"
 
 TEST(Test, CmdResidual) {
-  Cmd::command_resTester tester;
+  Cmd::Tester tester;
   tester.residualTest();
 }
 

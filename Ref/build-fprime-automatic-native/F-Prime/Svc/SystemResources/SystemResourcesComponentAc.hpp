@@ -147,7 +147,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to CmdReg[portNum]
@@ -274,7 +274,7 @@ namespace Svc {
       //! Get the number of CmdDisp input ports
       //!
       //! \return The number of CmdDisp input ports
-      NATIVE_INT_TYPE getNum_CmdDisp_InputPorts() const;
+      NATIVE_INT_TYPE getNum_CmdDisp_InputPorts();
 
     PROTECTED:
 
@@ -285,7 +285,7 @@ namespace Svc {
       //! Get the number of run input ports
       //!
       //! \return The number of run input ports
-      NATIVE_INT_TYPE getNum_run_InputPorts() const;
+      NATIVE_INT_TYPE getNum_run_InputPorts();
 
     PROTECTED:
 
@@ -296,36 +296,36 @@ namespace Svc {
       //! Get the number of CmdReg output ports
       //!
       //! \return The number of CmdReg output ports
-      NATIVE_INT_TYPE getNum_CmdReg_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_CmdReg_OutputPorts();
 
       //! Get the number of CmdStatus output ports
       //!
       //! \return The number of CmdStatus output ports
-      NATIVE_INT_TYPE getNum_CmdStatus_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_CmdStatus_OutputPorts();
 
       //! Get the number of Log output ports
       //!
       //! \return The number of Log output ports
-      NATIVE_INT_TYPE getNum_Log_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Log_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of LogText output ports
       //!
       //! \return The number of LogText output ports
-      NATIVE_INT_TYPE getNum_LogText_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_LogText_OutputPorts();
 
 #endif
 
       //! Get the number of Time output ports
       //!
       //! \return The number of Time output ports
-      NATIVE_INT_TYPE getNum_Time_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Time_OutputPorts();
 
       //! Get the number of Tlm output ports
       //!
       //! \return The number of Tlm output ports
-      NATIVE_INT_TYPE getNum_Tlm_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Tlm_OutputPorts();
 
     PROTECTED:
 

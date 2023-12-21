@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Obj/ObjBase.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Obj/SimpleObjRegistry.cpp
-
-
-Fw/Cfg;Fw/Types;Fw/Logger

@@ -29,15 +29,7 @@ Requirements:
 4. CLang or GNU C and C++ compilers (e.g. gcc and g++)
 5. [Python 3.8+](https://www.python.org/downloads/), virtual environments, and PIP
 
-> Latest versions of PIP are strongly recommended, as this will install native packages with improved performance and no dependency on Java. See [Recommended PIP Versions](#recommended-pip-versions)
-
-> Ubuntu and Debian users should see notes on [Python installation](#ubuntu-debian-java-and-python-pip)
-
-> macOS users must ensure the [CMake command line utility is on their path](#mac-os-x-and-cmake-command-not-found)
-
-> Other OS-specific notes are in the [Troubleshooting](#Troubleshooting) section below.
-
-
+**Note:** OS-specific notes are in the [Troubleshooting](#Troubleshooting) section below.
 
 ## Setting Up the Development Environment
 
@@ -61,7 +53,7 @@ python3 -m venv fprime-venv
 ```
 pip install -U fprime-tools
 ```
-> Some macOS users see an SSL error. [Correct the SSL error](#ssl-error-with-python-37-on-macos) and rerun the above command.
+>
 
 ## Creating a New Project
 
@@ -105,8 +97,6 @@ This section will add some known hints to trouble-shooting with the installation
 If the user is using a virtual environment and receives the 'command not found', the problem is likely caused by the environment not being sourced in a new terminal. Make sure to source the environment before running:
 
 ```
-. /path/to/venv/bin/activate
-e.g.
 . $HOME/fprime-venv/bin/activate
 ```
 
@@ -145,12 +135,13 @@ sudo "/Applications/CMake.app/Contents/bin/cmake-gui" --install
 
 More information can be found [here](https://stackoverflow.com/questions/30668601/installing-cmake-command-line-tools-on-a-mac)
 
+### System Python, Packages, and Python3
 
-### SSL Error with Python 3.8+ on macOS
+Many operating systems offer python PIP packages through their package manager (apt, yum, etc). Most python projects recommend avoiding those packages and instead installing them from PIP in a virtual environment. The reason for this is that the version of the python package from the OS may not be the required version that the python project depends on. Thus, users may choose to install F´ into a virtual environment. This is outside the scope of this document.
 
-> This fix will not work for Python installed via Homebrew.  Try installing Python published at python.org. 
+### SSL Error with Python 3.7+ on macOS
 
-The version of openSSL bundled with Python 3.8+ requires access to macOS's root certificates. If the following error is  encountered while installing fprime: 
+The version of openSSL bundled with Python 3.7+ requires access to macOS's root certificates. If the following error is  encountered while installing fprime: 
 
 ```
 Failed find expected download: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get  local issuer certificate
@@ -163,17 +154,4 @@ cd /Applications/Python\ 3.X/
 ./Install\ Certificates.command
 ```
 
-After running above command, re-try installing `fprime-tools`.
-
-
-### Recommended PIP Versions
-
-Some of the F´ Python packages are built in a way that it is recommended to install them with modern versions of PIP. Systems not recommended or pip versions less than recommended will require Java and run slower versions of FPP tools. The recommended versions are described below:
-
-| System | Recommended `pip` version |
-|---|---|
-| macOS (10.9+) | >= 21.0.1 |
-| x86_64 | >= 19.3 |
-| aarch64| >= 20.3 |
-
-
+After running above command, re-try installing fprime.  

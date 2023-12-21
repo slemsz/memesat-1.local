@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/depend.make
@@ -70,18 +70,18 @@ include F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/progress.make
 include F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/flags.make
 
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/flags.make
-F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp
+F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd4ad4061 -DASSERT_RELATIVE_PATH='"Fw/Cfg/ConfigCheck.cpp"' -MD -MT F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o -MF CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o.d -o CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd4ad4061 -DASSERT_RELATIVE_PATH='"Fw/Cfg/ConfigCheck.cpp"' -MD -MT F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o -MF CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o.d -o CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp
 
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd4ad4061 -DASSERT_RELATIVE_PATH='"Fw/Cfg/ConfigCheck.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp > CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd4ad4061 -DASSERT_RELATIVE_PATH='"Fw/Cfg/ConfigCheck.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp > CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.i
 
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd4ad4061 -DASSERT_RELATIVE_PATH='"Fw/Cfg/ConfigCheck.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp -o CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd4ad4061 -DASSERT_RELATIVE_PATH='"Fw/Cfg/ConfigCheck.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp -o CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.s
 
 # Object files for target Fw_Cfg
 Fw_Cfg_OBJECTS = \
@@ -93,19 +93,19 @@ Fw_Cfg_EXTERNAL_OBJECTS =
 lib/Linux/libFw_Cfg.a: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/ConfigCheck.cpp.o
 lib/Linux/libFw_Cfg.a: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build.make
 lib/Linux/libFw_Cfg.a: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Linux/libFw_Cfg.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cfg.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Cfg.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Linux/libFw_Cfg.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cfg.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Cfg.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build: lib/Linux/libFw_Cfg.a
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build
 
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cfg.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cfg.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/clean
 
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cfg /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/depend
 

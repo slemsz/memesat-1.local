@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend.make
@@ -69,7 +69,7 @@ include F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
 
-F-Prime/Fw/Cmd/CmdPortAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
+F-Prime/Fw/Cmd/CmdPortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
 F-Prime/Fw/Cmd/CmdPortAi.xml: lib/Linux/libFw_Log.a
 F-Prime/Fw/Cmd/CmdPortAi.xml: lib/Linux/libFw_Tlm.a
 F-Prime/Fw/Cmd/CmdPortAi.xml: lib/Linux/libFw_Com.a
@@ -77,8 +77,8 @@ F-Prime/Fw/Cmd/CmdPortAi.xml: lib/Linux/libFw_Time.a
 F-Prime/Fw/Cmd/CmdPortAi.xml: lib/Linux/libFw_Port.a
 F-Prime/Fw/Cmd/CmdPortAi.xml: lib/Linux/libFw_Types.a
 F-Prime/Fw/Cmd/CmdPortAi.xml: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CmdPortAi.xml, CmdRegPortAi.xml, CmdResponseEnumAi.xml, CmdResponsePortAi.xml"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd -i /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CmdPortAi.xml, CmdRegPortAi.xml, CmdResponseEnumAi.xml, CmdResponsePortAi.xml"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
 
 F-Prime/Fw/Cmd/CmdRegPortAi.xml: F-Prime/Fw/Cmd/CmdPortAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Cmd/CmdRegPortAi.xml
@@ -89,7 +89,7 @@ F-Prime/Fw/Cmd/CmdResponseEnumAi.xml: F-Prime/Fw/Cmd/CmdPortAi.xml
 F-Prime/Fw/Cmd/CmdResponsePortAi.xml: F-Prime/Fw/Cmd/CmdPortAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Cmd/CmdResponsePortAi.xml
 
-F-Prime/Fw/Cmd/CmdPortAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
+F-Prime/Fw/Cmd/CmdPortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
 F-Prime/Fw/Cmd/CmdPortAc.cpp: lib/Linux/libFw_Log.a
 F-Prime/Fw/Cmd/CmdPortAc.cpp: lib/Linux/libFw_Tlm.a
 F-Prime/Fw/Cmd/CmdPortAc.cpp: lib/Linux/libFw_Com.a
@@ -97,8 +97,8 @@ F-Prime/Fw/Cmd/CmdPortAc.cpp: lib/Linux/libFw_Time.a
 F-Prime/Fw/Cmd/CmdPortAc.cpp: lib/Linux/libFw_Port.a
 F-Prime/Fw/Cmd/CmdPortAc.cpp: lib/Linux/libFw_Types.a
 F-Prime/Fw/Cmd/CmdPortAc.cpp: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CmdPortAc.cpp, CmdPortAc.hpp, CmdRegPortAc.cpp, CmdRegPortAc.hpp, CmdResponseEnumAc.cpp, CmdResponseEnumAc.hpp, CmdResponsePortAc.cpp, CmdResponsePortAc.hpp"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd -i /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local,/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CmdPortAc.cpp, CmdPortAc.hpp, CmdRegPortAc.cpp, CmdRegPortAc.hpp, CmdResponseEnumAc.cpp, CmdResponseEnumAc.hpp, CmdResponsePortAc.cpp, CmdResponsePortAc.hpp"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Fw/Cmd/CmdPortAc.hpp: F-Prime/Fw/Cmd/CmdPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Cmd/CmdPortAc.hpp
@@ -122,102 +122,102 @@ F-Prime/Fw/Cmd/CmdResponsePortAc.hpp: F-Prime/Fw/Cmd/CmdPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Cmd/CmdResponsePortAc.hpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
-F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp
+F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe0285135 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdArgBuffer.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe0285135 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdArgBuffer.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe0285135 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdArgBuffer.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp > CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe0285135 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdArgBuffer.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp > CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.i
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe0285135 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdArgBuffer.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp -o CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe0285135 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdArgBuffer.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.cpp -o CMakeFiles/Fw_Cmd.dir/CmdArgBuffer.cpp.s
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
-F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp
+F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x378b2806 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdPacket.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x378b2806 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdPacket.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x378b2806 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdPacket.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp > CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x378b2806 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdPacket.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp > CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.i
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x378b2806 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdPacket.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp -o CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x378b2806 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdPacket.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdPacket.cpp -o CMakeFiles/Fw_Cmd.dir/CmdPacket.cpp.s
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
-F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp
+F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x91552335 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdString.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x91552335 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdString.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdString.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cmd.dir/CmdString.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x91552335 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdString.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp > CMakeFiles/Fw_Cmd.dir/CmdString.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x91552335 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdString.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp > CMakeFiles/Fw_Cmd.dir/CmdString.cpp.i
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cmd.dir/CmdString.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x91552335 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdString.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp -o CMakeFiles/Fw_Cmd.dir/CmdString.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x91552335 -DASSERT_RELATIVE_PATH='"Fw/Cmd/CmdString.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.cpp -o CMakeFiles/Fw_Cmd.dir/CmdString.cpp.s
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o: F-Prime/Fw/Cmd/CmdPortAc.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x151bfc11 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x151bfc11 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x151bfc11 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x151bfc11 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.i
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x151bfc11 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x151bfc11 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdPortAc.cpp.s
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o: F-Prime/Fw/Cmd/CmdRegPortAc.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x62844035 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x62844035 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x62844035 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x62844035 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.i
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x62844035 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x62844035 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdRegPortAc.cpp.s
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o: F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbf6f165b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbf6f165b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbf6f165b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbf6f165b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.i
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbf6f165b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbf6f165b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cpp.s
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/flags.make
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o: F-Prime/Fw/Cmd/CmdResponsePortAc.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x439bda90 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x439bda90 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp"' -MD -MT F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o -MF CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o.d -o CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x439bda90 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x439bda90 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp > CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.i
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x439bda90 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x439bda90 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.cpp -o CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.s
 
 # Object files for target Fw_Cmd
 Fw_Cmd_OBJECTS = \
@@ -241,16 +241,16 @@ lib/Linux/libFw_Cmd.a: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponseEnumAc.cp
 lib/Linux/libFw_Cmd.a: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/CmdResponsePortAc.cpp.o
 lib/Linux/libFw_Cmd.a: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build.make
 lib/Linux/libFw_Cmd.a: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../../../lib/Linux/libFw_Cmd.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cmd.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Cmd.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../../../lib/Linux/libFw_Cmd.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cmd.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Cmd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build: lib/Linux/libFw_Cmd.a
 .PHONY : F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cmd.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Cmd.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/clean
 
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend: F-Prime/Fw/Cmd/CmdPortAc.cpp
@@ -265,6 +265,6 @@ F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend: F-Prime/Fw/Cmd/CmdResponseEnumAi.xm
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend: F-Prime/Fw/Cmd/CmdResponsePortAc.cpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend: F-Prime/Fw/Cmd/CmdResponsePortAc.hpp
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend: F-Prime/Fw/Cmd/CmdResponsePortAi.xml
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend
 

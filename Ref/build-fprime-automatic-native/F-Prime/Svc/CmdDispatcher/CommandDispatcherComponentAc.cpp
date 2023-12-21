@@ -26,9 +26,9 @@ namespace Svc {
       CMD_CMD_CLEAR_TRACKING,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
+      BYTE compCmdRegPortSize[Fw::InputCmdRegPort::SERIALIZED_SIZE];
       BYTE compCmdStatPortSize[Fw::InputCmdResponsePort::SERIALIZED_SIZE];
       BYTE pingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
       BYTE seqCmdBuffPortSize[Fw::InputComPort::SERIALIZED_SIZE];
@@ -478,7 +478,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void CommandDispatcherComponentBase ::
@@ -815,7 +815,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_CmdDisp_InputPorts() const
+    getNum_CmdDisp_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdDisp_InputPort));
   }
@@ -825,25 +825,25 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_compCmdReg_InputPorts() const
+    getNum_compCmdReg_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_compCmdReg_InputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_compCmdStat_InputPorts() const
+    getNum_compCmdStat_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_compCmdStat_InputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_pingIn_InputPorts() const
+    getNum_pingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingIn_InputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_seqCmdBuff_InputPorts() const
+    getNum_seqCmdBuff_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_seqCmdBuff_InputPort));
   }
@@ -853,19 +853,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_CmdReg_OutputPorts() const
+    getNum_CmdReg_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdReg_OutputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_CmdStatus_OutputPorts() const
+    getNum_CmdStatus_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdStatus_OutputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_Log_OutputPorts() const
+    getNum_Log_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Log_OutputPort));
   }
@@ -873,7 +873,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -881,13 +881,13 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_Tlm_OutputPorts() const
+    getNum_Tlm_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Tlm_OutputPort));
   }
@@ -897,19 +897,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_compCmdSend_OutputPorts() const
+    getNum_compCmdSend_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_compCmdSend_OutputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_pingOut_OutputPorts() const
+    getNum_pingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingOut_OutputPort));
   }
 
   NATIVE_INT_TYPE CommandDispatcherComponentBase ::
-    getNum_seqCmdStatus_OutputPorts() const
+    getNum_seqCmdStatus_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_seqCmdStatus_OutputPort));
   }

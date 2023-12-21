@@ -12,15 +12,15 @@
 #ifndef Svc_AMPCS_HPP
 #define Svc_AMPCS_HPP
 
-#include "CmdSequencerTester.hpp"
+#include "Svc/CmdSequencer/test/ut/Tester.hpp"
 
 namespace Svc {
 
   namespace AMPCS {
 
     //! Test sequencer behavior with no input files
-    class CmdSequencerTester :
-      public Svc::CmdSequencerTester
+    class Tester :
+      public Svc::Tester
     {
 
       public:
@@ -29,8 +29,8 @@ namespace Svc {
         // Constructors
         // ----------------------------------------------------------------------
 
-        //! Construct object CmdSequencerTester
-        CmdSequencerTester();
+        //! Construct object Tester
+        Tester();
 
       public:
 

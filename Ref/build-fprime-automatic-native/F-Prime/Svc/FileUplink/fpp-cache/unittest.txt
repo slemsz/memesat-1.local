@@ -1,5 +1,0 @@
-FileUplinkGTestBase.cpp
-FileUplinkGTestBase.hpp
-FileUplinkTesterBase.cpp
-FileUplinkTesterBase.hpp
-FileUplinkTesterHelpers.cpp

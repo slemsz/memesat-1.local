@@ -70,10 +70,10 @@ namespace Svc {
 
       //! Constructor (user-provided value)
       CmdSequencer_FileReadStage(
-          const T e1 //!< The raw enum value
+          const T e //!< The raw enum value
       )
       {
-        this->e = e1;
+        this->e = e;
       }
 
       //! Copy constructor
@@ -97,7 +97,7 @@ namespace Svc {
 
       //! Copy assignment operator (raw enum)
       CmdSequencer_FileReadStage& operator=(
-          T e1 //!< The enum value
+          T e //!< The enum value
       );
 
       //! Conversion operator
@@ -107,15 +107,15 @@ namespace Svc {
       }
 
       //! Equality operator
-      bool operator==(T e1) const
+      bool operator==(T e) const
       {
-        return this->e == e1;
+        return this->e == e;
       }
 
       //! Inequality operator
-      bool operator!=(T e1) const
+      bool operator!=(T e) const
       {
-        return !(*this == e1);
+        return !(*this == e);
       }
 
 #ifdef BUILD_UT
@@ -147,7 +147,7 @@ namespace Svc {
           Fw::SerializeBufferBase& buffer //!< The serial buffer
       );
 
-#if FW_SERIALIZABLE_TO_STRING || FW_ENABLE_TEXT_LOGGING
+#if FW_SERIALIZABLE_TO_STRING || FW_ENABLE_TEXT_LOGGING || BUILD_UT
 
       //! Convert enum to string
       void toString(

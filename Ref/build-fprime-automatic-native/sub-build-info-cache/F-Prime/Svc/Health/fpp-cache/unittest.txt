@@ -1,5 +1,0 @@
-HealthGTestBase.cpp
-HealthGTestBase.hpp
-HealthTesterBase.cpp
-HealthTesterBase.hpp
-HealthTesterHelpers.cpp

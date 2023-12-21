@@ -11,6 +11,6 @@
 // ======================================================================
 
 #include "TlmTests.hpp"
-#include "Tester.hpp"
+#include "test/ut/Tester.hpp"
 
 TLM_TEST_DEFS

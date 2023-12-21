@@ -18,7 +18,6 @@
 
 #include <cstdio>
 #include <cstring>
-#include <unistd.h>
 
 namespace Svc {
 
@@ -43,8 +42,6 @@ void PassiveRateGroupTester::from_RateGroupMemberOut_handler(NATIVE_INT_TYPE por
     this->m_callLog[portNum].portCalled = true;
     this->m_callLog[portNum].contextVal = context;
     this->m_callLog[portNum].order = this->m_callOrder++;
-    // Adding a small sleep to ensure that the cycle time is bigger than 0 us
-    usleep(1);
 }
 
 void PassiveRateGroupTester::runNominal(NATIVE_INT_TYPE contexts[],

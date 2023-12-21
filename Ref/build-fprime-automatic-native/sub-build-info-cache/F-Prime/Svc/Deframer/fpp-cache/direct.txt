@@ -1,4 +1,0 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/Com.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp

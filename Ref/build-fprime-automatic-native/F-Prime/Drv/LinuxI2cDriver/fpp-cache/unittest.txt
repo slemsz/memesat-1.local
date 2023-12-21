@@ -1,5 +1,0 @@
-LinuxI2cDriverGTestBase.cpp
-LinuxI2cDriverGTestBase.hpp
-LinuxI2cDriverTesterBase.cpp
-LinuxI2cDriverTesterBase.hpp
-LinuxI2cDriverTesterHelpers.cpp

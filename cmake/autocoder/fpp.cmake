@@ -4,7 +4,6 @@
 # CMake implementation of an fprime autocoder. Includes the necessary function definitions to implement the fprime
 # autocoder API and wraps calls to the FPP tools.
 ####
-include_guard()
 include(utilities)
 include(autocoder/helpers)
 
@@ -16,23 +15,19 @@ autocoder_setup_for_multiple_sources()
 # above install location and then to the system path as a fallback.
 ####
 function(locate_fpp_tools)
+    get_expected_tool_version("fprime-fpp" FPP_VERSION)
     # Loop through each tool, looking if it was found and check the version
     foreach(TOOL FPP_DEPEND FPP_TO_XML FPP_TO_CPP FPP_LOCATE_DEFS)
-        # Skipped already defined tools
-        if (${TOOL})
-            continue()
-        endif ()
         string(TOLOWER ${TOOL} PROGRAM)
         string(REPLACE "_" "-" PROGRAM "${PROGRAM}")
-        get_expected_tool_version("fprime-${PROGRAM}" FPP_VERSION)
 
         # Clear any previous version of this find and search in this order: install dir, system path
         unset(${TOOL} CACHE)
         find_program(${TOOL} ${PROGRAM})
         # If the tool exists, check the version
-        if (${TOOL} AND FPRIME_SKIP_TOOLS_VERSION_CHECK)
+        if (TOOL AND FPRIME_SKIP_TOOLS_VERSION_CHECK)
             continue()
-        elseif(${TOOL})
+        elseif(TOOL)
             set(FPP_RE_MATCH "(v[0-9]+\.[0-9]+\.[0-9]+[a-g0-9-]*)")
             execute_process(COMMAND ${${TOOL}} --help OUTPUT_VARIABLE OUTPUT_TEXT)
             if (OUTPUT_TEXT MATCHES "${FPP_RE_MATCH}")
@@ -44,11 +39,7 @@ function(locate_fpp_tools)
                 set(FPP_ERROR_MESSAGE
                     "fpp-tools version incompatible. Found ${CMAKE_MATCH_1}, expected ${FPP_VERSION}" PARENT_SCOPE
                 )
-            else()
-                message(STATUS "[fpp-tools] ${PROGRAM} appears corrupt.")
             endif()
-        else()
-            message(STATUS "[fpp-tools] Could not find ${PROGRAM}")
         endif()
         set(FPP_FOUND FALSE PARENT_SCOPE)
         return()
@@ -122,10 +113,9 @@ function(fpp_info AC_INPUT_FILES)
     set(GENERATED_FILE "${CMAKE_CURRENT_BINARY_DIR}/fpp-cache/generated.txt")
     set(FRAMEWORK_FILE "${CMAKE_CURRENT_BINARY_DIR}/fpp-cache/framework.txt")
     set(STDOUT_FILE "${CMAKE_CURRENT_BINARY_DIR}/fpp-cache/stdout.txt")
-    set(UNITTEST_FILE "${CMAKE_CURRENT_BINARY_DIR}/fpp-cache/unittest.txt")
 
     # Read files and convert to lists of dependencies. e.g. read INCLUDED_FILE file into INCLUDED variable, then process
-    foreach(NAME INCLUDED MISSING GENERATED DIRECT_DEPENDENCIES FRAMEWORK STDOUT UNITTEST)
+    foreach(NAME INCLUDED MISSING GENERATED DIRECT_DEPENDENCIES FRAMEWORK STDOUT)
         if (NOT EXISTS "${${NAME}_FILE}")
             message(FATAL_ERROR "fpp-depend cache did not generate '${${NAME}_FILE}'")
         endif()
@@ -140,10 +130,6 @@ function(fpp_info AC_INPUT_FILES)
     set(GENERATED_FILES)
     foreach(LINE IN LISTS GENERATED)
         list(APPEND GENERATED_FILES "${CMAKE_CURRENT_BINARY_DIR}/${LINE}")
-    endforeach()
-    set(UNITTEST_FILES)
-    foreach(LINE IN LISTS UNITTEST)
-        list(APPEND UNITTEST_FILES "${CMAKE_CURRENT_BINARY_DIR}/${LINE}")
     endforeach()
 
     # If we have missing dependencies, print and fail
@@ -170,7 +156,6 @@ function(fpp_info AC_INPUT_FILES)
 
     # Should have been inherited from previous call to `get_generated_files`
     set(GENERATED_FILES "${GENERATED_FILES}" PARENT_SCOPE)
-    set(UNITTEST_FILES "${UNITTEST_FILES}" PARENT_SCOPE)
     set(MODULE_DEPENDENCIES "${MODULE_DEPENDENCIES}" PARENT_SCOPE)
     set(FILE_DEPENDENCIES "${FILE_DEPENDENCIES}" PARENT_SCOPE)
     set(FPP_IMPORTS "${STDOUT}" PARENT_SCOPE)
@@ -205,8 +190,7 @@ function(fpp_setup_autocode AC_INPUT_FILES)
             list(APPEND GENERATED_CPP "${GENERATED}")
         endif()
     endforeach()
-    file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/fpp-import-list" "${FPP_IMPORTS}")
-    file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/fpp-source-list" "${AC_INPUT_FILES}")
+    file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/fpp-input-list" "${FPP_IMPORTS};${AC_INPUT_FILES}")
     # Add in steps for Ai.xml generation
     if (GENERATED_AI)
         add_custom_command(
@@ -228,7 +212,6 @@ function(fpp_setup_autocode AC_INPUT_FILES)
     set(AUTOCODER_GENERATED ${GENERATED_AI} ${GENERATED_CPP})
     set(AUTOCODER_GENERATED "${AUTOCODER_GENERATED}" PARENT_SCOPE)
     set(AUTOCODER_DEPENDENCIES "${MODULE_DEPENDENCIES}" PARENT_SCOPE)
-    set(AUTOCODER_INCLUDES "${FILE_DEPENDENCIES}" PARENT_SCOPE)
 endfunction(fpp_setup_autocode)
 
 ####

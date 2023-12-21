@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for version.
 
@@ -67,8 +67,8 @@ include CMakeFiles/version.dir/compiler_depend.make
 include CMakeFiles/version.dir/progress.make
 
 CMakeFiles/version:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local && /usr/bin/cmake -E env PYTHONPATH=:/home/krokko/Desktop/MEMEdir/memesat-1.local/Autocoders/Python/src /home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/target/version/generate_version_header.py /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp 
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local && /usr/bin/cmake -E copy_if_different /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local && /usr/bin/cmake -E env PYTHONPATH=:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/target/version/generate_version_header.py /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp 
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local && /usr/bin/cmake -E copy_if_different /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp
 
 version: CMakeFiles/version
 version: CMakeFiles/version.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/version.dir/clean:
 .PHONY : CMakeFiles/version.dir/clean
 
 CMakeFiles/version.dir/depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles/version.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles/version.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/version.dir/depend
 

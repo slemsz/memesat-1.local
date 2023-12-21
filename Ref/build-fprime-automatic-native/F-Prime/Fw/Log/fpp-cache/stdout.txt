@@ -1,2 +1,2 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp

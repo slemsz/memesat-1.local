@@ -19,8 +19,8 @@ namespace Svc {
   namespace Relative {
 
     //! Test sequences with immediate commands followed by a marker
-    class CmdSequencerTester :
-      public MixedRelativeBase::CmdSequencerTester
+    class Tester :
+      public MixedRelativeBase::Tester
     {
 
       public:
@@ -29,8 +29,8 @@ namespace Svc {
         // Constructors
         // ----------------------------------------------------------------------
 
-        //! Construct object CmdSequencerTester
-        CmdSequencerTester(
+        //! Construct object Tester
+        Tester(
             const SequenceFiles::File::Format::t format =
             SequenceFiles::File::Format::F_PRIME //!< The file format to use
         );

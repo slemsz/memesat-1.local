@@ -1,3 +1,0 @@
-FileUplinkComponentAc.cpp
-FileUplinkComponentAc.hpp
-FileUplinkComponentAi.xml

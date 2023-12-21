@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/Linux/libSvc_PassiveRateGroup.a "CMakeFiles/Svc_PassiveRateGroup.dir/home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/empty.cpp.o"
-/usr/bin/ranlib ../../../lib/Linux/libSvc_PassiveRateGroup.a

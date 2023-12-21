@@ -1,8 +1,8 @@
-# Install script for directory: /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw
+# Install script for directory: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-artifacts")
+  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-artifacts")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,23 +44,23 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Com/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Logger/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Prm/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Comp/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Obj/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Port/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/FilePacket/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Test/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Com/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Logger/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Prm/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cfg/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Comp/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Obj/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Port/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/FilePacket/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Test/cmake_install.cmake")
 
 endif()
 

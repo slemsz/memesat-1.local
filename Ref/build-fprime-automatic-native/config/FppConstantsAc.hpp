@@ -34,11 +34,6 @@ enum FppConstant_CmdDispatcherSequencePorts {
   CmdDispatcherSequencePorts = 5
 };
 
-//! Used for sizing the command splitter input arrays
-enum FppConstant_CmdSplitterPorts {
-  CmdSplitterPorts = 5
-};
-
 //! Number of static memory allocations
 enum FppConstant_StaticMemoryAllocations {
   StaticMemoryAllocations = 4

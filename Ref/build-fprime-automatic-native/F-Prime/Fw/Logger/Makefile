@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Logger//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Logger//CMakeFiles/progress.marks
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/clean
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule
 .PHONY : F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule
 
 # Convenience name for target.
@@ -172,15 +172,29 @@ Fw_Logger: F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule
 
 # fast build rule for target.
 Fw_Logger/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build
 .PHONY : Fw_Logger/fast
+
+# Convenience name for target.
+F-Prime/Fw/Logger/CMakeFiles/Fw_Logger_impl.dir/rule:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger_impl.dir/rule
+.PHONY : F-Prime/Fw/Logger/CMakeFiles/Fw_Logger_impl.dir/rule
+
+# Convenience name for target.
+Fw_Logger_impl: F-Prime/Fw/Logger/CMakeFiles/Fw_Logger_impl.dir/rule
+.PHONY : Fw_Logger_impl
+
+# fast build rule for target.
+Fw_Logger_impl/fast:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger_impl.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger_impl.dir/build
+.PHONY : Fw_Logger_impl/fast
 
 LogAssert.o: LogAssert.cpp.o
 .PHONY : LogAssert.o
 
 # target to build an object file
 LogAssert.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/LogAssert.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/LogAssert.cpp.o
 .PHONY : LogAssert.cpp.o
 
 LogAssert.i: LogAssert.cpp.i
@@ -188,7 +202,7 @@ LogAssert.i: LogAssert.cpp.i
 
 # target to preprocess a source file
 LogAssert.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/LogAssert.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/LogAssert.cpp.i
 .PHONY : LogAssert.cpp.i
 
 LogAssert.s: LogAssert.cpp.s
@@ -196,7 +210,7 @@ LogAssert.s: LogAssert.cpp.s
 
 # target to generate assembly for a file
 LogAssert.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/LogAssert.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/LogAssert.cpp.s
 .PHONY : LogAssert.cpp.s
 
 Logger.o: Logger.cpp.o
@@ -204,7 +218,7 @@ Logger.o: Logger.cpp.o
 
 # target to build an object file
 Logger.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/Logger.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/Logger.cpp.o
 .PHONY : Logger.cpp.o
 
 Logger.i: Logger.cpp.i
@@ -212,7 +226,7 @@ Logger.i: Logger.cpp.i
 
 # target to preprocess a source file
 Logger.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/Logger.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/Logger.cpp.i
 .PHONY : Logger.cpp.i
 
 Logger.s: Logger.cpp.s
@@ -220,7 +234,7 @@ Logger.s: Logger.cpp.s
 
 # target to generate assembly for a file
 Logger.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/Logger.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/Logger.cpp.s
 .PHONY : Logger.cpp.s
 
 # Help Target
@@ -235,6 +249,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Fw_Logger_impl"
 	@echo "... Fw_Logger"
 	@echo "... LogAssert.o"
 	@echo "... LogAssert.i"
@@ -253,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,5 +1,0 @@
-BlockDriverGTestBase.cpp
-BlockDriverGTestBase.hpp
-BlockDriverTesterBase.cpp
-BlockDriverTesterBase.hpp
-BlockDriverTesterHelpers.cpp

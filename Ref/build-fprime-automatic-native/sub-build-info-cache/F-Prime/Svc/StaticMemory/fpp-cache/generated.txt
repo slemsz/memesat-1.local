@@ -1,3 +1,0 @@
-StaticMemoryComponentAc.cpp
-StaticMemoryComponentAc.hpp
-StaticMemoryComponentAi.xml

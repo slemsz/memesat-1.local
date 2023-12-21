@@ -6,9 +6,5 @@ viewed through F´.
 
 | Table of Contents                                                       |
 |-------------------------------------------------------------------------|
-| [F´ Software Architecture](./fprime-architecture.md)                    |
 | [Numerical Types Design](./numerical-types.md)                          |
 | [Communication Adapter Interface](./communication-adapter-interface.md) |
-| [Package Implementations](./package-implementations.md)                 |
-| [FPP JSON Dictionary Specification](./fpp-json-dict.md)                 |
-

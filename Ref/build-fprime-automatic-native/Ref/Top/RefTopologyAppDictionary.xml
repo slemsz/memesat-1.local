@@ -1,4 +1,4 @@
-<dictionary topology="Ref" framework_version="88383f0" project_version="88383f0">
+<dictionary topology="Ref" framework_version="961c412" project_version="961c412">
   <enums>
     <enum type="Fw::DeserialStatus">
       <item name="OK" value="0" description=""/>
@@ -159,20 +159,6 @@
         <member name="choicePair" format_specifier="%s" description="A pair of choices" default="Ref::ChoicePair(Ref::Choice::ONE, Ref::Choice::ONE)" type="Ref::ChoicePair"/>
       </members>
     </serializable>
-    <serializable type="Ref::ScalarStruct">
-      <members>
-        <member name="i8" format_specifier="%d" default="0" type="I8"/>
-        <member name="i16" format_specifier="%d" default="0" type="I16"/>
-        <member name="i32" format_specifier="%d" default="0" type="I32"/>
-        <member name="i64" format_specifier="%ld" default="0" type="I64"/>
-        <member name="u8" format_specifier="%u" default="0" type="U8"/>
-        <member name="u16" format_specifier="%u" default="0" type="U16"/>
-        <member name="u32" format_specifier="%u" default="0" type="U32"/>
-        <member name="u64" format_specifier="%lu" default="0" type="U64"/>
-        <member name="f32" format_specifier="%g" default="0.0f" type="F32"/>
-        <member name="f64" format_specifier="%g" default="0.0" type="F64"/>
-      </members>
-    </serializable>
     <serializable type="Ref::SignalPair">
       <members>
         <member name="time" format_specifier="%f" default="0.0f" type="F32"/>
@@ -315,7 +301,7 @@
     <command component="fileManager" mnemonic="RemoveFile" opcode="0x803" description="Remove a file">
       <args>
         <arg name="fileName" description="&#10;          The file to remove&#10;          " len="256" type="string"/>
-        <arg name="ignoreErrors" description="&#10;          Ignore nonexistent files&#10;          " type="bool"/>
+        <arg name="ignoreErrors" description="&#10;          Ignore non-existent files&#10;          " type="bool"/>
       </args>
     </command>
     <command component="fileManager" mnemonic="ShellCommand" opcode="0x804" description="Perform a Linux shell command and write the output to a log file.">
@@ -414,11 +400,6 @@
     </command>
     <command component="typeDemo" mnemonic="DUMP_FLOATS" opcode="0xe14" description="Dump the float values">
       <args/>
-    </command>
-    <command component="typeDemo" mnemonic="SEND_SCALARS" opcode="0xe15" description="Send scalars">
-      <args>
-        <arg name="scalar_input" type="Ref::ScalarStruct"/>
-      </args>
     </command>
     <command component="typeDemo" mnemonic="CHOICE_PRM_PRM_SET" opcode="0xe01" description="Single enumeration parameter parameter set">
       <args>
@@ -1185,11 +1166,6 @@
         <arg name="float2" type="F32"/>
         <arg name="float3" type="F32"/>
         <arg name="floats" type="Ref::FloatSet"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ScalarStructEv" id="0xe0b" severity="ACTIVITY_HI" description="Event for scalar struct" format_string="ScalarStruct: %s">
-      <args>
-        <arg name="scalar_argument" type="Ref::ScalarStruct"/>
       </args>
     </event>
     <event component="health" name="HLTH_PING_WARN" id="0x2000" severity="WARNING_HI" description="Warn that a ping target is longer than the warning value" format_string="Ping entry %s late warning">

@@ -4,11 +4,25 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFW_BAREMETAL_SCHEDULER=0 -DTGT_OS_TYPE_LINUX
 
-CXX_INCLUDES = -I/home/krokko/Desktop/MEMEdir/memesat-1.local -I/home/krokko/Desktop/MEMEdir/memesat-1.local/config -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config -isystem /home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/platform/types
+CXX_INCLUDES = -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/TcpClient -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Logger -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Prm -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Obj -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Hash -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/Ip -isystem /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/platform/types
 
 CXX_FLAGS = -std=c++11
 
 # Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o_FLAGS = -DASSERT_FILE_ID=0x2d782c83 -DASSERT_RELATIVE_PATH='"Drv/TcpClient/TcpClientComponentImpl.cpp"'
 
-# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0xfaedb48d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp"'
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x4d6eb3c3 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp"'
+
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0xdc6109e4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp"'
+
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x99918ef8 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp"'
+
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x9d32f385 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp"'
+
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x6098b3a4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp"'
+
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x7e148cbd -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp"'
+
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x21e00ca6 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp"'
+
+# Custom flags: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x1b5d8b95 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp"'
 

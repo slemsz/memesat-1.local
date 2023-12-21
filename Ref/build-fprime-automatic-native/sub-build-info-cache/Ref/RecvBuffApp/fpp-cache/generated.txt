@@ -1,9 +1,0 @@
-PacketRecvStatusEnumAc.cpp
-PacketRecvStatusEnumAc.hpp
-PacketRecvStatusEnumAi.xml
-PacketStatSerializableAc.cpp
-PacketStatSerializableAc.hpp
-PacketStatSerializableAi.xml
-RecvBuffComponentAc.cpp
-RecvBuffComponentAc.hpp
-RecvBuffComponentAi.xml

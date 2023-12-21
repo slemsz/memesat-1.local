@@ -14,6 +14,48 @@
 
 namespace Ref {
 
+  namespace {
+    // Get the max size by doing a union of the input and internal port serialization sizes
+    union BuffUnion {
+
+      BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
+    };
+
+    // Define a message buffer class large enough to handle all the
+    // asynchronous inputs to the component
+    class ComponentIpcSerializableBuffer :
+      public Fw::SerializeBufferBase
+    {
+
+      public:
+
+        enum {
+          // Max. message size = size of data + message id + port
+          SERIALIZATION_SIZE =
+            sizeof(BuffUnion) +
+            sizeof(NATIVE_INT_TYPE) +
+            sizeof(NATIVE_INT_TYPE)
+        };
+
+        NATIVE_UINT_TYPE getBuffCapacity() const {
+          return sizeof(m_buff);
+        }
+
+        U8* getBuffAddr() {
+          return m_buff;
+        }
+
+        const U8* getBuffAddr() const {
+          return m_buff;
+        }
+
+      private:
+        // Should be the max of all the input ports serialized sizes...
+        U8 m_buff[SERIALIZATION_SIZE];
+
+    };
+  }
+
   // ----------------------------------------------------------------------
   // Component initialization
   // ----------------------------------------------------------------------
@@ -237,7 +279,7 @@ namespace Ref {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void TypeDemoComponentBase ::
@@ -558,10 +600,6 @@ namespace Ref {
     this->m_cmdRegOut_OutputPort[0].invoke(
       this->getIdBase() + OPCODE_DUMP_FLOATS
     );
-
-    this->m_cmdRegOut_OutputPort[0].invoke(
-      this->getIdBase() + OPCODE_SEND_SCALARS
-    );
   }
 
   // ----------------------------------------------------------------------
@@ -732,7 +770,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_cmdIn_InputPorts() const
+    getNum_cmdIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdIn_InputPort));
   }
@@ -742,19 +780,19 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_cmdRegOut_OutputPorts() const
+    getNum_cmdRegOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdRegOut_OutputPort));
   }
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_cmdResponseOut_OutputPorts() const
+    getNum_cmdResponseOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdResponseOut_OutputPort));
   }
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_logOut_OutputPorts() const
+    getNum_logOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_logOut_OutputPort));
   }
@@ -762,7 +800,7 @@ namespace Ref {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_logTextOut_OutputPorts() const
+    getNum_logTextOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_logTextOut_OutputPort));
   }
@@ -770,25 +808,25 @@ namespace Ref {
 #endif
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_prmGetOut_OutputPorts() const
+    getNum_prmGetOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_prmGetOut_OutputPort));
   }
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_prmSetOut_OutputPorts() const
+    getNum_prmSetOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_prmSetOut_OutputPort));
   }
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_timeCaller_OutputPorts() const
+    getNum_timeCaller_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_timeCaller_OutputPort));
   }
 
   NATIVE_INT_TYPE TypeDemoComponentBase ::
-    getNum_tlmOut_OutputPorts() const
+    getNum_tlmOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_tlmOut_OutputPort));
   }
@@ -1493,53 +1531,6 @@ namespace Ref {
 #endif
 
     this->DUMP_FLOATS_cmdHandler(opCode, cmdSeq);
-  }
-
-  void TypeDemoComponentBase ::
-    SEND_SCALARS_cmdHandlerBase(
-        FwOpcodeType opCode,
-        U32 cmdSeq,
-        Fw::CmdArgBuffer& args
-    )
-  {
-    // Deserialize the arguments
-    Fw::SerializeStatus _status = Fw::FW_SERIALIZE_OK;
-
-    // Reset the buffer
-    args.resetDeser();
-
-    Ref::ScalarStruct scalar_input;
-    _status = args.deserialize(scalar_input);
-    if (_status != Fw::FW_SERIALIZE_OK) {
-      if (this->m_cmdResponseOut_OutputPort[0].isConnected()) {
-        this->m_cmdResponseOut_OutputPort[0].invoke(
-          opCode,
-          cmdSeq,
-          Fw::CmdResponse::FORMAT_ERROR
-        );
-      }
-      return;
-    }
-
-#if FW_CMD_CHECK_RESIDUAL
-    // Make sure there was no data left over.
-    // That means the argument buffer size was incorrect.
-    if (args.getBuffLeft() != 0) {
-      if (this->m_cmdResponseOut_OutputPort[0].isConnected()) {
-        this->m_cmdResponseOut_OutputPort[0].invoke(
-          opCode,
-          cmdSeq,
-          Fw::CmdResponse::FORMAT_ERROR
-        );
-      }
-      return;
-    }
-#endif
-
-    this->SEND_SCALARS_cmdHandler(
-      opCode, cmdSeq,
-      scalar_input
-    );
   }
 
   // ----------------------------------------------------------------------
@@ -2713,97 +2704,6 @@ namespace Ref {
 #endif
   }
 
-  void TypeDemoComponentBase ::
-    log_ACTIVITY_HI_ScalarStructEv(Ref::ScalarStruct scalar_argument)
-  {
-    // Get the time
-    Fw::Time _logTime;
-    if (this->m_timeCaller_OutputPort[0].isConnected()) {
-      this->m_timeCaller_OutputPort[0].invoke(_logTime);
-    }
-
-    FwEventIdType _id = static_cast<FwEventIdType>(0);
-
-    _id = this->getIdBase() + EVENTID_SCALARSTRUCTEV;
-
-    // Emit the event on the log port
-    if (this->m_logOut_OutputPort[0].isConnected()) {
-      Fw::LogBuffer _logBuff;
-      Fw::SerializeStatus _status = Fw::FW_SERIALIZE_OK;
-
-#if FW_AMPCS_COMPATIBLE
-      // Serialize the number of arguments
-      _status = _logBuff.serialize(static_cast<U8>(1));
-      FW_ASSERT(
-        _status == Fw::FW_SERIALIZE_OK,
-        static_cast<FwAssertArgType>(_status)
-      );
-#endif
-
-#if FW_AMPCS_COMPATIBLE
-      // Serialize the argument size
-      _status = _logBuff.serialize(
-        static_cast<U8>(Ref::ScalarStruct::SERIALIZED_SIZE)
-      );
-      FW_ASSERT(
-        _status == Fw::FW_SERIALIZE_OK,
-        static_cast<FwAssertArgType>(_status)
-      );
-#endif
-      _status = _logBuff.serialize(scalar_argument);
-      FW_ASSERT(
-        _status == Fw::FW_SERIALIZE_OK,
-        static_cast<FwAssertArgType>(_status)
-      );
-
-      this->m_logOut_OutputPort[0].invoke(
-        _id,
-        _logTime,
-        Fw::LogSeverity::ACTIVITY_HI,
-        _logBuff
-      );
-    }
-
-    // Emit the event on the text log port
-#if FW_ENABLE_TEXT_LOGGING
-    if (this->m_logTextOut_OutputPort[0].isConnected()) {
-#if FW_OBJECT_NAMES == 1
-      const char* _formatString =
-        "(%s) %s: ScalarStruct: %s";
-#else
-      const char* _formatString =
-        "%s: ScalarStruct: %s";
-#endif
-
-      char _textBuffer[FW_LOG_TEXT_BUFFER_SIZE];
-
-      Fw::String scalar_argumentStr;
-      scalar_argument.toString(scalar_argumentStr);
-
-      (void) snprintf(
-        _textBuffer,
-        FW_LOG_TEXT_BUFFER_SIZE,
-        _formatString,
-#if FW_OBJECT_NAMES == 1
-        this->m_objName,
-#endif
-        "ScalarStructEv ",
-        scalar_argumentStr.toChar()
-      );
-
-      // Null terminate
-      _textBuffer[FW_LOG_TEXT_BUFFER_SIZE-1] = 0;
-      Fw::TextLogString _logString = _textBuffer;
-      this->m_logTextOut_OutputPort[0].invoke(
-        _id,
-        _logTime,
-        Fw::LogSeverity::ACTIVITY_HI,
-        _logString
-      );
-    }
-#endif
-  }
-
   // ----------------------------------------------------------------------
   // Telemetry write functions
   // ----------------------------------------------------------------------
@@ -3410,15 +3310,6 @@ namespace Ref {
 
       case OPCODE_DUMP_FLOATS: {
         compPtr->DUMP_FLOATS_cmdHandlerBase(
-          opCode,
-          cmdSeq,
-          args
-        );
-        break;
-      }
-
-      case OPCODE_SEND_SCALARS: {
-        compPtr->SEND_SCALARS_cmdHandlerBase(
           opCode,
           cmdSeq,
           args

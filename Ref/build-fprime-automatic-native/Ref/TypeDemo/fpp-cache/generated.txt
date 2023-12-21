@@ -15,9 +15,6 @@ FppConstantsAc.hpp
 ManyChoicesArrayAc.cpp
 ManyChoicesArrayAc.hpp
 ManyChoicesArrayAi.xml
-ScalarStructSerializableAc.cpp
-ScalarStructSerializableAc.hpp
-ScalarStructSerializableAi.xml
 TooManyChoicesArrayAc.cpp
 TooManyChoicesArrayAc.hpp
 TooManyChoicesArrayAi.xml

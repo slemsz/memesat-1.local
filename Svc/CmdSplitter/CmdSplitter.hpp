@@ -27,11 +27,7 @@ class CmdSplitter : public CmdSplitterComponentBase {
     //!
     ~CmdSplitter();
 
-    //! Configure this splitter
-    //!
-    void configure(const FwOpcodeType remoteBaseOpcode /*!< Base remote opcode*/);
-
-  PRIVATE:
+    PRIVATE :
 
     // ----------------------------------------------------------------------
     // Handler implementations for user-defined typed input ports
@@ -51,8 +47,6 @@ class CmdSplitter : public CmdSplitterComponentBase {
                               U32 cmdSeq,                     /*!< Command Sequence */
                               const Fw::CmdResponse& response /*!< The command response argument */
     );
-
-    FwOpcodeType m_remoteBase; // Opcodes greater than or equal than this value will route remotely
 };
 
 }  // end namespace Svc

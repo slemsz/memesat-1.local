@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/TlmPacket.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/TlmString.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.hpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-Fw/Com

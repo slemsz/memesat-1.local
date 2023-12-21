@@ -156,7 +156,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
 #if FW_ENABLE_TEXT_LOGGING == 1
@@ -311,7 +311,7 @@ namespace Svc {
       //! Get the number of cmdIn input ports
       //!
       //! \return The number of cmdIn input ports
-      NATIVE_INT_TYPE getNum_cmdIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdIn_InputPorts();
 
     PROTECTED:
 
@@ -322,7 +322,7 @@ namespace Svc {
       //! Get the number of pingIn input ports
       //!
       //! \return The number of pingIn input ports
-      NATIVE_INT_TYPE getNum_pingIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_pingIn_InputPorts();
 
     PROTECTED:
 
@@ -335,34 +335,34 @@ namespace Svc {
       //! Get the number of LogText output ports
       //!
       //! \return The number of LogText output ports
-      NATIVE_INT_TYPE getNum_LogText_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_LogText_OutputPorts();
 
 #endif
 
       //! Get the number of cmdRegOut output ports
       //!
       //! \return The number of cmdRegOut output ports
-      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts();
 
       //! Get the number of cmdResponseOut output ports
       //!
       //! \return The number of cmdResponseOut output ports
-      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts();
 
       //! Get the number of eventOut output ports
       //!
       //! \return The number of eventOut output ports
-      NATIVE_INT_TYPE getNum_eventOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_eventOut_OutputPorts();
 
       //! Get the number of timeCaller output ports
       //!
       //! \return The number of timeCaller output ports
-      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts();
 
       //! Get the number of tlmOut output ports
       //!
       //! \return The number of tlmOut output ports
-      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts();
 
     PROTECTED:
 
@@ -373,7 +373,7 @@ namespace Svc {
       //! Get the number of pingOut output ports
       //!
       //! \return The number of pingOut output ports
-      NATIVE_INT_TYPE getNum_pingOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_pingOut_OutputPorts();
 
     PROTECTED:
 
@@ -548,7 +548,7 @@ namespace Svc {
           FwOpcodeType opCode, //!< The opcode
           U32 cmdSeq, //!< The command sequence number
           const Fw::CmdStringArg& fileName, //!< The file to remove
-          bool ignoreErrors //!< Ignore nonexistent files
+          bool ignoreErrors //!< Ignore non-existent files
       ) = 0;
 
       //! Handler for command ShellCommand

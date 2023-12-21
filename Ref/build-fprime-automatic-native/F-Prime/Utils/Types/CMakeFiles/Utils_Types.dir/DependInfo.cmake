@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Utils/Types/CircularBuffer.cpp" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o" "gcc" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Utils/Types/Queue.cpp" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o" "gcc" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/CircularBuffer.cpp" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o" "gcc" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/Queue.cpp" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o" "gcc" "F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

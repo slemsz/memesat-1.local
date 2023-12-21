@@ -21,10 +21,11 @@ namespace Svc {
       PINGIN_PING,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE RunPortSize[Svc::InputSchedPort::SERIALIZED_SIZE];
+      BYTE TlmGetPortSize[Fw::InputTlmGetPort::SERIALIZED_SIZE];
+      BYTE TlmRecvPortSize[Fw::InputTlmPort::SERIALIZED_SIZE];
       BYTE pingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
     };
 
@@ -370,25 +371,25 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE TlmChanComponentBase ::
-    getNum_Run_InputPorts() const
+    getNum_Run_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Run_InputPort));
   }
 
   NATIVE_INT_TYPE TlmChanComponentBase ::
-    getNum_TlmGet_InputPorts() const
+    getNum_TlmGet_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_TlmGet_InputPort));
   }
 
   NATIVE_INT_TYPE TlmChanComponentBase ::
-    getNum_TlmRecv_InputPorts() const
+    getNum_TlmRecv_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_TlmRecv_InputPort));
   }
 
   NATIVE_INT_TYPE TlmChanComponentBase ::
-    getNum_pingIn_InputPorts() const
+    getNum_pingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingIn_InputPort));
   }
@@ -398,13 +399,13 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE TlmChanComponentBase ::
-    getNum_PktSend_OutputPorts() const
+    getNum_PktSend_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PktSend_OutputPort));
   }
 
   NATIVE_INT_TYPE TlmChanComponentBase ::
-    getNum_pingOut_OutputPorts() const
+    getNum_pingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingOut_OutputPort));
   }

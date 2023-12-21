@@ -611,7 +611,7 @@ namespace Svc {
     }
 
     void ActiveLoggerImplTester::textLogIn(const FwEventIdType id, //!< The event ID
-            const Fw::Time& timeTag, //!< The time
+            Fw::Time& timeTag, //!< The time
             const Fw::LogSeverity severity, //!< The severity
             const Fw::TextLogString& text //!< The event string
             ) {

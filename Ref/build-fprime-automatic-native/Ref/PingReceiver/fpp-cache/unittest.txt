@@ -1,5 +1,0 @@
-PingReceiverGTestBase.cpp
-PingReceiverGTestBase.hpp
-PingReceiverTesterBase.cpp
-PingReceiverTesterBase.hpp
-PingReceiverTesterHelpers.cpp

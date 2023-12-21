@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/Linux/libRef_SignalGen.a "CMakeFiles/Ref_SignalGen.dir/home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/empty.cpp.o"
-/usr/bin/ranlib ../../lib/Linux/libRef_SignalGen.a

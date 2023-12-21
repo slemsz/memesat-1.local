@@ -1,5 +1,5 @@
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/ActiveLoggerImpl.cpp.o: \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.cpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -28,49 +28,49 @@ F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/ActiveLoggerImpl.cpp.o:
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveLogger/ActiveLoggerComponentAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveLogger/ActiveLoggerComponentAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.hpp \
  /usr/include/c++/11/limits \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/platform/types/PlatformTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/platform/types/PlatformTypes.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdPortAc.hpp \
  /usr/include/c++/11/cstring /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Serializable.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cfg/SerIds.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/PassiveComponentBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Obj/ObjBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/InputPortBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/PortBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/OutputPortBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/StringType.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/String.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Com/ComPortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/ComBuffer.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/ActiveComponentBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/QueuedComponentBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/Queue.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/QueueString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/Task.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/TaskString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/TaskId.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/TaskIdRepr.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdArgBuffer.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Serializable.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg/SerIds.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp/PassiveComponentBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Obj/ObjBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/InputPortBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/PortBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/OutputPortBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/StringType.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdRegPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponsePortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Cmd/CmdResponseEnumAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/String.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/CmdString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Com/ComPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/ComBuffer.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp/ActiveComponentBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp/QueuedComponentBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/Queue.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/QueueString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/Task.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/TaskString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/TaskId.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/TaskIdRepr.hpp \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
@@ -97,24 +97,24 @@ F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/ActiveLoggerImpl.cpp.o:
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Deprecate.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/LogBuffer.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/LogPortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/LogSeverityEnumAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Assert.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/LogString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/LogTextPortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/TextLogString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/InputSerializePort.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/OutputSerializePort.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/InternalInterfaceString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveLogger/ActiveLogger_EnabledEnumAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveLogger/ActiveLogger_FilterSeverityEnumAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Fatal/FatalEventPortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Ping/PingPortAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/LogPacket.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/ComPacket.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/config/ActiveLoggerImplCfg.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/File.hpp
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Deprecate.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/LogBuffer.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/LogPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/LogSeverityEnumAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Assert.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/LogString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log/LogTextPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/TextLogString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/InputSerializePort.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/OutputSerializePort.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/InternalInterfaceString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveLogger/ActiveLogger_EnabledEnumAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveLogger/ActiveLogger_FilterSeverityEnumAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Fatal/FatalEventPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Ping/PingPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/LogPacket.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/ComPacket.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/ActiveLoggerImplCfg.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/File.hpp

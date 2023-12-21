@@ -124,7 +124,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to eventOut[portNum]
@@ -216,17 +216,17 @@ namespace Svc {
       //! Get the number of bufferGetCallee input ports
       //!
       //! \return The number of bufferGetCallee input ports
-      NATIVE_INT_TYPE getNum_bufferGetCallee_InputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferGetCallee_InputPorts();
 
       //! Get the number of bufferSendIn input ports
       //!
       //! \return The number of bufferSendIn input ports
-      NATIVE_INT_TYPE getNum_bufferSendIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferSendIn_InputPorts();
 
       //! Get the number of schedIn input ports
       //!
       //! \return The number of schedIn input ports
-      NATIVE_INT_TYPE getNum_schedIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_schedIn_InputPorts();
 
     PROTECTED:
 
@@ -237,26 +237,26 @@ namespace Svc {
       //! Get the number of eventOut output ports
       //!
       //! \return The number of eventOut output ports
-      NATIVE_INT_TYPE getNum_eventOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_eventOut_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of textEventOut output ports
       //!
       //! \return The number of textEventOut output ports
-      NATIVE_INT_TYPE getNum_textEventOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_textEventOut_OutputPorts();
 
 #endif
 
       //! Get the number of timeCaller output ports
       //!
       //! \return The number of timeCaller output ports
-      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts();
 
       //! Get the number of tlmOut output ports
       //!
       //! \return The number of tlmOut output ports
-      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts();
 
     PROTECTED:
 

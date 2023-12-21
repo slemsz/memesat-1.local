@@ -1,3 +1,3 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Commands.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Events.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Telemetry.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Commands.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Events.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Telemetry.fppi

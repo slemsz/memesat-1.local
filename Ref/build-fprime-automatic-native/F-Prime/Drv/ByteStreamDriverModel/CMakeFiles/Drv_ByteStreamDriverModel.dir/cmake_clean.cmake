@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "../../../lib/Linux/libDrv_ByteStreamDriverModel.a"
   "../../../lib/Linux/libDrv_ByteStreamDriverModel.pdb"
+  "ByteStreamDriverModelComponentAc.cpp"
+  "ByteStreamDriverModelComponentAc.hpp"
+  "ByteStreamDriverModelComponentAi.xml"
   "ByteStreamPollPortAc.cpp"
   "ByteStreamPollPortAc.hpp"
   "ByteStreamPollPortAi.xml"
@@ -13,6 +16,8 @@ file(REMOVE_RECURSE
   "ByteStreamSendPortAc.cpp"
   "ByteStreamSendPortAc.hpp"
   "ByteStreamSendPortAi.xml"
+  "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o"
+  "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o.d"
   "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o"
   "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o.d"
   "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o"

@@ -21,6 +21,7 @@
 cmake_minimum_required(VERSION 3.13)
 cmake_policy(SET CMP0048 NEW)
 project(Ref VERSION 1.0.0 LANGUAGES C CXX)
+
 ##
 # Section 2: F prime Core
 #
@@ -30,7 +31,7 @@ project(Ref VERSION 1.0.0 LANGUAGES C CXX)
 ##
 include("${CMAKE_CURRENT_LIST_DIR}/../cmake/FPrime.cmake")
 # NOTE: register custom targets between these two lines
-fprime_setup_included_code()
+include("${CMAKE_CURRENT_LIST_DIR}/../cmake/FPrime-Code.cmake")
 ##
 # Section 3: Components and Topology
 #

@@ -1,5 +1,0 @@
-FileManagerGTestBase.cpp
-FileManagerGTestBase.hpp
-FileManagerTesterBase.cpp
-FileManagerTesterBase.hpp
-FileManagerTesterHelpers.cpp

@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/LinuxTimer/LinuxTimerComponentImplTimerFd.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/LinuxTimer/LinuxTimerComponentImplCommon.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTimer/LinuxTimerComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTimer/LinuxTimerComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTimer/LinuxTimerComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/LinuxTimer/LinuxTimer.fpp
-

@@ -19,7 +19,7 @@ namespace Svc {
     // Tests
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       Ping()
     {
       const U32 key = 1234;

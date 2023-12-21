@@ -1,5 +1,0 @@
-
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/WatchDog/WatchDogPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/WatchDog/WatchDogPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/WatchDog/WatchDogPortAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/WatchDog/WatchDog.fpp
-Fw/Port

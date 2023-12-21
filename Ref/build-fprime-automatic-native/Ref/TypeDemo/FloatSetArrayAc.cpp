@@ -176,7 +176,7 @@ namespace Ref {
     return status;
   }
 
-#if FW_ARRAY_TO_STRING
+#if FW_ARRAY_TO_STRING || BUILD_UT
 
   void FloatSet ::
     toString(Fw::StringBase& sb) const

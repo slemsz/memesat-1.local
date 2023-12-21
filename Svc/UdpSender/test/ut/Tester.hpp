@@ -13,7 +13,7 @@
 #ifndef TESTER_HPP
 #define TESTER_HPP
 
-#include "UdpSenderGTestBase.hpp"
+#include "GTestBase.hpp"
 #include "Svc/UdpSender/UdpSenderComponentImpl.hpp"
 
 namespace Svc {

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpServer//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpServer//CMakeFiles/progress.marks
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/clean
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/rule:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/rule
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/rule
 .PHONY : F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/rule
 
 # Convenience name for target.
@@ -172,39 +172,221 @@ Drv_TcpServer: F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/rule
 
 # fast build rule for target.
 Drv_TcpServer/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build
 .PHONY : Drv_TcpServer/fast
 
-TcpServerComponentAc.o: TcpServerComponentAc.cpp.o
-.PHONY : TcpServerComponentAc.o
+# Convenience name for target.
+F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/rule:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/rule
+.PHONY : F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/rule
+
+# Convenience name for target.
+Drv_TcpServer_impl: F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/rule
+.PHONY : Drv_TcpServer_impl
+
+# fast build rule for target.
+Drv_TcpServer_impl/fast:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/build
+.PHONY : Drv_TcpServer_impl/fast
+
+ByteStreamDriverModelComponentAc.o: ByteStreamDriverModelComponentAc.cpp.o
+.PHONY : ByteStreamDriverModelComponentAc.o
 
 # target to build an object file
-TcpServerComponentAc.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentAc.cpp.o
-.PHONY : TcpServerComponentAc.cpp.o
+ByteStreamDriverModelComponentAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamDriverModelComponentAc.cpp.o
+.PHONY : ByteStreamDriverModelComponentAc.cpp.o
 
-TcpServerComponentAc.i: TcpServerComponentAc.cpp.i
-.PHONY : TcpServerComponentAc.i
+ByteStreamDriverModelComponentAc.i: ByteStreamDriverModelComponentAc.cpp.i
+.PHONY : ByteStreamDriverModelComponentAc.i
 
 # target to preprocess a source file
-TcpServerComponentAc.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentAc.cpp.i
-.PHONY : TcpServerComponentAc.cpp.i
+ByteStreamDriverModelComponentAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamDriverModelComponentAc.cpp.i
+.PHONY : ByteStreamDriverModelComponentAc.cpp.i
 
-TcpServerComponentAc.s: TcpServerComponentAc.cpp.s
-.PHONY : TcpServerComponentAc.s
+ByteStreamDriverModelComponentAc.s: ByteStreamDriverModelComponentAc.cpp.s
+.PHONY : ByteStreamDriverModelComponentAc.s
 
 # target to generate assembly for a file
-TcpServerComponentAc.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentAc.cpp.s
-.PHONY : TcpServerComponentAc.cpp.s
+ByteStreamDriverModelComponentAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamDriverModelComponentAc.cpp.s
+.PHONY : ByteStreamDriverModelComponentAc.cpp.s
+
+ByteStreamPollPortAc.o: ByteStreamPollPortAc.cpp.o
+.PHONY : ByteStreamPollPortAc.o
+
+# target to build an object file
+ByteStreamPollPortAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamPollPortAc.cpp.o
+.PHONY : ByteStreamPollPortAc.cpp.o
+
+ByteStreamPollPortAc.i: ByteStreamPollPortAc.cpp.i
+.PHONY : ByteStreamPollPortAc.i
+
+# target to preprocess a source file
+ByteStreamPollPortAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamPollPortAc.cpp.i
+.PHONY : ByteStreamPollPortAc.cpp.i
+
+ByteStreamPollPortAc.s: ByteStreamPollPortAc.cpp.s
+.PHONY : ByteStreamPollPortAc.s
+
+# target to generate assembly for a file
+ByteStreamPollPortAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamPollPortAc.cpp.s
+.PHONY : ByteStreamPollPortAc.cpp.s
+
+ByteStreamReadyPortAc.o: ByteStreamReadyPortAc.cpp.o
+.PHONY : ByteStreamReadyPortAc.o
+
+# target to build an object file
+ByteStreamReadyPortAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamReadyPortAc.cpp.o
+.PHONY : ByteStreamReadyPortAc.cpp.o
+
+ByteStreamReadyPortAc.i: ByteStreamReadyPortAc.cpp.i
+.PHONY : ByteStreamReadyPortAc.i
+
+# target to preprocess a source file
+ByteStreamReadyPortAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamReadyPortAc.cpp.i
+.PHONY : ByteStreamReadyPortAc.cpp.i
+
+ByteStreamReadyPortAc.s: ByteStreamReadyPortAc.cpp.s
+.PHONY : ByteStreamReadyPortAc.s
+
+# target to generate assembly for a file
+ByteStreamReadyPortAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamReadyPortAc.cpp.s
+.PHONY : ByteStreamReadyPortAc.cpp.s
+
+ByteStreamRecvPortAc.o: ByteStreamRecvPortAc.cpp.o
+.PHONY : ByteStreamRecvPortAc.o
+
+# target to build an object file
+ByteStreamRecvPortAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamRecvPortAc.cpp.o
+.PHONY : ByteStreamRecvPortAc.cpp.o
+
+ByteStreamRecvPortAc.i: ByteStreamRecvPortAc.cpp.i
+.PHONY : ByteStreamRecvPortAc.i
+
+# target to preprocess a source file
+ByteStreamRecvPortAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamRecvPortAc.cpp.i
+.PHONY : ByteStreamRecvPortAc.cpp.i
+
+ByteStreamRecvPortAc.s: ByteStreamRecvPortAc.cpp.s
+.PHONY : ByteStreamRecvPortAc.s
+
+# target to generate assembly for a file
+ByteStreamRecvPortAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamRecvPortAc.cpp.s
+.PHONY : ByteStreamRecvPortAc.cpp.s
+
+ByteStreamSendPortAc.o: ByteStreamSendPortAc.cpp.o
+.PHONY : ByteStreamSendPortAc.o
+
+# target to build an object file
+ByteStreamSendPortAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamSendPortAc.cpp.o
+.PHONY : ByteStreamSendPortAc.cpp.o
+
+ByteStreamSendPortAc.i: ByteStreamSendPortAc.cpp.i
+.PHONY : ByteStreamSendPortAc.i
+
+# target to preprocess a source file
+ByteStreamSendPortAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamSendPortAc.cpp.i
+.PHONY : ByteStreamSendPortAc.cpp.i
+
+ByteStreamSendPortAc.s: ByteStreamSendPortAc.cpp.s
+.PHONY : ByteStreamSendPortAc.s
+
+# target to generate assembly for a file
+ByteStreamSendPortAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/ByteStreamSendPortAc.cpp.s
+.PHONY : ByteStreamSendPortAc.cpp.s
+
+PollStatusEnumAc.o: PollStatusEnumAc.cpp.o
+.PHONY : PollStatusEnumAc.o
+
+# target to build an object file
+PollStatusEnumAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/PollStatusEnumAc.cpp.o
+.PHONY : PollStatusEnumAc.cpp.o
+
+PollStatusEnumAc.i: PollStatusEnumAc.cpp.i
+.PHONY : PollStatusEnumAc.i
+
+# target to preprocess a source file
+PollStatusEnumAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/PollStatusEnumAc.cpp.i
+.PHONY : PollStatusEnumAc.cpp.i
+
+PollStatusEnumAc.s: PollStatusEnumAc.cpp.s
+.PHONY : PollStatusEnumAc.s
+
+# target to generate assembly for a file
+PollStatusEnumAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/PollStatusEnumAc.cpp.s
+.PHONY : PollStatusEnumAc.cpp.s
+
+RecvStatusEnumAc.o: RecvStatusEnumAc.cpp.o
+.PHONY : RecvStatusEnumAc.o
+
+# target to build an object file
+RecvStatusEnumAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/RecvStatusEnumAc.cpp.o
+.PHONY : RecvStatusEnumAc.cpp.o
+
+RecvStatusEnumAc.i: RecvStatusEnumAc.cpp.i
+.PHONY : RecvStatusEnumAc.i
+
+# target to preprocess a source file
+RecvStatusEnumAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/RecvStatusEnumAc.cpp.i
+.PHONY : RecvStatusEnumAc.cpp.i
+
+RecvStatusEnumAc.s: RecvStatusEnumAc.cpp.s
+.PHONY : RecvStatusEnumAc.s
+
+# target to generate assembly for a file
+RecvStatusEnumAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/RecvStatusEnumAc.cpp.s
+.PHONY : RecvStatusEnumAc.cpp.s
+
+SendStatusEnumAc.o: SendStatusEnumAc.cpp.o
+.PHONY : SendStatusEnumAc.o
+
+# target to build an object file
+SendStatusEnumAc.cpp.o:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/SendStatusEnumAc.cpp.o
+.PHONY : SendStatusEnumAc.cpp.o
+
+SendStatusEnumAc.i: SendStatusEnumAc.cpp.i
+.PHONY : SendStatusEnumAc.i
+
+# target to preprocess a source file
+SendStatusEnumAc.cpp.i:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/SendStatusEnumAc.cpp.i
+.PHONY : SendStatusEnumAc.cpp.i
+
+SendStatusEnumAc.s: SendStatusEnumAc.cpp.s
+.PHONY : SendStatusEnumAc.s
+
+# target to generate assembly for a file
+SendStatusEnumAc.cpp.s:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/SendStatusEnumAc.cpp.s
+.PHONY : SendStatusEnumAc.cpp.s
 
 TcpServerComponentImpl.o: TcpServerComponentImpl.cpp.o
 .PHONY : TcpServerComponentImpl.o
 
 # target to build an object file
 TcpServerComponentImpl.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentImpl.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentImpl.cpp.o
 .PHONY : TcpServerComponentImpl.cpp.o
 
 TcpServerComponentImpl.i: TcpServerComponentImpl.cpp.i
@@ -212,7 +394,7 @@ TcpServerComponentImpl.i: TcpServerComponentImpl.cpp.i
 
 # target to preprocess a source file
 TcpServerComponentImpl.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentImpl.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentImpl.cpp.i
 .PHONY : TcpServerComponentImpl.cpp.i
 
 TcpServerComponentImpl.s: TcpServerComponentImpl.cpp.s
@@ -220,7 +402,7 @@ TcpServerComponentImpl.s: TcpServerComponentImpl.cpp.s
 
 # target to generate assembly for a file
 TcpServerComponentImpl.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentImpl.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/build.make F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/TcpServerComponentImpl.cpp.s
 .PHONY : TcpServerComponentImpl.cpp.s
 
 # Help Target
@@ -235,10 +417,32 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Drv_TcpServer_impl"
 	@echo "... Drv_TcpServer"
-	@echo "... TcpServerComponentAc.o"
-	@echo "... TcpServerComponentAc.i"
-	@echo "... TcpServerComponentAc.s"
+	@echo "... ByteStreamDriverModelComponentAc.o"
+	@echo "... ByteStreamDriverModelComponentAc.i"
+	@echo "... ByteStreamDriverModelComponentAc.s"
+	@echo "... ByteStreamPollPortAc.o"
+	@echo "... ByteStreamPollPortAc.i"
+	@echo "... ByteStreamPollPortAc.s"
+	@echo "... ByteStreamReadyPortAc.o"
+	@echo "... ByteStreamReadyPortAc.i"
+	@echo "... ByteStreamReadyPortAc.s"
+	@echo "... ByteStreamRecvPortAc.o"
+	@echo "... ByteStreamRecvPortAc.i"
+	@echo "... ByteStreamRecvPortAc.s"
+	@echo "... ByteStreamSendPortAc.o"
+	@echo "... ByteStreamSendPortAc.i"
+	@echo "... ByteStreamSendPortAc.s"
+	@echo "... PollStatusEnumAc.o"
+	@echo "... PollStatusEnumAc.i"
+	@echo "... PollStatusEnumAc.s"
+	@echo "... RecvStatusEnumAc.o"
+	@echo "... RecvStatusEnumAc.i"
+	@echo "... RecvStatusEnumAc.s"
+	@echo "... SendStatusEnumAc.o"
+	@echo "... SendStatusEnumAc.i"
+	@echo "... SendStatusEnumAc.s"
 	@echo "... TcpServerComponentImpl.o"
 	@echo "... TcpServerComponentImpl.i"
 	@echo "... TcpServerComponentImpl.s"
@@ -253,6 +457,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

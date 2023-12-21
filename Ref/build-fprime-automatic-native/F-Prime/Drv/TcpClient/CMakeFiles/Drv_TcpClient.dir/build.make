@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend.make
@@ -69,80 +69,274 @@ include F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
 
-F-Prime/Drv/TcpClient/TcpClientComponentAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClient.fpp
-F-Prime/Drv/TcpClient/TcpClientComponentAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Interfaces/ByteStreamDriverInterface.fppi
-F-Prime/Drv/TcpClient/TcpClientComponentAi.xml: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Drv/TcpClient/TcpClientComponentAi.xml: lib/Linux/libOs.a
-F-Prime/Drv/TcpClient/TcpClientComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TcpClientComponentAi.xml"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClient.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml: lib/Linux/libFw_Buffer.a
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml: lib/Linux/libOs.a
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml: lib/Linux/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ByteStreamDriverModelComponentAi.xml, ByteStreamPollPortAi.xml, ByteStreamReadyPortAi.xml, ByteStreamRecvPortAi.xml, ByteStreamSendPortAi.xml, PollStatusEnumAi.xml, RecvStatusEnumAi.xml, SendStatusEnumAi.xml"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
 
-F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClient.fpp
-F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Interfaces/ByteStreamDriverInterface.fppi
-F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp: lib/Linux/libOs.a
-F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TcpClientComponentAc.cpp, TcpClientComponentAc.hpp"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClient.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local,/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Drv/TcpClient/ByteStreamPollPortAi.xml: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamPollPortAi.xml
 
-F-Prime/Drv/TcpClient/TcpClientComponentAc.hpp: F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp
-	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/TcpClientComponentAc.hpp
+F-Prime/Drv/TcpClient/ByteStreamReadyPortAi.xml: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamReadyPortAi.xml
+
+F-Prime/Drv/TcpClient/ByteStreamRecvPortAi.xml: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamRecvPortAi.xml
+
+F-Prime/Drv/TcpClient/ByteStreamSendPortAi.xml: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamSendPortAi.xml
+
+F-Prime/Drv/TcpClient/PollStatusEnumAi.xml: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/PollStatusEnumAi.xml
+
+F-Prime/Drv/TcpClient/RecvStatusEnumAi.xml: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/RecvStatusEnumAi.xml
+
+F-Prime/Drv/TcpClient/SendStatusEnumAi.xml: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/SendStatusEnumAi.xml
+
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp: lib/Linux/libFw_Buffer.a
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp: lib/Linux/libOs.a
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp: lib/Linux/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ByteStreamDriverModelComponentAc.cpp, ByteStreamDriverModelComponentAc.hpp, ByteStreamPollPortAc.cpp, ByteStreamPollPortAc.hpp, ByteStreamReadyPortAc.cpp, ByteStreamReadyPortAc.hpp, ByteStreamRecvPortAc.cpp, ByteStreamRecvPortAc.hpp, ByteStreamSendPortAc.cpp, ByteStreamSendPortAc.hpp, PollStatusEnumAc.cpp, PollStatusEnumAc.hpp, RecvStatusEnumAc.cpp, RecvStatusEnumAc.hpp, SendStatusEnumAc.cpp, SendStatusEnumAc.hpp"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+
+F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.hpp
+
+F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp
+
+F-Prime/Drv/TcpClient/ByteStreamPollPortAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamPollPortAc.hpp
+
+F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp
+
+F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.hpp
+
+F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp
+
+F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.hpp
+
+F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp
+
+F-Prime/Drv/TcpClient/ByteStreamSendPortAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/ByteStreamSendPortAc.hpp
+
+F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp
+
+F-Prime/Drv/TcpClient/PollStatusEnumAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/PollStatusEnumAc.hpp
+
+F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp
+
+F-Prime/Drv/TcpClient/RecvStatusEnumAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/RecvStatusEnumAc.hpp
+
+F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp
+
+F-Prime/Drv/TcpClient/SendStatusEnumAc.hpp: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/TcpClient/SendStatusEnumAc.hpp
 
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2d782c83 -DASSERT_RELATIVE_PATH='"Drv/TcpClient/TcpClientComponentImpl.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2d782c83 -DASSERT_RELATIVE_PATH='"Drv/TcpClient/TcpClientComponentImpl.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp
 
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2d782c83 -DASSERT_RELATIVE_PATH='"Drv/TcpClient/TcpClientComponentImpl.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp > CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2d782c83 -DASSERT_RELATIVE_PATH='"Drv/TcpClient/TcpClientComponentImpl.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp > CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.i
 
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2d782c83 -DASSERT_RELATIVE_PATH='"Drv/TcpClient/TcpClientComponentImpl.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp -o CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2d782c83 -DASSERT_RELATIVE_PATH='"Drv/TcpClient/TcpClientComponentImpl.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.cpp -o CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.s
 
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o: F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfaedb48d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x4d6eb3c3 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
 
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfaedb48d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp > CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.i
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x4d6eb3c3 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp > CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.i
 
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfaedb48d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp -o CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.s
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x4d6eb3c3 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp -o CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.s
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o: F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xdc6109e4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xdc6109e4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp > CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.i
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xdc6109e4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp -o CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.s
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o: F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x99918ef8 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x99918ef8 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp > CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.i
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x99918ef8 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp -o CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.s
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o: F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d32f385 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d32f385 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp > CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.i
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d32f385 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp -o CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.s
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o: F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6098b3a4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6098b3a4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp > CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.i
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6098b3a4 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp -o CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.s
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7e148cbd -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7e148cbd -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp > CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.i
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7e148cbd -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp -o CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.s
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x21e00ca6 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x21e00ca6 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp > CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.i
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x21e00ca6 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp -o CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.s
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/flags.make
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x1b5d8b95 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o -MF CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x1b5d8b95 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp > CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.i
+
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x1b5d8b95 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp -o CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.s
 
 # Object files for target Drv_TcpClient
 Drv_TcpClient_OBJECTS = \
 "CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o" \
-"CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o"
+"CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o" \
+"CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o" \
+"CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o" \
+"CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o" \
+"CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o" \
+"CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o" \
+"CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o" \
+"CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o"
 
 # External object files for target Drv_TcpClient
 Drv_TcpClient_EXTERNAL_OBJECTS =
 
 lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentImpl.cpp.o
-lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/TcpClientComponentAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamDriverModelComponentAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamPollPortAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamReadyPortAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamRecvPortAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/ByteStreamSendPortAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/PollStatusEnumAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/RecvStatusEnumAc.cpp.o
+lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/SendStatusEnumAc.cpp.o
 lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/build.make
 lib/Linux/libDrv_TcpClient.a: F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libDrv_TcpClient.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && $(CMAKE_COMMAND) -P CMakeFiles/Drv_TcpClient.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Drv_TcpClient.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library ../../../lib/Linux/libDrv_TcpClient.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && $(CMAKE_COMMAND) -P CMakeFiles/Drv_TcpClient.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Drv_TcpClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/build: lib/Linux/libDrv_TcpClient.a
 .PHONY : F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/build
 
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && $(CMAKE_COMMAND) -P CMakeFiles/Drv_TcpClient.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient && $(CMAKE_COMMAND) -P CMakeFiles/Drv_TcpClient.dir/cmake_clean.cmake
 .PHONY : F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/clean
 
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/TcpClientComponentAc.cpp
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/TcpClientComponentAc.hpp
-F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/TcpClientComponentAi.xml
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/TcpClient /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/DependInfo.cmake "--color=$(COLOR)"
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamDriverModelComponentAi.xml
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamPollPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamPollPortAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamPollPortAi.xml
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamReadyPortAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamReadyPortAi.xml
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamRecvPortAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamRecvPortAi.xml
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamSendPortAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamSendPortAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/ByteStreamSendPortAi.xml
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/PollStatusEnumAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/PollStatusEnumAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/PollStatusEnumAi.xml
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/RecvStatusEnumAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/RecvStatusEnumAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/RecvStatusEnumAi.xml
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/SendStatusEnumAc.cpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/SendStatusEnumAc.hpp
+F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend: F-Prime/Drv/TcpClient/SendStatusEnumAi.xml
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/TcpClient /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/depend
 

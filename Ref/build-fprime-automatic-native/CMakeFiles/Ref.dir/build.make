@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Ref.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/Ref.dir/progress.make
 include CMakeFiles/Ref.dir/flags.make
 
 CMakeFiles/Ref.dir/Main.cpp.o: CMakeFiles/Ref.dir/flags.make
-CMakeFiles/Ref.dir/Main.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/Main.cpp
+CMakeFiles/Ref.dir/Main.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Main.cpp
 CMakeFiles/Ref.dir/Main.cpp.o: CMakeFiles/Ref.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ref.dir/Main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa64f60b5 -DASSERT_RELATIVE_PATH='"Ref/Main.cpp"' -MD -MT CMakeFiles/Ref.dir/Main.cpp.o -MF CMakeFiles/Ref.dir/Main.cpp.o.d -o CMakeFiles/Ref.dir/Main.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ref.dir/Main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa64f60b5 -DASSERT_RELATIVE_PATH='"Ref/Main.cpp"' -MD -MT CMakeFiles/Ref.dir/Main.cpp.o -MF CMakeFiles/Ref.dir/Main.cpp.o.d -o CMakeFiles/Ref.dir/Main.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Main.cpp
 
 CMakeFiles/Ref.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref.dir/Main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa64f60b5 -DASSERT_RELATIVE_PATH='"Ref/Main.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/Main.cpp > CMakeFiles/Ref.dir/Main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa64f60b5 -DASSERT_RELATIVE_PATH='"Ref/Main.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Main.cpp > CMakeFiles/Ref.dir/Main.cpp.i
 
 CMakeFiles/Ref.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref.dir/Main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa64f60b5 -DASSERT_RELATIVE_PATH='"Ref/Main.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/Main.cpp -o CMakeFiles/Ref.dir/Main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa64f60b5 -DASSERT_RELATIVE_PATH='"Ref/Main.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Main.cpp -o CMakeFiles/Ref.dir/Main.cpp.s
 
 # Object files for target Ref
 Ref_OBJECTS = \
@@ -92,72 +92,10 @@ Ref_EXTERNAL_OBJECTS =
 
 bin/Linux/Ref: CMakeFiles/Ref.dir/Main.cpp.o
 bin/Linux/Ref: CMakeFiles/Ref.dir/build.make
-bin/Linux/Ref: lib/Linux/libconfig.a
-bin/Linux/Ref: lib/Linux/libFw_Cfg.a
-bin/Linux/Ref: lib/Linux/libFw_Types.a
-bin/Linux/Ref: lib/Linux/libFw_Logger.a
-bin/Linux/Ref: lib/Linux/libFw_Obj.a
-bin/Linux/Ref: lib/Linux/libFw_Port.a
-bin/Linux/Ref: lib/Linux/libFw_Time.a
-bin/Linux/Ref: lib/Linux/libFw_Comp.a
-bin/Linux/Ref: lib/Linux/libSvc_PosixTime.a
-bin/Linux/Ref: lib/Linux/libFw_Com.a
-bin/Linux/Ref: lib/Linux/libFw_Tlm.a
-bin/Linux/Ref: lib/Linux/libFw_Log.a
-bin/Linux/Ref: lib/Linux/libFw_Cmd.a
-bin/Linux/Ref: lib/Linux/libFw_Prm.a
-bin/Linux/Ref: lib/Linux/libFw_Buffer.a
-bin/Linux/Ref: lib/Linux/libDrv_ByteStreamDriverModel.a
-bin/Linux/Ref: lib/Linux/libUtils_Hash.a
-bin/Linux/Ref: lib/Linux/libOs.a
-bin/Linux/Ref: lib/Linux/libDrv_Ip.a
-bin/Linux/Ref: lib/Linux/libDrv_Udp.a
-bin/Linux/Ref: lib/Linux/libDrv_TcpClient.a
-bin/Linux/Ref: lib/Linux/libDrv_TcpServer.a
-bin/Linux/Ref: lib/Linux/libDrv_DataTypes.a
-bin/Linux/Ref: lib/Linux/libSvc_Cycle.a
-bin/Linux/Ref: lib/Linux/libSvc_Ping.a
-bin/Linux/Ref: lib/Linux/libSvc_Sched.a
-bin/Linux/Ref: lib/Linux/libFw_CompQueued.a
-bin/Linux/Ref: lib/Linux/libDrv_BlockDriver.a
-bin/Linux/Ref: lib/Linux/libRef_PingReceiver.a
-bin/Linux/Ref: lib/Linux/libRef_RecvBuffApp.a
-bin/Linux/Ref: lib/Linux/libRef_SendBuffApp.a
-bin/Linux/Ref: lib/Linux/libRef_SignalGen.a
-bin/Linux/Ref: lib/Linux/libRef_TypeDemo.a
-bin/Linux/Ref: lib/Linux/libSvc_Fatal.a
-bin/Linux/Ref: lib/Linux/libSvc_ActiveLogger.a
-bin/Linux/Ref: lib/Linux/libSvc_ActiveRateGroup.a
-bin/Linux/Ref: lib/Linux/libSvc_AssertFatalAdapter.a
-bin/Linux/Ref: lib/Linux/libSvc_BufferManager.a
-bin/Linux/Ref: lib/Linux/libSvc_CmdDispatcher.a
-bin/Linux/Ref: lib/Linux/libSvc_Seq.a
-bin/Linux/Ref: lib/Linux/libSvc_CmdSequencer.a
-bin/Linux/Ref: lib/Linux/libUtils_Types.a
-bin/Linux/Ref: lib/Linux/libSvc_FramingProtocol.a
-bin/Linux/Ref: lib/Linux/libSvc_Deframer.a
-bin/Linux/Ref: lib/Linux/libSvc_FatalHandler.a
-bin/Linux/Ref: lib/Linux/libCFDP_Checksum.a
-bin/Linux/Ref: lib/Linux/libFw_FilePacket.a
-bin/Linux/Ref: lib/Linux/libSvc_FileDownlinkPorts.a
-bin/Linux/Ref: lib/Linux/libSvc_FileDownlink.a
-bin/Linux/Ref: lib/Linux/libSvc_FileManager.a
-bin/Linux/Ref: lib/Linux/libSvc_FileUplink.a
-bin/Linux/Ref: lib/Linux/libFw_Ports_SuccessCondition.a
-bin/Linux/Ref: lib/Linux/libSvc_Framer.a
-bin/Linux/Ref: lib/Linux/libSvc_WatchDog.a
-bin/Linux/Ref: lib/Linux/libSvc_Health.a
-bin/Linux/Ref: lib/Linux/libSvc_PassiveConsoleTextLogger.a
-bin/Linux/Ref: lib/Linux/libSvc_PrmDb.a
-bin/Linux/Ref: lib/Linux/libSvc_RateGroupDriver.a
-bin/Linux/Ref: lib/Linux/libSvc_StaticMemory.a
-bin/Linux/Ref: lib/Linux/libSvc_SystemResources.a
-bin/Linux/Ref: lib/Linux/libSvc_TlmChan.a
 bin/Linux/Ref: lib/Linux/libRef_Top.a
-bin/Linux/Ref: lib/Linux/libSvc_PosixTime.a
+bin/Linux/Ref: lib/Linux/libSvc_LinuxTime.a
 bin/Linux/Ref: lib/Linux/libDrv_Udp.a
 bin/Linux/Ref: lib/Linux/libDrv_TcpClient.a
-bin/Linux/Ref: lib/Linux/libDrv_TcpServer.a
 bin/Linux/Ref: lib/Linux/libDrv_Ip.a
 bin/Linux/Ref: lib/Linux/libDrv_BlockDriver.a
 bin/Linux/Ref: lib/Linux/libRef_PingReceiver.a
@@ -199,26 +137,27 @@ bin/Linux/Ref: lib/Linux/libFw_Prm.a
 bin/Linux/Ref: lib/Linux/libSvc_SystemResources.a
 bin/Linux/Ref: lib/Linux/libFw_Cmd.a
 bin/Linux/Ref: lib/Linux/libFw_Log.a
+bin/Linux/Ref: lib/Linux/libSvc_Time.a
 bin/Linux/Ref: lib/Linux/libSvc_TlmChan.a
 bin/Linux/Ref: lib/Linux/libFw_Tlm.a
-bin/Linux/Ref: lib/Linux/libFw_Com.a
-bin/Linux/Ref: lib/Linux/libFw_Time.a
 bin/Linux/Ref: lib/Linux/libSvc_Ping.a
 bin/Linux/Ref: lib/Linux/libSvc_Sched.a
 bin/Linux/Ref: lib/Linux/libFw_CompQueued.a
 bin/Linux/Ref: lib/Linux/libFw_Comp.a
+bin/Linux/Ref: lib/Linux/libOs.a
+bin/Linux/Ref: lib/Linux/libUtils_Hash.a
+bin/Linux/Ref: lib/Linux/libFw_Com.a
+bin/Linux/Ref: lib/Linux/libFw_Time.a
 bin/Linux/Ref: lib/Linux/libFw_Port.a
 bin/Linux/Ref: lib/Linux/libFw_Obj.a
-bin/Linux/Ref: lib/Linux/libOs.a
 bin/Linux/Ref: lib/Linux/libFw_Logger.a
-bin/Linux/Ref: lib/Linux/libUtils_Hash.a
 bin/Linux/Ref: lib/Linux/libFw_Types.a
 bin/Linux/Ref: lib/Linux/libFw_Cfg.a
 bin/Linux/Ref: lib/Linux/libconfig.a
 bin/Linux/Ref: CMakeFiles/Ref.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/Linux/Ref"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/Linux/Ref"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ref.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -DCMAKE_INSTALL_COMPONENT=Ref -P /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/cmake_install.cmake
+	/usr/bin/cmake -DCMAKE_INSTALL_COMPONENT=Ref -P /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/cmake_install.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/Ref.dir/build: bin/Linux/Ref
@@ -229,6 +168,6 @@ CMakeFiles/Ref.dir/clean:
 .PHONY : CMakeFiles/Ref.dir/clean
 
 CMakeFiles/Ref.dir/depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles/Ref.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles/Ref.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Ref.dir/depend
 

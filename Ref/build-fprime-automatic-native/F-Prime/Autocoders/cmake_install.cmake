@@ -1,8 +1,8 @@
-# Install script for directory: /home/krokko/Desktop/MEMEdir/memesat-1.local/Autocoders
+# Install script for directory: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-artifacts")
+  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-artifacts")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Autocoders/Python/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Autocoders/Python/cmake_install.cmake")
 
 endif()
 

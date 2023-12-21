@@ -1,3 +1,0 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi

@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferRepeater/BufferRepeater.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/BufferRepeater/BufferRepeaterComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/BufferRepeater/BufferRepeaterComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/BufferRepeater/BufferRepeaterComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferRepeater/BufferRepeater.fpp
-

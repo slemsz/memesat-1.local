@@ -12,7 +12,7 @@
       eventLogger       | 2816 (0xb00)  |           5           |            256             |               5               |         5        
         tlmSend         | 3072 (0xc00)  |           0           |            256             |             None              |         0        
          prmDb          | 3328 (0xd00)  |           8           |            256             |               8               |         8        
-       typeDemo         | 3584 (0xe00)  |          22           |            4608            |              22               |        19        
+       typeDemo         | 3584 (0xe00)  |          21           |            4608            |              21               |        19        
         health          | 8192 (0x2000) |           8           |            256             |               8               |         8        
           SG1           | 8448 (0x2100) |           6           |            256             |               6               |         6        
           SG2           | 8704 (0x2200) |           6           |            256             |               6               |         6        
@@ -30,7 +30,7 @@
                         |       )       |                       |                            |                               |                  
 fileUplinkBufferManager | 17408 (0x4400 |           5           |            256             |               5               |         5        
                         |       )       |                       |                            |                               |                  
-       posixTime        | 17664 (0x4500 |           0           |            256             |             None              |         0        
+       linuxTime        | 17664 (0x4500 |           0           |            256             |             None              |         0        
                         |       )       |                       |                            |                               |                  
   rateGroupDriverComp   | 17920 (0x4600 |           0           |            256             |             None              |         0        
                         |       )       |                       |                            |                               |                  

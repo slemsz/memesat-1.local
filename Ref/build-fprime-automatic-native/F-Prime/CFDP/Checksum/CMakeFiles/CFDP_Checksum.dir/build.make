@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/depend.make
@@ -70,18 +70,18 @@ include F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/progress.make
 include F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/flags.make
 
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o: F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/flags.make
-F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp
+F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o: F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xcd234375 -DASSERT_RELATIVE_PATH='"CFDP/Checksum/Checksum.cpp"' -MD -MT F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o -MF CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o.d -o CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xcd234375 -DASSERT_RELATIVE_PATH='"CFDP/Checksum/Checksum.cpp"' -MD -MT F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o -MF CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o.d -o CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp
 
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xcd234375 -DASSERT_RELATIVE_PATH='"CFDP/Checksum/Checksum.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp > CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xcd234375 -DASSERT_RELATIVE_PATH='"CFDP/Checksum/Checksum.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp > CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.i
 
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xcd234375 -DASSERT_RELATIVE_PATH='"CFDP/Checksum/Checksum.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp -o CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xcd234375 -DASSERT_RELATIVE_PATH='"CFDP/Checksum/Checksum.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/CFDP/Checksum/Checksum.cpp -o CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.s
 
 # Object files for target CFDP_Checksum
 CFDP_Checksum_OBJECTS = \
@@ -93,19 +93,19 @@ CFDP_Checksum_EXTERNAL_OBJECTS =
 lib/Linux/libCFDP_Checksum.a: F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/Checksum.cpp.o
 lib/Linux/libCFDP_Checksum.a: F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/build.make
 lib/Linux/libCFDP_Checksum.a: F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Linux/libCFDP_Checksum.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && $(CMAKE_COMMAND) -P CMakeFiles/CFDP_Checksum.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CFDP_Checksum.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Linux/libCFDP_Checksum.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && $(CMAKE_COMMAND) -P CMakeFiles/CFDP_Checksum.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CFDP_Checksum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/build: lib/Linux/libCFDP_Checksum.a
 .PHONY : F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/build
 
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && $(CMAKE_COMMAND) -P CMakeFiles/CFDP_Checksum.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum && $(CMAKE_COMMAND) -P CMakeFiles/CFDP_Checksum.dir/cmake_clean.cmake
 .PHONY : F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/clean
 
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/CFDP/Checksum /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/CFDP/Checksum /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/depend
 

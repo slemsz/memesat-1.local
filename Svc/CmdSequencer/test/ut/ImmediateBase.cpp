@@ -22,9 +22,9 @@ namespace Svc {
     // Constructors
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester(const SequenceFiles::File::Format::t format) :
-        Svc::CmdSequencerTester(format)
+    Tester ::
+      Tester(const SequenceFiles::File::Format::t format) :
+        Svc::Tester(format)
     {
 
     }
@@ -33,7 +33,7 @@ namespace Svc {
     // Tests parameterized by file type
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedAutoByCommand(
           SequenceFiles::File& file,
           const U32 numCommands,
@@ -76,7 +76,7 @@ namespace Svc {
 
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedAutoByPort(
           SequenceFiles::File& file,
           const U32 numCommands,
@@ -105,7 +105,7 @@ namespace Svc {
       ASSERT_from_seqDone(0, 0U, 0U, Fw::CmdResponse(Fw::CmdResponse::OK));
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedInvalidManualCommands(SequenceFiles::File& file)
     {
       // Set the time
@@ -194,7 +194,7 @@ namespace Svc {
       ASSERT_EVENTS_CS_InvalidMode_SIZE(1);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedLoadRunRun(
           SequenceFiles::File& file,
           const U32 numCommands,
@@ -226,7 +226,7 @@ namespace Svc {
       ASSERT_TLM_CS_Errors(0, 1);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedManual(SequenceFiles::File& file, const U32 numCommands)
     {
 
@@ -282,7 +282,7 @@ namespace Svc {
 
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedNewSequence(
           SequenceFiles::File& file,
           const U32 numCommands,
@@ -321,7 +321,7 @@ namespace Svc {
       ASSERT_from_seqDone(0, 0U, 0U, Fw::CmdResponse(Fw::CmdResponse::OK));
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedLoadOnInit(
           SequenceFiles::File& file,
           const U32 numCommands,
@@ -354,7 +354,7 @@ namespace Svc {
     // Protected helper methods
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommandsAuto(
           const char *const fileName,
           const U32 numCommands,
@@ -403,7 +403,7 @@ namespace Svc {
 
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommandsError(
           const char *const fileName,
           const U32 numCommands

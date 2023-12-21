@@ -136,7 +136,7 @@ namespace Ref {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to cmdRegOut[portNum]
@@ -263,7 +263,7 @@ namespace Ref {
       //! Get the number of cmdIn input ports
       //!
       //! \return The number of cmdIn input ports
-      NATIVE_INT_TYPE getNum_cmdIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdIn_InputPorts();
 
     PROTECTED:
 
@@ -274,7 +274,7 @@ namespace Ref {
       //! Get the number of schedIn input ports
       //!
       //! \return The number of schedIn input ports
-      NATIVE_INT_TYPE getNum_schedIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_schedIn_InputPorts();
 
     PROTECTED:
 
@@ -285,36 +285,36 @@ namespace Ref {
       //! Get the number of cmdRegOut output ports
       //!
       //! \return The number of cmdRegOut output ports
-      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts();
 
       //! Get the number of cmdResponseOut output ports
       //!
       //! \return The number of cmdResponseOut output ports
-      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts();
 
       //! Get the number of logOut output ports
       //!
       //! \return The number of logOut output ports
-      NATIVE_INT_TYPE getNum_logOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_logOut_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of logTextOut output ports
       //!
       //! \return The number of logTextOut output ports
-      NATIVE_INT_TYPE getNum_logTextOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_logTextOut_OutputPorts();
 
 #endif
 
       //! Get the number of timeCaller output ports
       //!
       //! \return The number of timeCaller output ports
-      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts();
 
       //! Get the number of tlmOut output ports
       //!
       //! \return The number of tlmOut output ports
-      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts();
 
     PROTECTED:
 

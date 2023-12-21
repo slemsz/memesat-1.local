@@ -1,5 +1,0 @@
-FatalHandlerGTestBase.cpp
-FatalHandlerGTestBase.hpp
-FatalHandlerTesterBase.cpp
-FatalHandlerTesterBase.hpp
-FatalHandlerTesterHelpers.cpp

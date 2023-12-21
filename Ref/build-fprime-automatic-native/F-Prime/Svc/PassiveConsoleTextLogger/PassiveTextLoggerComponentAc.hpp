@@ -90,7 +90,7 @@ namespace Svc {
       //! Get the number of TextLogger input ports
       //!
       //! \return The number of TextLogger input ports
-      NATIVE_INT_TYPE getNum_TextLogger_InputPorts() const;
+      NATIVE_INT_TYPE getNum_TextLogger_InputPorts();
 
     PROTECTED:
 

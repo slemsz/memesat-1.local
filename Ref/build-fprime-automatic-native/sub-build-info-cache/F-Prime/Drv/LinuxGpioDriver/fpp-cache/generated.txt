@@ -1,3 +1,0 @@
-LinuxGpioDriverComponentAc.cpp
-LinuxGpioDriverComponentAc.hpp
-LinuxGpioDriverComponentAi.xml

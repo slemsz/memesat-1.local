@@ -1,3 +1,0 @@
-TcpServerComponentAc.cpp
-TcpServerComponentAc.hpp
-TcpServerComponentAi.xml

@@ -1,5 +1,0 @@
-SystemResourcesGTestBase.cpp
-SystemResourcesGTestBase.hpp
-SystemResourcesTesterBase.cpp
-SystemResourcesTesterBase.hpp
-SystemResourcesTesterHelpers.cpp

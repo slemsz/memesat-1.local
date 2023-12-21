@@ -28,8 +28,8 @@
 #include "Svc/FileUplink/FileUplink.hpp"
 #include "Svc/Framer/Framer.hpp"
 #include "Svc/Health/Health.hpp"
+#include "Svc/LinuxTime/LinuxTime.hpp"
 #include "Svc/PassiveConsoleTextLogger/PassiveTextLogger.hpp"
-#include "Svc/PosixTime/PosixTime.hpp"
 #include "Svc/PrmDb/PrmDb.hpp"
 #include "Svc/RateGroupDriver/RateGroupDriver.hpp"
 #include "Svc/StaticMemory/StaticMemory.hpp"
@@ -70,7 +70,7 @@ namespace Ref {
       fatalAdapter = 0x4200,
       fatalHandler = 0x4300,
       fileUplinkBufferManager = 0x4400,
-      posixTime = 0x4500,
+      linuxTime = 0x4500,
       rateGroupDriverComp = 0x4600,
       recvBuffComp = 0x4700,
       staticMemory = 0x4800,
@@ -100,8 +100,8 @@ namespace Ref {
       fileUplink,
       fileUplinkBufferManager,
       health,
+      linuxTime,
       pingRcvr,
-      posixTime,
       prmDb,
       rateGroup1Comp,
       rateGroup2Comp,
@@ -198,21 +198,6 @@ namespace Ref {
   }
 
   // ----------------------------------------------------------------------
-  // Component configuration objects
-  // ----------------------------------------------------------------------
-
-  namespace ConfigObjects {
-
-    namespace health {
-      //!< Number of entries in the pingEntryies array
-      constexpr FwSizeType NUM_PING_ENTRIES = 13;
-      //!< Ping entry configuration for Svc::Health
-      extern Svc::Health::PingEntry pingEntries[NUM_PING_ENTRIES];
-    }
-
-  }
-
-  // ----------------------------------------------------------------------
   // Component instances
   // ----------------------------------------------------------------------
 
@@ -270,11 +255,11 @@ namespace Ref {
   //! health
   extern Svc::Health health;
 
+  //! linuxTime
+  extern Svc::LinuxTime linuxTime;
+
   //! pingRcvr
   extern PingReceiver pingRcvr;
-
-  //! posixTime
-  extern Svc::PosixTime posixTime;
 
   //! prmDb
   extern Svc::PrmDb prmDb;

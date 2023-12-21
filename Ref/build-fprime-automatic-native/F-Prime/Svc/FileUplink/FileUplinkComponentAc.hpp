@@ -128,7 +128,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
 #if FW_ENABLE_TEXT_LOGGING == 1
@@ -260,12 +260,12 @@ namespace Svc {
       //! Get the number of bufferSendIn input ports
       //!
       //! \return The number of bufferSendIn input ports
-      NATIVE_INT_TYPE getNum_bufferSendIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferSendIn_InputPorts();
 
       //! Get the number of pingIn input ports
       //!
       //! \return The number of pingIn input ports
-      NATIVE_INT_TYPE getNum_pingIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_pingIn_InputPorts();
 
     PROTECTED:
 
@@ -278,24 +278,24 @@ namespace Svc {
       //! Get the number of LogText output ports
       //!
       //! \return The number of LogText output ports
-      NATIVE_INT_TYPE getNum_LogText_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_LogText_OutputPorts();
 
 #endif
 
       //! Get the number of eventOut output ports
       //!
       //! \return The number of eventOut output ports
-      NATIVE_INT_TYPE getNum_eventOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_eventOut_OutputPorts();
 
       //! Get the number of timeCaller output ports
       //!
       //! \return The number of timeCaller output ports
-      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts();
 
       //! Get the number of tlmOut output ports
       //!
       //! \return The number of tlmOut output ports
-      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts();
 
     PROTECTED:
 
@@ -306,12 +306,12 @@ namespace Svc {
       //! Get the number of bufferSendOut output ports
       //!
       //! \return The number of bufferSendOut output ports
-      NATIVE_INT_TYPE getNum_bufferSendOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferSendOut_OutputPorts();
 
       //! Get the number of pingOut output ports
       //!
       //! \return The number of pingOut output ports
-      NATIVE_INT_TYPE getNum_pingOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_pingOut_OutputPorts();
 
     PROTECTED:
 

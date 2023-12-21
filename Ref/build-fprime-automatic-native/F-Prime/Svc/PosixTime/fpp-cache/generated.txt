@@ -1,3 +1,0 @@
-PosixTimeComponentAc.cpp
-PosixTimeComponentAc.hpp
-PosixTimeComponentAi.xml

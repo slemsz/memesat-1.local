@@ -64,10 +64,10 @@ namespace Ref {
 
       //! Constructor (user-provided value)
       SignalType(
-          const T e1 //!< The raw enum value
+          const T e //!< The raw enum value
       )
       {
-        this->e = e1;
+        this->e = e;
       }
 
       //! Copy constructor
@@ -91,7 +91,7 @@ namespace Ref {
 
       //! Copy assignment operator (raw enum)
       SignalType& operator=(
-          T e1 //!< The enum value
+          T e //!< The enum value
       );
 
       //! Conversion operator
@@ -101,15 +101,15 @@ namespace Ref {
       }
 
       //! Equality operator
-      bool operator==(T e1) const
+      bool operator==(T e) const
       {
-        return this->e == e1;
+        return this->e == e;
       }
 
       //! Inequality operator
-      bool operator!=(T e1) const
+      bool operator!=(T e) const
       {
-        return !(*this == e1);
+        return !(*this == e);
       }
 
 #ifdef BUILD_UT
@@ -141,7 +141,7 @@ namespace Ref {
           Fw::SerializeBufferBase& buffer //!< The serial buffer
       );
 
-#if FW_SERIALIZABLE_TO_STRING || FW_ENABLE_TEXT_LOGGING
+#if FW_SERIALIZABLE_TO_STRING || FW_ENABLE_TEXT_LOGGING || BUILD_UT
 
       //! Convert enum to string
       void toString(

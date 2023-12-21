@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/StaticMemory/StaticMemoryComponentImpl.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/StaticMemory/StaticMemoryComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/StaticMemory/StaticMemoryComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/StaticMemory/StaticMemoryComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/StaticMemory/StaticMemory.fpp
-

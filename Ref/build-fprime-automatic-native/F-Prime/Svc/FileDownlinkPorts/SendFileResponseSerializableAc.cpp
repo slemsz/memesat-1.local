@@ -126,7 +126,7 @@ namespace Svc {
     return status;
   }
 
-#if FW_SERIALIZABLE_TO_STRING
+#if FW_SERIALIZABLE_TO_STRING || BUILD_UT
 
   void SendFileResponse ::
     toString(Fw::StringBase& sb) const

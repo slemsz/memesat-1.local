@@ -12,16 +12,16 @@
 namespace Svc {
 
     GenerateFrames :: GenerateFrames() :
-        STest::Rule<DeframerTester>("GenerateFrames")
+        STest::Rule<Tester>("GenerateFrames")
     {
 
     }
 
-    bool GenerateFrames :: precondition(const Svc::DeframerTester &state) {
+    bool GenerateFrames :: precondition(const Svc::Tester &state) {
         return state.m_framesToSend.size() == 0;
     }
 
-    void GenerateFrames :: action(Svc::DeframerTester &state) {
+    void GenerateFrames :: action(Svc::Tester &state) {
         PRINT("----------------------------------------------------------------------");
         PRINT("GenerateFrames action");
         PRINT("----------------------------------------------------------------------");
@@ -30,7 +30,7 @@ namespace Svc {
         PRINT_ARGS("Generating %d frames", numFrames)
         for (U32 i = 0; i < numFrames; i++) {
             // Generate a random frame
-            DeframerTester::UplinkFrame frame = DeframerTester::UplinkFrame::random();
+            Tester::UplinkFrame frame = Tester::UplinkFrame::random();
             // Push it on the sending list
             state.m_framesToSend.push_back(frame);
         }

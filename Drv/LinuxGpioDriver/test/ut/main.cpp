@@ -2,11 +2,11 @@
 // Main.cpp
 // ----------------------------------------------------------------------
 
-#include "LinuxGpioDriverTester.hpp"
+#include "Tester.hpp"
 #include <cstdlib>
 
 // TEST(Test, NominalTlm) {
-//   Svc::LinuxGpioDriverTester tester;
+//   Svc::Tester tester;
 //   tester.nominalTlm();
 // }
 
@@ -21,7 +21,7 @@ int main(int argc, char **argv) {
         return -1;
     }
 
-    Drv::LinuxGpioDriverTester tester;
+    Drv::Tester tester;
 
     int gpio = atoi(argv[1]);
     int output = atoi(argv[2]);

@@ -23,8 +23,7 @@ namespace Drv {
       INT_IF_INTERRUPTREPORT,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE BufferInPortSize[Drv::InputDataBufferPort::SERIALIZED_SIZE];
       BYTE PingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
@@ -314,7 +313,7 @@ namespace Drv {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void BlockDriverComponentBase ::
@@ -499,19 +498,19 @@ namespace Drv {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_BufferIn_InputPorts() const
+    getNum_BufferIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_BufferIn_InputPort));
   }
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_PingIn_InputPorts() const
+    getNum_PingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingIn_InputPort));
   }
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_Sched_InputPorts() const
+    getNum_Sched_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Sched_InputPort));
   }
@@ -521,13 +520,13 @@ namespace Drv {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_Tlm_OutputPorts() const
+    getNum_Tlm_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Tlm_OutputPort));
   }
@@ -537,19 +536,19 @@ namespace Drv {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_BufferOut_OutputPorts() const
+    getNum_BufferOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_BufferOut_OutputPort));
   }
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_CycleOut_OutputPorts() const
+    getNum_CycleOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CycleOut_OutputPort));
   }
 
   NATIVE_INT_TYPE BlockDriverComponentBase ::
-    getNum_PingOut_OutputPorts() const
+    getNum_PingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingOut_OutputPort));
   }

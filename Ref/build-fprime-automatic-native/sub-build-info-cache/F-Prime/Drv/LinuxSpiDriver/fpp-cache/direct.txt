@@ -1,5 +1,0 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxSpiDriver/Events.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxSpiDriver/Telemetry.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/SpiDriverPorts/SpiDriverPorts.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp

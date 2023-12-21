@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol//CMakeFiles/progress.marks
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/clean
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/rule:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/rule
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/rule
 .PHONY : F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/rule
 
 # Convenience name for target.
@@ -172,15 +172,29 @@ Svc_FramingProtocol: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.
 
 # fast build rule for target.
 Svc_FramingProtocol/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build
 .PHONY : Svc_FramingProtocol/fast
+
+# Convenience name for target.
+F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol_impl.dir/rule:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol_impl.dir/rule
+.PHONY : F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol_impl.dir/rule
+
+# Convenience name for target.
+Svc_FramingProtocol_impl: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol_impl.dir/rule
+.PHONY : Svc_FramingProtocol_impl
+
+# fast build rule for target.
+Svc_FramingProtocol_impl/fast:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol_impl.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol_impl.dir/build
+.PHONY : Svc_FramingProtocol_impl/fast
 
 DeframingProtocol.o: DeframingProtocol.cpp.o
 .PHONY : DeframingProtocol.o
 
 # target to build an object file
 DeframingProtocol.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o
 .PHONY : DeframingProtocol.cpp.o
 
 DeframingProtocol.i: DeframingProtocol.cpp.i
@@ -188,7 +202,7 @@ DeframingProtocol.i: DeframingProtocol.cpp.i
 
 # target to preprocess a source file
 DeframingProtocol.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.i
 .PHONY : DeframingProtocol.cpp.i
 
 DeframingProtocol.s: DeframingProtocol.cpp.s
@@ -196,7 +210,7 @@ DeframingProtocol.s: DeframingProtocol.cpp.s
 
 # target to generate assembly for a file
 DeframingProtocol.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.s
 .PHONY : DeframingProtocol.cpp.s
 
 FprimeProtocol.o: FprimeProtocol.cpp.o
@@ -204,7 +218,7 @@ FprimeProtocol.o: FprimeProtocol.cpp.o
 
 # target to build an object file
 FprimeProtocol.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o
 .PHONY : FprimeProtocol.cpp.o
 
 FprimeProtocol.i: FprimeProtocol.cpp.i
@@ -212,7 +226,7 @@ FprimeProtocol.i: FprimeProtocol.cpp.i
 
 # target to preprocess a source file
 FprimeProtocol.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.i
 .PHONY : FprimeProtocol.cpp.i
 
 FprimeProtocol.s: FprimeProtocol.cpp.s
@@ -220,7 +234,7 @@ FprimeProtocol.s: FprimeProtocol.cpp.s
 
 # target to generate assembly for a file
 FprimeProtocol.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.s
 .PHONY : FprimeProtocol.cpp.s
 
 FramingProtocol.o: FramingProtocol.cpp.o
@@ -228,7 +242,7 @@ FramingProtocol.o: FramingProtocol.cpp.o
 
 # target to build an object file
 FramingProtocol.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o
 .PHONY : FramingProtocol.cpp.o
 
 FramingProtocol.i: FramingProtocol.cpp.i
@@ -236,7 +250,7 @@ FramingProtocol.i: FramingProtocol.cpp.i
 
 # target to preprocess a source file
 FramingProtocol.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.i
 .PHONY : FramingProtocol.cpp.i
 
 FramingProtocol.s: FramingProtocol.cpp.s
@@ -244,7 +258,7 @@ FramingProtocol.s: FramingProtocol.cpp.s
 
 # target to generate assembly for a file
 FramingProtocol.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.s
 .PHONY : FramingProtocol.cpp.s
 
 # Help Target
@@ -259,6 +273,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Svc_FramingProtocol_impl"
 	@echo "... Svc_FramingProtocol"
 	@echo "... DeframingProtocol.o"
 	@echo "... DeframingProtocol.i"
@@ -280,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

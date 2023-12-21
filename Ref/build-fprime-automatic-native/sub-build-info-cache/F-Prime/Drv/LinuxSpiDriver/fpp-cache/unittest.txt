@@ -1,5 +1,0 @@
-LinuxSpiDriverGTestBase.cpp
-LinuxSpiDriverGTestBase.hpp
-LinuxSpiDriverTesterBase.cpp
-LinuxSpiDriverTesterBase.hpp
-LinuxSpiDriverTesterHelpers.cpp

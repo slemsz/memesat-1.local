@@ -27,8 +27,7 @@ namespace Svc {
       CMD_FILESIZE,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE pingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
       BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
@@ -324,7 +323,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
 #if FW_ENABLE_TEXT_LOGGING == 1
@@ -611,7 +610,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_cmdIn_InputPorts() const
+    getNum_cmdIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdIn_InputPort));
   }
@@ -621,7 +620,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_pingIn_InputPorts() const
+    getNum_pingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingIn_InputPort));
   }
@@ -633,7 +632,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -641,31 +640,31 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_cmdRegOut_OutputPorts() const
+    getNum_cmdRegOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdRegOut_OutputPort));
   }
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_cmdResponseOut_OutputPorts() const
+    getNum_cmdResponseOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdResponseOut_OutputPort));
   }
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_eventOut_OutputPorts() const
+    getNum_eventOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_eventOut_OutputPort));
   }
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_timeCaller_OutputPorts() const
+    getNum_timeCaller_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_timeCaller_OutputPort));
   }
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_tlmOut_OutputPorts() const
+    getNum_tlmOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_tlmOut_OutputPort));
   }
@@ -675,7 +674,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FileManagerComponentBase ::
-    getNum_pingOut_OutputPorts() const
+    getNum_pingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingOut_OutputPort));
   }

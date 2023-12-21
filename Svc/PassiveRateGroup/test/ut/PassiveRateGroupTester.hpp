@@ -15,7 +15,7 @@
 #ifndef PASSIVERATEGROUP_TEST_UT_PASSIVERATEGROUPIMPLTESTER_HPP_
 #define PASSIVERATEGROUP_TEST_UT_PASSIVERATEGROUPIMPLTESTER_HPP_
 
-#include <PassiveRateGroupGTestBase.hpp>
+#include <GTestBase.hpp>
 #include <Svc/PassiveRateGroup/PassiveRateGroup.hpp>
 
 namespace Svc {

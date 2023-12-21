@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFW_BAREMETAL_SCHEDULER=0 -DTGT_OS_TYPE_LINUX
 
-CXX_INCLUDES = -I/home/krokko/Desktop/MEMEdir/memesat-1.local -I/home/krokko/Desktop/MEMEdir/memesat-1.local/config -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config -isystem /home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/platform/types
+CXX_INCLUDES = -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Logger -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Obj -isystem /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/platform/types
 
 CXX_FLAGS = -std=c++11
 

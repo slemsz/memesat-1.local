@@ -1,6 +1,0 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/config/AcConstants.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp

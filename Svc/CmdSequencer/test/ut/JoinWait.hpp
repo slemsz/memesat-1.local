@@ -13,14 +13,14 @@
 #ifndef JOIN_WAIT_HPP
 #define JOIN_WAIT_HPP
 
-#include "CmdSequencerTester.hpp"
+#include "Svc/CmdSequencer/test/ut/Tester.hpp"
 
 namespace Svc {
 
   namespace JoinWait {
 
-    class CmdSequencerTester :
-      public Svc::CmdSequencerTester
+    class Tester :
+      public Svc::Tester
     {
 
       public:
@@ -29,8 +29,8 @@ namespace Svc {
         // Constructors
         // ----------------------------------------------------------------------
 
-        //! Construct object CmdSequencerTester
-        CmdSequencerTester(
+        //! Construct object Tester
+        Tester(
             const SequenceFiles::File::Format::t format = 
             SequenceFiles::File::Format::F_PRIME //!< The file format to use
         );

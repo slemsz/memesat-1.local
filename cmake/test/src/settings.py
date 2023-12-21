@@ -55,7 +55,7 @@ REF_MODULES = [
     "Svc_Framer",
     "Svc_FramingProtocol",
     "Svc_Health",
-    "Svc_PosixTime",
+    "Svc_LinuxTime",
     "Svc_PassiveConsoleTextLogger",
     "Svc_Ping",
     "Svc_PrmDb",

@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandlerComponentCommonImpl.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandlerComponentLinuxImpl.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FatalHandler/FatalHandlerComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FatalHandler/FatalHandlerComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FatalHandler/FatalHandlerComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandler.fpp
-Os;Fw/Logger

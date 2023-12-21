@@ -11,15 +11,15 @@
 #ifndef Svc_ImmediateBase_HPP
 #define Svc_ImmediateBase_HPP
 
-#include "CmdSequencerTester.hpp"
+#include "Svc/CmdSequencer/test/ut/Tester.hpp"
 
 namespace Svc {
 
   namespace ImmediateBase {
 
     //! Base class for Immediate and ImmediateEOS
-    class CmdSequencerTester :
-      public Svc::CmdSequencerTester
+    class Tester :
+      public Svc::Tester
     {
 
       public:
@@ -28,8 +28,8 @@ namespace Svc {
         // Constructors
         // ----------------------------------------------------------------------
 
-        //! Construct object CmdSequencerTester
-        CmdSequencerTester(
+        //! Construct object Tester
+        Tester(
             const SequenceFiles::File::Format::t format = 
             SequenceFiles::File::Format::F_PRIME //!< The file format to use
         );

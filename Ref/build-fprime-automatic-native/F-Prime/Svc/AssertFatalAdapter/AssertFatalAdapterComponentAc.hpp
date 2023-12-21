@@ -74,7 +74,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to Log[portNum]
@@ -154,21 +154,21 @@ namespace Svc {
       //! Get the number of Log output ports
       //!
       //! \return The number of Log output ports
-      NATIVE_INT_TYPE getNum_Log_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Log_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of LogText output ports
       //!
       //! \return The number of LogText output ports
-      NATIVE_INT_TYPE getNum_LogText_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_LogText_OutputPorts();
 
 #endif
 
       //! Get the number of Time output ports
       //!
       //! \return The number of Time output ports
-      NATIVE_INT_TYPE getNum_Time_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Time_OutputPorts();
 
     PROTECTED:
 

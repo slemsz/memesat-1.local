@@ -113,7 +113,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to Log[portNum]
@@ -245,12 +245,12 @@ namespace Svc {
       //! Get the number of CycleIn input ports
       //!
       //! \return The number of CycleIn input ports
-      NATIVE_INT_TYPE getNum_CycleIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_CycleIn_InputPorts();
 
       //! Get the number of PingIn input ports
       //!
       //! \return The number of PingIn input ports
-      NATIVE_INT_TYPE getNum_PingIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_PingIn_InputPorts();
 
     PROTECTED:
 
@@ -261,26 +261,26 @@ namespace Svc {
       //! Get the number of Log output ports
       //!
       //! \return The number of Log output ports
-      NATIVE_INT_TYPE getNum_Log_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Log_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of LogText output ports
       //!
       //! \return The number of LogText output ports
-      NATIVE_INT_TYPE getNum_LogText_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_LogText_OutputPorts();
 
 #endif
 
       //! Get the number of Time output ports
       //!
       //! \return The number of Time output ports
-      NATIVE_INT_TYPE getNum_Time_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Time_OutputPorts();
 
       //! Get the number of Tlm output ports
       //!
       //! \return The number of Tlm output ports
-      NATIVE_INT_TYPE getNum_Tlm_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Tlm_OutputPorts();
 
     PROTECTED:
 
@@ -291,12 +291,12 @@ namespace Svc {
       //! Get the number of PingOut output ports
       //!
       //! \return The number of PingOut output ports
-      NATIVE_INT_TYPE getNum_PingOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_PingOut_OutputPorts();
 
       //! Get the number of RateGroupMemberOut output ports
       //!
       //! \return The number of RateGroupMemberOut output ports
-      NATIVE_INT_TYPE getNum_RateGroupMemberOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_RateGroupMemberOut_OutputPorts();
 
     PROTECTED:
 

@@ -40,7 +40,7 @@ module Ref {
     instance fileManager
     instance fileUplink
     instance fileUplinkBufferManager
-    instance posixTime
+    instance linuxTime
     instance pingRcvr
     instance prmDb
     instance rateGroup1Comp
@@ -69,7 +69,7 @@ module Ref {
 
     text event connections instance textLogger
 
-    time connections instance posixTime
+    time connections instance linuxTime
 
     health connections instance $health
 

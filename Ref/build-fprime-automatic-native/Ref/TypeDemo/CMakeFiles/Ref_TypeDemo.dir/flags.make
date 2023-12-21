@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFW_BAREMETAL_SCHEDULER=0 -DTGT_OS_TYPE_LINUX
 
-CXX_INCLUDES = -I/home/krokko/Desktop/MEMEdir/memesat-1.local -I/home/krokko/Desktop/MEMEdir/memesat-1.local/config -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime -I/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config -isystem /home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/platform/types
+CXX_INCLUDES = -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/TypeDemo -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cfg -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Logger -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Hash -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Obj -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Prm -I/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp -isystem /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/platform/types
 
 CXX_FLAGS = -std=c++11
 
@@ -21,8 +21,6 @@ CXX_FLAGS = -std=c++11
 # Custom flags: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FppConstantsAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0x03f4d9cb -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/TypeDemo/FppConstantsAc.cpp"'
 
 # Custom flags: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ManyChoicesArrayAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0xee65b164 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/TypeDemo/ManyChoicesArrayAc.cpp"'
-
-# Custom flags: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ScalarStructSerializableAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0xb36edd33 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/TypeDemo/ScalarStructSerializableAc.cpp"'
 
 # Custom flags: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TooManyChoicesArrayAc.cpp.o_FLAGS = -DASSERT_FILE_ID=0xd30b8bd9 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/TypeDemo/TooManyChoicesArrayAc.cpp"'
 

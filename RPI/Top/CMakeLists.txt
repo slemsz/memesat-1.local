@@ -14,7 +14,7 @@ set(SOURCE_FILES
 # Note: supply non-explicit dependencies here
 set(MOD_DEPS
    Fw/Logger
-   Svc/PosixTime
+   Svc/LinuxTime
    # Communication Implementations
    Drv/Udp
    Drv/TcpClient

@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/Linux/libSvc_PosixTime.a CMakeFiles/Svc_PosixTime.dir/PosixTime.cpp.o CMakeFiles/Svc_PosixTime.dir/PosixTimeComponentAc.cpp.o
-/usr/bin/ranlib ../../../lib/Linux/libSvc_PosixTime.a

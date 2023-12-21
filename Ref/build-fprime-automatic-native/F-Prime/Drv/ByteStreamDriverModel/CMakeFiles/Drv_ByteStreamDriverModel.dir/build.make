@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend.make
@@ -69,173 +69,201 @@ include F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.d
 # Include the compile flags for this target's objects.
 include F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml: lib/Linux/libFw_Buffer.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ByteStreamPollPortAi.xml, ByteStreamReadyPortAi.xml, ByteStreamRecvPortAi.xml, ByteStreamSendPortAi.xml, PollStatusEnumAi.xml, RecvStatusEnumAi.xml, SendStatusEnumAi.xml"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml: lib/Linux/libFw_Buffer.a
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml: lib/Linux/libOs.a
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml: lib/Linux/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ByteStreamDriverModelComponentAi.xml, ByteStreamPollPortAi.xml, ByteStreamReadyPortAi.xml, ByteStreamRecvPortAi.xml, ByteStreamSendPortAi.xml, PollStatusEnumAi.xml, RecvStatusEnumAi.xml, SendStatusEnumAi.xml"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
+
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAi.xml
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAi.xml
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAi.xml
 
-F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
+F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAi.xml
 
-F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
+F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAi.xml
 
-F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
+F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAi.xml: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAi.xml
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp: lib/Linux/libFw_Buffer.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ByteStreamPollPortAc.cpp, ByteStreamPollPortAc.hpp, ByteStreamReadyPortAc.cpp, ByteStreamReadyPortAc.hpp, ByteStreamRecvPortAc.cpp, ByteStreamRecvPortAc.hpp, ByteStreamSendPortAc.cpp, ByteStreamSendPortAc.hpp, PollStatusEnumAc.cpp, PollStatusEnumAc.hpp, RecvStatusEnumAc.cpp, RecvStatusEnumAc.hpp, SendStatusEnumAc.cpp, SendStatusEnumAc.hpp"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local,/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp: lib/Linux/libFw_Buffer.a
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp: lib/Linux/libOs.a
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp: lib/Linux/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ByteStreamDriverModelComponentAc.cpp, ByteStreamDriverModelComponentAc.hpp, ByteStreamPollPortAc.cpp, ByteStreamPollPortAc.hpp, ByteStreamReadyPortAc.cpp, ByteStreamReadyPortAc.hpp, ByteStreamRecvPortAc.cpp, ByteStreamRecvPortAc.hpp, ByteStreamSendPortAc.cpp, ByteStreamSendPortAc.hpp, PollStatusEnumAc.cpp, PollStatusEnumAc.hpp, RecvStatusEnumAc.cpp, RecvStatusEnumAc.hpp, SendStatusEnumAc.cpp, SendStatusEnumAc.hpp"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp
+
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.hpp
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.hpp
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp
 
-F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.hpp
 
-F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp
 
-F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.hpp
 
-F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp
 
-F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.hpp
 
-F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp
 
-F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.hpp: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.hpp
+
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3a61da4b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
+
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.i"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3a61da4b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.i
+
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.s"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3a61da4b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.s
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x578fabb9 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x578fabb9 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x578fabb9 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x578fabb9 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.i
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x578fabb9 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x578fabb9 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.s
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x510c893a -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x510c893a -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x510c893a -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x510c893a -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.i
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x510c893a -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x510c893a -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamReadyPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.s
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2701228c -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2701228c -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2701228c -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2701228c -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.i
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2701228c -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2701228c -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.s
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5fec7101 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5fec7101 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5fec7101 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5fec7101 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.i
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5fec7101 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5fec7101 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamSendPortAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamSendPortAc.cpp.s
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x61f3a924 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x61f3a924 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x61f3a924 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x61f3a924 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.i
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x61f3a924 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x61f3a924 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/PollStatusEnumAc.cpp.s
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe91e7c53 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe91e7c53 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe91e7c53 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe91e7c53 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.i
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe91e7c53 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe91e7c53 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEnumAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/RecvStatusEnumAc.cpp.s
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/flags.make
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6983a261 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6983a261 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp"' -MD -MT F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o -MF CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o.d -o CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6983a261 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6983a261 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp > CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.i
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6983a261 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x6983a261 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp -o CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.s
 
 # Object files for target Drv_ByteStreamDriverModel
 Drv_ByteStreamDriverModel_OBJECTS = \
+"CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o" \
 "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o" \
 "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o" \
 "CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o" \
@@ -247,6 +275,7 @@ Drv_ByteStreamDriverModel_OBJECTS = \
 # External object files for target Drv_ByteStreamDriverModel
 Drv_ByteStreamDriverModel_EXTERNAL_OBJECTS =
 
+lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamDriverModelComponentAc.cpp.o
 lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamPollPortAc.cpp.o
 lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamReadyPortAc.cpp.o
 lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/ByteStreamRecvPortAc.cpp.o
@@ -256,18 +285,21 @@ lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMak
 lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/SendStatusEnumAc.cpp.o
 lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/build.make
 lib/Linux/libDrv_ByteStreamDriverModel.a: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../../../lib/Linux/libDrv_ByteStreamDriverModel.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && $(CMAKE_COMMAND) -P CMakeFiles/Drv_ByteStreamDriverModel.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Drv_ByteStreamDriverModel.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ../../../lib/Linux/libDrv_ByteStreamDriverModel.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && $(CMAKE_COMMAND) -P CMakeFiles/Drv_ByteStreamDriverModel.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Drv_ByteStreamDriverModel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/build: lib/Linux/libDrv_ByteStreamDriverModel.a
 .PHONY : F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/build
 
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && $(CMAKE_COMMAND) -P CMakeFiles/Drv_ByteStreamDriverModel.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel && $(CMAKE_COMMAND) -P CMakeFiles/Drv_ByteStreamDriverModel.dir/cmake_clean.cmake
 .PHONY : F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/clean
 
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.cpp
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp
+F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAi.xml
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAi.xml
@@ -289,6 +321,6 @@ F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depen
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.hpp
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend: F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAi.xml
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/depend
 

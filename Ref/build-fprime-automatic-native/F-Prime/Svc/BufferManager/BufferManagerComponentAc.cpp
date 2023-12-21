@@ -14,6 +14,49 @@
 
 namespace Svc {
 
+  namespace {
+    // Get the max size by doing a union of the input and internal port serialization sizes
+    union BuffUnion {
+      BYTE bufferGetCalleePortSize[Fw::InputBufferGetPort::SERIALIZED_SIZE];
+      BYTE bufferSendInPortSize[Fw::InputBufferSendPort::SERIALIZED_SIZE];
+      BYTE schedInPortSize[Svc::InputSchedPort::SERIALIZED_SIZE];
+    };
+
+    // Define a message buffer class large enough to handle all the
+    // asynchronous inputs to the component
+    class ComponentIpcSerializableBuffer :
+      public Fw::SerializeBufferBase
+    {
+
+      public:
+
+        enum {
+          // Max. message size = size of data + message id + port
+          SERIALIZATION_SIZE =
+            sizeof(BuffUnion) +
+            sizeof(NATIVE_INT_TYPE) +
+            sizeof(NATIVE_INT_TYPE)
+        };
+
+        NATIVE_UINT_TYPE getBuffCapacity() const {
+          return sizeof(m_buff);
+        }
+
+        U8* getBuffAddr() {
+          return m_buff;
+        }
+
+        const U8* getBuffAddr() const {
+          return m_buff;
+        }
+
+      private:
+        // Should be the max of all the input ports serialized sizes...
+        U8 m_buff[SERIALIZATION_SIZE];
+
+    };
+  }
+
   // ----------------------------------------------------------------------
   // Component initialization
   // ----------------------------------------------------------------------
@@ -227,7 +270,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void BufferManagerComponentBase ::
@@ -401,19 +444,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE BufferManagerComponentBase ::
-    getNum_bufferGetCallee_InputPorts() const
+    getNum_bufferGetCallee_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_bufferGetCallee_InputPort));
   }
 
   NATIVE_INT_TYPE BufferManagerComponentBase ::
-    getNum_bufferSendIn_InputPorts() const
+    getNum_bufferSendIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_bufferSendIn_InputPort));
   }
 
   NATIVE_INT_TYPE BufferManagerComponentBase ::
-    getNum_schedIn_InputPorts() const
+    getNum_schedIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_schedIn_InputPort));
   }
@@ -423,7 +466,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE BufferManagerComponentBase ::
-    getNum_eventOut_OutputPorts() const
+    getNum_eventOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_eventOut_OutputPort));
   }
@@ -431,7 +474,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE BufferManagerComponentBase ::
-    getNum_textEventOut_OutputPorts() const
+    getNum_textEventOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_textEventOut_OutputPort));
   }
@@ -439,13 +482,13 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE BufferManagerComponentBase ::
-    getNum_timeCaller_OutputPorts() const
+    getNum_timeCaller_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_timeCaller_OutputPort));
   }
 
   NATIVE_INT_TYPE BufferManagerComponentBase ::
-    getNum_tlmOut_OutputPorts() const
+    getNum_tlmOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_tlmOut_OutputPort));
   }

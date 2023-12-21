@@ -1,5 +1,0 @@
-FileDownlinkGTestBase.cpp
-FileDownlinkGTestBase.hpp
-FileDownlinkTesterBase.cpp
-FileDownlinkTesterBase.hpp
-FileDownlinkTesterHelpers.cpp

@@ -32,8 +32,7 @@ namespace Svc {
       CMD_CS_JOIN_WAIT,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE cmdResponseInPortSize[Fw::InputCmdResponsePort::SERIALIZED_SIZE];
       BYTE pingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
@@ -523,7 +522,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
 #if FW_ENABLE_TEXT_LOGGING == 1
@@ -870,7 +869,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_cmdIn_InputPorts() const
+    getNum_cmdIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdIn_InputPort));
   }
@@ -880,31 +879,31 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_cmdResponseIn_InputPorts() const
+    getNum_cmdResponseIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdResponseIn_InputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_pingIn_InputPorts() const
+    getNum_pingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingIn_InputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_schedIn_InputPorts() const
+    getNum_schedIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_schedIn_InputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_seqCancelIn_InputPorts() const
+    getNum_seqCancelIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_seqCancelIn_InputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_seqRunIn_InputPorts() const
+    getNum_seqRunIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_seqRunIn_InputPort));
   }
@@ -916,7 +915,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -924,31 +923,31 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_cmdRegOut_OutputPorts() const
+    getNum_cmdRegOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdRegOut_OutputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_cmdResponseOut_OutputPorts() const
+    getNum_cmdResponseOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdResponseOut_OutputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_logOut_OutputPorts() const
+    getNum_logOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_logOut_OutputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_timeCaller_OutputPorts() const
+    getNum_timeCaller_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_timeCaller_OutputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_tlmOut_OutputPorts() const
+    getNum_tlmOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_tlmOut_OutputPort));
   }
@@ -958,19 +957,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_comCmdOut_OutputPorts() const
+    getNum_comCmdOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_comCmdOut_OutputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_pingOut_OutputPorts() const
+    getNum_pingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingOut_OutputPort));
   }
 
   NATIVE_INT_TYPE CmdSequencerComponentBase ::
-    getNum_seqDone_OutputPorts() const
+    getNum_seqDone_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_seqDone_OutputPort));
   }

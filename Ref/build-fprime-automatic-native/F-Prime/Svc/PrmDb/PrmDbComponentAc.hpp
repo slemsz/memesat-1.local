@@ -154,7 +154,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to CmdReg[portNum]
@@ -297,7 +297,7 @@ namespace Svc {
       //! Get the number of CmdDisp input ports
       //!
       //! \return The number of CmdDisp input ports
-      NATIVE_INT_TYPE getNum_CmdDisp_InputPorts() const;
+      NATIVE_INT_TYPE getNum_CmdDisp_InputPorts();
 
     PROTECTED:
 
@@ -308,17 +308,17 @@ namespace Svc {
       //! Get the number of getPrm input ports
       //!
       //! \return The number of getPrm input ports
-      NATIVE_INT_TYPE getNum_getPrm_InputPorts() const;
+      NATIVE_INT_TYPE getNum_getPrm_InputPorts();
 
       //! Get the number of pingIn input ports
       //!
       //! \return The number of pingIn input ports
-      NATIVE_INT_TYPE getNum_pingIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_pingIn_InputPorts();
 
       //! Get the number of setPrm input ports
       //!
       //! \return The number of setPrm input ports
-      NATIVE_INT_TYPE getNum_setPrm_InputPorts() const;
+      NATIVE_INT_TYPE getNum_setPrm_InputPorts();
 
     PROTECTED:
 
@@ -329,31 +329,31 @@ namespace Svc {
       //! Get the number of CmdReg output ports
       //!
       //! \return The number of CmdReg output ports
-      NATIVE_INT_TYPE getNum_CmdReg_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_CmdReg_OutputPorts();
 
       //! Get the number of CmdStatus output ports
       //!
       //! \return The number of CmdStatus output ports
-      NATIVE_INT_TYPE getNum_CmdStatus_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_CmdStatus_OutputPorts();
 
       //! Get the number of Log output ports
       //!
       //! \return The number of Log output ports
-      NATIVE_INT_TYPE getNum_Log_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Log_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of LogText output ports
       //!
       //! \return The number of LogText output ports
-      NATIVE_INT_TYPE getNum_LogText_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_LogText_OutputPorts();
 
 #endif
 
       //! Get the number of Time output ports
       //!
       //! \return The number of Time output ports
-      NATIVE_INT_TYPE getNum_Time_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Time_OutputPorts();
 
     PROTECTED:
 
@@ -364,7 +364,7 @@ namespace Svc {
       //! Get the number of pingOut output ports
       //!
       //! \return The number of pingOut output ports
-      NATIVE_INT_TYPE getNum_pingOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_pingOut_OutputPorts();
 
     PROTECTED:
 

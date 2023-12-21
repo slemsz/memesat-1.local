@@ -12,15 +12,15 @@
 #ifndef Svc_InvalidFiles_HPP
 #define Svc_InvalidFiles_HPP
 
-#include "CmdSequencerTester.hpp"
+#include "Svc/CmdSequencer/test/ut/Tester.hpp"
 
 namespace Svc {
 
   namespace InvalidFiles {
 
     //! Test sequences with immediate commands followed by an EOS marker
-    class CmdSequencerTester :
-      public Svc::CmdSequencerTester
+    class Tester :
+      public Svc::Tester
     {
 
       public:
@@ -29,8 +29,8 @@ namespace Svc {
         // Constructors
         // ----------------------------------------------------------------------
 
-        //! Construct object CmdSequencerTester
-        CmdSequencerTester(
+        //! Construct object Tester
+        Tester(
             const SequenceFiles::File::Format::t format =
             SequenceFiles::File::Format::F_PRIME //!< The file format to use
         );

@@ -164,22 +164,22 @@ namespace Svc {
       //! Get the number of Run input ports
       //!
       //! \return The number of Run input ports
-      NATIVE_INT_TYPE getNum_Run_InputPorts() const;
+      NATIVE_INT_TYPE getNum_Run_InputPorts();
 
       //! Get the number of TlmGet input ports
       //!
       //! \return The number of TlmGet input ports
-      NATIVE_INT_TYPE getNum_TlmGet_InputPorts() const;
+      NATIVE_INT_TYPE getNum_TlmGet_InputPorts();
 
       //! Get the number of TlmRecv input ports
       //!
       //! \return The number of TlmRecv input ports
-      NATIVE_INT_TYPE getNum_TlmRecv_InputPorts() const;
+      NATIVE_INT_TYPE getNum_TlmRecv_InputPorts();
 
       //! Get the number of pingIn input ports
       //!
       //! \return The number of pingIn input ports
-      NATIVE_INT_TYPE getNum_pingIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_pingIn_InputPorts();
 
     PROTECTED:
 
@@ -190,12 +190,12 @@ namespace Svc {
       //! Get the number of PktSend output ports
       //!
       //! \return The number of PktSend output ports
-      NATIVE_INT_TYPE getNum_PktSend_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_PktSend_OutputPorts();
 
       //! Get the number of pingOut output ports
       //!
       //! \return The number of pingOut output ports
-      NATIVE_INT_TYPE getNum_pingOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_pingOut_OutputPorts();
 
     PROTECTED:
 

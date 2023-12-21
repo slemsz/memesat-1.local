@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/LinuxUartDriver.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxUartDriver/LinuxUartDriverComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxUartDriver/LinuxUartDriverComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxUartDriver/LinuxUartDriverComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/LinuxUartDriver.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Interfaces/ByteStreamDriverInterface.fppi;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Events.fppi;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxUartDriver/Telemetry.fppi
-Os

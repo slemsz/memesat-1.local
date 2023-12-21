@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/depend.make
@@ -70,46 +70,46 @@ include F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/progress.
 include F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/flags.make
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/flags.make
-F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp
+F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa1a6fdb6 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/DeframingProtocol.cpp"' -MD -MT F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o -MF CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o.d -o CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa1a6fdb6 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/DeframingProtocol.cpp"' -MD -MT F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o -MF CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o.d -o CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa1a6fdb6 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/DeframingProtocol.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp > CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa1a6fdb6 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/DeframingProtocol.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp > CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.i
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa1a6fdb6 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/DeframingProtocol.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp -o CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xa1a6fdb6 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/DeframingProtocol.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp -o CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.s
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/flags.make
-F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp
+F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b49942b -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FramingProtocol.cpp"' -MD -MT F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o -MF CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o.d -o CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b49942b -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FramingProtocol.cpp"' -MD -MT F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o -MF CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o.d -o CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b49942b -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FramingProtocol.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp > CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b49942b -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FramingProtocol.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp > CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.i
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b49942b -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FramingProtocol.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp -o CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b49942b -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FramingProtocol.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp -o CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.s
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/flags.make
-F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp
+F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x907b0fb9 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FprimeProtocol.cpp"' -MD -MT F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o -MF CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o.d -o CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x907b0fb9 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FprimeProtocol.cpp"' -MD -MT F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o -MF CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o.d -o CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x907b0fb9 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FprimeProtocol.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp > CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x907b0fb9 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FprimeProtocol.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp > CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.i
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x907b0fb9 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FprimeProtocol.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp -o CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x907b0fb9 -DASSERT_RELATIVE_PATH='"Svc/FramingProtocol/FprimeProtocol.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp -o CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.s
 
 # Object files for target Svc_FramingProtocol
 Svc_FramingProtocol_OBJECTS = \
@@ -125,19 +125,19 @@ lib/Linux/libSvc_FramingProtocol.a: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_F
 lib/Linux/libSvc_FramingProtocol.a: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o
 lib/Linux/libSvc_FramingProtocol.a: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build.make
 lib/Linux/libSvc_FramingProtocol.a: F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../../lib/Linux/libSvc_FramingProtocol.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FramingProtocol.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_FramingProtocol.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../../lib/Linux/libSvc_FramingProtocol.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FramingProtocol.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_FramingProtocol.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build: lib/Linux/libSvc_FramingProtocol.a
 .PHONY : F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/build
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FramingProtocol.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FramingProtocol.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/clean
 
 F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/depend
 

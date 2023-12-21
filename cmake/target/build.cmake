@@ -7,7 +7,6 @@
 include_guard()
 include(autocoder/autocoder)
 include(utilities)
-include(implementation)
 
 # Flags used when BUILD_TESTING is enabled
 set(FPRIME_TESTING_REQUIRED_COMPILE_FLAGS)
@@ -40,8 +39,13 @@ endfunction(build_add_global_target)
 # - EXCLUDED_SOURCES: sources already "consumed", that is, processed by an autocoder
 # - DEPENDENCIES: dependencies of this module. Also link flags and libraries.
 ####
-function(build_setup_build_module MODULE SOURCES GENERATED DEPENDENCIES)
-    target_sources("${MODULE}" PRIVATE ${SOURCES} ${GENERATED})
+function(build_setup_build_module MODULE SOURCES GENERATED EXCLUDED_SOURCES DEPENDENCIES)
+    # Add generated sources
+    foreach(SOURCE IN LISTS SOURCES GENERATED)
+        if (NOT SOURCE IN_LIST EXCLUDED_SOURCES)
+            target_sources("${MODULE}" PRIVATE "${SOURCE}")
+        endif()
+    endforeach()
 
     # Set those files as generated to prevent build errors
     foreach(SOURCE IN LISTS GENERATED)
@@ -63,14 +67,7 @@ function(build_setup_build_module MODULE SOURCES GENERATED DEPENDENCIES)
         endforeach()
     endif()
     # Includes the source, so that the Ac files can include source headers
-    #target_include_directories("${MODULE}" PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
-
-
-    # Handle executable items' need for determined package implementation choices
-    is_target_library(IS_LIB "${MODULE}")
-    if (NOT IS_LIB)
-        setup_executable_implementations("${MODULE}")
-    endif ()
+    target_include_directories("${MODULE}" PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
     # For every detected dependency, add them to the supplied module. This enforces build order.
     # Also set the link dependencies on this module. CMake rolls-up link dependencies, and thus
@@ -101,11 +98,6 @@ function(build_setup_build_module MODULE SOURCES GENERATED DEPENDENCIES)
     endif()
 endfunction()
 
-
-
-
-
-
 ####
 # Function `add_deployment_target`:
 #
@@ -113,11 +105,11 @@ endfunction()
 # of arguments. FULL_DEPENDENCY_LIST is unused (these are already known to CMake).
 ####
 function(build_add_deployment_target MODULE TARGET SOURCES DIRECT_DEPENDENCIES FULL_DEPENDENCY_LIST)
-    build_add_module_target("${MODULE}" "${TARGET}" "${SOURCES}" "${FULL_DEPENDENCY_LIST}")
+    build_add_module_target("${MODULE}" "${TARGET}" "${SOURCES}" "${DEPENDENCIES}")
 endfunction()
 
 ####
-# Function `build_add_module_target`:
+# Build function `add_module_target`:
 #
 # Adds a module-by-module target for building fprime.
 #
@@ -131,14 +123,8 @@ function(build_add_module_target MODULE TARGET SOURCES DEPENDENCIES)
     message(STATUS "Adding ${MODULE_TYPE}: ${MODULE}")
     get_property(CUSTOM_AUTOCODERS GLOBAL PROPERTY FPRIME_AUTOCODER_TARGET_LIST)
     run_ac_set("${SOURCES}" ${CUSTOM_AUTOCODERS})
-    resolve_dependencies(RESOLVED ${DEPENDENCIES} ${AC_DEPENDENCIES})
-
-    # Create lists of hand-coded and generated sources not "consumed" by an autocoder
-    filter_lists("${AC_SOURCES}" SOURCES AC_GENERATED)
-    file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/module-info.txt"
-        "${HEADER_FILES}\n${SOURCES_FILTERED}\n${AC_GENERATED}\n${AC_FILE_DEPENDENCIES}\n${DEPENDENCIES}\n"
-    )
-    build_setup_build_module("${MODULE}" "${SOURCES_FILTERED}" "${AC_GENERATED_FILTERED}" "${RESOLVED}")
+    resolve_dependencies(RESOLVED ${DEPENDENCIES} ${AC_DEPENDENCIES} )
+    build_setup_build_module("${MODULE}" "${SOURCES}" "${AC_GENERATED}" "${AC_SOURCES}" "${RESOLVED}")
 
     if (CMAKE_DEBUG_OUTPUT)
         introspect("${MODULE}")

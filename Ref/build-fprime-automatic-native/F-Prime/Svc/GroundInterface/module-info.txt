@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/GroundInterface/GroundInterface.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GroundInterface/GroundInterfaceComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GroundInterface/GroundInterfaceComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GroundInterface/GroundInterfaceComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/GroundInterface/GroundInterface.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/GroundInterface/Events.fppi
-Utils/Types

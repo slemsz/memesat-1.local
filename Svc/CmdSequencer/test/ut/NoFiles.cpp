@@ -21,9 +21,9 @@ namespace Svc {
     // Constructors
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester(const SequenceFiles::File::Format::t format) :
-        Svc::CmdSequencerTester(format)
+    Tester ::
+      Tester(const SequenceFiles::File::Format::t format) :
+        Svc::Tester(format)
     {
 
     }
@@ -32,13 +32,13 @@ namespace Svc {
     // Tests
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       Init()
     {
       // Nothing to do
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       NoSequenceActive()
     {
 

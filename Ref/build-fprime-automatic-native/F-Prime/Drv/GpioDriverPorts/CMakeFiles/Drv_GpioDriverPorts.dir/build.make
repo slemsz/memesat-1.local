@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend.make
@@ -69,18 +69,18 @@ include F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/progress.
 # Include the compile flags for this target's objects.
 include F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/flags.make
 
-F-Prime/Drv/GpioDriverPorts/GpioReadPortAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp
+F-Prime/Drv/GpioDriverPorts/GpioReadPortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp
 F-Prime/Drv/GpioDriverPorts/GpioReadPortAi.xml: lib/Linux/libFw_Types.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GpioReadPortAi.xml, GpioWritePortAi.xml"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GpioReadPortAi.xml, GpioWritePortAi.xml"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
 
 F-Prime/Drv/GpioDriverPorts/GpioWritePortAi.xml: F-Prime/Drv/GpioDriverPorts/GpioReadPortAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/GpioDriverPorts/GpioWritePortAi.xml
 
-F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp
+F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp
 F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp: lib/Linux/libFw_Types.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GpioReadPortAc.cpp, GpioReadPortAc.hpp, GpioWritePortAc.cpp, GpioWritePortAc.hpp"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local,/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GpioReadPortAc.cpp, GpioReadPortAc.hpp, GpioWritePortAc.cpp, GpioWritePortAc.hpp"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/GpioDriverPorts/GpioDriverPorts.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.hpp: F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.hpp
@@ -94,30 +94,30 @@ F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.hpp: F-Prime/Drv/GpioDriverPorts/Gpi
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/flags.make
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o: F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xffbbf65e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp"' -MD -MT F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o -MF CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o.d -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xffbbf65e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp"' -MD -MT F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o -MF CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o.d -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp
 
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xffbbf65e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp > CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xffbbf65e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp > CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.i
 
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xffbbf65e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xffbbf65e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioReadPortAc.cpp.s
 
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/flags.make
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o: F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xec468dea -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp"' -MD -MT F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o -MF CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o.d -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xec468dea -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp"' -MD -MT F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o -MF CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o.d -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp
 
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xec468dea -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp > CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xec468dea -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp > CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.i
 
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xec468dea -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xec468dea -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp -o CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.s
 
 # Object files for target Drv_GpioDriverPorts
 Drv_GpioDriverPorts_OBJECTS = \
@@ -131,16 +131,16 @@ lib/Linux/libDrv_GpioDriverPorts.a: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_G
 lib/Linux/libDrv_GpioDriverPorts.a: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/GpioWritePortAc.cpp.o
 lib/Linux/libDrv_GpioDriverPorts.a: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/build.make
 lib/Linux/libDrv_GpioDriverPorts.a: F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libDrv_GpioDriverPorts.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && $(CMAKE_COMMAND) -P CMakeFiles/Drv_GpioDriverPorts.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Drv_GpioDriverPorts.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libDrv_GpioDriverPorts.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && $(CMAKE_COMMAND) -P CMakeFiles/Drv_GpioDriverPorts.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Drv_GpioDriverPorts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/build: lib/Linux/libDrv_GpioDriverPorts.a
 .PHONY : F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/build
 
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && $(CMAKE_COMMAND) -P CMakeFiles/Drv_GpioDriverPorts.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts && $(CMAKE_COMMAND) -P CMakeFiles/Drv_GpioDriverPorts.dir/cmake_clean.cmake
 .PHONY : F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/clean
 
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend: F-Prime/Drv/GpioDriverPorts/GpioReadPortAc.cpp
@@ -149,6 +149,6 @@ F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend: F-Prime/D
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend: F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.cpp
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend: F-Prime/Drv/GpioDriverPorts/GpioWritePortAc.hpp
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend: F-Prime/Drv/GpioDriverPorts/GpioWritePortAi.xml
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/GpioDriverPorts /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/GpioDriverPorts /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend
 

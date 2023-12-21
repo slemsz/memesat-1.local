@@ -90,6 +90,8 @@ output port structReturnOut: StructReturn
 # Ports for testing special ports
 # ----------------------------------------------------------------------
 
+sync input port cmdOut: Fw.Cmd
+
 output port prmGetIn: Fw.PrmGet
 
 output port prmSetIn: Fw.PrmSet

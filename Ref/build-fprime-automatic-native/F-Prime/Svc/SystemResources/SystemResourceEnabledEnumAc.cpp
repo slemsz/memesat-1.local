@@ -24,9 +24,9 @@ namespace Svc {
   }
 
   SystemResourceEnabled& SystemResourceEnabled ::
-    operator=(T e1)
+    operator=(T e)
   {
-    this->e = e1;
+    this->e = e;
     return *this;
   }
 
@@ -74,7 +74,7 @@ namespace Svc {
     return status;
   }
 
-#if FW_SERIALIZABLE_TO_STRING
+#if FW_SERIALIZABLE_TO_STRING || BUILD_UT
 
   void SystemResourceEnabled ::
     toString(Fw::StringBase& sb) const

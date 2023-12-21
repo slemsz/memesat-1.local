@@ -8,85 +8,87 @@
 
 namespace Ref {
 
+  namespace {
 
-  // ----------------------------------------------------------------------
-  // Component configuration objects
-  // ----------------------------------------------------------------------
+    // ----------------------------------------------------------------------
+    // Component configuration objects
+    // ----------------------------------------------------------------------
 
-  namespace ConfigObjects {
+    namespace ConfigObjects {
 
-    namespace health {
-      Svc::Health::PingEntry pingEntries[NUM_PING_ENTRIES] = {
-        {
-          PingEntries::blockDrv::WARN,
-          PingEntries::blockDrv::FATAL,
-          "blockDrv"
-        },
-        {
-          PingEntries::cmdDisp::WARN,
-          PingEntries::cmdDisp::FATAL,
-          "cmdDisp"
-        },
-        {
-          PingEntries::cmdSeq::WARN,
-          PingEntries::cmdSeq::FATAL,
-          "cmdSeq"
-        },
-        {
-          PingEntries::eventLogger::WARN,
-          PingEntries::eventLogger::FATAL,
-          "eventLogger"
-        },
-        {
-          PingEntries::fileDownlink::WARN,
-          PingEntries::fileDownlink::FATAL,
-          "fileDownlink"
-        },
-        {
-          PingEntries::fileManager::WARN,
-          PingEntries::fileManager::FATAL,
-          "fileManager"
-        },
-        {
-          PingEntries::fileUplink::WARN,
-          PingEntries::fileUplink::FATAL,
-          "fileUplink"
-        },
-        {
-          PingEntries::pingRcvr::WARN,
-          PingEntries::pingRcvr::FATAL,
-          "pingRcvr"
-        },
-        {
-          PingEntries::prmDb::WARN,
-          PingEntries::prmDb::FATAL,
-          "prmDb"
-        },
-        {
-          PingEntries::rateGroup1Comp::WARN,
-          PingEntries::rateGroup1Comp::FATAL,
-          "rateGroup1Comp"
-        },
-        {
-          PingEntries::rateGroup2Comp::WARN,
-          PingEntries::rateGroup2Comp::FATAL,
-          "rateGroup2Comp"
-        },
-        {
-          PingEntries::rateGroup3Comp::WARN,
-          PingEntries::rateGroup3Comp::FATAL,
-          "rateGroup3Comp"
-        },
-        {
-          PingEntries::tlmSend::WARN,
-          PingEntries::tlmSend::FATAL,
-          "tlmSend"
-        },
-      };
+      namespace health {
+        Svc::Health::PingEntry pingEntries[] = {
+          {
+            PingEntries::blockDrv::WARN,
+            PingEntries::blockDrv::FATAL,
+            "blockDrv"
+          },
+          {
+            PingEntries::cmdDisp::WARN,
+            PingEntries::cmdDisp::FATAL,
+            "cmdDisp"
+          },
+          {
+            PingEntries::cmdSeq::WARN,
+            PingEntries::cmdSeq::FATAL,
+            "cmdSeq"
+          },
+          {
+            PingEntries::eventLogger::WARN,
+            PingEntries::eventLogger::FATAL,
+            "eventLogger"
+          },
+          {
+            PingEntries::fileDownlink::WARN,
+            PingEntries::fileDownlink::FATAL,
+            "fileDownlink"
+          },
+          {
+            PingEntries::fileManager::WARN,
+            PingEntries::fileManager::FATAL,
+            "fileManager"
+          },
+          {
+            PingEntries::fileUplink::WARN,
+            PingEntries::fileUplink::FATAL,
+            "fileUplink"
+          },
+          {
+            PingEntries::pingRcvr::WARN,
+            PingEntries::pingRcvr::FATAL,
+            "pingRcvr"
+          },
+          {
+            PingEntries::prmDb::WARN,
+            PingEntries::prmDb::FATAL,
+            "prmDb"
+          },
+          {
+            PingEntries::rateGroup1Comp::WARN,
+            PingEntries::rateGroup1Comp::FATAL,
+            "rateGroup1Comp"
+          },
+          {
+            PingEntries::rateGroup2Comp::WARN,
+            PingEntries::rateGroup2Comp::FATAL,
+            "rateGroup2Comp"
+          },
+          {
+            PingEntries::rateGroup3Comp::WARN,
+            PingEntries::rateGroup3Comp::FATAL,
+            "rateGroup3Comp"
+          },
+          {
+            PingEntries::tlmSend::WARN,
+            PingEntries::tlmSend::FATAL,
+            "tlmSend"
+          },
+        };
+      }
+
     }
 
   }
-
 
   // ----------------------------------------------------------------------
   // Component instances
@@ -128,9 +130,9 @@ namespace Ref {
 
   Svc::Health health(FW_OPTIONAL_NAME("health"));
 
-  PingReceiver pingRcvr(FW_OPTIONAL_NAME("pingRcvr"));
+  Svc::LinuxTime linuxTime(FW_OPTIONAL_NAME("linuxTime"));
 
-  Svc::PosixTime posixTime(FW_OPTIONAL_NAME("posixTime"));
+  PingReceiver pingRcvr(FW_OPTIONAL_NAME("pingRcvr"));
 
   Svc::PrmDb prmDb(FW_OPTIONAL_NAME("prmDb"));
 
@@ -181,8 +183,8 @@ namespace Ref {
     fileUplink.init(QueueSizes::fileUplink, InstanceIds::fileUplink);
     fileUplinkBufferManager.init(InstanceIds::fileUplinkBufferManager);
     health.init(QueueSizes::health, InstanceIds::health);
+    linuxTime.init(InstanceIds::linuxTime);
     pingRcvr.init(QueueSizes::pingRcvr, InstanceIds::pingRcvr);
-    posixTime.init(InstanceIds::posixTime);
     prmDb.init(QueueSizes::prmDb, InstanceIds::prmDb);
     rateGroup1Comp.init(QueueSizes::rateGroup1Comp, InstanceIds::rateGroup1Comp);
     rateGroup2Comp.init(QueueSizes::rateGroup2Comp, InstanceIds::rateGroup2Comp);
@@ -229,7 +231,7 @@ namespace Ref {
     fatalAdapter.setIdBase(BaseIds::fatalAdapter);
     fatalHandler.setIdBase(BaseIds::fatalHandler);
     fileUplinkBufferManager.setIdBase(BaseIds::fileUplinkBufferManager);
-    posixTime.setIdBase(BaseIds::posixTime);
+    linuxTime.setIdBase(BaseIds::linuxTime);
     rateGroupDriverComp.setIdBase(BaseIds::rateGroupDriverComp);
     recvBuffComp.setIdBase(BaseIds::recvBuffComp);
     staticMemory.setIdBase(BaseIds::staticMemory);
@@ -985,99 +987,99 @@ namespace Ref {
     // Time
     SG1.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     SG2.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     SG3.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     SG4.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     SG5.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     blockDrv.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     cmdDisp.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     cmdSeq.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     eventLogger.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     fatalAdapter.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     fileDownlink.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     fileManager.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     fileUplink.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     fileUplinkBufferManager.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     health.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     pingRcvr.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     prmDb.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     rateGroup1Comp.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     rateGroup2Comp.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     rateGroup3Comp.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     recvBuffComp.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     sendBuffComp.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     systemResources.set_Time_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
     typeDemo.set_timeCaller_OutputPort(
         0,
-        posixTime.get_timeGetPort_InputPort(0)
+        linuxTime.get_timeGetPort_InputPort(0)
     );
 
     // Uplink

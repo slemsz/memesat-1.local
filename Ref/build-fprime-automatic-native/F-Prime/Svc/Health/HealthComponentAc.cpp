@@ -23,10 +23,10 @@ namespace Svc {
       CMD_HLTH_CHNG_PING,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE PingReturnPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
+      BYTE RunPortSize[Svc::InputSchedPort::SERIALIZED_SIZE];
       BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
     };
 
@@ -378,7 +378,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void HealthComponentBase ::
@@ -677,7 +677,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_CmdDisp_InputPorts() const
+    getNum_CmdDisp_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdDisp_InputPort));
   }
@@ -687,13 +687,13 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_PingReturn_InputPorts() const
+    getNum_PingReturn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingReturn_InputPort));
   }
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_Run_InputPorts() const
+    getNum_Run_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Run_InputPort));
   }
@@ -703,19 +703,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_CmdReg_OutputPorts() const
+    getNum_CmdReg_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdReg_OutputPort));
   }
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_CmdStatus_OutputPorts() const
+    getNum_CmdStatus_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdStatus_OutputPort));
   }
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_Log_OutputPorts() const
+    getNum_Log_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Log_OutputPort));
   }
@@ -723,7 +723,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -731,13 +731,13 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_Tlm_OutputPorts() const
+    getNum_Tlm_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Tlm_OutputPort));
   }
@@ -747,13 +747,13 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_PingSend_OutputPorts() const
+    getNum_PingSend_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingSend_OutputPort));
   }
 
   NATIVE_INT_TYPE HealthComponentBase ::
-    getNum_WdogStroke_OutputPorts() const
+    getNum_WdogStroke_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_WdogStroke_OutputPort));
   }

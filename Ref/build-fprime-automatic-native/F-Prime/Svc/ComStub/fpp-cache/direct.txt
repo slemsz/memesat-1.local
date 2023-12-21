@@ -1,2 +1,2 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp

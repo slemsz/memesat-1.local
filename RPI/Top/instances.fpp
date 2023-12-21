@@ -242,7 +242,9 @@ module RPI {
 
   }
 
-  instance comm: Drv.TcpClient base id 1260 \
+  instance comm: Drv.ByteStreamDriverModel base id 1260 \
+    type "Drv::TcpClient" \
+    at "../../Drv/TcpClient/TcpClient.hpp" \
   {
 
     phase Fpp.ToCpp.Phases.configConstants """
@@ -276,7 +278,9 @@ module RPI {
 
   }
 
-  instance posixTime: Svc.PosixTime base id 1500
+  instance linuxTime: Svc.Time base id 1500 \
+    type "Svc::LinuxTime" \
+    at "../../Svc/LinuxTime/LinuxTime.hpp"
 
   instance linuxTimer: Svc.LinuxTimer base id 1600 \
   {
@@ -291,12 +295,13 @@ module RPI {
   {
 
     phase Fpp.ToCpp.Phases.configObjects """
-    Svc::RateGroupDriver::DividerSet rgDivs{{{1, 0}, {10, 0}, {0, 0}}};
+    NATIVE_INT_TYPE rgDivs[Svc::RateGroupDriver::DIVIDER_SIZE] = { 1, 10, 0 };
     """
-
+    
     phase Fpp.ToCpp.Phases.configComponents """
     rateGroupDriverComp.configure(
-        ConfigObjects::rateGroupDriverComp::rgDivs
+        ConfigObjects::rateGroupDriverComp::rgDivs,
+        FW_NUM_ARRAY_ELEMENTS(ConfigObjects::rateGroupDriverComp::rgDivs)
     );
     """
   }

@@ -1,5 +1,0 @@
-FramerGTestBase.cpp
-FramerGTestBase.hpp
-FramerTesterBase.cpp
-FramerTesterBase.hpp
-FramerTesterHelpers.cpp

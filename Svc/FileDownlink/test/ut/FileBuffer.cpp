@@ -1,7 +1,7 @@
 // ====================================================================== 
 // \title  FileBuffer.hpp
 // \author bocchino
-// \brief  cpp file for FileDownlinkTester::FileBuffer
+// \brief  cpp file for Tester::FileBuffer
 //
 // \copyright
 // Copyright 2009-2015, by the California Institute of Technology.
@@ -11,11 +11,11 @@
 
 #include <cstring>
 
-#include "FileDownlinkTester.hpp"
+#include "Tester.hpp"
 
 namespace Svc {
 
-  FileDownlinkTester::FileBuffer ::
+  Tester::FileBuffer ::
     FileBuffer(
         const U8 *const data,
         const size_t size
@@ -26,7 +26,7 @@ namespace Svc {
     FW_ASSERT(this->index == size);
   }
 
-  FileDownlinkTester::FileBuffer ::
+  Tester::FileBuffer ::
     FileBuffer(
         const History<Fw::FilePacket::DataPacket>& dataPackets
     ) : 
@@ -39,7 +39,7 @@ namespace Svc {
     }
   }
 
-  void FileDownlinkTester::FileBuffer :: 
+  void Tester::FileBuffer :: 
     push(
       const U8 *const data,
       const size_t size
@@ -50,7 +50,7 @@ namespace Svc {
     this->index += size;
   }
 
-  void FileDownlinkTester::FileBuffer ::
+  void Tester::FileBuffer ::
     write(const char *const fileName)
   {
 
@@ -70,7 +70,7 @@ namespace Svc {
 
   }
           
-  void FileDownlinkTester::FileBuffer ::
+  void Tester::FileBuffer ::
     getChecksum(CFDP::Checksum& checksum)
   {
     CFDP::Checksum c;
@@ -78,7 +78,7 @@ namespace Svc {
     checksum = c;
   }
 
-  bool FileDownlinkTester::FileBuffer ::
+  bool Tester::FileBuffer ::
     compare(const FileBuffer& fb1, const FileBuffer& fb2) 
   {
 

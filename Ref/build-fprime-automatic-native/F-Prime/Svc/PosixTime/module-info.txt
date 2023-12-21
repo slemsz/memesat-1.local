@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/PosixTime/PosixTime.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PosixTime/PosixTimeComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PosixTime/PosixTimeComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/PosixTime/PosixTimeComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/PosixTime/PosixTime.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Interfaces/Time.fppi
-

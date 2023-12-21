@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/FileManager.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileManager/FileManagerComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileManager/FileManagerComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileManager/FileManagerComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/FileManager.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Commands.fppi;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Events.fppi;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FileManager/Telemetry.fppi
-Os;Fw/FilePacket;Utils/Hash;CFDP/Checksum

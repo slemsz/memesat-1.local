@@ -13,14 +13,14 @@
 #ifndef Svc_Errors_HPP
 #define Svc_Errors_HPP
 
-#include "BufferLoggerTester.hpp"
+#include "Tester.hpp"
 
 namespace Svc {
 
   namespace Errors {
 
-    class BufferLoggerTester :
-      public Svc::BufferLoggerTester
+    class Tester :
+      public Svc::Tester
     {
 
       public:

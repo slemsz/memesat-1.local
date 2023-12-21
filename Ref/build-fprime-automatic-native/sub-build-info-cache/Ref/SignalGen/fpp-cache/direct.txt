@@ -1,8 +1,0 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp

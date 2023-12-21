@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend.make
@@ -69,7 +69,7 @@ include F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/flags.make
 
-F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp
+F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: lib/Linux/libFw_Cmd.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: lib/Linux/libFw_Com.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: lib/Linux/libFw_Log.a
@@ -78,10 +78,10 @@ F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: lib/Linux/libFw_Type
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: lib/Linux/libSvc_Ping.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: lib/Linux/libFw_CompQueued.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommandDispatcherComponentAi.xml"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Types.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CommandDispatcherComponentAi.xml"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
 
-F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp
+F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: lib/Linux/libFw_Cmd.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: lib/Linux/libFw_Com.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: lib/Linux/libFw_Log.a
@@ -90,39 +90,39 @@ F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: lib/Linux/libFw_Type
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: lib/Linux/libSvc_Ping.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: lib/Linux/libFw_CompQueued.a
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CommandDispatcherComponentAc.cpp, CommandDispatcherComponentAc.hpp"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Types.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local,/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CommandDispatcherComponentAc.cpp, CommandDispatcherComponentAc.hpp"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.hpp: F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.hpp
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/flags.make
-F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp
+F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xeb6bfe7c -DASSERT_RELATIVE_PATH='"Svc/CmdDispatcher/CommandDispatcherImpl.cpp"' -MD -MT F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o -MF CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o.d -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xeb6bfe7c -DASSERT_RELATIVE_PATH='"Svc/CmdDispatcher/CommandDispatcherImpl.cpp"' -MD -MT F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o -MF CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o.d -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xeb6bfe7c -DASSERT_RELATIVE_PATH='"Svc/CmdDispatcher/CommandDispatcherImpl.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp > CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xeb6bfe7c -DASSERT_RELATIVE_PATH='"Svc/CmdDispatcher/CommandDispatcherImpl.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp > CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.i
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xeb6bfe7c -DASSERT_RELATIVE_PATH='"Svc/CmdDispatcher/CommandDispatcherImpl.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xeb6bfe7c -DASSERT_RELATIVE_PATH='"Svc/CmdDispatcher/CommandDispatcherImpl.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CommandDispatcherImpl.cpp -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherImpl.cpp.s
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/flags.make
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o: F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x481fc823 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp"' -MD -MT F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o -MF CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o.d -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x481fc823 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp"' -MD -MT F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o -MF CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o.d -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x481fc823 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp > CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x481fc823 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp > CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.i
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x481fc823 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x481fc823 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp -o CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.s
 
 # Object files for target Svc_CmdDispatcher
 Svc_CmdDispatcher_OBJECTS = \
@@ -136,21 +136,21 @@ lib/Linux/libSvc_CmdDispatcher.a: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDi
 lib/Linux/libSvc_CmdDispatcher.a: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/CommandDispatcherComponentAc.cpp.o
 lib/Linux/libSvc_CmdDispatcher.a: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build.make
 lib/Linux/libSvc_CmdDispatcher.a: F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libSvc_CmdDispatcher.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && $(CMAKE_COMMAND) -P CMakeFiles/Svc_CmdDispatcher.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_CmdDispatcher.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libSvc_CmdDispatcher.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && $(CMAKE_COMMAND) -P CMakeFiles/Svc_CmdDispatcher.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_CmdDispatcher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build: lib/Linux/libSvc_CmdDispatcher.a
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && $(CMAKE_COMMAND) -P CMakeFiles/Svc_CmdDispatcher.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher && $(CMAKE_COMMAND) -P CMakeFiles/Svc_CmdDispatcher.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/clean
 
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend: F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.cpp
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend: F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAc.hpp
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend: F-Prime/Svc/CmdDispatcher/CommandDispatcherComponentAi.xml
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdDispatcher /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend
 

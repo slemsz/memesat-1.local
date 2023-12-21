@@ -21,8 +21,7 @@ namespace Svc {
       PINGIN_PING,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE CycleInPortSize[Svc::InputCyclePort::SERIALIZED_SIZE];
       BYTE PingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
@@ -293,7 +292,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void ActiveRateGroupComponentBase ::
@@ -520,13 +519,13 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_CycleIn_InputPorts() const
+    getNum_CycleIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CycleIn_InputPort));
   }
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_PingIn_InputPorts() const
+    getNum_PingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingIn_InputPort));
   }
@@ -536,7 +535,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_Log_OutputPorts() const
+    getNum_Log_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Log_OutputPort));
   }
@@ -544,7 +543,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -552,13 +551,13 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_Tlm_OutputPorts() const
+    getNum_Tlm_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Tlm_OutputPort));
   }
@@ -568,13 +567,13 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_PingOut_OutputPorts() const
+    getNum_PingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingOut_OutputPort));
   }
 
   NATIVE_INT_TYPE ActiveRateGroupComponentBase ::
-    getNum_RateGroupMemberOut_OutputPorts() const
+    getNum_RateGroupMemberOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_RateGroupMemberOut_OutputPort));
   }

@@ -99,7 +99,7 @@ namespace Svc {
           Fw::SerializeBufferBase& buffer //!< The serial buffer
       );
 
-#if FW_SERIALIZABLE_TO_STRING
+#if FW_SERIALIZABLE_TO_STRING || BUILD_UT
 
       //! Convert struct to string
       void toString(

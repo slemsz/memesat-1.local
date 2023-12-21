@@ -14,6 +14,47 @@
 
 namespace Svc {
 
+  namespace {
+    // Get the max size by doing a union of the input and internal port serialization sizes
+    union BuffUnion {
+
+    };
+
+    // Define a message buffer class large enough to handle all the
+    // asynchronous inputs to the component
+    class ComponentIpcSerializableBuffer :
+      public Fw::SerializeBufferBase
+    {
+
+      public:
+
+        enum {
+          // Max. message size = size of data + message id + port
+          SERIALIZATION_SIZE =
+            sizeof(BuffUnion) +
+            sizeof(NATIVE_INT_TYPE) +
+            sizeof(NATIVE_INT_TYPE)
+        };
+
+        NATIVE_UINT_TYPE getBuffCapacity() const {
+          return sizeof(m_buff);
+        }
+
+        U8* getBuffAddr() {
+          return m_buff;
+        }
+
+        const U8* getBuffAddr() const {
+          return m_buff;
+        }
+
+      private:
+        // Should be the max of all the input ports serialized sizes...
+        U8 m_buff[SERIALIZATION_SIZE];
+
+    };
+  }
+
   // ----------------------------------------------------------------------
   // Component initialization
   // ----------------------------------------------------------------------
@@ -91,7 +132,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void AssertFatalAdapterComponentBase ::
@@ -216,7 +257,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE AssertFatalAdapterComponentBase ::
-    getNum_Log_OutputPorts() const
+    getNum_Log_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Log_OutputPort));
   }
@@ -224,7 +265,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE AssertFatalAdapterComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -232,7 +273,7 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE AssertFatalAdapterComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }

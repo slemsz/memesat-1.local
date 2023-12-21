@@ -1,5 +1,0 @@
-GenericHubGTestBase.cpp
-GenericHubGTestBase.hpp
-GenericHubTesterBase.cpp
-GenericHubTesterBase.hpp
-GenericHubTesterHelpers.cpp

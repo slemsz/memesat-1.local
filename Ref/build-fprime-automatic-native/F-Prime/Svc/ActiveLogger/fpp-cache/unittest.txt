@@ -1,5 +1,0 @@
-ActiveLoggerGTestBase.cpp
-ActiveLoggerGTestBase.hpp
-ActiveLoggerTesterBase.cpp
-ActiveLoggerTesterBase.hpp
-ActiveLoggerTesterHelpers.cpp

@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/RateGroupDriver/RateGroupDriver.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/RateGroupDriver/RateGroupDriverComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/RateGroupDriver/RateGroupDriverComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/RateGroupDriver/RateGroupDriverComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/RateGroupDriver/RateGroupDriver.fpp
-

@@ -8,7 +8,7 @@
 #ifndef RATEGROUPDRIVER_TEST_UT_RATEGROUPDRIVERIMPLTESTER_HPP_
 #define RATEGROUPDRIVER_TEST_UT_RATEGROUPDRIVERIMPLTESTER_HPP_
 
-#include <RateGroupDriverGTestBase.hpp>
+#include <GTestBase.hpp>
 #include <Svc/RateGroupDriver/RateGroupDriver.hpp>
 
 namespace Svc {
@@ -20,7 +20,7 @@ namespace Svc {
 
             void init(NATIVE_INT_TYPE instance = 0);
 
-            void runSchedNominal(Svc::RateGroupDriver::DividerSet dividersSet, NATIVE_INT_TYPE numDividers);
+            void runSchedNominal(NATIVE_INT_TYPE dividers[], NATIVE_INT_TYPE numDividers);
 
         private:
 

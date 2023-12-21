@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
-

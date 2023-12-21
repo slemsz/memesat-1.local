@@ -1,4 +1,0 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Types.fpp

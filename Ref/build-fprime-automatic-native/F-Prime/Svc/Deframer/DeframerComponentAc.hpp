@@ -198,17 +198,17 @@ namespace Svc {
       //! Get the number of cmdResponseIn input ports
       //!
       //! \return The number of cmdResponseIn input ports
-      NATIVE_INT_TYPE getNum_cmdResponseIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdResponseIn_InputPorts();
 
       //! Get the number of framedIn input ports
       //!
       //! \return The number of framedIn input ports
-      NATIVE_INT_TYPE getNum_framedIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_framedIn_InputPorts();
 
       //! Get the number of schedIn input ports
       //!
       //! \return The number of schedIn input ports
-      NATIVE_INT_TYPE getNum_schedIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_schedIn_InputPorts();
 
     PROTECTED:
 
@@ -219,32 +219,32 @@ namespace Svc {
       //! Get the number of bufferAllocate output ports
       //!
       //! \return The number of bufferAllocate output ports
-      NATIVE_INT_TYPE getNum_bufferAllocate_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferAllocate_OutputPorts();
 
       //! Get the number of bufferDeallocate output ports
       //!
       //! \return The number of bufferDeallocate output ports
-      NATIVE_INT_TYPE getNum_bufferDeallocate_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferDeallocate_OutputPorts();
 
       //! Get the number of bufferOut output ports
       //!
       //! \return The number of bufferOut output ports
-      NATIVE_INT_TYPE getNum_bufferOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferOut_OutputPorts();
 
       //! Get the number of comOut output ports
       //!
       //! \return The number of comOut output ports
-      NATIVE_INT_TYPE getNum_comOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_comOut_OutputPorts();
 
       //! Get the number of framedDeallocate output ports
       //!
       //! \return The number of framedDeallocate output ports
-      NATIVE_INT_TYPE getNum_framedDeallocate_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_framedDeallocate_OutputPorts();
 
       //! Get the number of framedPoll output ports
       //!
       //! \return The number of framedPoll output ports
-      NATIVE_INT_TYPE getNum_framedPoll_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_framedPoll_OutputPorts();
 
     PROTECTED:
 

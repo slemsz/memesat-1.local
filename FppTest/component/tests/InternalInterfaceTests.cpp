@@ -10,7 +10,7 @@
 //
 // ======================================================================
 
-#include "Tester.hpp"
+#include "test/ut/Tester.hpp"
 
 #include "Fw/Comp/QueuedComponentBase.hpp"
 

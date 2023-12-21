@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o" "gcc" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o" "gcc" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o" "gcc" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o" "gcc" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/DeframingProtocol.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o" "gcc" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FprimeProtocol.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o" "gcc" "F-Prime/Svc/FramingProtocol/CMakeFiles/Svc_FramingProtocol.dir/FramingProtocol.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

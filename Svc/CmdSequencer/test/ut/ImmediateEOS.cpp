@@ -21,9 +21,9 @@ namespace Svc {
     // Constructors
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester(const SequenceFiles::File::Format::t format) :
-        ImmediateBase::CmdSequencerTester(format)
+    Tester ::
+      Tester(const SequenceFiles::File::Format::t format) :
+        ImmediateBase::Tester(format)
     {
 
     }
@@ -32,7 +32,7 @@ namespace Svc {
     // Tests
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       AutoByCommand()
     {
       const U32 numRecords = 5;
@@ -42,7 +42,7 @@ namespace Svc {
       this->parameterizedAutoByCommand(file, numCommands, bound);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       Cancel()
     {
       const U32 numRecords = 5;
@@ -52,7 +52,7 @@ namespace Svc {
       this->parameterizedCancel(file, numCommands, bound);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       FileErrors()
     {
       const U32 numRecords = 5;
@@ -60,7 +60,7 @@ namespace Svc {
       this->parameterizedFileErrors(file);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       InvalidManualCommands()
     {
       const U32 numRecords = 5;
@@ -68,7 +68,7 @@ namespace Svc {
       this->parameterizedInvalidManualCommands(file);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       Manual()
     {
       const U32 numRecords = 5;
@@ -77,7 +77,7 @@ namespace Svc {
       this->parameterizedManual(file, numCommands);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       NewSequence()
     {
       const U32 numRecords = 5;
@@ -87,7 +87,7 @@ namespace Svc {
       this->parameterizedNewSequence(file, numCommands, bound);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       AutoByPort()
     {
       const U32 numRecords = 5;
@@ -97,7 +97,7 @@ namespace Svc {
       this->parameterizedAutoByPort(file, numCommands, bound);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       SequenceTimeout()
     {
       const U32 numRecords = 5;
@@ -105,7 +105,7 @@ namespace Svc {
       this->parameterizedSequenceTimeout(file);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       UnexpectedCommandResponse()
     {
       const U32 numRecords = 5;
@@ -115,7 +115,7 @@ namespace Svc {
       this->parameterizedUnexpectedCommandResponse(file, numCommands, bound);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       Validate()
     {
       const U32 numRecords = 5;
@@ -127,7 +127,7 @@ namespace Svc {
     // Private helper methods
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommandsManual(
           const char *const fileName,
           const U32 numCommands

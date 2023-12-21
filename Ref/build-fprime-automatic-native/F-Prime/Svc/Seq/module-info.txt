@@ -1,5 +1,0 @@
-
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Seq/CmdSeqCancelPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Seq/CmdSeqInPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Seq/CmdSeqCancelPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Seq/CmdSeqCancelPortAc.hpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Seq/CmdSeqInPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Seq/CmdSeqInPortAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Seq/Seq.fpp
-Fw/Port

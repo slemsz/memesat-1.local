@@ -13,13 +13,13 @@
 #ifndef Svc_Drain_HPP
 #define Svc_Drain_HPP
 
-#include "BufferAccumulatorTester.hpp"
+#include "Tester.hpp"
 
 namespace Svc {
 
 namespace Drain {
 
-class BufferAccumulatorTester : public Svc::BufferAccumulatorTester {
+class Tester : public Svc::Tester {
  public:
   // ----------------------------------------------------------------------
   // Tests

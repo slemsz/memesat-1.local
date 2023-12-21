@@ -8,7 +8,7 @@
 #ifndef CMDDISP_TEST_UT_TLMCHANIMPLTESTER_HPP_
 #define CMDDISP_TEST_UT_TLMCHANIMPLTESTER_HPP_
 
-#include <CommandDispatcherGTestBase.hpp>
+#include <GTestBase.hpp>
 #include <Svc/CmdDispatcher/CommandDispatcherImpl.hpp>
 
 namespace Svc {

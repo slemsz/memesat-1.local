@@ -1,9 +1,8 @@
  \mainpage
 
-This is the F´ automatically generated documentation. 
-The sidebar links point to the software description documentation (SDD) for the F´ components. 
-The Namespace and Classes sections link to the documentation of the C++ code. 
-
+This is the F´ automatically generated documentation. The below guides represent the software
+description documentation (SDD) for the F´ components. Included in the Namespace and Classes sections
+is the documentation of the C++ code.
 
 
 \page Fw Fw Components, Ports, and Classes
@@ -58,27 +57,11 @@ command and data handling components used for more complete applications.
 
 \subpage SvcAssertFatalAdapterComponent
 
-\subpage SvcBufferAccumulatorComponent
-
 \subpage SvcBufferManagerComponent
-
-\subpage SvcBufferRepeaterComponent
 
 \subpage SvcCmdDispatcherComponent
 
 \subpage SvcCmdSequencerComponent
-
-\subpage SvcCmdSequencerFormats
-
-\subpage SvcCmdSplitter
-
-\subpage SvcComLoggerComponent
-
-\subpage SvcComQueueComponent
-
-\subpage SvcComSplitterComponent
-
-\subpage SvcComStubComponent
 
 \subpage SvcDeframerComponent
 
@@ -98,7 +81,11 @@ command and data handling components used for more complete applications.
 
 \subpage SvcGenericHubComponent
 
+\subpage SvcGenericRepeaterComponent
+
 \subpage SvcHealthComponent
+
+\subpage SvcLinuxTimeComponent
 
 \subpage SvcPassiveConsoleTextLoggerComponent
 
@@ -108,19 +95,13 @@ command and data handling components used for more complete applications.
 
 \subpage SvcPolyPort
 
-\subpage SvcPosixTime
-
 \subpage SvcPrmDbComponent
-
-\subpage SvcPassiveRateGroupComponent
 
 \subpage SvcRateGroupDriverComponent
 
 \subpage SvcSchedPort
 
 \subpage SvcStaticMemoryComponent
-
-\subpage SvcSystemResourcesComponent
 
 \subpage SvcTlmChanComponent
 
@@ -143,14 +124,13 @@ functions.
 
 \subpage DrvIp
 
-\subpage DrvStreamCrossover
-
 \subpage DrvTcpClient
 
 \subpage DrvTcpServer
 
-\subpage DrvUdp
+\subpage DrvUartFramerComponent
 
+\subpage DrvUdp
 
 
 \page Utils Utils Classes
@@ -165,5 +145,3 @@ a variety of purposes.
 \subpage UtilsRateLimiterClass
 
 \subpage UtilsTokenBucketClass
-
-\subpage UtilsTypesLibrary

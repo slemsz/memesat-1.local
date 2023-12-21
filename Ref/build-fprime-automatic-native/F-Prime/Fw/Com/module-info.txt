@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/ComPacket.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/ComBuffer.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Com/ComPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Com/ComPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Com/ComPortAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/Com.fpp
-

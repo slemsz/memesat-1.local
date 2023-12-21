@@ -18,7 +18,7 @@
 
 namespace Drv {
 /**
- * \brief Helper for setting up Tcp using Berkeley sockets as a server
+ * \brief Helper for setting up Tcp using Berkley sockets as a server
  *
  * Certain IP headers have conflicting definitions with the m_data member of various types in fprime. TcpServerSocket
  * separates the ip setup from the incoming Fw::Buffer in the primary component class preventing this collision.
@@ -38,15 +38,14 @@ class TcpServerSocket : public IpSocket {
      * connect. This call does not block, block occurs on `open` while waiting to accept incoming clients.
      * \return status of the server socket setup.
      */
-    SocketIpStatus startup() override;
+    SocketIpStatus startup();
 
     /**
-     * \brief Shutdown and close the server socket followed by the open client
+     * \brief Shutdown client socket, and listening server socket
      *
-     * First, this calls `shutdown` and `close` on the server socket and then calls the close method to `shutdown` and
-     * `close` the client.
+     *
      */
-    void shutdown() override;
+    void shutdown();
 
   PROTECTED:
     /**
@@ -54,21 +53,21 @@ class TcpServerSocket : public IpSocket {
      * \param fd: (output) file descriptor opened. Only valid on SOCK_SUCCESS. Otherwise will be invalid
      * \return status of open
      */
-    SocketIpStatus openProtocol(NATIVE_INT_TYPE& fd) override;
+    SocketIpStatus openProtocol(NATIVE_INT_TYPE& fd);
     /**
      * \brief Protocol specific implementation of send.  Called directly with retry from send.
      * \param data: data to send
      * \param size: size of data to send
      * \return: size of data sent, or -1 on error.
      */
-    I32 sendProtocol(const U8* const data, const U32 size) override;
+    I32 sendProtocol(const U8* const data, const U32 size);
     /**
      * \brief Protocol specific implementation of recv.  Called directly with error handling from recv.
      * \param data: data pointer to fill
      * \param size: size of data buffer
      * \return: size of data received, or -1 on error.
      */
-    I32 recvProtocol( U8* const data, const U32 size) override;
+    I32 recvProtocol( U8* const data, const U32 size);
   private:
     NATIVE_INT_TYPE m_base_fd; //!< File descriptor of the listening socket
 };

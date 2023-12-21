@@ -16,7 +16,6 @@
 # the `-D` option there.
 #
 ####
-include_guard()
 # Remap changed settings
 if (DEFINED FPRIME_INSTALL_DEST)
     set(CMAKE_INSTALL_PREFIX ${FPRIME_INSTALL_DEST} CACHE PATH "Install dir" FORCE)
@@ -93,8 +92,8 @@ endif()
 ####
 # `FPRIME_ENABLE_UTIL_TARGETS`:
 #
-# Enables the targets required to run using `fprime-util`.  These include: check and refresh_cache.
-# This switch defaults to "ON" providing those targets, but may be set to off when running within an
+# Enables the targets required to run using `fprime-util`.  These include: check, check-leak, coverage, impl, and
+# testimpl targets. This switch defaults to "ON" providing those targets, but may be set to off when running within an
 # IDE where limiting the number of targets is desirable. Note: unit test targets are still only generated when running
 # with -DBUILD_TESTING=ON.
 #
@@ -132,7 +131,7 @@ option(FPRIME_ENABLE_FRAMEWORK_UTS "Enable framework UT generation" ON)
 #
 # e.g. `-DFPRIME_ENABLE_AUTOCODER_UTS=OFF`
 ####
-option(FPRIME_ENABLE_AUTOCODER_UTS "Enable autocoder UT generation" OFF)
+option(FPRIME_ENABLE_AUTOCODER_UTS "Enable autocoder UT generation" ON)
 
 ####
 # `FPRIME_ENABLE_UT_COVERAGE`:
@@ -347,13 +346,4 @@ set(FPRIME_CONFIG_DIR "${FPRIME_CONFIG_DIR}" CACHE PATH "F prime configuration h
 # Override the AC constants file when specified
 if (NOT DEFINED FPRIME_AC_CONSTANTS_FILE)
     set(FPRIME_AC_CONSTANTS_FILE "${FPRIME_CONFIG_DIR}/AcConstants.ini" CACHE PATH "F prime AC constants.ini file" FORCE)
-endif()
-
-# Set FPRIME_TOOLCHAIN_NAME when not set by toolchain directly
-if (NOT DEFINED FPRIME_TOOLCHAIN_NAME)
-    if (DEFINED CMAKE_TOOLCHAIN_FILE)
-        get_filename_component(FPRIME_TOOLCHAIN_NAME "${CMAKE_TOOLCHAIN_FILE}" NAME_WE CACHE)
-    else()
-        set(FPRIME_TOOLCHAIN_NAME "native" CACHE INTERNAL "Name of toolchain used" FORCE)
-    endif()
 endif()

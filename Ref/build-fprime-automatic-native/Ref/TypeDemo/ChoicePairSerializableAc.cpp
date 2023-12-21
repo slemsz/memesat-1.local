@@ -126,7 +126,7 @@ namespace Ref {
     return status;
   }
 
-#if FW_SERIALIZABLE_TO_STRING
+#if FW_SERIALIZABLE_TO_STRING || BUILD_UT
 
   void ChoicePair ::
     toString(Fw::StringBase& sb) const

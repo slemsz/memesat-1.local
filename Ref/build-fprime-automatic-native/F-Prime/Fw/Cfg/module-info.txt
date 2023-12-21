@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cfg/ConfigCheck.cpp
-
-
-config

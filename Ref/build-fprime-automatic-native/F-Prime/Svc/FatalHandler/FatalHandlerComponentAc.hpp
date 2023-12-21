@@ -88,7 +88,7 @@ namespace Svc {
       //! Get the number of FatalReceive input ports
       //!
       //! \return The number of FatalReceive input ports
-      NATIVE_INT_TYPE getNum_FatalReceive_InputPorts() const;
+      NATIVE_INT_TYPE getNum_FatalReceive_InputPorts();
 
     PROTECTED:
 

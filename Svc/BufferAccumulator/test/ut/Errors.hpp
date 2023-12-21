@@ -13,13 +13,13 @@
 #ifndef Svc_Errors_HPP
 #define Svc_Errors_HPP
 
-#include "BufferAccumulatorTester.hpp"
+#include "Tester.hpp"
 
 namespace Svc {
 
 namespace Errors {
 
-class BufferAccumulatorTester : public Svc::BufferAccumulatorTester {
+class Tester : public Svc::Tester {
  public:
   // ----------------------------------------------------------------------
   // Tests

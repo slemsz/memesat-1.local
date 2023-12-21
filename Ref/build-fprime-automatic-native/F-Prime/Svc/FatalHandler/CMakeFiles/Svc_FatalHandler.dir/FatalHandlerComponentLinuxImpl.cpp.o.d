@@ -1,5 +1,5 @@
 F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/FatalHandlerComponentLinuxImpl.cpp.o: \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandlerComponentLinuxImpl.cpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandlerComponentLinuxImpl.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -76,32 +76,32 @@ F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/FatalHandlerComponentLi
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Logger/Logger.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Logger/Logger.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.hpp \
  /usr/include/c++/11/limits \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/platform/types/PlatformTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/platform/types/PlatformTypes.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandlerComponentImpl.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FatalHandler/FatalHandlerComponentAc.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/ActiveComponentBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/QueuedComponentBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Comp/PassiveComponentBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Obj/ObjBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Serializable.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/Queue.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/QueueString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/StringType.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/Task.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/TaskString.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/TaskId.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/TaskIdRepr.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandlerComponentImpl.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FatalHandler/FatalHandlerComponentAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp/ActiveComponentBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp/QueuedComponentBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Comp/PassiveComponentBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Obj/ObjBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Serializable.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/Queue.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/QueueString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/StringType.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/Task.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/TaskString.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/TaskId.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/TaskIdRepr.hpp \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
@@ -113,13 +113,13 @@ F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/FatalHandlerComponentLi
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Deprecate.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/InputSerializePort.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/InputPortBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/PortBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/OutputSerializePort.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Port/OutputPortBase.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Fatal/FatalEventPortAc.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Deprecate.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/InputSerializePort.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/InputPortBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/PortBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/OutputSerializePort.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Port/OutputPortBase.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Fatal/FatalEventPortAc.hpp \
  /usr/include/c++/11/cstdio /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Log//CMakeFiles/progress.marks
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/clean
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/rule:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/rule
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/rule
 .PHONY : F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/rule
 
 # Convenience name for target.
@@ -172,15 +172,29 @@ Fw_Log: F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/rule
 
 # fast build rule for target.
 Fw_Log/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build
 .PHONY : Fw_Log/fast
+
+# Convenience name for target.
+F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/rule:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/rule
+.PHONY : F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/rule
+
+# Convenience name for target.
+Fw_Log_impl: F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/rule
+.PHONY : Fw_Log_impl
+
+# fast build rule for target.
+Fw_Log_impl/fast:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/build
+.PHONY : Fw_Log_impl/fast
 
 LogBuffer.o: LogBuffer.cpp.o
 .PHONY : LogBuffer.o
 
 # target to build an object file
 LogBuffer.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogBuffer.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogBuffer.cpp.o
 .PHONY : LogBuffer.cpp.o
 
 LogBuffer.i: LogBuffer.cpp.i
@@ -188,7 +202,7 @@ LogBuffer.i: LogBuffer.cpp.i
 
 # target to preprocess a source file
 LogBuffer.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogBuffer.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogBuffer.cpp.i
 .PHONY : LogBuffer.cpp.i
 
 LogBuffer.s: LogBuffer.cpp.s
@@ -196,7 +210,7 @@ LogBuffer.s: LogBuffer.cpp.s
 
 # target to generate assembly for a file
 LogBuffer.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogBuffer.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogBuffer.cpp.s
 .PHONY : LogBuffer.cpp.s
 
 LogPacket.o: LogPacket.cpp.o
@@ -204,7 +218,7 @@ LogPacket.o: LogPacket.cpp.o
 
 # target to build an object file
 LogPacket.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPacket.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPacket.cpp.o
 .PHONY : LogPacket.cpp.o
 
 LogPacket.i: LogPacket.cpp.i
@@ -212,7 +226,7 @@ LogPacket.i: LogPacket.cpp.i
 
 # target to preprocess a source file
 LogPacket.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPacket.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPacket.cpp.i
 .PHONY : LogPacket.cpp.i
 
 LogPacket.s: LogPacket.cpp.s
@@ -220,7 +234,7 @@ LogPacket.s: LogPacket.cpp.s
 
 # target to generate assembly for a file
 LogPacket.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPacket.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPacket.cpp.s
 .PHONY : LogPacket.cpp.s
 
 LogPortAc.o: LogPortAc.cpp.o
@@ -228,7 +242,7 @@ LogPortAc.o: LogPortAc.cpp.o
 
 # target to build an object file
 LogPortAc.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPortAc.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPortAc.cpp.o
 .PHONY : LogPortAc.cpp.o
 
 LogPortAc.i: LogPortAc.cpp.i
@@ -236,7 +250,7 @@ LogPortAc.i: LogPortAc.cpp.i
 
 # target to preprocess a source file
 LogPortAc.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPortAc.cpp.i
 .PHONY : LogPortAc.cpp.i
 
 LogPortAc.s: LogPortAc.cpp.s
@@ -244,7 +258,7 @@ LogPortAc.s: LogPortAc.cpp.s
 
 # target to generate assembly for a file
 LogPortAc.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogPortAc.cpp.s
 .PHONY : LogPortAc.cpp.s
 
 LogSeverityEnumAc.o: LogSeverityEnumAc.cpp.o
@@ -252,7 +266,7 @@ LogSeverityEnumAc.o: LogSeverityEnumAc.cpp.o
 
 # target to build an object file
 LogSeverityEnumAc.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogSeverityEnumAc.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogSeverityEnumAc.cpp.o
 .PHONY : LogSeverityEnumAc.cpp.o
 
 LogSeverityEnumAc.i: LogSeverityEnumAc.cpp.i
@@ -260,7 +274,7 @@ LogSeverityEnumAc.i: LogSeverityEnumAc.cpp.i
 
 # target to preprocess a source file
 LogSeverityEnumAc.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogSeverityEnumAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogSeverityEnumAc.cpp.i
 .PHONY : LogSeverityEnumAc.cpp.i
 
 LogSeverityEnumAc.s: LogSeverityEnumAc.cpp.s
@@ -268,7 +282,7 @@ LogSeverityEnumAc.s: LogSeverityEnumAc.cpp.s
 
 # target to generate assembly for a file
 LogSeverityEnumAc.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogSeverityEnumAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogSeverityEnumAc.cpp.s
 .PHONY : LogSeverityEnumAc.cpp.s
 
 LogString.o: LogString.cpp.o
@@ -276,7 +290,7 @@ LogString.o: LogString.cpp.o
 
 # target to build an object file
 LogString.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogString.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogString.cpp.o
 .PHONY : LogString.cpp.o
 
 LogString.i: LogString.cpp.i
@@ -284,7 +298,7 @@ LogString.i: LogString.cpp.i
 
 # target to preprocess a source file
 LogString.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogString.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogString.cpp.i
 .PHONY : LogString.cpp.i
 
 LogString.s: LogString.cpp.s
@@ -292,7 +306,7 @@ LogString.s: LogString.cpp.s
 
 # target to generate assembly for a file
 LogString.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogString.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogString.cpp.s
 .PHONY : LogString.cpp.s
 
 LogTextPortAc.o: LogTextPortAc.cpp.o
@@ -300,7 +314,7 @@ LogTextPortAc.o: LogTextPortAc.cpp.o
 
 # target to build an object file
 LogTextPortAc.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogTextPortAc.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogTextPortAc.cpp.o
 .PHONY : LogTextPortAc.cpp.o
 
 LogTextPortAc.i: LogTextPortAc.cpp.i
@@ -308,7 +322,7 @@ LogTextPortAc.i: LogTextPortAc.cpp.i
 
 # target to preprocess a source file
 LogTextPortAc.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogTextPortAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogTextPortAc.cpp.i
 .PHONY : LogTextPortAc.cpp.i
 
 LogTextPortAc.s: LogTextPortAc.cpp.s
@@ -316,7 +330,7 @@ LogTextPortAc.s: LogTextPortAc.cpp.s
 
 # target to generate assembly for a file
 LogTextPortAc.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogTextPortAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/LogTextPortAc.cpp.s
 .PHONY : LogTextPortAc.cpp.s
 
 TextLogString.o: TextLogString.cpp.o
@@ -324,7 +338,7 @@ TextLogString.o: TextLogString.cpp.o
 
 # target to build an object file
 TextLogString.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/TextLogString.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/TextLogString.cpp.o
 .PHONY : TextLogString.cpp.o
 
 TextLogString.i: TextLogString.cpp.i
@@ -332,7 +346,7 @@ TextLogString.i: TextLogString.cpp.i
 
 # target to preprocess a source file
 TextLogString.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/TextLogString.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/TextLogString.cpp.i
 .PHONY : TextLogString.cpp.i
 
 TextLogString.s: TextLogString.cpp.s
@@ -340,7 +354,7 @@ TextLogString.s: TextLogString.cpp.s
 
 # target to generate assembly for a file
 TextLogString.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/TextLogString.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/build.make F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/TextLogString.cpp.s
 .PHONY : TextLogString.cpp.s
 
 # Help Target
@@ -355,6 +369,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Fw_Log_impl"
 	@echo "... Fw_Log"
 	@echo "... LogBuffer.o"
 	@echo "... LogBuffer.i"
@@ -388,6 +403,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

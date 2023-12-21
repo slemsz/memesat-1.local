@@ -20,9 +20,9 @@ namespace Svc {
     // Constructors 
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester(const SequenceFiles::File::Format::t format) :
-        Svc::CmdSequencerTester(format)
+    Tester ::
+      Tester(const SequenceFiles::File::Format::t format) :
+        Svc::Tester(format)
     {
 
     }
@@ -31,7 +31,7 @@ namespace Svc {
     // Tests parameterized by file type
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       parameterizedAutoByCommand(
           SequenceFiles::File& file,
           const U32 numCommands,

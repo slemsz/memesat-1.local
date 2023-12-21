@@ -1,8 +1,8 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferAccumulator/Commands.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferAccumulator/Events.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/BufferAccumulator/Telemetry.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferAccumulator/Commands.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferAccumulator/Events.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferAccumulator/Telemetry.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp

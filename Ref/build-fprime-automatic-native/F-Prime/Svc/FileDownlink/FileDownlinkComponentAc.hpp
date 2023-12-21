@@ -172,7 +172,7 @@ namespace Svc {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to cmdRegOut[portNum]
@@ -351,7 +351,7 @@ namespace Svc {
       //! Get the number of cmdIn input ports
       //!
       //! \return The number of cmdIn input ports
-      NATIVE_INT_TYPE getNum_cmdIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdIn_InputPorts();
 
     PROTECTED:
 
@@ -362,22 +362,22 @@ namespace Svc {
       //! Get the number of Run input ports
       //!
       //! \return The number of Run input ports
-      NATIVE_INT_TYPE getNum_Run_InputPorts() const;
+      NATIVE_INT_TYPE getNum_Run_InputPorts();
 
       //! Get the number of SendFile input ports
       //!
       //! \return The number of SendFile input ports
-      NATIVE_INT_TYPE getNum_SendFile_InputPorts() const;
+      NATIVE_INT_TYPE getNum_SendFile_InputPorts();
 
       //! Get the number of bufferReturn input ports
       //!
       //! \return The number of bufferReturn input ports
-      NATIVE_INT_TYPE getNum_bufferReturn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferReturn_InputPorts();
 
       //! Get the number of pingIn input ports
       //!
       //! \return The number of pingIn input ports
-      NATIVE_INT_TYPE getNum_pingIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_pingIn_InputPorts();
 
     PROTECTED:
 
@@ -388,36 +388,36 @@ namespace Svc {
       //! Get the number of cmdRegOut output ports
       //!
       //! \return The number of cmdRegOut output ports
-      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts();
 
       //! Get the number of cmdResponseOut output ports
       //!
       //! \return The number of cmdResponseOut output ports
-      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts();
 
       //! Get the number of eventOut output ports
       //!
       //! \return The number of eventOut output ports
-      NATIVE_INT_TYPE getNum_eventOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_eventOut_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of textEventOut output ports
       //!
       //! \return The number of textEventOut output ports
-      NATIVE_INT_TYPE getNum_textEventOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_textEventOut_OutputPorts();
 
 #endif
 
       //! Get the number of timeCaller output ports
       //!
       //! \return The number of timeCaller output ports
-      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts();
 
       //! Get the number of tlmOut output ports
       //!
       //! \return The number of tlmOut output ports
-      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts();
 
     PROTECTED:
 
@@ -428,17 +428,17 @@ namespace Svc {
       //! Get the number of FileComplete output ports
       //!
       //! \return The number of FileComplete output ports
-      NATIVE_INT_TYPE getNum_FileComplete_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_FileComplete_OutputPorts();
 
       //! Get the number of bufferSendOut output ports
       //!
       //! \return The number of bufferSendOut output ports
-      NATIVE_INT_TYPE getNum_bufferSendOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferSendOut_OutputPorts();
 
       //! Get the number of pingOut output ports
       //!
       //! \return The number of pingOut output ports
-      NATIVE_INT_TYPE getNum_pingOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_pingOut_OutputPorts();
 
     PROTECTED:
 
@@ -534,8 +534,8 @@ namespace Svc {
       //! Handler for input port SendFile
       virtual Svc::SendFileResponse SendFile_handler(
           NATIVE_INT_TYPE portNum, //!< The port number
-          const Svc::SendFileRequestPortStrings::StringSize100& sourceFileName, //!< Path of file to downlink
-          const Svc::SendFileRequestPortStrings::StringSize100& destFileName, //!< Path to store downlinked file at
+          const SendFileRequestPortStrings::StringSize100& sourceFileName, //!< Path of file to downlink
+          const SendFileRequestPortStrings::StringSize100& destFileName, //!< Path to store downlinked file at
           U32 offset, //!< Amount of data in bytes to downlink from file. 0 to read until end of file
           U32 length //!< Amount of data in bytes to downlink from file. 0 to read until end of file
       ) = 0;
@@ -569,8 +569,8 @@ namespace Svc {
       //! Handler base-class function for input port SendFile
       Svc::SendFileResponse SendFile_handlerBase(
           NATIVE_INT_TYPE portNum, //!< The port number
-          const Svc::SendFileRequestPortStrings::StringSize100& sourceFileName, //!< Path of file to downlink
-          const Svc::SendFileRequestPortStrings::StringSize100& destFileName, //!< Path to store downlinked file at
+          const SendFileRequestPortStrings::StringSize100& sourceFileName, //!< Path of file to downlink
+          const SendFileRequestPortStrings::StringSize100& destFileName, //!< Path to store downlinked file at
           U32 offset, //!< Amount of data in bytes to downlink from file. 0 to read until end of file
           U32 length //!< Amount of data in bytes to downlink from file. 0 to read until end of file
       );
@@ -931,8 +931,8 @@ namespace Svc {
       static Svc::SendFileResponse m_p_SendFile_in(
           Fw::PassiveComponentBase* callComp, //!< The component instance
           NATIVE_INT_TYPE portNum, //!< The port number
-          const Svc::SendFileRequestPortStrings::StringSize100& sourceFileName, //!< Path of file to downlink
-          const Svc::SendFileRequestPortStrings::StringSize100& destFileName, //!< Path to store downlinked file at
+          const SendFileRequestPortStrings::StringSize100& sourceFileName, //!< Path of file to downlink
+          const SendFileRequestPortStrings::StringSize100& destFileName, //!< Path to store downlinked file at
           U32 offset, //!< Amount of data in bytes to downlink from file. 0 to read until end of file
           U32 length //!< Amount of data in bytes to downlink from file. 0 to read until end of file
       );

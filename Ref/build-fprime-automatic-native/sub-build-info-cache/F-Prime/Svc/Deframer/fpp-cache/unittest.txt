@@ -1,5 +1,0 @@
-DeframerGTestBase.cpp
-DeframerGTestBase.hpp
-DeframerTesterBase.cpp
-DeframerTesterBase.hpp
-DeframerTesterHelpers.cpp

@@ -10,7 +10,7 @@
 //
 // ======================================================================
 
-#include "Tester.hpp"
+#include "test/ut/Tester.hpp"
 
 // ----------------------------------------------------------------------
 // Helper methods
@@ -116,6 +116,9 @@ void Tester ::connectPorts() {
 
     // arrayReturnOut
     this->component.set_arrayReturnOut_OutputPort(0, this->get_from_arrayReturnOut(0));
+
+    // cmdIn
+    this->connect_to_cmdOut(0, this->component.get_cmdIn_InputPort(0));
 
     // cmdRegOut
     this->component.set_cmdRegOut_OutputPort(0, this->get_from_cmdRegOut(0));

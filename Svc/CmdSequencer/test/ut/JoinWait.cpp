@@ -21,9 +21,9 @@ namespace Svc {
     // Constructors 
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester(const SequenceFiles::File::Format::t format) :
-        Svc::CmdSequencerTester(format)
+    Tester ::
+      Tester(const SequenceFiles::File::Format::t format) :
+        Svc::Tester(format)
     {
 
     }
@@ -31,7 +31,7 @@ namespace Svc {
     // Tests 
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       test_join_wait_without_active_seq()
     {
       // Send join wait command when there is no active seq
@@ -42,7 +42,7 @@ namespace Svc {
       ASSERT_EVENTS_CS_NoSequenceActive_SIZE(1);
     }
 
-    void CmdSequencerTester ::test_join_wait_with_active_seq() {
+    void Tester ::test_join_wait_with_active_seq() {
       const U32 numRecords = 1;
       SequenceFiles::RelativeFile file(numRecords, this->format);
       // Set the time

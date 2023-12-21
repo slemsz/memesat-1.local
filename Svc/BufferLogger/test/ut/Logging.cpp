@@ -18,7 +18,7 @@ namespace Svc {
   namespace Logging {
 
     class CloseFileTester :
-      public Logging::BufferLoggerTester
+      public Logging::Tester
     {
 
       public:
@@ -73,7 +73,7 @@ namespace Svc {
 
     };
 
-    void BufferLoggerTester ::
+    void Tester ::
       CloseFile()
     {
       CloseFileTester tester;
@@ -81,7 +81,7 @@ namespace Svc {
     }
 
     class SendBuffersTester :
-      public Logging::BufferLoggerTester
+      public Logging::Tester
     {
 
       protected:
@@ -186,7 +186,7 @@ namespace Svc {
 
     };
 
-    void BufferLoggerTester ::
+    void Tester ::
       ComIn()
     {
       ComInTester tester;
@@ -203,7 +203,7 @@ namespace Svc {
 
     };
 
-    void BufferLoggerTester ::
+    void Tester ::
       BufferSendIn()
     {
       BufferSendInTester tester;
@@ -211,7 +211,7 @@ namespace Svc {
     }
 
     class OnOffTester :
-      Logging::BufferLoggerTester
+      Logging::Tester
     {
       private:
 
@@ -260,7 +260,7 @@ namespace Svc {
 
     };
 
-    void BufferLoggerTester ::
+    void Tester ::
       OnOff()
     {
       {

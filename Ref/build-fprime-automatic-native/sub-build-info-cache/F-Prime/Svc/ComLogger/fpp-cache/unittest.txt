@@ -1,5 +1,0 @@
-ComLoggerGTestBase.cpp
-ComLoggerGTestBase.hpp
-ComLoggerTesterBase.cpp
-ComLoggerTesterBase.hpp
-ComLoggerTesterHelpers.cpp

@@ -1,4 +1,4 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/Com.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp

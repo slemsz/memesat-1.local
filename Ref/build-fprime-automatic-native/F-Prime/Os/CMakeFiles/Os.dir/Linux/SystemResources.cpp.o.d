@@ -1,5 +1,5 @@
 F-Prime/Os/CMakeFiles/Os.dir/Linux/SystemResources.cpp.o: \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/Linux/SystemResources.cpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/Linux/SystemResources.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstdio \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -41,17 +41,17 @@ F-Prime/Os/CMakeFiles/Os.dir/Linux/SystemResources.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
  /usr/include/asm-generic/posix_types.h /usr/include/linux/const.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Os/SystemResources.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.hpp \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Os/SystemResources.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.hpp \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.hpp \
  /usr/include/c++/11/limits \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/platform/types/PlatformTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/platform/types/PlatformTypes.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
- /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Types/Assert.hpp
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/BasicTypes.h \
+ /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Assert.hpp

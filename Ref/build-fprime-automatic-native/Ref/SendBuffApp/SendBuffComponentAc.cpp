@@ -23,9 +23,9 @@ namespace Ref {
       CMD_SB_GEN_ASSERT,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
+      BYTE SchedInPortSize[Svc::InputSchedPort::SERIALIZED_SIZE];
       BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
     };
 
@@ -361,7 +361,7 @@ namespace Ref {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void SendBuffComponentBase ::
@@ -782,7 +782,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_CmdDisp_InputPorts() const
+    getNum_CmdDisp_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdDisp_InputPort));
   }
@@ -792,7 +792,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_SchedIn_InputPorts() const
+    getNum_SchedIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_SchedIn_InputPort));
   }
@@ -802,19 +802,19 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_CmdReg_OutputPorts() const
+    getNum_CmdReg_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdReg_OutputPort));
   }
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_CmdStatus_OutputPorts() const
+    getNum_CmdStatus_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdStatus_OutputPort));
   }
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_Log_OutputPorts() const
+    getNum_Log_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Log_OutputPort));
   }
@@ -822,7 +822,7 @@ namespace Ref {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -830,25 +830,25 @@ namespace Ref {
 #endif
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_ParamGet_OutputPorts() const
+    getNum_ParamGet_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_ParamGet_OutputPort));
   }
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_ParamSet_OutputPorts() const
+    getNum_ParamSet_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_ParamSet_OutputPort));
   }
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_Tlm_OutputPorts() const
+    getNum_Tlm_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Tlm_OutputPort));
   }
@@ -858,7 +858,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE SendBuffComponentBase ::
-    getNum_Data_OutputPorts() const
+    getNum_Data_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Data_OutputPort));
   }

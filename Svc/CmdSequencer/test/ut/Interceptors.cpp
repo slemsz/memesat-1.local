@@ -1,7 +1,7 @@
 // ======================================================================
 // \title  Interceptors.cpp
 // \author Canham/Bocchino
-// \brief  Implementation for CmdSequencerTester::Interceptors
+// \brief  Implementation for Tester::Interceptors
 //
 // \copyright
 // Copyright (C) 2009-2018 California Institute of Technology.
@@ -10,38 +10,38 @@
 // ======================================================================
 
 #include "Os/Stubs/FileStubs.hpp"
-#include "CmdSequencerTester.hpp"
+#include "Svc/CmdSequencer/test/ut/Tester.hpp"
 #include "gtest/gtest.h"
 
 namespace Svc {
 
-  CmdSequencerTester::Interceptors::Open ::
+  Tester::Interceptors::Open ::
     Open() :
       fileStatus(Os::File::OP_OK)
   {
 
   }
 
-  void CmdSequencerTester::Interceptors::Open ::
+  void Tester::Interceptors::Open ::
     enable()
   {
     Os::registerOpenInterceptor(registerFunction, this);
   }
 
-  void CmdSequencerTester::Interceptors::Open ::
+  void Tester::Interceptors::Open ::
     disable()
   {
     Os::clearOpenInterceptor();
   }
 
-  bool CmdSequencerTester::Interceptors::Open ::
+  bool Tester::Interceptors::Open ::
     intercept(Os::File::Status& fileStatus)
   {
     fileStatus = this->fileStatus;
     return fileStatus == Os::File::OP_OK;
   }
 
-  bool CmdSequencerTester::Interceptors::Open ::
+  bool Tester::Interceptors::Open ::
     registerFunction(
         Os::File::Status& fileStatus,
         const char* fileName,
@@ -54,7 +54,7 @@ namespace Svc {
     return open->intercept(fileStatus);
   }
 
-  CmdSequencerTester::Interceptors::Read ::
+  Tester::Interceptors::Read ::
     Read() :
       errorType(ErrorType::NONE),
       waitCount(0),
@@ -64,19 +64,19 @@ namespace Svc {
 
   }
 
-  void CmdSequencerTester::Interceptors::Read ::
+  void Tester::Interceptors::Read ::
     enable()
   {
     Os::registerReadInterceptor(registerFunction, this);
   }
 
-  void CmdSequencerTester::Interceptors::Read ::
+  void Tester::Interceptors::Read ::
     disable()
   {
     Os::clearReadInterceptor();
   }
 
-  bool CmdSequencerTester::Interceptors::Read ::
+  bool Tester::Interceptors::Read ::
     intercept(
         Os::File::Status& fileStatus,
         void *buffer,
@@ -116,7 +116,7 @@ namespace Svc {
     return status;
   }
 
-  bool CmdSequencerTester::Interceptors::Read ::
+  bool Tester::Interceptors::Read ::
     registerFunction(
         Os::File::Status& fileStatus,
         void * buffer,

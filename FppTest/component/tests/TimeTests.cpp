@@ -12,7 +12,7 @@
 
 #include "Fw/Time/Time.hpp"
 #include "STest/Pick/Pick.hpp"
-#include "Tester.hpp"
+#include "test/ut/Tester.hpp"
 
 // ----------------------------------------------------------------------
 // Time test

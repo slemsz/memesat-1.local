@@ -13,14 +13,14 @@
 #ifndef Svc_Logging_HPP
 #define Svc_Logging_HPP
 
-#include "BufferLoggerTester.hpp"
+#include "Tester.hpp"
 
 namespace Svc {
 
   namespace Logging {
 
-    class BufferLoggerTester :
-      public Svc::BufferLoggerTester
+    class Tester :
+      public Svc::Tester
     {
 
       public:

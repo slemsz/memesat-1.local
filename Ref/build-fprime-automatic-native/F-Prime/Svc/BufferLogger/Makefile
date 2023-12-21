@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/BufferLogger//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/BufferLogger//CMakeFiles/progress.marks
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/clean
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/preinstall
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule
 .PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule
 
 # Convenience name for target.
@@ -172,15 +172,29 @@ Svc_BufferLogger: F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule
 
 # fast build rule for target.
 Svc_BufferLogger/fast:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build
 .PHONY : Svc_BufferLogger/fast
+
+# Convenience name for target.
+F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/rule:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/rule
+.PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/rule
+
+# Convenience name for target.
+Svc_BufferLogger_impl: F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/rule
+.PHONY : Svc_BufferLogger_impl
+
+# fast build rule for target.
+Svc_BufferLogger_impl/fast:
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/build
+.PHONY : Svc_BufferLogger_impl/fast
 
 BufferLogger.o: BufferLogger.cpp.o
 .PHONY : BufferLogger.o
 
 # target to build an object file
 BufferLogger.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger.cpp.o
 .PHONY : BufferLogger.cpp.o
 
 BufferLogger.i: BufferLogger.cpp.i
@@ -188,7 +202,7 @@ BufferLogger.i: BufferLogger.cpp.i
 
 # target to preprocess a source file
 BufferLogger.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger.cpp.i
 .PHONY : BufferLogger.cpp.i
 
 BufferLogger.s: BufferLogger.cpp.s
@@ -196,7 +210,7 @@ BufferLogger.s: BufferLogger.cpp.s
 
 # target to generate assembly for a file
 BufferLogger.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger.cpp.s
 .PHONY : BufferLogger.cpp.s
 
 BufferLoggerComponentAc.o: BufferLoggerComponentAc.cpp.o
@@ -204,7 +218,7 @@ BufferLoggerComponentAc.o: BufferLoggerComponentAc.cpp.o
 
 # target to build an object file
 BufferLoggerComponentAc.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerComponentAc.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerComponentAc.cpp.o
 .PHONY : BufferLoggerComponentAc.cpp.o
 
 BufferLoggerComponentAc.i: BufferLoggerComponentAc.cpp.i
@@ -212,7 +226,7 @@ BufferLoggerComponentAc.i: BufferLoggerComponentAc.cpp.i
 
 # target to preprocess a source file
 BufferLoggerComponentAc.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerComponentAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerComponentAc.cpp.i
 .PHONY : BufferLoggerComponentAc.cpp.i
 
 BufferLoggerComponentAc.s: BufferLoggerComponentAc.cpp.s
@@ -220,7 +234,7 @@ BufferLoggerComponentAc.s: BufferLoggerComponentAc.cpp.s
 
 # target to generate assembly for a file
 BufferLoggerComponentAc.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerComponentAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerComponentAc.cpp.s
 .PHONY : BufferLoggerComponentAc.cpp.s
 
 BufferLoggerFile.o: BufferLoggerFile.cpp.o
@@ -228,7 +242,7 @@ BufferLoggerFile.o: BufferLoggerFile.cpp.o
 
 # target to build an object file
 BufferLoggerFile.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerFile.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerFile.cpp.o
 .PHONY : BufferLoggerFile.cpp.o
 
 BufferLoggerFile.i: BufferLoggerFile.cpp.i
@@ -236,7 +250,7 @@ BufferLoggerFile.i: BufferLoggerFile.cpp.i
 
 # target to preprocess a source file
 BufferLoggerFile.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerFile.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerFile.cpp.i
 .PHONY : BufferLoggerFile.cpp.i
 
 BufferLoggerFile.s: BufferLoggerFile.cpp.s
@@ -244,7 +258,7 @@ BufferLoggerFile.s: BufferLoggerFile.cpp.s
 
 # target to generate assembly for a file
 BufferLoggerFile.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerFile.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLoggerFile.cpp.s
 .PHONY : BufferLoggerFile.cpp.s
 
 BufferLogger_LogStateEnumAc.o: BufferLogger_LogStateEnumAc.cpp.o
@@ -252,7 +266,7 @@ BufferLogger_LogStateEnumAc.o: BufferLogger_LogStateEnumAc.cpp.o
 
 # target to build an object file
 BufferLogger_LogStateEnumAc.cpp.o:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger_LogStateEnumAc.cpp.o
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger_LogStateEnumAc.cpp.o
 .PHONY : BufferLogger_LogStateEnumAc.cpp.o
 
 BufferLogger_LogStateEnumAc.i: BufferLogger_LogStateEnumAc.cpp.i
@@ -260,7 +274,7 @@ BufferLogger_LogStateEnumAc.i: BufferLogger_LogStateEnumAc.cpp.i
 
 # target to preprocess a source file
 BufferLogger_LogStateEnumAc.cpp.i:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger_LogStateEnumAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger_LogStateEnumAc.cpp.i
 .PHONY : BufferLogger_LogStateEnumAc.cpp.i
 
 BufferLogger_LogStateEnumAc.s: BufferLogger_LogStateEnumAc.cpp.s
@@ -268,7 +282,7 @@ BufferLogger_LogStateEnumAc.s: BufferLogger_LogStateEnumAc.cpp.s
 
 # target to generate assembly for a file
 BufferLogger_LogStateEnumAc.cpp.s:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger_LogStateEnumAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/BufferLogger_LogStateEnumAc.cpp.s
 .PHONY : BufferLogger_LogStateEnumAc.cpp.s
 
 # Help Target
@@ -283,6 +297,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... Svc_BufferLogger_impl"
 	@echo "... Svc_BufferLogger"
 	@echo "... BufferLogger.o"
 	@echo "... BufferLogger.i"
@@ -307,6 +322,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

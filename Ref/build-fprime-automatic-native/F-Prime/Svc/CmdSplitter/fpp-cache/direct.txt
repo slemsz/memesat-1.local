@@ -1,3 +1,2 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Com/Com.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/config/AcConstants.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp

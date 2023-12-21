@@ -1,3 +1,0 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdSequencer/Commands.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdSequencer/Events.fppi
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdSequencer/Telemetry.fppi

@@ -21,9 +21,9 @@ namespace Svc {
     // Constructors
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester(const SequenceFiles::File::Format::t format) :
-        MixedRelativeBase::CmdSequencerTester(format)
+    Tester ::
+      Tester(const SequenceFiles::File::Format::t format) :
+        MixedRelativeBase::Tester(format)
     {
 
     }
@@ -32,7 +32,7 @@ namespace Svc {
     // Tests
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       AutoByCommand()
     {
       const U32 numRecords = 3;
@@ -42,7 +42,7 @@ namespace Svc {
       this->parameterizedAutoByCommand(file, numCommands, bound);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       Validate()
     {
       const U32 numRecords = 5;
@@ -54,7 +54,7 @@ namespace Svc {
     // Private helper methods
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommandsAuto(
           const char *const fileName,
           const U32 numCommands,

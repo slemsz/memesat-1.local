@@ -1,5 +1,0 @@
-RateGroupDriverGTestBase.cpp
-RateGroupDriverGTestBase.hpp
-RateGroupDriverTesterBase.cpp
-RateGroupDriverTesterBase.hpp
-RateGroupDriverTesterHelpers.cpp

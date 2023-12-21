@@ -23,9 +23,9 @@ namespace Svc {
       INT_IF_LOQQUEUE,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
+      BYTE LogRecvPortSize[Fw::InputLogPort::SERIALIZED_SIZE];
       BYTE pingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
       BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
       // Size of loqQueue argument list
@@ -385,7 +385,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void ActiveLoggerComponentBase ::
@@ -684,7 +684,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_CmdDisp_InputPorts() const
+    getNum_CmdDisp_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdDisp_InputPort));
   }
@@ -694,13 +694,13 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_LogRecv_InputPorts() const
+    getNum_LogRecv_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogRecv_InputPort));
   }
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_pingIn_InputPorts() const
+    getNum_pingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingIn_InputPort));
   }
@@ -710,19 +710,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_CmdReg_OutputPorts() const
+    getNum_CmdReg_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdReg_OutputPort));
   }
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_CmdStatus_OutputPorts() const
+    getNum_CmdStatus_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdStatus_OutputPort));
   }
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_Log_OutputPorts() const
+    getNum_Log_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Log_OutputPort));
   }
@@ -730,7 +730,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -738,7 +738,7 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }
@@ -748,19 +748,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_FatalAnnounce_OutputPorts() const
+    getNum_FatalAnnounce_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_FatalAnnounce_OutputPort));
   }
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_PktSend_OutputPorts() const
+    getNum_PktSend_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PktSend_OutputPort));
   }
 
   NATIVE_INT_TYPE ActiveLoggerComponentBase ::
-    getNum_pingOut_OutputPorts() const
+    getNum_pingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingOut_OutputPort));
   }

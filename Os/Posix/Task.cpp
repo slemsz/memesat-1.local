@@ -182,6 +182,7 @@ namespace Os {
         }
         (void)pthread_attr_destroy(&att);
         if (stat != 0) {
+            (void)pthread_join(*tid, nullptr);
             delete tid;
             tid = nullptr;
             Fw::Logger::logMsg("pthread_create: %s. %s\n", reinterpret_cast<POINTER_CAST>(message), reinterpret_cast<POINTER_CAST>(strerror(stat)));

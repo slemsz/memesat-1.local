@@ -16,7 +16,7 @@ namespace Svc {
 
 namespace Health {
 
-void BufferAccumulatorTester ::Ping() {
+void Tester ::Ping() {
   U32 key = 42;
 
   this->invoke_to_pingIn(0, key);

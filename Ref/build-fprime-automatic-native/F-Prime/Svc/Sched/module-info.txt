@@ -1,5 +1,0 @@
-
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Sched/SchedPortAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Sched/SchedPortAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Sched/SchedPortAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp
-Fw/Port

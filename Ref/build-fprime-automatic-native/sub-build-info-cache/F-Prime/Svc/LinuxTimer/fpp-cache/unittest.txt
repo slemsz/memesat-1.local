@@ -1,5 +1,0 @@
-LinuxTimerGTestBase.cpp
-LinuxTimerGTestBase.hpp
-LinuxTimerTesterBase.cpp
-LinuxTimerTesterBase.hpp
-LinuxTimerTesterHelpers.cpp

@@ -98,12 +98,12 @@ namespace Svc {
       //! Get the number of bufferAllocate input ports
       //!
       //! \return The number of bufferAllocate input ports
-      NATIVE_INT_TYPE getNum_bufferAllocate_InputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferAllocate_InputPorts();
 
       //! Get the number of bufferDeallocate input ports
       //!
       //! \return The number of bufferDeallocate input ports
-      NATIVE_INT_TYPE getNum_bufferDeallocate_InputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferDeallocate_InputPorts();
 
     PROTECTED:
 

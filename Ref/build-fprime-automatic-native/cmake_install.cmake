@@ -1,8 +1,8 @@
-# Install script for directory: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+# Install script for directory: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-artifacts")
+  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-artifacts")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Linux/Ref/bin/Ref"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/bin" TYPE EXECUTABLE FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/bin/Linux/Ref")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/bin" TYPE EXECUTABLE FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/bin/Linux/Ref")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Linux/Ref/bin/Ref" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Linux/Ref/bin/Ref")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -59,273 +59,273 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libconfig.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libconfig.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Cfg.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Cfg.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Types.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Types.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Logger.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Logger.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Obj.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Obj.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Port.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Port.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Time.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Time.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Comp.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Comp.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_PosixTime.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Time.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Com.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_LinuxTime.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Tlm.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Com.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Log.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Tlm.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Cmd.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Log.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Prm.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Cmd.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Buffer.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Prm.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_ByteStreamDriverModel.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Buffer.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libUtils_Hash.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libUtils_Hash.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libOs.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libOs.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_Ip.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_ByteStreamDriverModel.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_Udp.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_Ip.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_TcpClient.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_Udp.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_TcpServer.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_TcpClient.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_DataTypes.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_DataTypes.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Cycle.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Cycle.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Ping.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Ping.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Sched.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Sched.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_CompQueued.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_CompQueued.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_BlockDriver.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libDrv_BlockDriver.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_PingReceiver.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_PingReceiver.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_RecvBuffApp.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_RecvBuffApp.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_SendBuffApp.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_SendBuffApp.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_SignalGen.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_SignalGen.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_TypeDemo.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_TypeDemo.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Fatal.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Fatal.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_ActiveLogger.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_ActiveLogger.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_ActiveRateGroup.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_ActiveRateGroup.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_AssertFatalAdapter.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_AssertFatalAdapter.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_BufferManager.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_BufferManager.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_CmdDispatcher.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_CmdDispatcher.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Seq.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Seq.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_CmdSequencer.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_CmdSequencer.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libUtils_Types.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libUtils_Types.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FramingProtocol.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FramingProtocol.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Deframer.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Deframer.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FatalHandler.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FatalHandler.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libCFDP_Checksum.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libCFDP_Checksum.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_FilePacket.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_FilePacket.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileDownlinkPorts.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileDownlinkPorts.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileDownlink.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileDownlink.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileManager.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileManager.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileUplink.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_FileUplink.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Ports_SuccessCondition.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libFw_Ports_SuccessCondition.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Framer.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Framer.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_WatchDog.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_WatchDog.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Health.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_Health.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_PassiveConsoleTextLogger.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_PassiveConsoleTextLogger.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_PrmDb.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_PrmDb.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_RateGroupDriver.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_RateGroupDriver.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_StaticMemory.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_StaticMemory.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_SystemResources.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_SystemResources.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_TlmChan.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libSvc_TlmChan.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_Top.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Linux/libRef_Top.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/dict" TYPE FILE FILES "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppDictionary.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Linux/Ref/dict" TYPE FILE FILES "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppDictionary.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Autocoders/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Os/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/RecvBuffApp/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/cmake_install.cmake")
-  include("/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Autocoders/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Os/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/CFDP/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/RecvBuffApp/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/cmake_install.cmake")
+  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/cmake_install.cmake")
 
 endif()
 
@@ -337,5 +337,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

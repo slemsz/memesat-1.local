@@ -33,7 +33,6 @@
 #include "Ref/TypeDemo/ChoiceSlurrySerializableAc.hpp"
 #include "Ref/TypeDemo/FloatSetArrayAc.hpp"
 #include "Ref/TypeDemo/ManyChoicesArrayAc.hpp"
-#include "Ref/TypeDemo/ScalarStructSerializableAc.hpp"
 #include "Ref/TypeDemo/TooManyChoicesArrayAc.hpp"
 
 namespace Ref {
@@ -99,7 +98,6 @@ namespace Ref {
         OPCODE_GLUTTON_OF_CHOICE_PRM_SAVE = 0x12, //!< Opcode to save parameter GLUTTON_OF_CHOICE_PRM
         OPCODE_DUMP_TYPED_PARAMETERS = 0x13, //!< Dump the typed parameters
         OPCODE_DUMP_FLOATS = 0x14, //!< Dump the float values
-        OPCODE_SEND_SCALARS = 0x15, //!< Send scalars
       };
 
       //! Event IDs
@@ -115,7 +113,6 @@ namespace Ref {
         EVENTID_CHOICEPAIRPRMEV = 0x8, //!< Multiple choice parameter event via Structure
         EVENTID_CHOICESLURRYPRMEV = 0x9, //!< Multiple choice parameter event via Complex Structure
         EVENTID_FLOATEV = 0xa, //!< A set of floats in an event
-        EVENTID_SCALARSTRUCTEV = 0xb, //!< Event for scalar struct
       };
 
       //! Channel IDs
@@ -167,7 +164,7 @@ namespace Ref {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to cmdRegOut[portNum]
@@ -323,7 +320,7 @@ namespace Ref {
       //! Get the number of cmdIn input ports
       //!
       //! \return The number of cmdIn input ports
-      NATIVE_INT_TYPE getNum_cmdIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdIn_InputPorts();
 
     PROTECTED:
 
@@ -334,46 +331,46 @@ namespace Ref {
       //! Get the number of cmdRegOut output ports
       //!
       //! \return The number of cmdRegOut output ports
-      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdRegOut_OutputPorts();
 
       //! Get the number of cmdResponseOut output ports
       //!
       //! \return The number of cmdResponseOut output ports
-      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_cmdResponseOut_OutputPorts();
 
       //! Get the number of logOut output ports
       //!
       //! \return The number of logOut output ports
-      NATIVE_INT_TYPE getNum_logOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_logOut_OutputPorts();
 
 #if FW_ENABLE_TEXT_LOGGING == 1
 
       //! Get the number of logTextOut output ports
       //!
       //! \return The number of logTextOut output ports
-      NATIVE_INT_TYPE getNum_logTextOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_logTextOut_OutputPorts();
 
 #endif
 
       //! Get the number of prmGetOut output ports
       //!
       //! \return The number of prmGetOut output ports
-      NATIVE_INT_TYPE getNum_prmGetOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_prmGetOut_OutputPorts();
 
       //! Get the number of prmSetOut output ports
       //!
       //! \return The number of prmSetOut output ports
-      NATIVE_INT_TYPE getNum_prmSetOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_prmSetOut_OutputPorts();
 
       //! Get the number of timeCaller output ports
       //!
       //! \return The number of timeCaller output ports
-      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_timeCaller_OutputPorts();
 
       //! Get the number of tlmOut output ports
       //!
       //! \return The number of tlmOut output ports
-      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_tlmOut_OutputPorts();
 
     PROTECTED:
 
@@ -565,15 +562,6 @@ namespace Ref {
           U32 cmdSeq //!< The command sequence number
       ) = 0;
 
-      //! Handler for command SEND_SCALARS
-      //!
-      //! Send scalars
-      virtual void SEND_SCALARS_cmdHandler(
-          FwOpcodeType opCode, //!< The opcode
-          U32 cmdSeq, //!< The command sequence number
-          Ref::ScalarStruct scalar_input
-      ) = 0;
-
     PROTECTED:
 
       // ----------------------------------------------------------------------
@@ -681,15 +669,6 @@ namespace Ref {
           Fw::CmdArgBuffer& args //!< The command argument buffer
       );
 
-      //! Base-class handler function for command SEND_SCALARS
-      //!
-      //! Send scalars
-      void SEND_SCALARS_cmdHandlerBase(
-          FwOpcodeType opCode, //!< The opcode
-          U32 cmdSeq, //!< The command sequence number
-          Fw::CmdArgBuffer& args //!< The command argument buffer
-      );
-
     PROTECTED:
 
       // ----------------------------------------------------------------------
@@ -770,11 +749,6 @@ namespace Ref {
           F32 float3,
           Ref::FloatSet floats
       );
-
-      //! Log event ScalarStructEv
-      //!
-      //! Event for scalar struct
-      void log_ACTIVITY_HI_ScalarStructEv(Ref::ScalarStruct scalar_argument);
 
     PROTECTED:
 

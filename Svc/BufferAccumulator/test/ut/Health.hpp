@@ -13,13 +13,13 @@
 #ifndef Svc_Health_HPP
 #define Svc_Health_HPP
 
-#include "BufferAccumulatorTester.hpp"
+#include "Tester.hpp"
 
 namespace Svc {
 
 namespace Health {
 
-class BufferAccumulatorTester : public Svc::BufferAccumulatorTester {
+class Tester : public Svc::Tester {
  public:
   // ----------------------------------------------------------------------
   // Tests

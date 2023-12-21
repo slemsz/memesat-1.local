@@ -1,3 +1,0 @@
-AssertFatalAdapterComponentAc.cpp
-AssertFatalAdapterComponentAc.hpp
-AssertFatalAdapterComponentAi.xml

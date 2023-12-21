@@ -21,9 +21,9 @@ namespace Svc {
     // Constructors
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester(const SequenceFiles::File::Format::t format) :
-        MixedRelativeBase::CmdSequencerTester(format)
+    Tester ::
+      Tester(const SequenceFiles::File::Format::t format) :
+        MixedRelativeBase::Tester(format)
     {
 
     }
@@ -32,7 +32,7 @@ namespace Svc {
     // Tests
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       AutoByCommand()
     {
       SequenceFiles::MixedFile file(this->format);
@@ -41,7 +41,7 @@ namespace Svc {
       this->parameterizedAutoByCommand(file, numCommands, bound);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       Validate()
     {
       SequenceFiles::MixedFile file(this->format);
@@ -52,7 +52,7 @@ namespace Svc {
     // Private helper methods
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommandsAuto(
           const char *const fileName,
           const U32 numCommands,
@@ -69,7 +69,7 @@ namespace Svc {
       this->executeCommand4(fileName);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommand1(const char* const fileName)
     {
       // Set the time to past absolute command
@@ -104,7 +104,7 @@ namespace Svc {
       );
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommand2(const char* const fileName)
     {
       // Check command buffer
@@ -128,7 +128,7 @@ namespace Svc {
       );
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommand3(const char* const fileName)
     {
       // Set the time to past relative timer
@@ -163,7 +163,7 @@ namespace Svc {
       );
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       executeCommand4(const char* const fileName)
     {
       // Assert that timer is clear - immediate command

@@ -1,7 +1,7 @@
-#include "event_throttleTester.hpp"
+#include "Tester.hpp"
 
 TEST(EventThrottleTest,ThrottleTest) {
-    Somewhere::event_throttleTester tester;
+    Somewhere::Tester tester;
     tester.doEventThrottleTest();
 }
 

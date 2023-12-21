@@ -261,7 +261,7 @@ set(SOURCE_FILES
 )
 
 set(MOD_DEPS
-  Svc/PosixTime
+  Svc/LinuxTime
   Svc/PassiveConsoleTextLogger
 )
 

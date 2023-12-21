@@ -25,10 +25,10 @@ namespace Svc {
       CMD_SENDPARTIAL,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE RunPortSize[Svc::InputSchedPort::SERIALIZED_SIZE];
+      BYTE SendFilePortSize[Svc::InputSendFileRequestPort::SERIALIZED_SIZE];
       BYTE bufferReturnPortSize[Fw::InputBufferSendPort::SERIALIZED_SIZE];
       BYTE pingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
       BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
@@ -477,7 +477,7 @@ namespace Svc {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void FileDownlinkComponentBase ::
@@ -804,7 +804,7 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_cmdIn_InputPorts() const
+    getNum_cmdIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdIn_InputPort));
   }
@@ -814,25 +814,25 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_Run_InputPorts() const
+    getNum_Run_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Run_InputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_SendFile_InputPorts() const
+    getNum_SendFile_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_SendFile_InputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_bufferReturn_InputPorts() const
+    getNum_bufferReturn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_bufferReturn_InputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_pingIn_InputPorts() const
+    getNum_pingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingIn_InputPort));
   }
@@ -842,19 +842,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_cmdRegOut_OutputPorts() const
+    getNum_cmdRegOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdRegOut_OutputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_cmdResponseOut_OutputPorts() const
+    getNum_cmdResponseOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdResponseOut_OutputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_eventOut_OutputPorts() const
+    getNum_eventOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_eventOut_OutputPort));
   }
@@ -862,7 +862,7 @@ namespace Svc {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_textEventOut_OutputPorts() const
+    getNum_textEventOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_textEventOut_OutputPort));
   }
@@ -870,13 +870,13 @@ namespace Svc {
 #endif
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_timeCaller_OutputPorts() const
+    getNum_timeCaller_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_timeCaller_OutputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_tlmOut_OutputPorts() const
+    getNum_tlmOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_tlmOut_OutputPort));
   }
@@ -886,19 +886,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_FileComplete_OutputPorts() const
+    getNum_FileComplete_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_FileComplete_OutputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_bufferSendOut_OutputPorts() const
+    getNum_bufferSendOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_bufferSendOut_OutputPort));
   }
 
   NATIVE_INT_TYPE FileDownlinkComponentBase ::
-    getNum_pingOut_OutputPorts() const
+    getNum_pingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_pingOut_OutputPort));
   }
@@ -1076,8 +1076,8 @@ namespace Svc {
   Svc::SendFileResponse FileDownlinkComponentBase ::
     SendFile_handlerBase(
         NATIVE_INT_TYPE portNum,
-        const Svc::SendFileRequestPortStrings::StringSize100& sourceFileName,
-        const Svc::SendFileRequestPortStrings::StringSize100& destFileName,
+        const SendFileRequestPortStrings::StringSize100& sourceFileName,
+        const SendFileRequestPortStrings::StringSize100& destFileName,
         U32 offset,
         U32 length
     )
@@ -3003,8 +3003,8 @@ namespace Svc {
     m_p_SendFile_in(
         Fw::PassiveComponentBase* callComp,
         NATIVE_INT_TYPE portNum,
-        const Svc::SendFileRequestPortStrings::StringSize100& sourceFileName,
-        const Svc::SendFileRequestPortStrings::StringSize100& destFileName,
+        const SendFileRequestPortStrings::StringSize100& sourceFileName,
+        const SendFileRequestPortStrings::StringSize100& destFileName,
         U32 offset,
         U32 length
     )

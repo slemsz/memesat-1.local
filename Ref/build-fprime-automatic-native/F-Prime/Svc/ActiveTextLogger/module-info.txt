@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerImpl.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/LogFile.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp
-

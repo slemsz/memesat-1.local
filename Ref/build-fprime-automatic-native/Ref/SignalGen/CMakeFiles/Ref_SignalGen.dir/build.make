@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend.make
@@ -69,10 +69,10 @@ include Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/progress.make
 # Include the compile flags for this target's objects.
 include Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
 
-Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp
-Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
-Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
-Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
+Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp
+Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
+Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
+Ref/SignalGen/SignalGenComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
 Ref/SignalGen/SignalGenComponentAi.xml: lib/Linux/libFw_Cmd.a
 Ref/SignalGen/SignalGenComponentAi.xml: lib/Linux/libFw_Log.a
 Ref/SignalGen/SignalGenComponentAi.xml: lib/Linux/libFw_Time.a
@@ -80,8 +80,8 @@ Ref/SignalGen/SignalGenComponentAi.xml: lib/Linux/libFw_Tlm.a
 Ref/SignalGen/SignalGenComponentAi.xml: lib/Linux/libSvc_Sched.a
 Ref/SignalGen/SignalGenComponentAi.xml: lib/Linux/libFw_CompQueued.a
 Ref/SignalGen/SignalGenComponentAi.xml: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating SignalGenComponentAi.xml, SignalInfoSerializableAi.xml, SignalPairSerializableAi.xml, SignalPairSetArrayAi.xml, SignalSetArrayAi.xml, SignalTypeEnumAi.xml"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating SignalGenComponentAi.xml, SignalInfoSerializableAi.xml, SignalPairSerializableAi.xml, SignalPairSetArrayAi.xml, SignalSetArrayAi.xml, SignalTypeEnumAi.xml"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
 
 Ref/SignalGen/SignalInfoSerializableAi.xml: Ref/SignalGen/SignalGenComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/SignalGen/SignalInfoSerializableAi.xml
@@ -98,10 +98,10 @@ Ref/SignalGen/SignalSetArrayAi.xml: Ref/SignalGen/SignalGenComponentAi.xml
 Ref/SignalGen/SignalTypeEnumAi.xml: Ref/SignalGen/SignalGenComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/SignalGen/SignalTypeEnumAi.xml
 
-Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp
-Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
-Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
-Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
+Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp
+Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
+Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
+Ref/SignalGen/SignalGenComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
 Ref/SignalGen/SignalGenComponentAc.cpp: lib/Linux/libFw_Cmd.a
 Ref/SignalGen/SignalGenComponentAc.cpp: lib/Linux/libFw_Log.a
 Ref/SignalGen/SignalGenComponentAc.cpp: lib/Linux/libFw_Time.a
@@ -109,8 +109,8 @@ Ref/SignalGen/SignalGenComponentAc.cpp: lib/Linux/libFw_Tlm.a
 Ref/SignalGen/SignalGenComponentAc.cpp: lib/Linux/libSvc_Sched.a
 Ref/SignalGen/SignalGenComponentAc.cpp: lib/Linux/libFw_CompQueued.a
 Ref/SignalGen/SignalGenComponentAc.cpp: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating SignalGenComponentAc.cpp, SignalGenComponentAc.hpp, SignalInfoSerializableAc.cpp, SignalInfoSerializableAc.hpp, SignalPairSerializableAc.cpp, SignalPairSerializableAc.hpp, SignalPairSetArrayAc.cpp, SignalPairSetArrayAc.hpp, SignalSetArrayAc.cpp, SignalSetArrayAc.hpp, SignalTypeEnumAc.cpp, SignalTypeEnumAc.hpp"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /home/krokko/Desktop/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen -i /home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp -p /home/krokko/Desktop/MEMEdir/memesat-1.local,/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating SignalGenComponentAc.cpp, SignalGenComponentAc.hpp, SignalInfoSerializableAc.cpp, SignalInfoSerializableAc.hpp, SignalPairSerializableAc.cpp, SignalPairSerializableAc.hpp, SignalPairSetArrayAc.cpp, SignalPairSetArrayAc.hpp, SignalSetArrayAc.cpp, SignalSetArrayAc.hpp, SignalTypeEnumAc.cpp, SignalTypeEnumAc.hpp"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
 
 Ref/SignalGen/SignalGenComponentAc.hpp: Ref/SignalGen/SignalGenComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/SignalGen/SignalGenComponentAc.hpp
@@ -146,102 +146,102 @@ Ref/SignalGen/SignalTypeEnumAc.hpp: Ref/SignalGen/SignalGenComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/SignalGen/SignalTypeEnumAc.hpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
-Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o: /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp
+Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xddcb3389 -DASSERT_RELATIVE_PATH='"Ref/SignalGen/SignalGen.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xddcb3389 -DASSERT_RELATIVE_PATH='"Ref/SignalGen/SignalGen.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xddcb3389 -DASSERT_RELATIVE_PATH='"Ref/SignalGen/SignalGen.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp > CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xddcb3389 -DASSERT_RELATIVE_PATH='"Ref/SignalGen/SignalGen.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp > CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.i
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xddcb3389 -DASSERT_RELATIVE_PATH='"Ref/SignalGen/SignalGen.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xddcb3389 -DASSERT_RELATIVE_PATH='"Ref/SignalGen/SignalGen.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalGen.cpp.s
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o: Ref/SignalGen/SignalGenComponentAc.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe5d46fcb -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe5d46fcb -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe5d46fcb -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe5d46fcb -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.i
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe5d46fcb -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe5d46fcb -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalGenComponentAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalGenComponentAc.cpp.s
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o: Ref/SignalGen/SignalInfoSerializableAc.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb3ea6b99 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb3ea6b99 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb3ea6b99 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb3ea6b99 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.i
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb3ea6b99 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb3ea6b99 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalInfoSerializableAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalInfoSerializableAc.cpp.s
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o: Ref/SignalGen/SignalPairSerializableAc.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xf3211556 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xf3211556 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xf3211556 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xf3211556 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.i
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xf3211556 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xf3211556 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSerializableAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalPairSerializableAc.cpp.s
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o: Ref/SignalGen/SignalPairSetArrayAc.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbd148998 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbd148998 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbd148998 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbd148998 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.i
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbd148998 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbd148998 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalPairSetArrayAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalPairSetArrayAc.cpp.s
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o: Ref/SignalGen/SignalSetArrayAc.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x20dff169 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x20dff169 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x20dff169 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x20dff169 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.i
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x20dff169 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x20dff169 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalSetArrayAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalSetArrayAc.cpp.s
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/flags.make
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o: Ref/SignalGen/SignalTypeEnumAc.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb1bce992 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o -c /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb1bce992 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp"' -MD -MT Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o -MF CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o.d -o CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.i"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb1bce992 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp"' -E /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.i
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb1bce992 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp > CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.i
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.s"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb1bce992 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp"' -S /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.s
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xb1bce992 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.cpp -o CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.s
 
 # Object files for target Ref_SignalGen
 Ref_SignalGen_OBJECTS = \
@@ -265,16 +265,16 @@ lib/Linux/libRef_SignalGen.a: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalS
 lib/Linux/libRef_SignalGen.a: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/SignalTypeEnumAc.cpp.o
 lib/Linux/libRef_SignalGen.a: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build.make
 lib/Linux/libRef_SignalGen.a: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../../lib/Linux/libRef_SignalGen.a"
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && $(CMAKE_COMMAND) -P CMakeFiles/Ref_SignalGen.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ref_SignalGen.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library ../../lib/Linux/libRef_SignalGen.a"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && $(CMAKE_COMMAND) -P CMakeFiles/Ref_SignalGen.dir/cmake_clean_target.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ref_SignalGen.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build: lib/Linux/libRef_SignalGen.a
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/clean:
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && $(CMAKE_COMMAND) -P CMakeFiles/Ref_SignalGen.dir/cmake_clean.cmake
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen && $(CMAKE_COMMAND) -P CMakeFiles/Ref_SignalGen.dir/cmake_clean.cmake
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/clean
 
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend: Ref/SignalGen/SignalGenComponentAc.cpp
@@ -295,6 +295,6 @@ Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend: Ref/SignalGen/SignalSetArrayA
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend: Ref/SignalGen/SignalTypeEnumAc.cpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend: Ref/SignalGen/SignalTypeEnumAc.hpp
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend: Ref/SignalGen/SignalTypeEnumAi.xml
-	cd /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/SignalGen /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen /home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend
 

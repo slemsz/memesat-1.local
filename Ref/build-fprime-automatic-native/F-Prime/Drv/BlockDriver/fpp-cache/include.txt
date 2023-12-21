@@ -1,1 +1,1 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/BlockDriver/Tlm.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/BlockDriver/Tlm.fppi

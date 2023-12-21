@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/IpSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/SocketReadTask.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/TcpClientSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/TcpServerSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/Ip/UdpSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/Ip/IpSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/Ip/SocketReadTask.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/Ip/TcpClientSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/Ip/TcpServerSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/Ip/UdpSocket.cpp" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.o" "gcc" "F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

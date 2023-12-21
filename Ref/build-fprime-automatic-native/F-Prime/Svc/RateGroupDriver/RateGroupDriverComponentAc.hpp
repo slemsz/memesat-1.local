@@ -121,7 +121,7 @@ namespace Svc {
       //! Get the number of CycleIn input ports
       //!
       //! \return The number of CycleIn input ports
-      NATIVE_INT_TYPE getNum_CycleIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_CycleIn_InputPorts();
 
     PROTECTED:
 
@@ -132,7 +132,7 @@ namespace Svc {
       //! Get the number of CycleOut output ports
       //!
       //! \return The number of CycleOut output ports
-      NATIVE_INT_TYPE getNum_CycleOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_CycleOut_OutputPorts();
 
     PROTECTED:
 

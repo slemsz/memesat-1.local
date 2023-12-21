@@ -194,9 +194,7 @@ unsigned short update_crc_16( unsigned short crc, char c ) {
     if ( ! crc_tab16_init ) init_crc16_tab();
 
     tmp =  crc       ^ short_c;
-    // Note: when masking by 0xff, range is limited to unsigned char
-    //       which fits within unsigned int.
-    crc = (crc >> 8) ^ crc_tab16[ (unsigned int)(tmp & 0xff) ];
+    crc = (crc >> 8) ^ crc_tab16[ tmp & 0xff ];
 
     return crc;
 

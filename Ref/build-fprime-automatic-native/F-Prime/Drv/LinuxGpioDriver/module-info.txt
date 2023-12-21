@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxGpioDriver/LinuxGpioDriverComponentImplCommon.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxGpioDriver/LinuxGpioDriverComponentImpl.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxGpioDriver/LinuxGpioDriverComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxGpioDriver/LinuxGpioDriverComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxGpioDriver/LinuxGpioDriverComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxGpioDriver/LinuxGpioDriver.fpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Drv/LinuxGpioDriver/Events.fppi
-

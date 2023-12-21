@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/DeframingProtocol.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FramingProtocol.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/FramingProtocol/FprimeProtocol.cpp
-
-
-Fw/Buffer;Fw/Time;Utils/Hash;Utils/Types

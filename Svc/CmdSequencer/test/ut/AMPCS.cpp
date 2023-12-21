@@ -20,9 +20,9 @@ namespace Svc {
     // Constructors
     // ----------------------------------------------------------------------
 
-    CmdSequencerTester ::
-      CmdSequencerTester() :
-        Svc::CmdSequencerTester(SequenceFiles::File::Format::AMPCS)
+    Tester ::
+      Tester() :
+        Svc::Tester(SequenceFiles::File::Format::AMPCS)
     {
 
     }
@@ -31,7 +31,7 @@ namespace Svc {
     // Tests
     // ----------------------------------------------------------------------
 
-    void CmdSequencerTester ::
+    void Tester ::
       MissingCRC()
     {
       // Write the file
@@ -61,7 +61,7 @@ namespace Svc {
       ASSERT_TLM_CS_Errors(0, 1);
     }
 
-    void CmdSequencerTester ::
+    void Tester ::
       MissingFile()
     {
       // Remove the file

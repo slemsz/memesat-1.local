@@ -1,5 +1,5 @@
 #include <Fw/Types/StringUtils.hpp>
-#include <LinuxI2cDriverTester.hpp>
+#include <Tester.hpp>
 #include <cstdio>
 #include <cstdlib>
 #include <cstring>
@@ -7,7 +7,7 @@
 
 TEST(TestNominal,Nominal) {
 
-    Drv::LinuxI2cDriverTester tester;
+    Drv::Tester tester;
 
 }
 
@@ -47,7 +47,7 @@ int main(int argc, char* argv[]) {
         printf("Data: %s 0x%02X\n",argv[i],data[optind-i]);
     }
 
-    Drv::LinuxI2cDriverTester tester;
+    Drv::Tester tester;
     tester.open(device);
 
     tester.sendData(addr,data,argc-optind);

@@ -1,4 +1,4 @@
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/config/AcConstants.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp

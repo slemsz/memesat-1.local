@@ -1,5 +1,0 @@
-BufferLoggerGTestBase.cpp
-BufferLoggerGTestBase.hpp
-BufferLoggerTesterBase.cpp
-BufferLoggerTesterBase.hpp
-BufferLoggerTesterHelpers.cpp

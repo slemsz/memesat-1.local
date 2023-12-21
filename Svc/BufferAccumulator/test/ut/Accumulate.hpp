@@ -13,13 +13,13 @@
 #ifndef Svc_Accumulate_HPP
 #define Svc_Accumulate_HPP
 
-#include "BufferAccumulatorTester.hpp"
+#include "Tester.hpp"
 
 namespace Svc {
 
 namespace Accumulate {
 
-class BufferAccumulatorTester : public Svc::BufferAccumulatorTester {
+class Tester : public Svc::Tester {
  public:
   // ----------------------------------------------------------------------
   // Tests

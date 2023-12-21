@@ -1,3 +1,0 @@
-RateGroupDriverComponentAc.cpp
-RateGroupDriverComponentAc.hpp
-RateGroupDriverComponentAi.xml

@@ -1,5 +1,0 @@
-
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdSplitter/CmdSplitter.cpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdSplitter/CmdSplitterComponentAi.xml;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdSplitter/CmdSplitterComponentAc.cpp;/home/krokko/Desktop/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/CmdSplitter/CmdSplitterComponentAc.hpp
-/home/krokko/Desktop/MEMEdir/memesat-1.local/Svc/CmdSplitter/CmdSplitter.fpp
-

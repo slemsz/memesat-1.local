@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Utils/CRCChecker.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Utils/LockGuard.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Utils/RateLimiter.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o.d"
-  "/home/krokko/Desktop/MEMEdir/memesat-1.local/Utils/TokenBucket.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/CRCChecker.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/LockGuard.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/RateLimiter.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o.d"
+  "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/TokenBucket.cpp" "F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o" "gcc" "F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -21,7 +21,7 @@ void test_with_loop(U32 iterations) {
     ASSERT_NE(0, port);
     Drv::TcpServerSocket server;
     server.configure("127.0.0.1", port, 0, 100);
-    EXPECT_EQ(server.startup(), Drv::SOCK_SUCCESS);
+    server.startup();
     Drv::Test::force_recv_timeout(server);
 
     // Loop through a bunch of client disconnects

@@ -14,6 +14,49 @@
 
 namespace Svc {
 
+  namespace {
+    // Get the max size by doing a union of the input and internal port serialization sizes
+    union BuffUnion {
+      BYTE bufferInPortSize[Fw::InputBufferSendPort::SERIALIZED_SIZE];
+      BYTE comInPortSize[Fw::InputComPort::SERIALIZED_SIZE];
+      BYTE comStatusInPortSize[Fw::InputSuccessConditionPort::SERIALIZED_SIZE];
+    };
+
+    // Define a message buffer class large enough to handle all the
+    // asynchronous inputs to the component
+    class ComponentIpcSerializableBuffer :
+      public Fw::SerializeBufferBase
+    {
+
+      public:
+
+        enum {
+          // Max. message size = size of data + message id + port
+          SERIALIZATION_SIZE =
+            sizeof(BuffUnion) +
+            sizeof(NATIVE_INT_TYPE) +
+            sizeof(NATIVE_INT_TYPE)
+        };
+
+        NATIVE_UINT_TYPE getBuffCapacity() const {
+          return sizeof(m_buff);
+        }
+
+        U8* getBuffAddr() {
+          return m_buff;
+        }
+
+        const U8* getBuffAddr() const {
+          return m_buff;
+        }
+
+      private:
+        // Should be the max of all the input ports serialized sizes...
+        U8 m_buff[SERIALIZATION_SIZE];
+
+    };
+  }
+
   // ----------------------------------------------------------------------
   // Component initialization
   // ----------------------------------------------------------------------
@@ -342,19 +385,19 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FramerComponentBase ::
-    getNum_bufferIn_InputPorts() const
+    getNum_bufferIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_bufferIn_InputPort));
   }
 
   NATIVE_INT_TYPE FramerComponentBase ::
-    getNum_comIn_InputPorts() const
+    getNum_comIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_comIn_InputPort));
   }
 
   NATIVE_INT_TYPE FramerComponentBase ::
-    getNum_comStatusIn_InputPorts() const
+    getNum_comStatusIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_comStatusIn_InputPort));
   }
@@ -364,25 +407,25 @@ namespace Svc {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE FramerComponentBase ::
-    getNum_bufferDeallocate_OutputPorts() const
+    getNum_bufferDeallocate_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_bufferDeallocate_OutputPort));
   }
 
   NATIVE_INT_TYPE FramerComponentBase ::
-    getNum_comStatusOut_OutputPorts() const
+    getNum_comStatusOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_comStatusOut_OutputPort));
   }
 
   NATIVE_INT_TYPE FramerComponentBase ::
-    getNum_framedAllocate_OutputPorts() const
+    getNum_framedAllocate_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_framedAllocate_OutputPort));
   }
 
   NATIVE_INT_TYPE FramerComponentBase ::
-    getNum_framedOut_OutputPorts() const
+    getNum_framedOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_framedOut_OutputPort));
   }

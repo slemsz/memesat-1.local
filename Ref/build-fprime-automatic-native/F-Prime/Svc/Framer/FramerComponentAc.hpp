@@ -169,17 +169,17 @@ namespace Svc {
       //! Get the number of bufferIn input ports
       //!
       //! \return The number of bufferIn input ports
-      NATIVE_INT_TYPE getNum_bufferIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferIn_InputPorts();
 
       //! Get the number of comIn input ports
       //!
       //! \return The number of comIn input ports
-      NATIVE_INT_TYPE getNum_comIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_comIn_InputPorts();
 
       //! Get the number of comStatusIn input ports
       //!
       //! \return The number of comStatusIn input ports
-      NATIVE_INT_TYPE getNum_comStatusIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_comStatusIn_InputPorts();
 
     PROTECTED:
 
@@ -190,22 +190,22 @@ namespace Svc {
       //! Get the number of bufferDeallocate output ports
       //!
       //! \return The number of bufferDeallocate output ports
-      NATIVE_INT_TYPE getNum_bufferDeallocate_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_bufferDeallocate_OutputPorts();
 
       //! Get the number of comStatusOut output ports
       //!
       //! \return The number of comStatusOut output ports
-      NATIVE_INT_TYPE getNum_comStatusOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_comStatusOut_OutputPorts();
 
       //! Get the number of framedAllocate output ports
       //!
       //! \return The number of framedAllocate output ports
-      NATIVE_INT_TYPE getNum_framedAllocate_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_framedAllocate_OutputPorts();
 
       //! Get the number of framedOut output ports
       //!
       //! \return The number of framedOut output ports
-      NATIVE_INT_TYPE getNum_framedOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_framedOut_OutputPorts();
 
     PROTECTED:
 
@@ -320,7 +320,7 @@ namespace Svc {
       //! Invoke output port framedOut
       Drv::SendStatus framedOut_out(
           NATIVE_INT_TYPE portNum, //!< The port number
-          Fw::Buffer& sendBuffer //!< Data to send
+          Fw::Buffer& sendBuffer
       );
 
     PROTECTED:

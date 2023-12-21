@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/Linux/libUtils.a "CMakeFiles/Utils.dir/home/krokko/Desktop/MEMEdir/memesat-1.local/cmake/empty.cpp.o"
-/usr/bin/ranlib ../../lib/Linux/libUtils.a

@@ -1,3 +1,0 @@
-UdpComponentAc.cpp
-UdpComponentAc.hpp
-UdpComponentAi.xml

@@ -110,7 +110,7 @@ namespace Drv {
     public:
 
       // ----------------------------------------------------------------------
-      // Connect input ports to special output ports
+      // Connect special input ports to special output ports
       // ----------------------------------------------------------------------
 
       //! Connect port to Time[portNum]
@@ -222,17 +222,17 @@ namespace Drv {
       //! Get the number of BufferIn input ports
       //!
       //! \return The number of BufferIn input ports
-      NATIVE_INT_TYPE getNum_BufferIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_BufferIn_InputPorts();
 
       //! Get the number of PingIn input ports
       //!
       //! \return The number of PingIn input ports
-      NATIVE_INT_TYPE getNum_PingIn_InputPorts() const;
+      NATIVE_INT_TYPE getNum_PingIn_InputPorts();
 
       //! Get the number of Sched input ports
       //!
       //! \return The number of Sched input ports
-      NATIVE_INT_TYPE getNum_Sched_InputPorts() const;
+      NATIVE_INT_TYPE getNum_Sched_InputPorts();
 
     PROTECTED:
 
@@ -243,12 +243,12 @@ namespace Drv {
       //! Get the number of Time output ports
       //!
       //! \return The number of Time output ports
-      NATIVE_INT_TYPE getNum_Time_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Time_OutputPorts();
 
       //! Get the number of Tlm output ports
       //!
       //! \return The number of Tlm output ports
-      NATIVE_INT_TYPE getNum_Tlm_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_Tlm_OutputPorts();
 
     PROTECTED:
 
@@ -259,17 +259,17 @@ namespace Drv {
       //! Get the number of BufferOut output ports
       //!
       //! \return The number of BufferOut output ports
-      NATIVE_INT_TYPE getNum_BufferOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_BufferOut_OutputPorts();
 
       //! Get the number of CycleOut output ports
       //!
       //! \return The number of CycleOut output ports
-      NATIVE_INT_TYPE getNum_CycleOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_CycleOut_OutputPorts();
 
       //! Get the number of PingOut output ports
       //!
       //! \return The number of PingOut output ports
-      NATIVE_INT_TYPE getNum_PingOut_OutputPorts() const;
+      NATIVE_INT_TYPE getNum_PingOut_OutputPorts();
 
     PROTECTED:
 

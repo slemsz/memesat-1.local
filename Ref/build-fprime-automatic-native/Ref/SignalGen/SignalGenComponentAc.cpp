@@ -22,9 +22,9 @@ namespace Ref {
       CMD_SIGNALGEN_SKIP,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
+      BYTE schedInPortSize[Svc::InputSchedPort::SERIALIZED_SIZE];
       BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
     };
 
@@ -297,7 +297,7 @@ namespace Ref {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void SignalGenComponentBase ::
@@ -528,7 +528,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_cmdIn_InputPorts() const
+    getNum_cmdIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdIn_InputPort));
   }
@@ -538,7 +538,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_schedIn_InputPorts() const
+    getNum_schedIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_schedIn_InputPort));
   }
@@ -548,19 +548,19 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_cmdRegOut_OutputPorts() const
+    getNum_cmdRegOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdRegOut_OutputPort));
   }
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_cmdResponseOut_OutputPorts() const
+    getNum_cmdResponseOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_cmdResponseOut_OutputPort));
   }
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_logOut_OutputPorts() const
+    getNum_logOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_logOut_OutputPort));
   }
@@ -568,7 +568,7 @@ namespace Ref {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_logTextOut_OutputPorts() const
+    getNum_logTextOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_logTextOut_OutputPort));
   }
@@ -576,13 +576,13 @@ namespace Ref {
 #endif
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_timeCaller_OutputPorts() const
+    getNum_timeCaller_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_timeCaller_OutputPort));
   }
 
   NATIVE_INT_TYPE SignalGenComponentBase ::
-    getNum_tlmOut_OutputPorts() const
+    getNum_tlmOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_tlmOut_OutputPort));
   }

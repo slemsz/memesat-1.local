@@ -21,8 +21,7 @@ namespace Ref {
       CMD_PR_STOPPINGS,
     };
 
-    // Get the max size by constructing a union of the async input, command, and
-    // internal port serialization sizes
+    // Get the max size by doing a union of the input and internal port serialization sizes
     union BuffUnion {
       BYTE PingInPortSize[Svc::InputPingPort::SERIALIZED_SIZE];
       BYTE cmdPortSize[Fw::InputCmdPort::SERIALIZED_SIZE];
@@ -318,7 +317,7 @@ namespace Ref {
   }
 
   // ----------------------------------------------------------------------
-  // Connect input ports to special output ports
+  // Connect special input ports to special output ports
   // ----------------------------------------------------------------------
 
   void PingReceiverComponentBase ::
@@ -581,7 +580,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_CmdDisp_InputPorts() const
+    getNum_CmdDisp_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdDisp_InputPort));
   }
@@ -591,7 +590,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_PingIn_InputPorts() const
+    getNum_PingIn_InputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingIn_InputPort));
   }
@@ -601,19 +600,19 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_CmdReg_OutputPorts() const
+    getNum_CmdReg_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdReg_OutputPort));
   }
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_CmdStatus_OutputPorts() const
+    getNum_CmdStatus_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_CmdStatus_OutputPort));
   }
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_Log_OutputPorts() const
+    getNum_Log_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Log_OutputPort));
   }
@@ -621,7 +620,7 @@ namespace Ref {
 #if FW_ENABLE_TEXT_LOGGING == 1
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_LogText_OutputPorts() const
+    getNum_LogText_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_LogText_OutputPort));
   }
@@ -629,13 +628,13 @@ namespace Ref {
 #endif
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_Time_OutputPorts() const
+    getNum_Time_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Time_OutputPort));
   }
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_Tlm_OutputPorts() const
+    getNum_Tlm_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_Tlm_OutputPort));
   }
@@ -645,7 +644,7 @@ namespace Ref {
   // ----------------------------------------------------------------------
 
   NATIVE_INT_TYPE PingReceiverComponentBase ::
-    getNum_PingOut_OutputPorts() const
+    getNum_PingOut_OutputPorts()
   {
     return static_cast<NATIVE_INT_TYPE>(FW_NUM_ARRAY_ELEMENTS(this->m_PingOut_OutputPort));
   }

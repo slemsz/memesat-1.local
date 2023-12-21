@@ -60,11 +60,6 @@ void send_recv(Drv::IpSocket& sender, Drv::IpSocket& receiver);
  */
 bool wait_on_change(Drv::IpSocket &socket, bool open, U32 iterations);
 
-/**
- * Wait on started
-*/
-bool wait_on_started(Drv::IpSocket &socket, bool open, U32 iterations);
-
 };
 };
 #endif

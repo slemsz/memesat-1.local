@@ -1,3 +1,0 @@
-TlmPacketizerComponentAc.cpp
-TlmPacketizerComponentAc.hpp
-TlmPacketizerComponentAi.xml

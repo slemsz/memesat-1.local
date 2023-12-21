@@ -1,3 +1,0 @@
-DeframerComponentAc.cpp
-DeframerComponentAc.hpp
-DeframerComponentAi.xml

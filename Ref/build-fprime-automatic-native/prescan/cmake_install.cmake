@@ -52,6 +52,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/RecvBuffApp/cmake_install.cmake")
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SendBuffApp/cmake_install.cmake")
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SignalGen/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SchedulerPorts/cmake_install.cmake")
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/Top/cmake_install.cmake")
 
 endif()

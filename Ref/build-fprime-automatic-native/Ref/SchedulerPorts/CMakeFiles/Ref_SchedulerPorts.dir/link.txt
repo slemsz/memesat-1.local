@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/Darwin/libRef_SchedulerPorts.a CMakeFiles/Ref_SchedulerPorts.dir/RunSchedulePortPortAc.cpp.o CMakeFiles/Ref_SchedulerPorts.dir/ScheduleOpEnumAc.cpp.o CMakeFiles/Ref_SchedulerPorts.dir/ScheduleStatusEnumAc.cpp.o CMakeFiles/Ref_SchedulerPorts.dir/SendSchedulePortPortAc.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/Darwin/libRef_SchedulerPorts.a

@@ -1300,6 +1300,19 @@ Ref_SignalGen/fast:
 .PHONY : Ref_SignalGen/fast
 
 #=============================================================================
+# Target rules for targets named Ref_SchedulerPorts
+
+# Build rule for target.
+Ref_SchedulerPorts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_SchedulerPorts
+.PHONY : Ref_SchedulerPorts
+
+# fast build rule for target.
+Ref_SchedulerPorts/fast:
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build
+.PHONY : Ref_SchedulerPorts/fast
+
+#=============================================================================
 # Target rules for targets named Ref_Top
 
 # Build rule for target.
@@ -1383,6 +1396,7 @@ help:
 	@echo "... Ref"
 	@echo "... Ref_PingReceiver"
 	@echo "... Ref_RecvBuffApp"
+	@echo "... Ref_SchedulerPorts"
 	@echo "... Ref_SendBuffApp"
 	@echo "... Ref_SensorTypes"
 	@echo "... Ref_SignalGen"

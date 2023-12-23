@@ -792,6 +792,14 @@
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/install.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/install/local.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/install/strip.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/edit_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/rebuild_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/list_install_components.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/install.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/install/local.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SchedulerPorts/CMakeFiles/install/strip.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/Ref_Top.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/Ref_Top_impl.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/edit_cache.dir

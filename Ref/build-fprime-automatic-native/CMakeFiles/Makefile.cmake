@@ -93,6 +93,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp"
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/RecvBuffApp/CMakeLists.txt"
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/RecvBuffApp/RecvBuffApp.fpp"
+  "/Users/heron/Desktop/memedir/memesat-1.local/Ref/SchedulerPorts/CMakeLists.txt"
+  "/Users/heron/Desktop/memedir/memesat-1.local/Ref/SchedulerPorts/SchedulerPorts.fpp"
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/CMakeLists.txt"
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp"
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/SensorTypes/CMakeLists.txt"
@@ -371,6 +373,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Ref/RecvBuffApp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Ref/SendBuffApp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Ref/SignalGen/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Ref/SchedulerPorts/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Ref/Top/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -558,6 +561,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/DependInfo.cmake"
   "Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/DependInfo.cmake"
   "Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/DependInfo.cmake"
+  "Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/DependInfo.cmake"
+  "Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/DependInfo.cmake"
   "Ref/Top/CMakeFiles/Ref_Top.dir/DependInfo.cmake"
   "Ref/Top/CMakeFiles/Ref_Top_impl.dir/DependInfo.cmake"
   )

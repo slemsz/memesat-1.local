@@ -77,6 +77,7 @@ all: Ref/PingReceiver/all
 all: Ref/RecvBuffApp/all
 all: Ref/SendBuffApp/all
 all: Ref/SignalGen/all
+all: Ref/SchedulerPorts/all
 all: Ref/Top/all
 .PHONY : all
 
@@ -94,6 +95,7 @@ preinstall: Ref/PingReceiver/preinstall
 preinstall: Ref/RecvBuffApp/preinstall
 preinstall: Ref/SendBuffApp/preinstall
 preinstall: Ref/SignalGen/preinstall
+preinstall: Ref/SchedulerPorts/preinstall
 preinstall: Ref/Top/preinstall
 .PHONY : preinstall
 
@@ -112,6 +114,7 @@ clean: Ref/PingReceiver/clean
 clean: Ref/RecvBuffApp/clean
 clean: Ref/SendBuffApp/clean
 clean: Ref/SignalGen/clean
+clean: Ref/SchedulerPorts/clean
 clean: Ref/Top/clean
 .PHONY : clean
 
@@ -1806,6 +1809,21 @@ Ref/RecvBuffApp/clean: Ref/RecvBuffApp/CMakeFiles/Ref_RecvBuffApp.dir/clean
 .PHONY : Ref/RecvBuffApp/clean
 
 #=============================================================================
+# Directory level rules for directory Ref/SchedulerPorts
+
+# Recursive "all" directory target.
+Ref/SchedulerPorts/all: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all
+.PHONY : Ref/SchedulerPorts/all
+
+# Recursive "preinstall" directory target.
+Ref/SchedulerPorts/preinstall:
+.PHONY : Ref/SchedulerPorts/preinstall
+
+# Recursive "clean" directory target.
+Ref/SchedulerPorts/clean: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean
+.PHONY : Ref/SchedulerPorts/clean
+
+#=============================================================================
 # Directory level rules for directory Ref/SendBuffApp
 
 # Recursive "all" directory target.
@@ -2433,7 +2451,7 @@ F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/clean:
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/build.make F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/build.make F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=58 "Built target Svc_Cycle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=59 "Built target Svc_Cycle"
 .PHONY : F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2459,7 +2477,7 @@ F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/clean:
 F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/build.make F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/build.make F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=60 "Built target Svc_Fatal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=61 "Built target Svc_Fatal"
 .PHONY : F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2615,7 +2633,7 @@ F-Prime/Svc/WatchDog/CMakeFiles/Svc_WatchDog.dir/clean:
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=43 "Built target Svc_ActiveLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=44 "Built target Svc_ActiveLogger"
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2641,7 +2659,7 @@ F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/clean:
 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build.make F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build.make F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=44 "Built target Svc_ActiveRateGroup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=45 "Built target Svc_ActiveRateGroup"
 .PHONY : F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2667,7 +2685,7 @@ F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/clean:
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=46 "Built target Svc_AssertFatalAdapter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=47 "Built target Svc_AssertFatalAdapter"
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2693,7 +2711,7 @@ F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/clean:
 F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/build.make F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/build.make F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=47 "Built target Svc_BufferAccumulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=48 "Built target Svc_BufferAccumulator"
 .PHONY : F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2719,7 +2737,7 @@ F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/clean:
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=49 "Built target Svc_BufferManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=50 "Built target Svc_BufferManager"
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2745,7 +2763,7 @@ F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/clean:
 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=48 "Built target Svc_BufferLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=49 "Built target Svc_BufferLogger"
 .PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2771,7 +2789,7 @@ F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/clean:
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=50 "Built target Svc_BufferRepeater"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=51 "Built target Svc_BufferRepeater"
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2797,7 +2815,7 @@ F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/clean:
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=54 "Built target Svc_ComLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=55 "Built target Svc_ComLogger"
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2823,7 +2841,7 @@ F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/clean:
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=55 "Built target Svc_ComQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=56 "Built target Svc_ComQueue"
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2849,7 +2867,7 @@ F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/clean:
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=56 "Built target Svc_ComSplitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=57 "Built target Svc_ComSplitter"
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2875,7 +2893,7 @@ F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/clean:
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build.make F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=57 "Built target Svc_ComStub"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=58 "Built target Svc_ComStub"
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2901,7 +2919,7 @@ F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/clean:
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build.make F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build.make F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=51 "Built target Svc_CmdDispatcher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=52 "Built target Svc_CmdDispatcher"
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2927,7 +2945,7 @@ F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/clean:
 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=52 "Built target Svc_CmdSequencer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=53 "Built target Svc_CmdSequencer"
 .PHONY : F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2953,7 +2971,7 @@ F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/clean:
 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=53 "Built target Svc_CmdSplitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=54 "Built target Svc_CmdSplitter"
 .PHONY : F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2979,7 +2997,7 @@ F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/clean:
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build.make F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build.make F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=59 "Built target Svc_Deframer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=60 "Built target Svc_Deframer"
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3005,7 +3023,7 @@ F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/clean:
 F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/build.make F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/build.make F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=61 "Built target Svc_FatalHandler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=62 "Built target Svc_FatalHandler"
 .PHONY : F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3031,7 +3049,7 @@ F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/clean:
 F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build.make F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build.make F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=63 "Built target Svc_FileDownlinkPorts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=64 "Built target Svc_FileDownlinkPorts"
 .PHONY : F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3057,7 +3075,7 @@ F-Prime/Svc/FileDownlinkPorts/CMakeFiles/Svc_FileDownlinkPorts.dir/clean:
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=62 "Built target Svc_FileDownlink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=63 "Built target Svc_FileDownlink"
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3083,7 +3101,7 @@ F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/clean:
 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=64 "Built target Svc_FileManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=65 "Built target Svc_FileManager"
 .PHONY : F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3109,7 +3127,7 @@ F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/clean:
 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=65 "Built target Svc_FileUplink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=66 "Built target Svc_FileUplink"
 .PHONY : F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3187,12 +3205,12 @@ F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/clean:
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/build.make F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/build.make F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=66,67 "Built target Svc_Framer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=67 "Built target Svc_Framer"
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles 0
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/rule
@@ -3525,7 +3543,7 @@ F-Prime/Svc/PassiveConsoleTextLogger/CMakeFiles/Svc_PassiveConsoleTextLogger.dir
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all:
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=45 "Built target Svc_ActiveTextLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=46 "Built target Svc_ActiveTextLogger"
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4123,7 +4141,7 @@ F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/clean:
 Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/all:
 	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=40 "Built target Ref_SensorTypes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=41 "Built target Ref_SensorTypes"
 .PHONY : Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4201,7 +4219,7 @@ Ref/RecvBuffApp/CMakeFiles/Ref_RecvBuffApp.dir/clean:
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/build.make Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/build.make Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=39 "Built target Ref_SendBuffApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=40 "Built target Ref_SendBuffApp"
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4227,7 +4245,7 @@ Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/clean:
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all:
 	$(MAKE) $(MAKESILENT) -f Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build.make Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build.make Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=41 "Built target Ref_SignalGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=42 "Built target Ref_SignalGen"
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4247,13 +4265,39 @@ Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/clean:
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/clean
 
 #=============================================================================
+# Target rules for target Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir
+
+# All Build rule for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all:
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/depend
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=39 "Built target Ref_SchedulerPorts"
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all
+
+# Build rule for subdir invocation for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles 0
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/rule
+
+# Convenience name for target.
+Ref_SchedulerPorts: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/rule
+.PHONY : Ref_SchedulerPorts
+
+# clean rule for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean
+
+#=============================================================================
 # Target rules for target Ref/Top/CMakeFiles/Ref_Top.dir
 
 # All Build rule for target.
 Ref/Top/CMakeFiles/Ref_Top.dir/all:
 	$(MAKE) $(MAKESILENT) -f Ref/Top/CMakeFiles/Ref_Top.dir/build.make Ref/Top/CMakeFiles/Ref_Top.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/Top/CMakeFiles/Ref_Top.dir/build.make Ref/Top/CMakeFiles/Ref_Top.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=42 "Built target Ref_Top"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=43 "Built target Ref_Top"
 .PHONY : Ref/Top/CMakeFiles/Ref_Top.dir/all
 
 # Build rule for subdir invocation for target.

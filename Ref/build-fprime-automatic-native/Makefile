@@ -2528,6 +2528,32 @@ Ref_SignalGen_impl/fast:
 .PHONY : Ref_SignalGen_impl/fast
 
 #=============================================================================
+# Target rules for targets named Ref_SchedulerPorts
+
+# Build rule for target.
+Ref_SchedulerPorts: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_SchedulerPorts
+.PHONY : Ref_SchedulerPorts
+
+# fast build rule for target.
+Ref_SchedulerPorts/fast:
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build
+.PHONY : Ref_SchedulerPorts/fast
+
+#=============================================================================
+# Target rules for targets named Ref_SchedulerPorts_impl
+
+# Build rule for target.
+Ref_SchedulerPorts_impl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_SchedulerPorts_impl
+.PHONY : Ref_SchedulerPorts_impl
+
+# fast build rule for target.
+Ref_SchedulerPorts_impl/fast:
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/build
+.PHONY : Ref_SchedulerPorts_impl/fast
+
+#=============================================================================
 # Target rules for targets named Ref_Top
 
 # Build rule for target.
@@ -2626,6 +2652,7 @@ help:
 	@echo "... Os_impl"
 	@echo "... Ref_PingReceiver_impl"
 	@echo "... Ref_RecvBuffApp_impl"
+	@echo "... Ref_SchedulerPorts_impl"
 	@echo "... Ref_SendBuffApp_impl"
 	@echo "... Ref_SensorTypes_impl"
 	@echo "... Ref_SignalGen_impl"
@@ -2720,6 +2747,7 @@ help:
 	@echo "... Ref"
 	@echo "... Ref_PingReceiver"
 	@echo "... Ref_RecvBuffApp"
+	@echo "... Ref_SchedulerPorts"
 	@echo "... Ref_SendBuffApp"
 	@echo "... Ref_SensorTypes"
 	@echo "... Ref_SignalGen"

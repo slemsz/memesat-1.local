@@ -78,6 +78,7 @@ all: Ref/PingReceiver/all
 all: Ref/RecvBuffApp/all
 all: Ref/SendBuffApp/all
 all: Ref/SignalGen/all
+all: Ref/SchedulerPorts/all
 all: Ref/Top/all
 .PHONY : all
 
@@ -95,6 +96,7 @@ preinstall: Ref/PingReceiver/preinstall
 preinstall: Ref/RecvBuffApp/preinstall
 preinstall: Ref/SendBuffApp/preinstall
 preinstall: Ref/SignalGen/preinstall
+preinstall: Ref/SchedulerPorts/preinstall
 preinstall: Ref/Top/preinstall
 .PHONY : preinstall
 
@@ -115,6 +117,7 @@ clean: Ref/PingReceiver/clean
 clean: Ref/RecvBuffApp/clean
 clean: Ref/SendBuffApp/clean
 clean: Ref/SignalGen/clean
+clean: Ref/SchedulerPorts/clean
 clean: Ref/Top/clean
 .PHONY : clean
 
@@ -1894,6 +1897,22 @@ Ref/RecvBuffApp/clean: Ref/RecvBuffApp/CMakeFiles/Ref_RecvBuffApp_impl.dir/clean
 .PHONY : Ref/RecvBuffApp/clean
 
 #=============================================================================
+# Directory level rules for directory Ref/SchedulerPorts
+
+# Recursive "all" directory target.
+Ref/SchedulerPorts/all: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all
+.PHONY : Ref/SchedulerPorts/all
+
+# Recursive "preinstall" directory target.
+Ref/SchedulerPorts/preinstall:
+.PHONY : Ref/SchedulerPorts/preinstall
+
+# Recursive "clean" directory target.
+Ref/SchedulerPorts/clean: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean
+Ref/SchedulerPorts/clean: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/clean
+.PHONY : Ref/SchedulerPorts/clean
+
+#=============================================================================
 # Directory level rules for directory Ref/SendBuffApp
 
 # Recursive "all" directory target.
@@ -2092,12 +2111,12 @@ CMakeFiles/Ref.dir/all: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all
 CMakeFiles/Ref.dir/all: Ref/Top/CMakeFiles/Ref_Top.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=39 "Built target Ref"
 .PHONY : CMakeFiles/Ref.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Ref.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 46
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Ref.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : CMakeFiles/Ref.dir/rule
@@ -2278,7 +2297,7 @@ F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.d
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/rule
@@ -2307,7 +2326,7 @@ F-Prime/Fw/Com/CMakeFiles/Fw_Com_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Ty
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Com/CMakeFiles/Fw_Com_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Com/CMakeFiles/Fw_Com_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Com/CMakeFiles/Fw_Com_impl.dir/rule
@@ -2337,7 +2356,7 @@ F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build.make F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build.make F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=21 "Built target Fw_Cmd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=20,21 "Built target Fw_Cmd"
 .PHONY : F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2374,7 +2393,7 @@ F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Ty
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd_impl.dir/rule
@@ -2408,7 +2427,7 @@ F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.d
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/rule
@@ -2439,7 +2458,7 @@ F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Ty
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Log/CMakeFiles/Fw_Log_impl.dir/rule
@@ -2462,12 +2481,12 @@ F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg
 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build.make F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=26 "Built target Fw_Logger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Logger"
 .PHONY : F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Logger/CMakeFiles/Fw_Logger.dir/rule
@@ -2519,12 +2538,12 @@ F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.d
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Time"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=30 "Built target Fw_Time"
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule
@@ -2547,12 +2566,12 @@ F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_P
 F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=31 "Built target Fw_Time_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Time_impl"
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/rule
@@ -2580,12 +2599,12 @@ F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build.make F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build.make F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=32 "Built target Fw_Tlm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=31 "Built target Fw_Tlm"
 .PHONY : F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/rule
@@ -2610,7 +2629,7 @@ F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm_impl.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Por
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm_impl.dir/build.make F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm_impl.dir/build.make F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Tlm_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=32 "Built target Fw_Tlm_impl"
 .PHONY : F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2646,7 +2665,7 @@ F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir
 F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/build.make F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/build.make F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=29 "Built target Fw_Prm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=28 "Built target Fw_Prm"
 .PHONY : F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2679,12 +2698,12 @@ F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Por
 F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/build.make F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/build.make F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Prm_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=29 "Built target Fw_Prm_impl"
 .PHONY : F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/rule
@@ -2705,12 +2724,12 @@ F-Prime/Fw/Prm/CMakeFiles/Fw_Prm_impl.dir/clean:
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all: config/CMakeFiles/config.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build.make F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build.make F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=20 "Built target Fw_Cfg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Cfg"
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/rule
@@ -2767,7 +2786,7 @@ F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Comp/CMakeFiles/Fw_Comp.dir/rule
@@ -2827,7 +2846,7 @@ F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all: F-Prime/Utils/Hash/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Comp/CMakeFiles/Fw_CompQueued.dir/rule
@@ -2877,12 +2896,12 @@ F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/a
 F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/build.make F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/build.make F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=26 "Built target Fw_Obj"
 .PHONY : F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Obj/CMakeFiles/Fw_Obj.dir/rule
@@ -2938,7 +2957,7 @@ F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule
@@ -3030,12 +3049,12 @@ F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/build.make F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/build.make F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=28 "Built target Fw_Ports_SuccessCondition_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Ports_SuccessCondition_impl"
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition_impl.dir/rule
@@ -3057,12 +3076,12 @@ F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all: config/CMakeFiles/config.dir/all
 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=33,34,35 "Built target Fw_Types"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=33,34 "Built target Fw_Types"
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule
@@ -3083,7 +3102,7 @@ F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/clean:
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Types_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=35 "Built target Fw_Types_impl"
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3181,7 +3200,7 @@ F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/all: F-Prime/Fw/T
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/rule
@@ -3230,12 +3249,12 @@ F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir
 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build.make F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build.make F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=30 "Built target Fw_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Fw_Test"
 .PHONY : F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Fw/Test/CMakeFiles/Fw_Test.dir/rule
@@ -3300,7 +3319,7 @@ F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all: F-Prime/Utils/Hash/CMakeFiles/Ut
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle.dir/rule
@@ -3366,12 +3385,12 @@ F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Po
 F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/build.make F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/build.make F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Fatal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=68 "Built target Svc_Fatal"
 .PHONY : F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/rule
@@ -3471,12 +3490,12 @@ F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw
 F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/build.make F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/build.make F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Ping_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=84 "Built target Svc_Ping_impl"
 .PHONY : F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Ping/CMakeFiles/Svc_Ping_impl.dir/rule
@@ -3508,12 +3527,12 @@ F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_
 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/build.make F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/build.make F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=85 "Built target Svc_PolyIf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_PolyIf"
 .PHONY : F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf.dir/rule
@@ -3542,12 +3561,12 @@ F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/all: F-Prime/Fw/Port/CMakeFile
 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/build.make F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/build.make F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_PolyIf_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=86 "Built target Svc_PolyIf_impl"
 .PHONY : F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PolyIf/CMakeFiles/Svc_PolyIf_impl.dir/rule
@@ -3613,12 +3632,12 @@ F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/all: F-Prime/Fw/Port/CMakeFiles/
 F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/build.make F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/build.make F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Sched_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=89 "Built target Svc_Sched_impl"
 .PHONY : F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Sched/CMakeFiles/Svc_Sched_impl.dir/rule
@@ -3650,12 +3669,12 @@ F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.d
 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/build.make F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/build.make F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=89 "Built target Svc_Seq"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Seq"
 .PHONY : F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Seq/CMakeFiles/Svc_Seq.dir/rule
@@ -3684,12 +3703,12 @@ F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_P
 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/build.make F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/build.make F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Seq_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=90 "Built target Svc_Seq_impl"
 .PHONY : F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Seq/CMakeFiles/Svc_Seq_impl.dir/rule
@@ -3798,7 +3817,7 @@ F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build.make F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=48 "Built target Svc_ActiveLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=49 "Built target Svc_ActiveLogger"
 .PHONY : F-Prime/Svc/ActiveLogger/CMakeFiles/Svc_ActiveLogger.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3881,12 +3900,12 @@ F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all: F-Prime/Os/C
 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build.make F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build.make F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=49 "Built target Svc_ActiveRateGroup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=50 "Built target Svc_ActiveRateGroup"
 .PHONY : F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup.dir/rule
@@ -3926,7 +3945,7 @@ F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup_impl.dir/all: F-Prime
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveRateGroup/CMakeFiles/Svc_ActiveRateGroup_impl.dir/rule
@@ -3959,12 +3978,12 @@ F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all: F-Prim
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_AssertFatalAdapter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=52 "Built target Svc_AssertFatalAdapter"
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter.dir/rule
@@ -3995,12 +4014,12 @@ F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/all: F
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/build.make F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=52 "Built target Svc_AssertFatalAdapter_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_AssertFatalAdapter_impl"
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/rule
@@ -4043,7 +4062,7 @@ F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all: F-Prime/
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator.dir/rule
@@ -4077,7 +4096,7 @@ F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator_impl.dir/all: F-P
 F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator_impl.dir/build.make F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator_impl.dir/build.make F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_BufferAccumulator_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=54 "Built target Svc_BufferAccumulator_impl"
 .PHONY : F-Prime/Svc/BufferAccumulator/CMakeFiles/Svc_BufferAccumulator_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4119,12 +4138,12 @@ F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all: F-Prime/Os/CMake
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=55 "Built target Svc_BufferManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_BufferManager"
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager.dir/rule
@@ -4158,7 +4177,7 @@ F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_impl.dir/all: F-Prime/Svc
 F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_impl.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_impl.dir/build.make F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_BufferManager_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=56 "Built target Svc_BufferManager_impl"
 .PHONY : F-Prime/Svc/BufferManager/CMakeFiles/Svc_BufferManager_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4202,12 +4221,12 @@ F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=54 "Built target Svc_BufferLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_BufferLogger"
 .PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger.dir/rule
@@ -4242,7 +4261,7 @@ F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/all: F-Prime/Svc/S
 F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/build.make F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_BufferLogger_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=55 "Built target Svc_BufferLogger_impl"
 .PHONY : F-Prime/Svc/BufferLogger/CMakeFiles/Svc_BufferLogger_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4281,12 +4300,12 @@ F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all: F-Prime/Fw/Por
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=56 "Built target Svc_BufferRepeater"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_BufferRepeater"
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater.dir/rule
@@ -4318,12 +4337,12 @@ F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/all: F-Prime/F
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/build.make F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_BufferRepeater_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=57 "Built target Svc_BufferRepeater_impl"
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/BufferRepeater/CMakeFiles/Svc_BufferRepeater_impl.dir/rule
@@ -4360,12 +4379,12 @@ F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all: F-Prime/Os/CMakeFiles/Os
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=61 "Built target Svc_ComLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_ComLogger"
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger.dir/rule
@@ -4398,7 +4417,7 @@ F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_impl.dir/all: F-Prime/Svc/Ping/CM
 F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_impl.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_impl.dir/build.make F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_ComLogger_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=62 "Built target Svc_ComLogger_impl"
 .PHONY : F-Prime/Svc/ComLogger/CMakeFiles/Svc_ComLogger_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4443,12 +4462,12 @@ F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all: F-Prime/Utils/Hash/CMakeFi
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=62 "Built target Svc_ComQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=63 "Built target Svc_ComQueue"
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue.dir/rule
@@ -4483,12 +4502,12 @@ F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/all: F-Prime/Svc/Sched/CMa
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/build.make F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=63 "Built target Svc_ComQueue_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_ComQueue_impl"
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComQueue/CMakeFiles/Svc_ComQueue_impl.dir/rule
@@ -4521,12 +4540,12 @@ F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all: F-Prime/Fw/Port/CMak
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_ComSplitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=64 "Built target Svc_ComSplitter"
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter.dir/rule
@@ -4557,12 +4576,12 @@ F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/all: F-Prime/Fw/Port
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/build.make F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=64 "Built target Svc_ComSplitter_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_ComSplitter_impl"
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 13
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/rule
@@ -4605,7 +4624,7 @@ F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all: F-Prime/Utils/Hash/CMakeFile
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub.dir/rule
@@ -4643,7 +4662,7 @@ F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/all: F-Prime/Drv/ByteStreamD
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/rule
@@ -4680,12 +4699,12 @@ F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all: F-Prime/Os/CMake
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build.make F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build.make F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=57 "Built target Svc_CmdDispatcher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=58 "Built target Svc_CmdDispatcher"
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher.dir/rule
@@ -4723,7 +4742,7 @@ F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher_impl.dir/all: F-Prime/Os/
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdDispatcher/CMakeFiles/Svc_CmdDispatcher_impl.dir/rule
@@ -4762,12 +4781,12 @@ F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=58,59 "Built target Svc_CmdSequencer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=59 "Built target Svc_CmdSequencer"
 .PHONY : F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer.dir/rule
@@ -4802,12 +4821,12 @@ F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/all: F-Prime/Svc/S
 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/build.make F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_CmdSequencer_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=60 "Built target Svc_CmdSequencer_impl"
 .PHONY : F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdSequencer/CMakeFiles/Svc_CmdSequencer_impl.dir/rule
@@ -4840,12 +4859,12 @@ F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all: F-Prime/Fw/Port/CMak
 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=60 "Built target Svc_CmdSplitter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_CmdSplitter"
 .PHONY : F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter.dir/rule
@@ -4876,12 +4895,12 @@ F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/all: F-Prime/Fw/Port
 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/build.make F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_CmdSplitter_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=61 "Built target Svc_CmdSplitter_impl"
 .PHONY : F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/CmdSplitter/CMakeFiles/Svc_CmdSplitter_impl.dir/rule
@@ -4921,7 +4940,7 @@ F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/all: F-Prime/Utils/Hash/CMakeFi
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/all: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build.make F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build.make F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Deframer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=67 "Built target Svc_Deframer"
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4960,12 +4979,12 @@ F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/all: F-Prime/Os/CMakeFiles
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/all: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/build.make F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/build.make F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=67 "Built target Svc_Deframer_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Deframer_impl"
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer_impl.dir/rule
@@ -5001,7 +5020,7 @@ F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/build.make F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/build.make F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=68 "Built target Svc_FatalHandler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=69 "Built target Svc_FatalHandler"
 .PHONY : F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5038,7 +5057,7 @@ F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler_impl.dir/all: F-Prime/Fw/Ty
 F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler_impl.dir/all: F-Prime/Svc/Fatal/CMakeFiles/Svc_Fatal.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler_impl.dir/build.make F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler_impl.dir/build.make F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=69 "Built target Svc_FatalHandler_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_FatalHandler_impl"
 .PHONY : F-Prime/Svc/FatalHandler/CMakeFiles/Svc_FatalHandler_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5161,7 +5180,7 @@ F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all: F-Prime/Utils/Hash
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/rule
@@ -5197,7 +5216,7 @@ F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink_impl.dir/all: F-Prime/Svc/F
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink_impl.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink_impl.dir/build.make F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_FileDownlink_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=72 "Built target Svc_FileDownlink_impl"
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5242,12 +5261,12 @@ F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all: F-Prime/CFDP/Checksu
 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=72 "Built target Svc_FileManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_FileManager"
 .PHONY : F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager.dir/rule
@@ -5280,7 +5299,7 @@ F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager_impl.dir/all: F-Prime/Svc/Pin
 F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager_impl.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager_impl.dir/build.make F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_FileManager_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=73 "Built target Svc_FileManager_impl"
 .PHONY : F-Prime/Svc/FileManager/CMakeFiles/Svc_FileManager_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5325,12 +5344,12 @@ F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all: F-Prime/CFDP/Checksum/
 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=73 "Built target Svc_FileUplink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=74 "Built target Svc_FileUplink"
 .PHONY : F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink.dir/rule
@@ -5364,12 +5383,12 @@ F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/all: F-Prime/Svc/Ping/
 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/build.make F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=74 "Built target Svc_FileUplink_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_FileUplink_impl"
 .PHONY : F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/FileUplink/CMakeFiles/Svc_FileUplink_impl.dir/rule
@@ -5488,7 +5507,7 @@ F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all: F-Prime/Util
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface.dir/rule
@@ -5527,7 +5546,7 @@ F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_impl.dir/all: F-Prime
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/GroundInterface/CMakeFiles/Svc_GroundInterface_impl.dir/rule
@@ -5567,7 +5586,7 @@ F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all: F-Prime/Utils/Hash/CMakeFiles/
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/build.make F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/build.make F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Framer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=75 "Built target Svc_Framer"
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5607,12 +5626,12 @@ F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/all: F-Prime/Os/CMakeFiles/Os.
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/all: F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/build.make F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/build.make F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=75 "Built target Svc_Framer_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Framer_impl"
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/rule
@@ -5722,7 +5741,7 @@ F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/all: F-Prime/Utils/Hash/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/Health/CMakeFiles/Svc_Health.dir/rule
@@ -5757,7 +5776,7 @@ F-Prime/Svc/Health/CMakeFiles/Svc_Health_impl.dir/all: F-Prime/Svc/WatchDog/CMak
 F-Prime/Svc/Health/CMakeFiles/Svc_Health_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Health/CMakeFiles/Svc_Health_impl.dir/build.make F-Prime/Svc/Health/CMakeFiles/Svc_Health_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/Health/CMakeFiles/Svc_Health_impl.dir/build.make F-Prime/Svc/Health/CMakeFiles/Svc_Health_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_Health_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=79 "Built target Svc_Health_impl"
 .PHONY : F-Prime/Svc/Health/CMakeFiles/Svc_Health_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -5804,7 +5823,7 @@ F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup.dir/all: F-Prime/Ut
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup.dir/rule
@@ -5842,7 +5861,7 @@ F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup_impl.dir/all: F-Pri
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PassiveRateGroup/CMakeFiles/Svc_PassiveRateGroup_impl.dir/rule
@@ -5878,12 +5897,12 @@ F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/all: F-Prime/Os/CMakeFiles/Os.dir/a
 F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/build.make F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/build.make F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=84 "Built target Svc_PolyDb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_PolyDb"
 .PHONY : F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb.dir/rule
@@ -5916,12 +5935,12 @@ F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/all: F-Prime/Svc/PolyIf/CMakeF
 F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/build.make F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/build.make F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_PolyDb_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=85 "Built target Svc_PolyDb_impl"
 .PHONY : F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PolyDb/CMakeFiles/Svc_PolyDb_impl.dir/rule
@@ -5958,12 +5977,12 @@ F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/build.make F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/build.make F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=86 "Built target Svc_PrmDb"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_PrmDb"
 .PHONY : F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb.dir/rule
@@ -6001,7 +6020,7 @@ F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb_impl.dir/all: F-Prime/Os/CMakeFiles/Os.di
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/PrmDb/CMakeFiles/Svc_PrmDb_impl.dir/rule
@@ -6042,7 +6061,7 @@ F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/all: F-Prime/Util
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver.dir/rule
@@ -6079,7 +6098,7 @@ F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver_impl.dir/all: F-Prime
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/RateGroupDriver/CMakeFiles/Svc_RateGroupDriver_impl.dir/rule
@@ -6115,12 +6134,12 @@ F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all: F-Prime/Os/CMakeFi
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=90 "Built target Svc_StaticMemory"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_StaticMemory"
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory.dir/rule
@@ -6153,7 +6172,7 @@ F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_impl.dir/all: F-Prime/Fw/Ty
 F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_impl.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_impl.dir/build.make F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_StaticMemory_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=91 "Built target Svc_StaticMemory_impl"
 .PHONY : F-Prime/Svc/StaticMemory/CMakeFiles/Svc_StaticMemory_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -6275,7 +6294,7 @@ F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/all: F-Prime/Utils/Hash/CMakeFile
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan.dir/rule
@@ -6314,7 +6333,7 @@ F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan_impl.dir/all: F-Prime/Os/CMakeFiles/O
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/TlmChan/CMakeFiles/Svc_TlmChan_impl.dir/rule
@@ -6357,7 +6376,7 @@ F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/all: F-Prime/Utils/Ha
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule
@@ -6396,7 +6415,7 @@ F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/all: F-Prime/Os/
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/rule
@@ -6433,12 +6452,12 @@ F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all: F-Prime/Os/C
 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/build.make F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/build.make F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=91 "Built target Svc_SystemResources"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_SystemResources"
 .PHONY : F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources.dir/rule
@@ -6476,7 +6495,7 @@ F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources_impl.dir/all: F-Prime
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/SystemResources/CMakeFiles/Svc_SystemResources_impl.dir/rule
@@ -6586,12 +6605,12 @@ F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all: F-Prime/Os
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=50 "Built target Svc_ActiveTextLogger"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=51 "Built target Svc_ActiveTextLogger"
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger.dir/rule
@@ -6623,12 +6642,12 @@ F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/all: F-Pri
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/build.make F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=51 "Built target Svc_ActiveTextLogger_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_ActiveTextLogger_impl"
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/rule
@@ -6662,12 +6681,12 @@ F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/all: F-Prime/Fw/Types/CMakeFi
 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/all: F-Prime/Svc/Time/CMakeFiles/Svc_Time.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build.make F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build.make F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=79 "Built target Svc_LinuxTime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_LinuxTime"
 .PHONY : F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/rule
@@ -6698,12 +6717,12 @@ F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/all: F-Prime/Fw/Port/CMa
 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/build.make F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/build.make F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_LinuxTime_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=80 "Built target Svc_LinuxTime_impl"
 .PHONY : F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime_impl.dir/rule
@@ -6739,12 +6758,12 @@ F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/all: F-Prime/Os/CMakeFiles/
 F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/build.make F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/build.make F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=80 "Built target Svc_LinuxTimer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Svc_LinuxTimer"
 .PHONY : F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer.dir/rule
@@ -6781,7 +6800,7 @@ F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer_impl.dir/all: F-Prime/Svc/Cycle
 
 # Build rule for subdir invocation for target.
 F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Svc/LinuxTimer/CMakeFiles/Svc_LinuxTimer_impl.dir/rule
@@ -6806,12 +6825,12 @@ F-Prime/Os/CMakeFiles/Os.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 F-Prime/Os/CMakeFiles/Os.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Os/CMakeFiles/Os.dir/build.make F-Prime/Os/CMakeFiles/Os.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Os/CMakeFiles/Os.dir/build.make F-Prime/Os/CMakeFiles/Os.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=36,37,38,39 "Built target Os"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=36,37,38 "Built target Os"
 .PHONY : F-Prime/Os/CMakeFiles/Os.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Os/CMakeFiles/Os.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 10
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Os/CMakeFiles/Os.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Os/CMakeFiles/Os.dir/rule
@@ -6903,12 +6922,12 @@ F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/all: F-Prime/Fw/Port/CMa
 F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/build.make F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/build.make F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=4 "Built target Drv_DataTypes_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Drv_DataTypes_impl"
 .PHONY : F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes_impl.dir/rule
@@ -6938,12 +6957,12 @@ F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/all: F-Prime/Fw/P
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/build.make F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/build.make F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Drv_GpioDriverPorts"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=4 "Built target Drv_GpioDriverPorts"
 .PHONY : F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/GpioDriverPorts/CMakeFiles/Drv_GpioDriverPorts.dir/rule
@@ -7168,7 +7187,7 @@ F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/all: F-Prime/Utils/Hash/C
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver.dir/rule
@@ -7209,7 +7228,7 @@ F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver_impl.dir/all: F-Prime/Drv/Dat
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/BlockDriver/CMakeFiles/Drv_BlockDriver_impl.dir/rule
@@ -7250,7 +7269,7 @@ F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/all: 
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel.dir/rule
@@ -7288,7 +7307,7 @@ F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel_impl.dir/
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/ByteStreamDriverModel/CMakeFiles/Drv_ByteStreamDriverModel_impl.dir/rule
@@ -7405,7 +7424,7 @@ F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver.dir/all: F-Prime/Drv/
 F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver.dir/build.make F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver.dir/build.make F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Drv_LinuxUartDriver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=10 "Built target Drv_LinuxUartDriver"
 .PHONY : F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver.dir/all
 
 # Build rule for subdir invocation for target.
@@ -7448,7 +7467,7 @@ F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver_impl.dir/all: F-Prime
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/LinuxUartDriver/CMakeFiles/Drv_LinuxUartDriver_impl.dir/rule
@@ -7520,12 +7539,12 @@ F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/all: F-Prime/F
 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/all: F-Prime/Drv/SpiDriverPorts/CMakeFiles/Drv_SpiDriverPorts.dir/all
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=10 "Built target Drv_LinuxSpiDriver_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Drv_LinuxSpiDriver_impl"
 .PHONY : F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/all
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/rule
@@ -7567,7 +7586,7 @@ F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver.dir/all: F-Prime/Utils/
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver.dir/rule
@@ -7605,7 +7624,7 @@ F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/all: F-Prime/D
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/rule
@@ -7647,7 +7666,7 @@ F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/all: F-Prime/Util
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover.dir/rule
@@ -7684,7 +7703,7 @@ F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover_impl.dir/all: F-Prime
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/StreamCrossover/CMakeFiles/Drv_StreamCrossover_impl.dir/rule
@@ -7724,7 +7743,7 @@ F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Ha
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule
@@ -7793,7 +7812,7 @@ F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/all: F-Prime/Utils/Hash/CMake
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient.dir/rule
@@ -7831,7 +7850,7 @@ F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient_impl.dir/all: F-Prime/Os/CMakeFil
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/TcpClient/CMakeFiles/Drv_TcpClient_impl.dir/rule
@@ -7874,7 +7893,7 @@ F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/all: F-Prime/Utils/Hash/CMake
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer.dir/rule
@@ -7912,7 +7931,7 @@ F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/all: F-Prime/Os/CMakeFil
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/TcpServer/CMakeFiles/Drv_TcpServer_impl.dir/rule
@@ -7955,7 +7974,7 @@ F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/Udp/CMakeFiles/Drv_Udp.dir/rule
@@ -7993,7 +8012,7 @@ F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/al
 
 # Build rule for subdir invocation for target.
 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Drv/Udp/CMakeFiles/Drv_Udp_impl.dir/rule
@@ -8021,7 +8040,7 @@ F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/all: F-Prime/Fw/Types/CMakeFi
 
 # Build rule for subdir invocation for target.
 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/CFDP/Checksum/CMakeFiles/CFDP_Checksum.dir/rule
@@ -8081,7 +8100,7 @@ F-Prime/Utils/CMakeFiles/Utils.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash
 
 # Build rule for subdir invocation for target.
 F-Prime/Utils/CMakeFiles/Utils.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 10
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Utils/CMakeFiles/Utils.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Utils/CMakeFiles/Utils.dir/rule
@@ -8135,7 +8154,7 @@ F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw
 
 # Build rule for subdir invocation for target.
 F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/rule
@@ -8189,7 +8208,7 @@ F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all: F-Prime/Fw/Types/CMakeFiles/
 
 # Build rule for subdir invocation for target.
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/rule
@@ -8244,12 +8263,12 @@ Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/all: F-Prime/Fw/Port/CMakeFiles/F
 Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref_SensorTypes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=44 "Built target Ref_SensorTypes"
 .PHONY : Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/all
 
 # Build rule for subdir invocation for target.
 Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/rule
@@ -8278,12 +8297,12 @@ Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/all: F-Prime/Fw/Port/CMakeFi
 Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=44 "Built target Ref_SensorTypes_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref_SensorTypes_impl"
 .PHONY : Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/all
 
 # Build rule for subdir invocation for target.
 Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/rule
@@ -8320,12 +8339,12 @@ Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/all: F-Prime/Os/CMakeFiles/Os.d
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/build.make Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/build.make Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=40 "Built target Ref_PingReceiver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref_PingReceiver"
 .PHONY : Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/all
 
 # Build rule for subdir invocation for target.
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir/rule
@@ -8358,7 +8377,7 @@ Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/all: F-Prime/Svc/Ping/CMak
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/build.make Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/build.make Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref_PingReceiver_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=40 "Built target Ref_PingReceiver_impl"
 .PHONY : Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -8404,7 +8423,7 @@ Ref/RecvBuffApp/CMakeFiles/Ref_RecvBuffApp.dir/all: F-Prime/Utils/Hash/CMakeFile
 
 # Build rule for subdir invocation for target.
 Ref/RecvBuffApp/CMakeFiles/Ref_RecvBuffApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/RecvBuffApp/CMakeFiles/Ref_RecvBuffApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/RecvBuffApp/CMakeFiles/Ref_RecvBuffApp.dir/rule
@@ -8479,12 +8498,12 @@ Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/all: F-Prime/Drv/DataTypes/CMakeF
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/build.make Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/build.make Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=42 "Built target Ref_SendBuffApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=43 "Built target Ref_SendBuffApp"
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/all
 
 # Build rule for subdir invocation for target.
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.dir/rule
@@ -8518,12 +8537,12 @@ Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/all: F-Prime/Os/CMakeFiles/O
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/all: F-Prime/Drv/DataTypes/CMakeFiles/Drv_DataTypes.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/build.make Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/build.make Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=43 "Built target Ref_SendBuffApp_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref_SendBuffApp_impl"
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/all
 
 # Build rule for subdir invocation for target.
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/rule
@@ -8560,7 +8579,7 @@ Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all: F-Prime/Os/CMakeFiles/Os.dir/all
 Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all: F-Prime/Utils/Hash/CMakeFiles/Utils_Hash.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build.make Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build.make Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=45 "Built target Ref_SignalGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=45,46 "Built target Ref_SignalGen"
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all
 
 # Build rule for subdir invocation for target.
@@ -8603,7 +8622,7 @@ Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/all: F-Prime/Os/CMakeFiles/Os.di
 
 # Build rule for subdir invocation for target.
 Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/rule
@@ -8616,6 +8635,74 @@ Ref_SignalGen_impl: Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/rule
 Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/clean:
 	$(MAKE) $(MAKESILENT) -f Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/build.make Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/clean
 .PHONY : Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/clean
+
+#=============================================================================
+# Target rules for target Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir
+
+# All Build rule for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/depend
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=42 "Built target Ref_SchedulerPorts"
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all
+
+# Build rule for subdir invocation for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 12
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/rule
+
+# Convenience name for target.
+Ref_SchedulerPorts: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/rule
+.PHONY : Ref_SchedulerPorts
+
+# clean rule for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir/clean
+
+#=============================================================================
+# Target rules for target Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir
+
+# All Build rule for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Com/CMakeFiles/Fw_Com.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Cmd/CMakeFiles/Fw_Cmd.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Log/CMakeFiles/Fw_Log.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Prm/CMakeFiles/Fw_Prm.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Cfg/CMakeFiles/Fw_Cfg.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/all
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/all
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/depend
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref_SchedulerPorts_impl"
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all
+
+# Build rule for subdir invocation for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/rule
+
+# Convenience name for target.
+Ref_SchedulerPorts_impl: Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/rule
+.PHONY : Ref_SchedulerPorts_impl
+
+# clean rule for target.
+Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/clean:
+	$(MAKE) $(MAKESILENT) -f Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/build.make Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/clean
+.PHONY : Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts_impl.dir/clean
 
 #=============================================================================
 # Target rules for target Ref/Top/CMakeFiles/Ref_Top.dir
@@ -8684,12 +8771,12 @@ Ref/Top/CMakeFiles/Ref_Top.dir/all: Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp.d
 Ref/Top/CMakeFiles/Ref_Top.dir/all: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/Top/CMakeFiles/Ref_Top.dir/build.make Ref/Top/CMakeFiles/Ref_Top.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/Top/CMakeFiles/Ref_Top.dir/build.make Ref/Top/CMakeFiles/Ref_Top.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=46,47 "Built target Ref_Top"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=47 "Built target Ref_Top"
 .PHONY : Ref/Top/CMakeFiles/Ref_Top.dir/all
 
 # Build rule for subdir invocation for target.
 Ref/Top/CMakeFiles/Ref_Top.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 45
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/Top/CMakeFiles/Ref_Top.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/Top/CMakeFiles/Ref_Top.dir/rule
@@ -8744,12 +8831,12 @@ Ref/Top/CMakeFiles/Ref_Top_impl.dir/all: Ref/SendBuffApp/CMakeFiles/Ref_SendBuff
 Ref/Top/CMakeFiles/Ref_Top_impl.dir/all: Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/all
 	$(MAKE) $(MAKESILENT) -f Ref/Top/CMakeFiles/Ref_Top_impl.dir/build.make Ref/Top/CMakeFiles/Ref_Top_impl.dir/depend
 	$(MAKE) $(MAKESILENT) -f Ref/Top/CMakeFiles/Ref_Top_impl.dir/build.make Ref/Top/CMakeFiles/Ref_Top_impl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num= "Built target Ref_Top_impl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=48 "Built target Ref_Top_impl"
 .PHONY : Ref/Top/CMakeFiles/Ref_Top_impl.dir/all
 
 # Build rule for subdir invocation for target.
 Ref/Top/CMakeFiles/Ref_Top_impl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/Top/CMakeFiles/Ref_Top_impl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : Ref/Top/CMakeFiles/Ref_Top_impl.dir/rule

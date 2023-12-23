@@ -293,6 +293,9 @@
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SignalGen/CMakeFiles/edit_cache.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SignalGen/CMakeFiles/rebuild_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SchedulerPorts/CMakeFiles/Ref_SchedulerPorts.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SchedulerPorts/CMakeFiles/edit_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SchedulerPorts/CMakeFiles/rebuild_cache.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/Top/CMakeFiles/Ref_Top.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/Top/CMakeFiles/edit_cache.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/Top/CMakeFiles/rebuild_cache.dir

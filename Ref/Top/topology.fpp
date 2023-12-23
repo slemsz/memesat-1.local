@@ -65,7 +65,8 @@ module Ref {
 
     param connections instance prmDb
 
-    telemetry connections instance tlmSend
+    # chantlm 
+    telemetry connections instance tlmSend 
 
     text event connections instance textLogger
 

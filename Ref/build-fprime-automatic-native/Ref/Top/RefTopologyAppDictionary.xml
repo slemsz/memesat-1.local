@@ -1,4 +1,4 @@
-<dictionary topology="Ref" framework_version="31293cc" project_version="31293cc">
+<dictionary topology="Ref" framework_version="d43acc95" project_version="d43acc95">
   <enums>
     <enum type="Fw::DeserialStatus">
       <item name="OK" value="0" description=""/>

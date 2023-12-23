@@ -99,6 +99,9 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=/Users/heron/Desktop/memedir/memesat-1.l
 //Path to a program.
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 
+//Install dir
+CMAKE_INSTALL_PREFIX:PATH=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts
+
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Library/Developer/CommandLineTools/usr/bin/ld
 
@@ -411,7 +414,6 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HOME_DIRECTORY:INTERNAL=/Users/heron/Desktop/memedir/memesat-1.local/Ref
 //ADVANCED property for variable: CMAKE_INSTALL_NAME_TOOL
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
-CMAKE_INSTALL_PREFIX:INTERNAL=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts
 //Original value of CMAKE_INSTALL_PREFIX from settings.ini
 CMAKE_INSTALL_PREFIX_INI_:INTERNAL=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts
 //ADVANCED property for variable: CMAKE_LINKER

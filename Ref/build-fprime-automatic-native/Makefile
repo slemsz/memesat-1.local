@@ -2398,6 +2398,32 @@ Utils_Types_impl/fast:
 .PHONY : Utils_Types_impl/fast
 
 #=============================================================================
+# Target rules for targets named Ref_SensorTypes
+
+# Build rule for target.
+Ref_SensorTypes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_SensorTypes
+.PHONY : Ref_SensorTypes
+
+# fast build rule for target.
+Ref_SensorTypes/fast:
+	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build
+.PHONY : Ref_SensorTypes/fast
+
+#=============================================================================
+# Target rules for targets named Ref_SensorTypes_impl
+
+# Build rule for target.
+Ref_SensorTypes_impl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_SensorTypes_impl
+.PHONY : Ref_SensorTypes_impl
+
+# fast build rule for target.
+Ref_SensorTypes_impl/fast:
+	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir/build
+.PHONY : Ref_SensorTypes_impl/fast
+
+#=============================================================================
 # Target rules for targets named Ref_PingReceiver
 
 # Build rule for target.
@@ -2601,6 +2627,7 @@ help:
 	@echo "... Ref_PingReceiver_impl"
 	@echo "... Ref_RecvBuffApp_impl"
 	@echo "... Ref_SendBuffApp_impl"
+	@echo "... Ref_SensorTypes_impl"
 	@echo "... Ref_SignalGen_impl"
 	@echo "... Ref_Top_impl"
 	@echo "... Svc_ActiveLogger_impl"
@@ -2694,6 +2721,7 @@ help:
 	@echo "... Ref_PingReceiver"
 	@echo "... Ref_RecvBuffApp"
 	@echo "... Ref_SendBuffApp"
+	@echo "... Ref_SensorTypes"
 	@echo "... Ref_SignalGen"
 	@echo "... Ref_Top"
 	@echo "... Svc_ActiveLogger"

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/Darwin/libRef_SensorTypes.a CMakeFiles/Ref_SensorTypes.dir/CELL_DATAArrayAc.cpp.o CMakeFiles/Ref_SensorTypes.dir/PANEL_DATAArrayAc.cpp.o CMakeFiles/Ref_SensorTypes.dir/SWITCH_STATEArrayAc.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/Darwin/libRef_SensorTypes.a

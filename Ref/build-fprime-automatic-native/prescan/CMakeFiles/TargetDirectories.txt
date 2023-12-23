@@ -278,6 +278,9 @@
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Utils/Types/CMakeFiles/edit_cache.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Utils/Types/CMakeFiles/rebuild_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SensorTypes/CMakeFiles/edit_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SensorTypes/CMakeFiles/rebuild_cache.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/PingReceiver/CMakeFiles/edit_cache.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/PingReceiver/CMakeFiles/rebuild_cache.dir

@@ -1235,6 +1235,19 @@ Utils_Types/fast:
 .PHONY : Utils_Types/fast
 
 #=============================================================================
+# Target rules for targets named Ref_SensorTypes
+
+# Build rule for target.
+Ref_SensorTypes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_SensorTypes
+.PHONY : Ref_SensorTypes
+
+# fast build rule for target.
+Ref_SensorTypes/fast:
+	$(MAKE) $(MAKESILENT) -f Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build.make Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir/build
+.PHONY : Ref_SensorTypes/fast
+
+#=============================================================================
 # Target rules for targets named Ref_PingReceiver
 
 # Build rule for target.
@@ -1371,6 +1384,7 @@ help:
 	@echo "... Ref_PingReceiver"
 	@echo "... Ref_RecvBuffApp"
 	@echo "... Ref_SendBuffApp"
+	@echo "... Ref_SensorTypes"
 	@echo "... Ref_SignalGen"
 	@echo "... Ref_Top"
 	@echo "... Svc_ActiveLogger"

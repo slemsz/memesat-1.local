@@ -752,6 +752,14 @@
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types/CMakeFiles/install.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types/CMakeFiles/install/local.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types/CMakeFiles/install/strip.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/Ref_SensorTypes.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/Ref_SensorTypes_impl.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/edit_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/rebuild_cache.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/list_install_components.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/install.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/install/local.dir
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SensorTypes/CMakeFiles/install/strip.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/CMakeFiles/Ref_PingReceiver.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/CMakeFiles/edit_cache.dir

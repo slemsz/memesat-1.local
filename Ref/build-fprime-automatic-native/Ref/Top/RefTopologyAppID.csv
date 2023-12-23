@@ -12,7 +12,6 @@ PingReceiver,pingRcvr,2560,2
 ActiveLogger,eventLogger,2816,5
 TlmChan,tlmSend,3072,0
 PrmDb,prmDb,3328,8
-TypeDemo,typeDemo,3584,21
 Health,health,8192,8
 SignalGen,SG1,8448,6
 SignalGen,SG2,8704,6

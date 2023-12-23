@@ -1287,19 +1287,6 @@ Ref_SignalGen/fast:
 .PHONY : Ref_SignalGen/fast
 
 #=============================================================================
-# Target rules for targets named Ref_TypeDemo
-
-# Build rule for target.
-Ref_TypeDemo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_TypeDemo
-.PHONY : Ref_TypeDemo
-
-# fast build rule for target.
-Ref_TypeDemo/fast:
-	$(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build
-.PHONY : Ref_TypeDemo/fast
-
-#=============================================================================
 # Target rules for targets named Ref_Top
 
 # Build rule for target.
@@ -1386,7 +1373,6 @@ help:
 	@echo "... Ref_SendBuffApp"
 	@echo "... Ref_SignalGen"
 	@echo "... Ref_Top"
-	@echo "... Ref_TypeDemo"
 	@echo "... Svc_ActiveLogger"
 	@echo "... Svc_ActiveRateGroup"
 	@echo "... Svc_ActiveTextLogger"

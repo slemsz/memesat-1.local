@@ -1,4 +1,4 @@
-<dictionary topology="Ref" framework_version="d43acc95" project_version="d43acc95">
+<dictionary topology="Ref" framework_version="dbff1f92" project_version="dbff1f92">
   <enums>
     <enum type="Fw::DeserialStatus">
       <item name="OK" value="0" description=""/>
@@ -67,12 +67,6 @@
       <item name="PARAMETER_ID_SIZE" value="6" description=""/>
       <item name="PARAMETER_VALUE" value="7" description=""/>
       <item name="PARAMETER_VALUE_SIZE" value="8" description=""/>
-    </enum>
-    <enum type="Ref::Choice">
-      <item name="ONE" value="0" description=""/>
-      <item name="TWO" value="1" description=""/>
-      <item name="RED" value="2" description=""/>
-      <item name="BLUE" value="3" description=""/>
     </enum>
     <enum type="Fw::Enabled">
       <item name="DISABLED" value="0" description="Disabled state"/>
@@ -146,19 +140,6 @@
         <member name="context" format_specifier="%u" default="0" type="U32"/>
       </members>
     </serializable>
-    <serializable type="Ref::ChoicePair">
-      <members>
-        <member name="firstChoice" format_specifier="%s" description="The first choice to make" default="Ref::Choice::ONE" type="Ref::Choice"/>
-        <member name="secondChoice" format_specifier="%s" description="The second choice to make" default="Ref::Choice::ONE" type="Ref::Choice"/>
-      </members>
-    </serializable>
-    <serializable type="Ref::ChoiceSlurry">
-      <members>
-        <member name="tooManyChoices" format_specifier="%s" description="A large set of disorganized choices" default="Ref::TooManyChoices(Ref::ManyChoices(Ref::Choice::ONE, Ref::Choice::ONE), Ref::ManyChoices(Ref::Choice::ONE, Ref::Choice::ONE))" type="Ref::TooManyChoices"/>
-        <member name="separateChoice" format_specifier="%s" description="A singular choice" default="Ref::Choice::ONE" type="Ref::Choice"/>
-        <member name="choicePair" format_specifier="%s" description="A pair of choices" default="Ref::ChoicePair(Ref::Choice::ONE, Ref::Choice::ONE)" type="Ref::ChoicePair"/>
-      </members>
-    </serializable>
     <serializable type="Ref::SignalPair">
       <members>
         <member name="time" format_specifier="%f" default="0.0f" type="F32"/>
@@ -181,25 +162,6 @@
     </serializable>
   </serializables>
   <arrays>
-    <array name="Ref::FloatSet" type="F32" type_id="0xF8E063EC" size="3" format="%g">
-      <defaults>
-        <default value="0.0f"/>
-        <default value="0.0f"/>
-        <default value="0.0f"/>
-      </defaults>
-    </array>
-    <array name="Ref::ManyChoices" type="Ref::Choice" type_id="0xBEF04111" size="2" format="%s">
-      <defaults>
-        <default value="Ref::Choice::ONE"/>
-        <default value="Ref::Choice::ONE"/>
-      </defaults>
-    </array>
-    <array name="Ref::TooManyChoices" type="Ref::ManyChoices" type_id="0x5D09FDB7" size="2" format="%s">
-      <defaults>
-        <default value="Ref::ManyChoices(Ref::Choice::ONE, Ref::Choice::ONE)"/>
-        <default value="Ref::ManyChoices(Ref::Choice::ONE, Ref::Choice::ONE)"/>
-      </defaults>
-    </array>
     <array name="Ref::SignalPairSet" type="Ref::SignalPair" type_id="0xB7FC714B" size="4" format="%s">
       <defaults>
         <default value="Ref::SignalPair(0.0f, 0.0f)"/>
@@ -342,95 +304,6 @@
     <command component="prmDb" mnemonic="PRM_SAVE_FILE" opcode="0xd00" description="Command to save parameter image to file. Uses file name passed to constructor">
       <args/>
     </command>
-    <command component="typeDemo" mnemonic="CHOICE" opcode="0xe00" description="Single choice command">
-      <args>
-        <arg name="choice" description="&#10;          A single choice&#10;          " type="Ref::Choice"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICES" opcode="0xe03" description="Multiple choice command via Array">
-      <args>
-        <arg name="choices" description="&#10;          A set of choices&#10;          " type="Ref::ManyChoices"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICES_WITH_FRIENDS" opcode="0xe04" description="Multiple choice command via Array with a preceding and following argument">
-      <args>
-        <arg name="repeat" description="&#10;          Number of times to repeat the choices&#10;          " type="U8"/>
-        <arg name="choices" description="&#10;          A set of choices&#10;          " type="Ref::ManyChoices"/>
-        <arg name="repeat_max" description="&#10;          Limit to the number of repetitions&#10;          " type="U8"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="EXTRA_CHOICES" opcode="0xe07" description="Too many choice command via Array">
-      <args>
-        <arg name="choices" description="&#10;          Way to many choices to make&#10;          " type="Ref::TooManyChoices"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="EXTRA_CHOICES_WITH_FRIENDS" opcode="0xe08" description="Too many choices command via Array with a preceding and following argument">
-      <args>
-        <arg name="repeat" description="&#10;          Number of times to repeat the choices&#10;          " type="U8"/>
-        <arg name="choices" description="&#10;          Way to many choices to make&#10;          " type="Ref::TooManyChoices"/>
-        <arg name="repeat_max" description="&#10;          Limit to the number of repetitions&#10;          " type="U8"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICE_PAIR" opcode="0xe0b" description="Multiple choice command via Structure">
-      <args>
-        <arg name="choices" description="&#10;          A pair of choices&#10;          " type="Ref::ChoicePair"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICE_PAIR_WITH_FRIENDS" opcode="0xe0c" description="Multiple choices command via Structure with a preceding and following argument">
-      <args>
-        <arg name="repeat" description="&#10;          Number of times to repeat the choices&#10;          " type="U8"/>
-        <arg name="choices" description="&#10;          A pair of choices&#10;          " type="Ref::ChoicePair"/>
-        <arg name="repeat_max" description="&#10;          Limit to the number of repetitions&#10;          " type="U8"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="GLUTTON_OF_CHOICE" opcode="0xe0f" description="Multiple choice command via Complex Structure">
-      <args>
-        <arg name="choices" description="&#10;          A phenomenal amount of choice&#10;          " type="Ref::ChoiceSlurry"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="GLUTTON_OF_CHOICE_WITH_FRIENDS" opcode="0xe10" description="Multiple choices command via Complex Structure with a preceding and following argument">
-      <args>
-        <arg name="repeat" description="&#10;          Number of times to repeat the choices&#10;          " type="U8"/>
-        <arg name="choices" description="&#10;          A phenomenal amount of choice&#10;          " type="Ref::ChoiceSlurry"/>
-        <arg name="repeat_max" description="&#10;          Limit to the number of repetitions&#10;          " type="U8"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="DUMP_TYPED_PARAMETERS" opcode="0xe13" description="Dump the typed parameters">
-      <args/>
-    </command>
-    <command component="typeDemo" mnemonic="DUMP_FLOATS" opcode="0xe14" description="Dump the float values">
-      <args/>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICE_PRM_PRM_SET" opcode="0xe01" description="Single enumeration parameter parameter set">
-      <args>
-        <arg name="val" type="Ref::Choice"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICE_PRM_PRM_SAVE" opcode="0xe02" description="Single enumeration parameter parameter save"/>
-    <command component="typeDemo" mnemonic="CHOICES_PRM_PRM_SET" opcode="0xe05" description="Multiple enumeration parameter via Array parameter set">
-      <args>
-        <arg name="val" type="Ref::ManyChoices"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICES_PRM_PRM_SAVE" opcode="0xe06" description="Multiple enumeration parameter via Array parameter save"/>
-    <command component="typeDemo" mnemonic="EXTRA_CHOICES_PRM_PRM_SET" opcode="0xe09" description="Too many enumeration parameter via Array parameter set">
-      <args>
-        <arg name="val" type="Ref::ManyChoices"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="EXTRA_CHOICES_PRM_PRM_SAVE" opcode="0xe0a" description="Too many enumeration parameter via Array parameter save"/>
-    <command component="typeDemo" mnemonic="CHOICE_PAIR_PRM_PRM_SET" opcode="0xe0d" description="Multiple enumeration parameter via Structure parameter set">
-      <args>
-        <arg name="val" type="Ref::ChoicePair"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="CHOICE_PAIR_PRM_PRM_SAVE" opcode="0xe0e" description="Multiple enumeration parameter via Structure parameter save"/>
-    <command component="typeDemo" mnemonic="GLUTTON_OF_CHOICE_PRM_PRM_SET" opcode="0xe11" description="Multiple enumeration parameter via Complex Structure parameter set">
-      <args>
-        <arg name="val" type="Ref::ChoiceSlurry"/>
-      </args>
-    </command>
-    <command component="typeDemo" mnemonic="GLUTTON_OF_CHOICE_PRM_PRM_SAVE" opcode="0xe12" description="Multiple enumeration parameter via Complex Structure parameter save"/>
     <command component="health" mnemonic="HLTH_ENABLE" opcode="0x2000" description="A command to enable or disable health checks">
       <args>
         <arg name="enable" description="&#10;          whether or not health checks are enabled&#10;          " type="Fw::Enabled"/>
@@ -1105,69 +978,6 @@
         <arg name="records" description="The number of records loaded" type="U32"/>
       </args>
     </event>
-    <event component="typeDemo" name="ChoiceEv" id="0xe00" severity="ACTIVITY_HI" description="Single choice event" format_string="Choice: %s">
-      <args>
-        <arg name="choice" type="Ref::Choice"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ChoicesEv" id="0xe01" severity="ACTIVITY_HI" description="Multiple choice event via Array" format_string="Choices: %s">
-      <args>
-        <arg name="choices" type="Ref::ManyChoices"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ExtraChoicesEv" id="0xe02" severity="ACTIVITY_HI" description="Too many choice event via Array" format_string="Choices: %s">
-      <args>
-        <arg name="choices" type="Ref::TooManyChoices"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ChoicePairEv" id="0xe03" severity="ACTIVITY_HI" description="Multiple choice event via Structure" format_string="Choices: %s">
-      <args>
-        <arg name="choices" type="Ref::ChoicePair"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ChoiceSlurryEv" id="0xe04" severity="ACTIVITY_HI" description="Multiple choice event via Complex Structure" format_string="Choices: %s">
-      <args>
-        <arg name="choices" type="Ref::ChoiceSlurry"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ChoicePrmEv" id="0xe05" severity="ACTIVITY_HI" description="Single choice parameter event" format_string="CHOICE_PRM: %s with validity: %s">
-      <args>
-        <arg name="choice" type="Ref::Choice"/>
-        <arg name="validity" type="Fw::ParamValid"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ChoicesPrmEv" id="0xe06" severity="ACTIVITY_HI" description="Multiple choice parameter event via Array" format_string="CHOICES_PRM: %s with validity: %s">
-      <args>
-        <arg name="choices" type="Ref::ManyChoices"/>
-        <arg name="validity" type="Fw::ParamValid"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ExtraChoicesPrmEv" id="0xe07" severity="ACTIVITY_HI" description="Too many choice parameter event via Array" format_string="EXTRA_CHOICES_PRM: %s with validity: %s">
-      <args>
-        <arg name="choices" type="Ref::TooManyChoices"/>
-        <arg name="validity" type="Fw::ParamValid"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ChoicePairPrmEv" id="0xe08" severity="ACTIVITY_HI" description="Multiple choice parameter event via Structure" format_string="CHOICE_PAIR_PRM: %s with validity: %s">
-      <args>
-        <arg name="choices" type="Ref::ChoicePair"/>
-        <arg name="validity" type="Fw::ParamValid"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="ChoiceSlurryPrmEv" id="0xe09" severity="ACTIVITY_HI" description="Multiple choice parameter event via Complex Structure" format_string="GLUTTON_OF_CHOICE_PRM: %s with validity: %s">
-      <args>
-        <arg name="choices" type="Ref::ChoiceSlurry"/>
-        <arg name="validity" type="Fw::ParamValid"/>
-      </args>
-    </event>
-    <event component="typeDemo" name="FloatEv" id="0xe0a" severity="ACTIVITY_HI" description="A set of floats in an event" format_string="Floats: %g %g %g as a set: %s">
-      <args>
-        <arg name="float1" type="F32"/>
-        <arg name="float2" type="F32"/>
-        <arg name="float3" type="F32"/>
-        <arg name="floats" type="Ref::FloatSet"/>
-      </args>
-    </event>
     <event component="health" name="HLTH_PING_WARN" id="0x2000" severity="WARNING_HI" description="Warn that a ping target is longer than the warning value" format_string="Ping entry %s late warning">
       <args>
         <arg name="entry" description="The entry passing the warning level" len="40" type="string"/>
@@ -1404,15 +1214,6 @@
     <channel component="fileUplink" name="PacketsReceived" id="0x901" description="The total number of packets received" type="U32"/>
     <channel component="fileUplink" name="Warnings" id="0x902" description="The total number of warnings issued" type="U32"/>
     <channel component="pingRcvr" name="PR_NumPings" id="0xa00" description="Number of pings received" type="U32"/>
-    <channel component="typeDemo" name="ChoiceCh" id="0xe00" description="Single choice channel" type="Ref::Choice"/>
-    <channel component="typeDemo" name="ChoicesCh" id="0xe01" description="Multiple choice channel via Array" type="Ref::ManyChoices"/>
-    <channel component="typeDemo" name="ExtraChoicesCh" id="0xe02" description="Too many choice channel via Array" type="Ref::TooManyChoices"/>
-    <channel component="typeDemo" name="ChoicePairCh" id="0xe03" description="Multiple choice channel via Structure" type="Ref::ChoicePair"/>
-    <channel component="typeDemo" name="ChoiceSlurryCh" id="0xe04" description="Multiple choice channel via Complex Structure" type="Ref::ChoiceSlurry"/>
-    <channel component="typeDemo" name="Float1Ch" id="0xe05" description="Float output channel 1" type="F32"/>
-    <channel component="typeDemo" name="Float2Ch" id="0xe06" description="Float output channel 2" type="F32"/>
-    <channel component="typeDemo" name="Float3Ch" id="0xe07" description="Float output channel 3" type="F32"/>
-    <channel component="typeDemo" name="FloatSet" id="0xe08" description="Float set output channel" type="Ref::FloatSet"/>
     <channel component="health" name="PingLateWarnings" id="0x2000" description="Number of overrun warnings" type="U32"/>
     <channel component="SG1" name="Type" id="0x2100" description="Type of the output signal: SINE, TRIANGLE, etc." type="Ref::SignalType"/>
     <channel component="SG1" name="Output" id="0x2101" format_string="%.4f" description="Single Y value of the output" type="F32"/>
@@ -1484,11 +1285,6 @@
     <channel component="systemResources" name="PROJECT_VERSION" id="0x4b16" description="Software project version" len="40" type="string"/>
   </channels>
   <parameters>
-    <parameter component="typeDemo" name="CHOICE_PRM" id="0xe00" default="0"/>
-    <parameter component="typeDemo" name="CHOICES_PRM" id="0xe01" default="0"/>
-    <parameter component="typeDemo" name="EXTRA_CHOICES_PRM" id="0xe02" default="0"/>
-    <parameter component="typeDemo" name="CHOICE_PAIR_PRM" id="0xe03" default="0"/>
-    <parameter component="typeDemo" name="GLUTTON_OF_CHOICE_PRM" id="0xe04" default="0"/>
     <parameter component="sendBuffComp" name="parameter3" id="0x2600" default="12"/>
     <parameter component="sendBuffComp" name="parameter4" id="0x2601" default="13.14f"/>
     <parameter component="recvBuffComp" name="parameter1" id="0x4700" default="10"/>

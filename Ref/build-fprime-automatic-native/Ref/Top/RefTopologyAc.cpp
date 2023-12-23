@@ -156,8 +156,6 @@ namespace Ref {
 
   Svc::TlmChan tlmSend(FW_OPTIONAL_NAME("tlmSend"));
 
-  TypeDemo typeDemo(FW_OPTIONAL_NAME("typeDemo"));
-
   Svc::Deframer uplink(FW_OPTIONAL_NAME("uplink"));
 
   // ----------------------------------------------------------------------
@@ -196,7 +194,6 @@ namespace Ref {
     systemResources.init(InstanceIds::systemResources);
     textLogger.init(InstanceIds::textLogger);
     tlmSend.init(QueueSizes::tlmSend, InstanceIds::tlmSend);
-    typeDemo.init(InstanceIds::typeDemo);
     uplink.init(InstanceIds::uplink);
   }
 
@@ -218,7 +215,6 @@ namespace Ref {
     eventLogger.setIdBase(BaseIds::eventLogger);
     tlmSend.setIdBase(BaseIds::tlmSend);
     prmDb.setIdBase(BaseIds::prmDb);
-    typeDemo.setIdBase(BaseIds::typeDemo);
     health.setIdBase(BaseIds::health);
     SG1.setIdBase(BaseIds::SG1);
     SG2.setIdBase(BaseIds::SG2);
@@ -307,10 +303,6 @@ namespace Ref {
         15,
         systemResources.get_CmdDisp_InputPort(0)
     );
-    cmdDisp.set_compCmdSend_OutputPort(
-        16,
-        typeDemo.get_cmdIn_InputPort(0)
-    );
 
     // CommandRegistration
     SG1.set_cmdRegOut_OutputPort(
@@ -377,10 +369,6 @@ namespace Ref {
         0,
         cmdDisp.get_compCmdReg_InputPort(15)
     );
-    typeDemo.set_cmdRegOut_OutputPort(
-        0,
-        cmdDisp.get_compCmdReg_InputPort(16)
-    );
 
     // CommandResponse
     SG1.set_cmdResponseOut_OutputPort(
@@ -444,10 +432,6 @@ namespace Ref {
         cmdDisp.get_compCmdStat_InputPort(0)
     );
     systemResources.set_CmdStatus_OutputPort(
-        0,
-        cmdDisp.get_compCmdStat_InputPort(0)
-    );
-    typeDemo.set_cmdResponseOut_OutputPort(
         0,
         cmdDisp.get_compCmdStat_InputPort(0)
     );
@@ -568,10 +552,6 @@ namespace Ref {
         eventLogger.get_LogRecv_InputPort(0)
     );
     systemResources.set_Log_OutputPort(
-        0,
-        eventLogger.get_LogRecv_InputPort(0)
-    );
-    typeDemo.set_logOut_OutputPort(
         0,
         eventLogger.get_LogRecv_InputPort(0)
     );
@@ -702,14 +682,6 @@ namespace Ref {
         prmDb.get_getPrm_InputPort(0)
     );
     sendBuffComp.set_ParamSet_OutputPort(
-        0,
-        prmDb.get_setPrm_InputPort(0)
-    );
-    typeDemo.set_prmGetOut_OutputPort(
-        0,
-        prmDb.get_getPrm_InputPort(0)
-    );
-    typeDemo.set_prmSetOut_OutputPort(
         0,
         prmDb.get_setPrm_InputPort(0)
     );
@@ -885,10 +857,6 @@ namespace Ref {
         0,
         tlmSend.get_TlmRecv_InputPort(0)
     );
-    typeDemo.set_tlmOut_OutputPort(
-        0,
-        tlmSend.get_TlmRecv_InputPort(0)
-    );
 
     // TextEvents
     SG1.set_logTextOut_OutputPort(
@@ -976,10 +944,6 @@ namespace Ref {
         textLogger.get_TextLogger_InputPort(0)
     );
     systemResources.set_LogText_OutputPort(
-        0,
-        textLogger.get_TextLogger_InputPort(0)
-    );
-    typeDemo.set_logTextOut_OutputPort(
         0,
         textLogger.get_TextLogger_InputPort(0)
     );
@@ -1077,10 +1041,6 @@ namespace Ref {
         0,
         linuxTime.get_timeGetPort_InputPort(0)
     );
-    typeDemo.set_timeCaller_OutputPort(
-        0,
-        linuxTime.get_timeGetPort_InputPort(0)
-    );
 
     // Uplink
     cmdDisp.set_seqCmdStatus_OutputPort(
@@ -1138,7 +1098,6 @@ namespace Ref {
     recvBuffComp.regCommands();
     sendBuffComp.regCommands();
     systemResources.regCommands();
-    typeDemo.regCommands();
   }
 
   void readParameters() {
@@ -1148,7 +1107,6 @@ namespace Ref {
   void loadParameters() {
     recvBuffComp.loadParameters();
     sendBuffComp.loadParameters();
-    typeDemo.loadParameters();
   }
 
   void startTasks(const TopologyState& state) {

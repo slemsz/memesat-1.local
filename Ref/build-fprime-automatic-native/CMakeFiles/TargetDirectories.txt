@@ -784,14 +784,6 @@
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/install.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/install/local.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/CMakeFiles/install/strip.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/edit_cache.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/rebuild_cache.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/list_install_components.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/install.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/install/local.dir
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/CMakeFiles/install/strip.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/Ref_Top.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/Ref_Top_impl.dir
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/edit_cache.dir

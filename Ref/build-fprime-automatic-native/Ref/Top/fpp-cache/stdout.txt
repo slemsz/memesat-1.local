@@ -14,7 +14,6 @@
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/RecvBuffApp/RecvBuffApp.fpp
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/SignalGen.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.fpp
 /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.fpp
 /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.fpp
 /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp

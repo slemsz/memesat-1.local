@@ -103,7 +103,6 @@ bin/Darwin/Ref: lib/Darwin/libRef_RecvBuffApp.a
 bin/Darwin/Ref: lib/Darwin/libRef_SendBuffApp.a
 bin/Darwin/Ref: lib/Darwin/libDrv_DataTypes.a
 bin/Darwin/Ref: lib/Darwin/libRef_SignalGen.a
-bin/Darwin/Ref: lib/Darwin/libRef_TypeDemo.a
 bin/Darwin/Ref: lib/Darwin/libSvc_ActiveLogger.a
 bin/Darwin/Ref: lib/Darwin/libSvc_ActiveRateGroup.a
 bin/Darwin/Ref: lib/Darwin/libSvc_AssertFatalAdapter.a

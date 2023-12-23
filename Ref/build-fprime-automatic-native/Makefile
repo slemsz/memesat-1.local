@@ -2502,32 +2502,6 @@ Ref_SignalGen_impl/fast:
 .PHONY : Ref_SignalGen_impl/fast
 
 #=============================================================================
-# Target rules for targets named Ref_TypeDemo
-
-# Build rule for target.
-Ref_TypeDemo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_TypeDemo
-.PHONY : Ref_TypeDemo
-
-# fast build rule for target.
-Ref_TypeDemo/fast:
-	$(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build
-.PHONY : Ref_TypeDemo/fast
-
-#=============================================================================
-# Target rules for targets named Ref_TypeDemo_impl
-
-# Build rule for target.
-Ref_TypeDemo_impl: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref_TypeDemo_impl
-.PHONY : Ref_TypeDemo_impl
-
-# fast build rule for target.
-Ref_TypeDemo_impl/fast:
-	$(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/build
-.PHONY : Ref_TypeDemo_impl/fast
-
-#=============================================================================
 # Target rules for targets named Ref_Top
 
 # Build rule for target.
@@ -2629,7 +2603,6 @@ help:
 	@echo "... Ref_SendBuffApp_impl"
 	@echo "... Ref_SignalGen_impl"
 	@echo "... Ref_Top_impl"
-	@echo "... Ref_TypeDemo_impl"
 	@echo "... Svc_ActiveLogger_impl"
 	@echo "... Svc_ActiveRateGroup_impl"
 	@echo "... Svc_ActiveTextLogger_impl"
@@ -2723,7 +2696,6 @@ help:
 	@echo "... Ref_SendBuffApp"
 	@echo "... Ref_SignalGen"
 	@echo "... Ref_Top"
-	@echo "... Ref_TypeDemo"
 	@echo "... Svc_ActiveLogger"
 	@echo "... Svc_ActiveRateGroup"
 	@echo "... Svc_ActiveTextLogger"

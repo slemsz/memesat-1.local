@@ -31,7 +31,6 @@
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts/Darwin/Ref/lib/static/libRef_RecvBuffApp.a
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts/Darwin/Ref/lib/static/libRef_SendBuffApp.a
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts/Darwin/Ref/lib/static/libRef_SignalGen.a
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts/Darwin/Ref/lib/static/libRef_TypeDemo.a
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts/Darwin/Ref/lib/static/libSvc_Fatal.a
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts/Darwin/Ref/lib/static/libSvc_ActiveLogger.a
 /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts/Darwin/Ref/lib/static/libSvc_ActiveRateGroup.a

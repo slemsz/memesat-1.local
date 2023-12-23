@@ -51,7 +51,7 @@ module Ref {
     instance sendBuffComp
     instance staticMemory
     instance textLogger
-    instance typeDemo
+    # instance typeDemo
     instance uplink
     instance systemResources
 
@@ -65,7 +65,7 @@ module Ref {
 
     param connections instance prmDb
 
-    # chantlm 
+    # chanTlm 
     telemetry connections instance tlmSend 
 
     text event connections instance textLogger

@@ -1,9 +1,0 @@
-typeDemo.ChoiceCh
-typeDemo.ChoicesCh
-typeDemo.ExtraChoicesCh
-typeDemo.ChoicePairCh
-typeDemo.ChoiceSlurryCh
-typeDemo.Float1Ch
-typeDemo.Float2Ch
-typeDemo.Float3Ch
-typeDemo.FloatSet

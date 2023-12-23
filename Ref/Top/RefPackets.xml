@@ -147,17 +147,7 @@
         <channel name="SG5.PairHistory"/>
     </packet>
 
-    <packet name="TypeDemo" id="20" level="3">
-        <channel name="typeDemo.ChoiceCh"/>
-        <channel name="typeDemo.ChoicesCh"/>
-        <channel name="typeDemo.ExtraChoicesCh"/>
-        <channel name="typeDemo.ChoicePairCh"/>
-        <channel name="typeDemo.ChoiceSlurryCh"/>
-        <channel name="typeDemo.Float1Ch"/>
-        <channel name="typeDemo.Float2Ch"/>
-        <channel name="typeDemo.Float3Ch"/>
-        <channel name="typeDemo.FloatSet"/>
-    </packet>
+
 
     <!-- Ignored packets -->
 

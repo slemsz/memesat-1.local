@@ -101,8 +101,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefPackets.xml"
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/instances.fpp"
   "/Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/topology.fpp"
-  "/Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/CMakeLists.txt"
-  "/Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.fpp"
   "CMakeFiles/3.28.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.1/CMakeSystem.cmake"
@@ -370,7 +368,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Ref/RecvBuffApp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Ref/SendBuffApp/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Ref/SignalGen/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Ref/TypeDemo/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Ref/Top/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -556,8 +553,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/DependInfo.cmake"
   "Ref/SignalGen/CMakeFiles/Ref_SignalGen.dir/DependInfo.cmake"
   "Ref/SignalGen/CMakeFiles/Ref_SignalGen_impl.dir/DependInfo.cmake"
-  "Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/DependInfo.cmake"
-  "Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/DependInfo.cmake"
   "Ref/Top/CMakeFiles/Ref_Top.dir/DependInfo.cmake"
   "Ref/Top/CMakeFiles/Ref_Top_impl.dir/DependInfo.cmake"
   )

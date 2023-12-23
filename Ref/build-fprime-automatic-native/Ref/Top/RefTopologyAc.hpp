@@ -14,7 +14,6 @@
 #include "Ref/SendBuffApp/SendBuff.hpp"
 #include "Ref/SignalGen/SignalGen.hpp"
 #include "Ref/Top/RefTopologyDefs.hpp"
-#include "Ref/TypeDemo/TypeDemo.hpp"
 #include "Svc/ActiveLogger/ActiveLogger.hpp"
 #include "Svc/ActiveRateGroup/ActiveRateGroup.hpp"
 #include "Svc/AssertFatalAdapter/AssertFatalAdapter.hpp"
@@ -57,7 +56,6 @@ namespace Ref {
       eventLogger = 0xB00,
       tlmSend = 0xC00,
       prmDb = 0xD00,
-      typeDemo = 0xE00,
       health = 0x2000,
       SG1 = 0x2100,
       SG2 = 0x2200,
@@ -113,7 +111,6 @@ namespace Ref {
       systemResources,
       textLogger,
       tlmSend,
-      typeDemo,
       uplink,
     };
   }
@@ -293,9 +290,6 @@ namespace Ref {
 
   //! tlmSend
   extern Svc::TlmChan tlmSend;
-
-  //! typeDemo
-  extern TypeDemo typeDemo;
 
   //! uplink
   extern Svc::Deframer uplink;

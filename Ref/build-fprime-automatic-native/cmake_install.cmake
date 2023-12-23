@@ -304,14 +304,6 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Darwin/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Darwin/libRef_TypeDemo.a")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Darwin/Ref/lib/static/libRef_TypeDemo.a" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Darwin/Ref/lib/static/libRef_TypeDemo.a")
-    execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/ranlib" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Darwin/Ref/lib/static/libRef_TypeDemo.a")
-  endif()
-endif()
-
-if(CMAKE_INSTALL_COMPONENT STREQUAL "Ref" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/Darwin/Ref/lib/static" TYPE STATIC_LIBRARY FILES "/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/lib/Darwin/libSvc_Fatal.a")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Darwin/Ref/lib/static/libSvc_Fatal.a" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/Darwin/Ref/lib/static/libSvc_Fatal.a")
@@ -561,7 +553,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/RecvBuffApp/cmake_install.cmake")
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp/cmake_install.cmake")
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/cmake_install.cmake")
-  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/cmake_install.cmake")
   include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/cmake_install.cmake")
 
 endif()

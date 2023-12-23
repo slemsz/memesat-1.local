@@ -370,14 +370,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o: \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Health/HealthComponentAc.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types/EnabledEnumAc.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/WatchDog/WatchDogPortAc.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/TypeDemoComponentAc.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoiceEnumAc.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoicePairSerializableAc.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoiceSlurrySerializableAc.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/TooManyChoicesArrayAc.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ManyChoicesArrayAc.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/FloatSetArrayAc.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveLogger/ActiveLoggerComponentAc.hpp \

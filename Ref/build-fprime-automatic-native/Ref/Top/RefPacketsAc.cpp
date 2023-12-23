@@ -193,20 +193,6 @@ namespace Ref {
 
   static const Svc::TlmPacketizerPacket SigGen5 = { SigGen5List, 19, 3, FW_NUM_ARRAY_ELEMENTS(SigGen5List) };
 
-  static const Svc::TlmPacketizerChannelEntry TypeDemoList[] = {
-      {3584, 4}, // typeDemo.ChoiceCh
-      {3585, 8}, // typeDemo.ChoicesCh
-      {3586, 16}, // typeDemo.ExtraChoicesCh
-      {3587, 8}, // typeDemo.ChoicePairCh
-      {3588, 28}, // typeDemo.ChoiceSlurryCh
-      {3589, 4}, // typeDemo.Float1Ch
-      {3590, 4}, // typeDemo.Float2Ch
-      {3591, 4}, // typeDemo.Float3Ch
-      {3592, 12}, // typeDemo.FloatSet
-  };
-
-  static const Svc::TlmPacketizerPacket TypeDemo = { TypeDemoList, 20, 3, FW_NUM_ARRAY_ELEMENTS(TypeDemoList) };
-
 
 
   const Svc::TlmPacketizerPacketList RefPacketsPkts = {
@@ -228,9 +214,8 @@ namespace Ref {
          &SigGen3,
          &SigGen4,
          &SigGen5,
-         &TypeDemo,
       },
-      18
+      17
   };
 
 

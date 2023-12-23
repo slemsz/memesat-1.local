@@ -5,8 +5,8 @@
 #ifndef _VERSION_HPP_
 #define _VERSION_HPP_
 
-static const char* FRAMEWORK_VERSION = "dbff1f92";
-static const char* PROJECT_VERSION = "dbff1f92";
+static const char* FRAMEWORK_VERSION = "0fe34cbb";
+static const char* PROJECT_VERSION = "0fe34cbb";
 
 #endif
 

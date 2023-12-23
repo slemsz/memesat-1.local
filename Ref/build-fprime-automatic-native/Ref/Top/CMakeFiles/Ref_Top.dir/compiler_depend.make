@@ -1086,7 +1086,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o: /Users/heron/Desktop/memedir/m
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/SignalGen.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopologyDefs.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.hpp \
   F-Prime/Drv/BlockDriver/BlockDriverComponentAc.hpp \
   F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp \
   F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp \
@@ -1171,13 +1170,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o: /Users/heron/Desktop/memedir/m
   Ref/Top/FppConstantsAc.hpp \
   Ref/Top/RefPacketsAc.hpp \
   Ref/Top/RefTopologyAc.hpp \
-  Ref/TypeDemo/ChoiceEnumAc.hpp \
-  Ref/TypeDemo/ChoicePairSerializableAc.hpp \
-  Ref/TypeDemo/ChoiceSlurrySerializableAc.hpp \
-  Ref/TypeDemo/FloatSetArrayAc.hpp \
-  Ref/TypeDemo/ManyChoicesArrayAc.hpp \
-  Ref/TypeDemo/TooManyChoicesArrayAc.hpp \
-  Ref/TypeDemo/TypeDemoComponentAc.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.hpp \
@@ -1553,7 +1545,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o: Ref/Top/RefTopologyAc.cpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/SignalGen.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopologyDefs.hpp \
-  /Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.hpp \
   F-Prime/Drv/BlockDriver/BlockDriverComponentAc.hpp \
   F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp \
   F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp \
@@ -1637,13 +1628,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o: Ref/Top/RefTopologyAc.cpp \
   Ref/SignalGen/SignalTypeEnumAc.hpp \
   Ref/Top/FppConstantsAc.hpp \
   Ref/Top/RefTopologyAc.hpp \
-  Ref/TypeDemo/ChoiceEnumAc.hpp \
-  Ref/TypeDemo/ChoicePairSerializableAc.hpp \
-  Ref/TypeDemo/ChoiceSlurrySerializableAc.hpp \
-  Ref/TypeDemo/FloatSetArrayAc.hpp \
-  Ref/TypeDemo/ManyChoicesArrayAc.hpp \
-  Ref/TypeDemo/TooManyChoicesArrayAc.hpp \
-  Ref/TypeDemo/TypeDemoComponentAc.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.hpp \
   /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.hpp \
@@ -1768,12 +1752,6 @@ Ref/Top/RefTopologyAc.cpp:
 
 /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.hpp:
 
-Ref/TypeDemo/TooManyChoicesArrayAc.hpp:
-
-Ref/TypeDemo/ChoicePairSerializableAc.hpp:
-
-Ref/TypeDemo/ChoiceEnumAc.hpp:
-
 Ref/Top/RefTopologyAc.hpp:
 
 Ref/SignalGen/SignalTypeEnumAc.hpp:
@@ -1847,8 +1825,6 @@ F-Prime/Fw/Buffer/BufferGetPortAc.hpp:
 F-Prime/Drv/ByteStreamDriverModel/ByteStreamRecvPortAc.hpp:
 
 F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp:
-
-/Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/can_extract_key.h:
 
@@ -2226,8 +2202,6 @@ F-Prime/Svc/CmdSequencer/CmdSequencer_FileReadStageEnumAc.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_u_int32_t.h:
 
-Ref/TypeDemo/FloatSetArrayAc.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_specialization.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/common_reference.h:
@@ -2258,8 +2232,6 @@ F-Prime/Drv/ByteStreamDriverModel/PollStatusEnumAc.hpp:
 
 /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/SerialBuffer.hpp:
 
-Ref/TypeDemo/ChoiceSlurrySerializableAc.hpp:
-
 /Users/heron/Desktop/memedir/memesat-1.local/Drv/TcpClient/TcpClientComponentImpl.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_destructible.h:
@@ -2283,6 +2255,10 @@ F-Prime/Fw/Cmd/CmdRegPortAc.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/sys/_types/_uintptr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/stdint.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
+
+F-Prime/Svc/StaticMemory/StaticMemoryComponentAc.hpp:
 
 Ref/Top/Ports_RateGroupsEnumAc.hpp:
 
@@ -2396,8 +2372,6 @@ Ref/Top/FppConstantsAc.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_swappable.h:
 
-Ref/TypeDemo/ManyChoicesArrayAc.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_constructible.h:
 
 /Users/heron/Desktop/memedir/memesat-1.local/Svc/TlmChan/TlmChan.hpp:
@@ -2458,8 +2432,6 @@ F-Prime/Svc/Cycle/CyclePortAc.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__assert:
 
-Ref/TypeDemo/TypeDemoComponentAc.hpp:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_types/_uint64_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_move_assignable.h:
@@ -2489,10 +2461,6 @@ Ref/TypeDemo/TypeDemoComponentAc.hpp:
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_assignable.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_member_function_pointer.h:
-
-F-Prime/Svc/StaticMemory/StaticMemoryComponentAc.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_copy_assignable.h:
 

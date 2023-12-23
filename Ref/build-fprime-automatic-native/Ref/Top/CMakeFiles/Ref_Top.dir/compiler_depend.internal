@@ -1091,7 +1091,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/SignalGen.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopologyDefs.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/BlockDriver/BlockDriverComponentAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp
@@ -1176,13 +1175,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoiceEnumAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoicePairSerializableAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoiceSlurrySerializableAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/FloatSetArrayAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ManyChoicesArrayAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/TooManyChoicesArrayAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/TypeDemoComponentAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.hpp
@@ -1559,7 +1551,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/SignalGen.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopologyDefs.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/BlockDriver/BlockDriverComponentAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamDriverModelComponentAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/ByteStreamPollPortAc.hpp
@@ -1643,13 +1634,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SignalGen/SignalTypeEnumAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoiceEnumAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoicePairSerializableAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ChoiceSlurrySerializableAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/FloatSetArrayAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/ManyChoicesArrayAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/TooManyChoicesArrayAc.hpp
- /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo/TypeDemoComponentAc.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLoggerImpl.hpp
  /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.hpp

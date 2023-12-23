@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Utils_impl.
 
@@ -74,10 +74,10 @@ F-Prime/Utils/CMakeFiles/Utils_impl.dir/build: Utils_impl
 .PHONY : F-Prime/Utils/CMakeFiles/Utils_impl.dir/build
 
 F-Prime/Utils/CMakeFiles/Utils_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -P CMakeFiles/Utils_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -P CMakeFiles/Utils_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Utils/CMakeFiles/Utils_impl.dir/clean
 
 F-Prime/Utils/CMakeFiles/Utils_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/CMakeFiles/Utils_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Utils /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/CMakeFiles/Utils_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Utils/CMakeFiles/Utils_impl.dir/depend
 

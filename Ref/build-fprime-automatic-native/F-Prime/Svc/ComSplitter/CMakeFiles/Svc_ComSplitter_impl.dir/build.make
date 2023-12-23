@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Svc_ComSplitter_impl.
 
@@ -69,37 +69,37 @@ include F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/progress.mak
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/ComSplitterComponentAc.hpp
-F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template
-F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template
+F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template
+F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template
 
-F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp
-F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp: lib/Linux/libFw_Com.a
-F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ComSplitterComponentAc.cpp, ComSplitterComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp
+F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp: lib/Darwin/libFw_Com.a
+F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ComSplitterComponentAc.cpp, ComSplitterComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/ComSplitter/ComSplitterComponentAc.hpp: F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/ComSplitter/ComSplitterComponentAc.hpp
 
-F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp
-F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml: lib/Linux/libFw_Com.a
-F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ComSplitterComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp
+F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml: lib/Darwin/libFw_Com.a
+F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ComSplitterComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitter.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template: F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template: F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template
 
 Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl
 Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/ComSplitterComponentAc.cpp
 Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/ComSplitterComponentAc.hpp
 Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/ComSplitterComponentAi.xml
-Svc_ComSplitter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template
-Svc_ComSplitter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template
+Svc_ComSplitter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.cpp-template
+Svc_ComSplitter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter/ComSplitterComponentImpl.hpp-template
 Svc_ComSplitter_impl: F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/build.make
 .PHONY : Svc_ComSplitter_impl
 
@@ -108,10 +108,10 @@ F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/build: Svc_ComSplitt
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/build
 
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && $(CMAKE_COMMAND) -P CMakeFiles/Svc_ComSplitter_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter && $(CMAKE_COMMAND) -P CMakeFiles/Svc_ComSplitter_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/clean
 
 F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComSplitter /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComSplitter /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/ComSplitter/CMakeFiles/Svc_ComSplitter_impl.dir/depend
 

@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_FramingProtocol.a"
+  "../../../lib/Darwin/libSvc_FramingProtocol.a"
 )

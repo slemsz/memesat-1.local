@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Ref_PingReceiver_impl.
 
@@ -69,41 +69,41 @@ include Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/progress.make
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl: Ref/PingReceiver/PingReceiverComponentAi.xml
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl: Ref/PingReceiver/PingReceiverComponentAc.cpp
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl: Ref/PingReceiver/PingReceiverComponentAc.hpp
-Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template
-Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template
+Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template
+Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template: Ref/PingReceiver/PingReceiverComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/PingReceiverComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template: Ref/PingReceiver/PingReceiverComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/PingReceiverComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template
 
-Ref/PingReceiver/PingReceiverComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp
-Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Linux/libFw_Cmd.a
-Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Linux/libFw_Log.a
-Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Linux/libFw_Tlm.a
-Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Linux/libSvc_Ping.a
-Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Linux/libFw_CompQueued.a
-Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating PingReceiverComponentAc.cpp, PingReceiverComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+Ref/PingReceiver/PingReceiverComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp
+Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Darwin/libFw_Cmd.a
+Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Darwin/libFw_Log.a
+Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Darwin/libFw_Tlm.a
+Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Darwin/libSvc_Ping.a
+Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Darwin/libFw_CompQueued.a
+Ref/PingReceiver/PingReceiverComponentAc.cpp: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating PingReceiverComponentAc.cpp, PingReceiverComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Ping/Ping.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 Ref/PingReceiver/PingReceiverComponentAc.hpp: Ref/PingReceiver/PingReceiverComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/PingReceiver/PingReceiverComponentAc.hpp
 
-Ref/PingReceiver/PingReceiverComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp
-Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Linux/libFw_Cmd.a
-Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Linux/libFw_Log.a
-Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Linux/libFw_Tlm.a
-Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Linux/libSvc_Ping.a
-Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Linux/libFw_CompQueued.a
-Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating PingReceiverComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+Ref/PingReceiver/PingReceiverComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp
+Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Darwin/libFw_Cmd.a
+Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Darwin/libFw_Log.a
+Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Darwin/libFw_Tlm.a
+Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Darwin/libSvc_Ping.a
+Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Darwin/libFw_CompQueued.a
+Ref/PingReceiver/PingReceiverComponentAi.xml: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating PingReceiverComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Ping/Ping.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-Ref_PingReceiver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template
-Ref_PingReceiver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template
+Ref_PingReceiver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.cpp-template
+Ref_PingReceiver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiverComponentImpl.hpp-template
 Ref_PingReceiver_impl: Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl
 Ref_PingReceiver_impl: Ref/PingReceiver/PingReceiverComponentAc.cpp
 Ref_PingReceiver_impl: Ref/PingReceiver/PingReceiverComponentAc.hpp
@@ -116,10 +116,10 @@ Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/build: Ref_PingReceiver_im
 .PHONY : Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/build
 
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && $(CMAKE_COMMAND) -P CMakeFiles/Ref_PingReceiver_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver && $(CMAKE_COMMAND) -P CMakeFiles/Ref_PingReceiver_impl.dir/cmake_clean.cmake
 .PHONY : Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/clean
 
 Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Ref/PingReceiver/CMakeFiles/Ref_PingReceiver_impl.dir/depend
 

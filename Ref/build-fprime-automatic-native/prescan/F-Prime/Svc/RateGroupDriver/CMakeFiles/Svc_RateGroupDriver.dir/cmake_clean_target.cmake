@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_RateGroupDriver.a"
+  "../../../lib/Darwin/libSvc_RateGroupDriver.a"
 )

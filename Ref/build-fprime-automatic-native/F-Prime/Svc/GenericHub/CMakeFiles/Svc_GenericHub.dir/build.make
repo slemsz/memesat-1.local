@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/depend.make
@@ -69,52 +69,52 @@ include F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/flags.make
 
-F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHub.fpp
-F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Linux/libFw_Buffer.a
-F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Linux/libFw_Log.a
-F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Linux/libFw_Tlm.a
-F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GenericHubComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHub.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHub.fpp
+F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Darwin/libFw_Buffer.a
+F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Darwin/libFw_Log.a
+F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Darwin/libFw_Tlm.a
+F-Prime/Svc/GenericHub/GenericHubComponentAi.xml: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating GenericHubComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHub.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHub.fpp
-F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Linux/libFw_Buffer.a
-F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Linux/libFw_Log.a
-F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Linux/libFw_Tlm.a
-F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GenericHubComponentAc.cpp, GenericHubComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHub.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHub.fpp
+F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Darwin/libFw_Buffer.a
+F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Darwin/libFw_Log.a
+F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Darwin/libFw_Tlm.a
+F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating GenericHubComponentAc.cpp, GenericHubComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHub.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/GenericHub/GenericHubComponentAc.hpp: F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/GenericHub/GenericHubComponentAc.hpp
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/flags.make
-F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp
+F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9237208a -DASSERT_RELATIVE_PATH='"Svc/GenericHub/GenericHubComponentImpl.cpp"' -MD -MT F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o -MF CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o.d -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9237208a -DASSERT_RELATIVE_PATH='"Svc/GenericHub/GenericHubComponentImpl.cpp"' -MD -MT F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o -MF CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o.d -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9237208a -DASSERT_RELATIVE_PATH='"Svc/GenericHub/GenericHubComponentImpl.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp > CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9237208a -DASSERT_RELATIVE_PATH='"Svc/GenericHub/GenericHubComponentImpl.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp > CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.i
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9237208a -DASSERT_RELATIVE_PATH='"Svc/GenericHub/GenericHubComponentImpl.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9237208a -DASSERT_RELATIVE_PATH='"Svc/GenericHub/GenericHubComponentImpl.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub/GenericHubComponentImpl.cpp -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.s
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/flags.make
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o: F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2b81d741 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp"' -MD -MT F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o -MF CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o.d -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2b81d741 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp"' -MD -MT F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o -MF CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o.d -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2b81d741 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp > CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2b81d741 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp > CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.i
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2b81d741 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2b81d741 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp -o CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.s
 
 # Object files for target Svc_GenericHub
 Svc_GenericHub_OBJECTS = \
@@ -124,25 +124,25 @@ Svc_GenericHub_OBJECTS = \
 # External object files for target Svc_GenericHub
 Svc_GenericHub_EXTERNAL_OBJECTS =
 
-lib/Linux/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o
-lib/Linux/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o
-lib/Linux/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build.make
-lib/Linux/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libSvc_GenericHub.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && $(CMAKE_COMMAND) -P CMakeFiles/Svc_GenericHub.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_GenericHub.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentImpl.cpp.o
+lib/Darwin/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/GenericHubComponentAc.cpp.o
+lib/Darwin/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build.make
+lib/Darwin/libSvc_GenericHub.a: F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Darwin/libSvc_GenericHub.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && $(CMAKE_COMMAND) -P CMakeFiles/Svc_GenericHub.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_GenericHub.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build: lib/Linux/libSvc_GenericHub.a
+F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build: lib/Darwin/libSvc_GenericHub.a
 .PHONY : F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/build
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && $(CMAKE_COMMAND) -P CMakeFiles/Svc_GenericHub.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub && $(CMAKE_COMMAND) -P CMakeFiles/Svc_GenericHub.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/clean
 
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/depend: F-Prime/Svc/GenericHub/GenericHubComponentAc.cpp
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/depend: F-Prime/Svc/GenericHub/GenericHubComponentAc.hpp
 F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/depend: F-Prime/Svc/GenericHub/GenericHubComponentAi.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/GenericHub /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/GenericHub /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/GenericHub/CMakeFiles/Svc_GenericHub.dir/depend
 

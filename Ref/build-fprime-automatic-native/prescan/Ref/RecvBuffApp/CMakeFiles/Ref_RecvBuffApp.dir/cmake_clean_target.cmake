@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../lib/Linux/libRef_RecvBuffApp.a"
+  "../../lib/Darwin/libRef_RecvBuffApp.a"
 )

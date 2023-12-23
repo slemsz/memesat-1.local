@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/depend.make
@@ -69,31 +69,31 @@ include F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.d
 # Include the compile flags for this target's objects.
 include F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/flags.make
 
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Types.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Prm.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Cmd.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Log.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Tlm.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Com.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Time.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Port.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating SuccessConditionPortAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Prm.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Cmd.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Log.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Tlm.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Com.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Time.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating SuccessConditionPortAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp /Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Types.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Prm.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Cmd.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Log.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Tlm.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Com.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Time.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Port.a
-F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating SuccessConditionPortAc.cpp, SuccessConditionPortAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Prm.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Cmd.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Log.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Tlm.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Com.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Time.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating SuccessConditionPortAc.cpp, SuccessConditionPortAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp /Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.hpp: F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.hpp
@@ -101,16 +101,16 @@ F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.hpp: F-Prime/Fw/Ports/S
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/flags.make
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o: F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7f6b3fb7 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp"' -MD -MT F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o -MF CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o.d -o CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7f6b3fb7 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp"' -MD -MT F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o -MF CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o.d -o CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp
 
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7f6b3fb7 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp > CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7f6b3fb7 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp > CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.i
 
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7f6b3fb7 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp -o CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7f6b3fb7 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp -o CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.s
 
 # Object files for target Fw_Ports_SuccessCondition
 Fw_Ports_SuccessCondition_OBJECTS = \
@@ -119,24 +119,24 @@ Fw_Ports_SuccessCondition_OBJECTS = \
 # External object files for target Fw_Ports_SuccessCondition
 Fw_Ports_SuccessCondition_EXTERNAL_OBJECTS =
 
-lib/Linux/libFw_Ports_SuccessCondition.a: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o
-lib/Linux/libFw_Ports_SuccessCondition.a: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build.make
-lib/Linux/libFw_Ports_SuccessCondition.a: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../../../lib/Linux/libFw_Ports_SuccessCondition.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Ports_SuccessCondition.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Ports_SuccessCondition.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libFw_Ports_SuccessCondition.a: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/SuccessConditionPortAc.cpp.o
+lib/Darwin/libFw_Ports_SuccessCondition.a: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build.make
+lib/Darwin/libFw_Ports_SuccessCondition.a: F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../../../lib/Darwin/libFw_Ports_SuccessCondition.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Ports_SuccessCondition.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Ports_SuccessCondition.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build: lib/Linux/libFw_Ports_SuccessCondition.a
+F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build: lib/Darwin/libFw_Ports_SuccessCondition.a
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/build
 
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Ports_SuccessCondition.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Ports_SuccessCondition.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/clean
 
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/depend: F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.cpp
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/depend: F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAc.hpp
 F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/depend: F-Prime/Fw/Ports/SuccessCondition/SuccessConditionPortAi.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/Ports/SuccessCondition/CMakeFiles/Fw_Ports_SuccessCondition.dir/depend
 

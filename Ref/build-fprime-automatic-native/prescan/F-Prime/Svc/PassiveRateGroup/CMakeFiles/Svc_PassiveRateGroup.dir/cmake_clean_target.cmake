@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_PassiveRateGroup.a"
+  "../../../lib/Darwin/libSvc_PassiveRateGroup.a"
 )

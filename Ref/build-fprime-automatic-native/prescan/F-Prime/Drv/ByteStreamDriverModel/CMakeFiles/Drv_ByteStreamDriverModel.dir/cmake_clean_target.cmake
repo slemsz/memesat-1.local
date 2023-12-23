@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_ByteStreamDriverModel.a"
+  "../../../lib/Darwin/libDrv_ByteStreamDriverModel.a"
 )

@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_BlockDriver.a"
+  "../../../lib/Darwin/libDrv_BlockDriver.a"
 )

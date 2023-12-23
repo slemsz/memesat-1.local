@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for version.
 
@@ -67,8 +67,8 @@ include CMakeFiles/version.dir/compiler_depend.make
 include CMakeFiles/version.dir/progress.make
 
 CMakeFiles/version:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local && /usr/bin/cmake -E env PYTHONPATH=:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/target/version/generate_version_header.py /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp 
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local && /usr/bin/cmake -E copy_if_different /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp
+	cd /Users/heron/Desktop/memedir/memesat-1.local && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src /Users/heron/Desktop/memedir/memesat-1.local/cmake/target/version/generate_version_header.py /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp 
+	cd /Users/heron/Desktop/memedir/memesat-1.local && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E copy_if_different /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp.tmp /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/version.hpp
 
 version: CMakeFiles/version
 version: CMakeFiles/version.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/version.dir/clean:
 .PHONY : CMakeFiles/version.dir/clean
 
 CMakeFiles/version.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles/version.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles/version.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/version.dir/depend
 

@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,49 +97,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Port//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Port//CMakeFiles/progress.marks
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/clean
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule
 .PHONY : F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Fw_Port: F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/rule
 
 # fast build rule for target.
 Fw_Port/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build
 .PHONY : Fw_Port/fast
 
 # Convenience name for target.
 F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/rule
 .PHONY : F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Fw_Port_impl: F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/rule
 
 # fast build rule for target.
 Fw_Port_impl/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port_impl.dir/build
 .PHONY : Fw_Port_impl/fast
 
 InputPortBase.o: InputPortBase.cpp.o
@@ -194,7 +194,7 @@ InputPortBase.o: InputPortBase.cpp.o
 
 # target to build an object file
 InputPortBase.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputPortBase.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputPortBase.cpp.o
 .PHONY : InputPortBase.cpp.o
 
 InputPortBase.i: InputPortBase.cpp.i
@@ -202,7 +202,7 @@ InputPortBase.i: InputPortBase.cpp.i
 
 # target to preprocess a source file
 InputPortBase.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputPortBase.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputPortBase.cpp.i
 .PHONY : InputPortBase.cpp.i
 
 InputPortBase.s: InputPortBase.cpp.s
@@ -210,7 +210,7 @@ InputPortBase.s: InputPortBase.cpp.s
 
 # target to generate assembly for a file
 InputPortBase.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputPortBase.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputPortBase.cpp.s
 .PHONY : InputPortBase.cpp.s
 
 InputSerializePort.o: InputSerializePort.cpp.o
@@ -218,7 +218,7 @@ InputSerializePort.o: InputSerializePort.cpp.o
 
 # target to build an object file
 InputSerializePort.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputSerializePort.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputSerializePort.cpp.o
 .PHONY : InputSerializePort.cpp.o
 
 InputSerializePort.i: InputSerializePort.cpp.i
@@ -226,7 +226,7 @@ InputSerializePort.i: InputSerializePort.cpp.i
 
 # target to preprocess a source file
 InputSerializePort.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputSerializePort.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputSerializePort.cpp.i
 .PHONY : InputSerializePort.cpp.i
 
 InputSerializePort.s: InputSerializePort.cpp.s
@@ -234,7 +234,7 @@ InputSerializePort.s: InputSerializePort.cpp.s
 
 # target to generate assembly for a file
 InputSerializePort.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputSerializePort.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/InputSerializePort.cpp.s
 .PHONY : InputSerializePort.cpp.s
 
 OutputPortBase.o: OutputPortBase.cpp.o
@@ -242,7 +242,7 @@ OutputPortBase.o: OutputPortBase.cpp.o
 
 # target to build an object file
 OutputPortBase.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputPortBase.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputPortBase.cpp.o
 .PHONY : OutputPortBase.cpp.o
 
 OutputPortBase.i: OutputPortBase.cpp.i
@@ -250,7 +250,7 @@ OutputPortBase.i: OutputPortBase.cpp.i
 
 # target to preprocess a source file
 OutputPortBase.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputPortBase.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputPortBase.cpp.i
 .PHONY : OutputPortBase.cpp.i
 
 OutputPortBase.s: OutputPortBase.cpp.s
@@ -258,7 +258,7 @@ OutputPortBase.s: OutputPortBase.cpp.s
 
 # target to generate assembly for a file
 OutputPortBase.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputPortBase.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputPortBase.cpp.s
 .PHONY : OutputPortBase.cpp.s
 
 OutputSerializePort.o: OutputSerializePort.cpp.o
@@ -266,7 +266,7 @@ OutputSerializePort.o: OutputSerializePort.cpp.o
 
 # target to build an object file
 OutputSerializePort.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputSerializePort.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputSerializePort.cpp.o
 .PHONY : OutputSerializePort.cpp.o
 
 OutputSerializePort.i: OutputSerializePort.cpp.i
@@ -274,7 +274,7 @@ OutputSerializePort.i: OutputSerializePort.cpp.i
 
 # target to preprocess a source file
 OutputSerializePort.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputSerializePort.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputSerializePort.cpp.i
 .PHONY : OutputSerializePort.cpp.i
 
 OutputSerializePort.s: OutputSerializePort.cpp.s
@@ -282,7 +282,7 @@ OutputSerializePort.s: OutputSerializePort.cpp.s
 
 # target to generate assembly for a file
 OutputSerializePort.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputSerializePort.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/OutputSerializePort.cpp.s
 .PHONY : OutputSerializePort.cpp.s
 
 PortBase.o: PortBase.cpp.o
@@ -290,7 +290,7 @@ PortBase.o: PortBase.cpp.o
 
 # target to build an object file
 PortBase.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/PortBase.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/PortBase.cpp.o
 .PHONY : PortBase.cpp.o
 
 PortBase.i: PortBase.cpp.i
@@ -298,7 +298,7 @@ PortBase.i: PortBase.cpp.i
 
 # target to preprocess a source file
 PortBase.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/PortBase.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/PortBase.cpp.i
 .PHONY : PortBase.cpp.i
 
 PortBase.s: PortBase.cpp.s
@@ -306,7 +306,7 @@ PortBase.s: PortBase.cpp.s
 
 # target to generate assembly for a file
 PortBase.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/PortBase.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/build.make F-Prime/Fw/Port/CMakeFiles/Fw_Port.dir/PortBase.cpp.s
 .PHONY : PortBase.cpp.s
 
 # Help Target
@@ -349,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

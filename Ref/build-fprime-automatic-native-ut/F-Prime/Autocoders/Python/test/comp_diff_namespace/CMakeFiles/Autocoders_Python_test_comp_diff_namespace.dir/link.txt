@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/Darwin/libAutocoders_Python_test_comp_diff_namespace.a CMakeFiles/Autocoders_Python_test_comp_diff_namespace.dir/TestComponentAc.cpp.o CMakeFiles/Autocoders_Python_test_comp_diff_namespace.dir/TestPortAc.cpp.o CMakeFiles/Autocoders_Python_test_comp_diff_namespace.dir/QuaternionSerializableAc.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/Darwin/libAutocoders_Python_test_comp_diff_namespace.a

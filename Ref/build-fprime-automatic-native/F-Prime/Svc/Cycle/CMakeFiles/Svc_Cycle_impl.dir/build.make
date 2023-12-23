@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Svc_Cycle_impl.
 
@@ -70,16 +70,16 @@ F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl: F-Prime/Svc/Cycle/CyclePortAi.xml
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl: F-Prime/Svc/Cycle/CyclePortAc.cpp
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl: F-Prime/Svc/Cycle/CyclePortAc.hpp
 
-F-Prime/Svc/Cycle/CyclePortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CyclePortAc.cpp, CyclePortAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/Cycle/CyclePortAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle/Cycle.fpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating CyclePortAc.cpp, CyclePortAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle /Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle/Cycle.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/Cycle/CyclePortAc.hpp: F-Prime/Svc/Cycle/CyclePortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/Cycle/CyclePortAc.hpp
 
-F-Prime/Svc/Cycle/CyclePortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CyclePortAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/Cycle/CyclePortAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle/Cycle.fpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating CyclePortAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle /Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle/Cycle.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
 Svc_Cycle_impl: F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl
 Svc_Cycle_impl: F-Prime/Svc/Cycle/CyclePortAc.cpp
@@ -93,10 +93,10 @@ F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/build: Svc_Cycle_impl
 .PHONY : F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/build
 
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Cycle_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Cycle_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/clean
 
 F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/Cycle/CMakeFiles/Svc_Cycle_impl.dir/depend
 

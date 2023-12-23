@@ -1,0 +1,3 @@
+ComStubComponentAc.cpp
+ComStubComponentAc.hpp
+ComStubComponentAi.xml

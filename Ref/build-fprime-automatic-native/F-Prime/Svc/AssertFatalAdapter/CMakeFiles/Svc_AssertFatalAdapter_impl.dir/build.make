@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Svc_AssertFatalAdapter_impl.
 
@@ -69,39 +69,39 @@ include F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.di
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.hpp
-F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template
-F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template
+F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template
+F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template
 
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: lib/Linux/libFw_Log.a
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating AssertFatalAdapterComponentAc.cpp, AssertFatalAdapterComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: lib/Darwin/libFw_Log.a
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating AssertFatalAdapterComponentAc.cpp, AssertFatalAdapterComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.hpp: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.hpp
 
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: lib/Linux/libFw_Log.a
-F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating AssertFatalAdapterComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: lib/Darwin/libFw_Log.a
+F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating AssertFatalAdapterComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template
 
 Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.cpp
 Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAc.hpp
 Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/AssertFatalAdapterComponentAi.xml
 Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl
-Svc_AssertFatalAdapter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template
-Svc_AssertFatalAdapter_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template
+Svc_AssertFatalAdapter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.cpp-template
+Svc_AssertFatalAdapter_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapterComponentImpl.hpp-template
 Svc_AssertFatalAdapter_impl: F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/build.make
 .PHONY : Svc_AssertFatalAdapter_impl
 
@@ -110,10 +110,10 @@ F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/build:
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/build
 
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && $(CMAKE_COMMAND) -P CMakeFiles/Svc_AssertFatalAdapter_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter && $(CMAKE_COMMAND) -P CMakeFiles/Svc_AssertFatalAdapter_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/clean
 
 F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/AssertFatalAdapter/CMakeFiles/Svc_AssertFatalAdapter_impl.dir/depend
 

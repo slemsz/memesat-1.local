@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_StreamCrossover.a"
+  "../../../lib/Darwin/libDrv_StreamCrossover.a"
 )

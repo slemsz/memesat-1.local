@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/Darwin/libAutocoders_Python_test_testgen.a CMakeFiles/Autocoders_Python_test_testgen.dir/MathSenderComponentImpl.cpp.o CMakeFiles/Autocoders_Python_test_testgen.dir/MathSenderComponentAc.cpp.o CMakeFiles/Autocoders_Python_test_testgen.dir/MathOpPortAc.cpp.o CMakeFiles/Autocoders_Python_test_testgen.dir/MathResultPortAc.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/Darwin/libAutocoders_Python_test_testgen.a

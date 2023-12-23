@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend.make
@@ -69,26 +69,26 @@ include F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/flags.make
 
-F-Prime/Fw/Tlm/TlmGetPortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Linux/libFw_Time.a
-F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Linux/libFw_Com.a
-F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Linux/libFw_Port.a
-F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Linux/libFw_Types.a
-F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TlmGetPortAi.xml, TlmPortAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Fw/Tlm/TlmGetPortAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp
+F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Darwin/libFw_Time.a
+F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Darwin/libFw_Com.a
+F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Tlm/TlmGetPortAi.xml: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TlmGetPortAi.xml, TlmPortAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
 F-Prime/Fw/Tlm/TlmPortAi.xml: F-Prime/Fw/Tlm/TlmGetPortAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Tlm/TlmPortAi.xml
 
-F-Prime/Fw/Tlm/TlmGetPortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp
-F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Linux/libFw_Time.a
-F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Linux/libFw_Com.a
-F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Linux/libFw_Port.a
-F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Linux/libFw_Types.a
-F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TlmGetPortAc.cpp, TlmGetPortAc.hpp, TlmPortAc.cpp, TlmPortAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Fw/Tlm/TlmGetPortAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp
+F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Darwin/libFw_Time.a
+F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Darwin/libFw_Com.a
+F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Tlm/TlmGetPortAc.cpp: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TlmGetPortAc.cpp, TlmGetPortAc.hpp, TlmPortAc.cpp, TlmPortAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Fw/Tlm/TlmGetPortAc.hpp: F-Prime/Fw/Tlm/TlmGetPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Tlm/TlmGetPortAc.hpp
@@ -100,74 +100,74 @@ F-Prime/Fw/Tlm/TlmPortAc.hpp: F-Prime/Fw/Tlm/TlmGetPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Tlm/TlmPortAc.hpp
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/flags.make
-F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp
+F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5e7fa2d0 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmBuffer.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5e7fa2d0 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmBuffer.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5e7fa2d0 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmBuffer.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp > CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5e7fa2d0 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmBuffer.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp > CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.i
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5e7fa2d0 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmBuffer.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp -o CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5e7fa2d0 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmBuffer.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmBuffer.cpp -o CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.s
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/flags.make
-F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmPacket.cpp
+F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmPacket.cpp
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x80b83006 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmPacket.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmPacket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x80b83006 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmPacket.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmPacket.cpp
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x80b83006 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmPacket.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmPacket.cpp > CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x80b83006 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmPacket.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmPacket.cpp > CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.i
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x80b83006 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmPacket.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmPacket.cpp -o CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x80b83006 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmPacket.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmPacket.cpp -o CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.s
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/flags.make
-F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmString.cpp
+F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmString.cpp
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d271723 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmString.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d271723 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmString.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmString.cpp
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Tlm.dir/TlmString.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d271723 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmString.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmString.cpp > CMakeFiles/Fw_Tlm.dir/TlmString.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d271723 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmString.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmString.cpp > CMakeFiles/Fw_Tlm.dir/TlmString.cpp.i
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Tlm.dir/TlmString.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d271723 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmString.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/TlmString.cpp -o CMakeFiles/Fw_Tlm.dir/TlmString.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x9d271723 -DASSERT_RELATIVE_PATH='"Fw/Tlm/TlmString.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/TlmString.cpp -o CMakeFiles/Fw_Tlm.dir/TlmString.cpp.s
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/flags.make
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o: F-Prime/Fw/Tlm/TlmGetPortAc.cpp
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b5fb1db -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b5fb1db -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b5fb1db -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp > CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b5fb1db -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp > CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.i
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b5fb1db -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp -o CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5b5fb1db -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmGetPortAc.cpp -o CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.s
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/flags.make
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o: F-Prime/Fw/Tlm/TlmPortAc.cpp
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8599cc8d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8599cc8d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp"' -MD -MT F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o -MF CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o.d -o CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8599cc8d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp > CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8599cc8d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp > CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.i
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8599cc8d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp -o CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8599cc8d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/TlmPortAc.cpp -o CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.s
 
 # Object files for target Fw_Tlm
 Fw_Tlm_OBJECTS = \
@@ -180,23 +180,23 @@ Fw_Tlm_OBJECTS = \
 # External object files for target Fw_Tlm
 Fw_Tlm_EXTERNAL_OBJECTS =
 
-lib/Linux/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o
-lib/Linux/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o
-lib/Linux/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o
-lib/Linux/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o
-lib/Linux/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o
-lib/Linux/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build.make
-lib/Linux/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../../lib/Linux/libFw_Tlm.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Tlm.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Tlm.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmBuffer.cpp.o
+lib/Darwin/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPacket.cpp.o
+lib/Darwin/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmString.cpp.o
+lib/Darwin/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmGetPortAc.cpp.o
+lib/Darwin/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/TlmPortAc.cpp.o
+lib/Darwin/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build.make
+lib/Darwin/libFw_Tlm.a: F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library ../../../lib/Darwin/libFw_Tlm.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Tlm.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Tlm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build: lib/Linux/libFw_Tlm.a
+F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build: lib/Darwin/libFw_Tlm.a
 .PHONY : F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/build
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Tlm.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Tlm.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/clean
 
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend: F-Prime/Fw/Tlm/TlmGetPortAc.cpp
@@ -205,6 +205,6 @@ F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend: F-Prime/Fw/Tlm/TlmGetPortAi.xml
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend: F-Prime/Fw/Tlm/TlmPortAc.cpp
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend: F-Prime/Fw/Tlm/TlmPortAc.hpp
 F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend: F-Prime/Fw/Tlm/TlmPortAi.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/Tlm/CMakeFiles/Fw_Tlm.dir/depend
 

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Svc_Framer_impl.
 
@@ -69,45 +69,45 @@ include F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/progress.make
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl: F-Prime/Svc/Framer/FramerComponentAi.xml
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl: F-Prime/Svc/Framer/FramerComponentAc.cpp
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl: F-Prime/Svc/Framer/FramerComponentAc.hpp
-F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template
-F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template
+F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template
+F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template
 
-F-Prime/Svc/Framer/FramerComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/Framer.fpp
-F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Linux/libFw_Buffer.a
-F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Linux/libFw_Com.a
-F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Linux/libFw_Ports_SuccessCondition.a
-F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Linux/libOs.a
-F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating FramerComponentAc.cpp, FramerComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/Framer.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/Framer/FramerComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/Framer.fpp
+F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Darwin/libDrv_ByteStreamDriverModel.a
+F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Darwin/libFw_Buffer.a
+F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Darwin/libFw_Com.a
+F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Darwin/libFw_Ports_SuccessCondition.a
+F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Darwin/libOs.a
+F-Prime/Svc/Framer/FramerComponentAc.cpp: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating FramerComponentAc.cpp, FramerComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/Framer.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/Framer/FramerComponentAc.hpp: F-Prime/Svc/Framer/FramerComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/Framer/FramerComponentAc.hpp
 
-F-Prime/Svc/Framer/FramerComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/Framer.fpp
-F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Linux/libFw_Buffer.a
-F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Linux/libFw_Com.a
-F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Linux/libFw_Ports_SuccessCondition.a
-F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Linux/libOs.a
-F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating FramerComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/Framer.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/Framer/FramerComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/Framer.fpp
+F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Darwin/libDrv_ByteStreamDriverModel.a
+F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Darwin/libFw_Buffer.a
+F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Darwin/libFw_Com.a
+F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Darwin/libFw_Ports_SuccessCondition.a
+F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Darwin/libOs.a
+F-Prime/Svc/Framer/FramerComponentAi.xml: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating FramerComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/Framer.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template: F-Prime/Svc/Framer/FramerComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer/FramerComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template: F-Prime/Svc/Framer/FramerComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer/FramerComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template
 
 Svc_Framer_impl: F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl
 Svc_Framer_impl: F-Prime/Svc/Framer/FramerComponentAc.cpp
 Svc_Framer_impl: F-Prime/Svc/Framer/FramerComponentAc.hpp
 Svc_Framer_impl: F-Prime/Svc/Framer/FramerComponentAi.xml
-Svc_Framer_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template
-Svc_Framer_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template
+Svc_Framer_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.cpp-template
+Svc_Framer_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/FramerComponentImpl.hpp-template
 Svc_Framer_impl: F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/build.make
 .PHONY : Svc_Framer_impl
 
@@ -116,10 +116,10 @@ F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/build: Svc_Framer_impl
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/build
 
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Framer_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Framer_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/clean
 
 F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/Framer/CMakeFiles/Svc_Framer_impl.dir/depend
 

@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,49 +97,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmPacketizer//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/TlmPacketizer//CMakeFiles/progress.marks
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/clean
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule
 .PHONY : F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Svc_TlmPacketizer: F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/ru
 
 # fast build rule for target.
 Svc_TlmPacketizer/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build
 .PHONY : Svc_TlmPacketizer/fast
 
 # Convenience name for target.
 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/rule
 .PHONY : F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Svc_TlmPacketizer_impl: F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_i
 
 # fast build rule for target.
 Svc_TlmPacketizer_impl/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer_impl.dir/build
 .PHONY : Svc_TlmPacketizer_impl/fast
 
 TlmPacketizer.o: TlmPacketizer.cpp.o
@@ -194,7 +194,7 @@ TlmPacketizer.o: TlmPacketizer.cpp.o
 
 # target to build an object file
 TlmPacketizer.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizer.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizer.cpp.o
 .PHONY : TlmPacketizer.cpp.o
 
 TlmPacketizer.i: TlmPacketizer.cpp.i
@@ -202,7 +202,7 @@ TlmPacketizer.i: TlmPacketizer.cpp.i
 
 # target to preprocess a source file
 TlmPacketizer.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizer.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizer.cpp.i
 .PHONY : TlmPacketizer.cpp.i
 
 TlmPacketizer.s: TlmPacketizer.cpp.s
@@ -210,7 +210,7 @@ TlmPacketizer.s: TlmPacketizer.cpp.s
 
 # target to generate assembly for a file
 TlmPacketizer.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizer.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizer.cpp.s
 .PHONY : TlmPacketizer.cpp.s
 
 TlmPacketizerComponentAc.o: TlmPacketizerComponentAc.cpp.o
@@ -218,7 +218,7 @@ TlmPacketizerComponentAc.o: TlmPacketizerComponentAc.cpp.o
 
 # target to build an object file
 TlmPacketizerComponentAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizerComponentAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizerComponentAc.cpp.o
 .PHONY : TlmPacketizerComponentAc.cpp.o
 
 TlmPacketizerComponentAc.i: TlmPacketizerComponentAc.cpp.i
@@ -226,7 +226,7 @@ TlmPacketizerComponentAc.i: TlmPacketizerComponentAc.cpp.i
 
 # target to preprocess a source file
 TlmPacketizerComponentAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizerComponentAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizerComponentAc.cpp.i
 .PHONY : TlmPacketizerComponentAc.cpp.i
 
 TlmPacketizerComponentAc.s: TlmPacketizerComponentAc.cpp.s
@@ -234,7 +234,7 @@ TlmPacketizerComponentAc.s: TlmPacketizerComponentAc.cpp.s
 
 # target to generate assembly for a file
 TlmPacketizerComponentAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizerComponentAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/build.make F-Prime/Svc/TlmPacketizer/CMakeFiles/Svc_TlmPacketizer.dir/TlmPacketizerComponentAc.cpp.s
 .PHONY : TlmPacketizerComponentAc.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

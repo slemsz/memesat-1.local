@@ -1,2 +1,2 @@
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle/Cycle.fpp
+/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp

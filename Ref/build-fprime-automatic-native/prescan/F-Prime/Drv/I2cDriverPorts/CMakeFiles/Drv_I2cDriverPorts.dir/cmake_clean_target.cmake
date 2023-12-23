@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_I2cDriverPorts.a"
+  "../../../lib/Darwin/libDrv_I2cDriverPorts.a"
 )

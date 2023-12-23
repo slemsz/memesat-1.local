@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,49 +97,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time//CMakeFiles/progress.marks
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/clean
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Fw_Time: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/rule
 
 # fast build rule for target.
 Fw_Time/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build
 .PHONY : Fw_Time/fast
 
 # Convenience name for target.
 F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/rule
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Fw_Time_impl: F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/rule
 
 # fast build rule for target.
 Fw_Time_impl/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time_impl.dir/build
 .PHONY : Fw_Time_impl/fast
 
 Time.o: Time.cpp.o
@@ -194,7 +194,7 @@ Time.o: Time.cpp.o
 
 # target to build an object file
 Time.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o
 .PHONY : Time.cpp.o
 
 Time.i: Time.cpp.i
@@ -202,7 +202,7 @@ Time.i: Time.cpp.i
 
 # target to preprocess a source file
 Time.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.i
 .PHONY : Time.cpp.i
 
 Time.s: Time.cpp.s
@@ -210,7 +210,7 @@ Time.s: Time.cpp.s
 
 # target to generate assembly for a file
 Time.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.s
 .PHONY : Time.cpp.s
 
 TimePortAc.o: TimePortAc.cpp.o
@@ -218,7 +218,7 @@ TimePortAc.o: TimePortAc.cpp.o
 
 # target to build an object file
 TimePortAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o
 .PHONY : TimePortAc.cpp.o
 
 TimePortAc.i: TimePortAc.cpp.i
@@ -226,7 +226,7 @@ TimePortAc.i: TimePortAc.cpp.i
 
 # target to preprocess a source file
 TimePortAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.i
 .PHONY : TimePortAc.cpp.i
 
 TimePortAc.s: TimePortAc.cpp.s
@@ -234,7 +234,7 @@ TimePortAc.s: TimePortAc.cpp.s
 
 # target to generate assembly for a file
 TimePortAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.s
 .PHONY : TimePortAc.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

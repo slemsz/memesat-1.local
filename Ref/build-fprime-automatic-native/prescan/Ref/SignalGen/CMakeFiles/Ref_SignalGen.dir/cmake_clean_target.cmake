@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../lib/Linux/libRef_SignalGen.a"
+  "../../lib/Darwin/libRef_SignalGen.a"
 )

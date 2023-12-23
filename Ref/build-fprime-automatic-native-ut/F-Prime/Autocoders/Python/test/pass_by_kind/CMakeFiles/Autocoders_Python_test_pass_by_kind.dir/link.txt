@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/Darwin/libAutocoders_Python_test_pass_by_kind.a CMakeFiles/Autocoders_Python_test_pass_by_kind.dir/Component1ComponentAc.cpp.o CMakeFiles/Autocoders_Python_test_pass_by_kind.dir/Port1PortAc.cpp.o CMakeFiles/Autocoders_Python_test_pass_by_kind.dir/ExampleTypeSerializableAc.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/Darwin/libAutocoders_Python_test_pass_by_kind.a

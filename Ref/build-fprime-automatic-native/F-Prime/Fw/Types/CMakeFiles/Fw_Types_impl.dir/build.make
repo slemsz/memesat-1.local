@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Fw_Types_impl.
 
@@ -97,10 +97,10 @@ F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl: F-Prime/Fw/Types/SerialStatusEnumAc.h
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl: F-Prime/Fw/Types/SuccessEnumAc.cpp
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl: F-Prime/Fw/Types/SuccessEnumAc.hpp
 
-F-Prime/Fw/Types/ActiveEnumAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp
-F-Prime/Fw/Types/ActiveEnumAc.cpp: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ActiveEnumAc.cpp, ActiveEnumAc.hpp, DeserialStatusEnumAc.cpp, DeserialStatusEnumAc.hpp, DirectionEnumAc.cpp, DirectionEnumAc.hpp, EnabledEnumAc.cpp, EnabledEnumAc.hpp, HealthEnumAc.cpp, HealthEnumAc.hpp, LogicEnumAc.cpp, LogicEnumAc.hpp, OnEnumAc.cpp, OnEnumAc.hpp, OpenEnumAc.cpp, OpenEnumAc.hpp, SerialStatusEnumAc.cpp, SerialStatusEnumAc.hpp, SuccessEnumAc.cpp, SuccessEnumAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Fw/Types/ActiveEnumAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp
+F-Prime/Fw/Types/ActiveEnumAc.cpp: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ActiveEnumAc.cpp, ActiveEnumAc.hpp, DeserialStatusEnumAc.cpp, DeserialStatusEnumAc.hpp, DirectionEnumAc.cpp, DirectionEnumAc.hpp, EnabledEnumAc.cpp, EnabledEnumAc.hpp, HealthEnumAc.cpp, HealthEnumAc.hpp, LogicEnumAc.cpp, LogicEnumAc.hpp, OnEnumAc.cpp, OnEnumAc.hpp, OpenEnumAc.cpp, OpenEnumAc.hpp, SerialStatusEnumAc.cpp, SerialStatusEnumAc.hpp, SuccessEnumAc.cpp, SuccessEnumAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Fw/Types/ActiveEnumAc.hpp: F-Prime/Fw/Types/ActiveEnumAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Types/ActiveEnumAc.hpp
@@ -159,10 +159,10 @@ F-Prime/Fw/Types/SuccessEnumAc.cpp: F-Prime/Fw/Types/ActiveEnumAc.cpp
 F-Prime/Fw/Types/SuccessEnumAc.hpp: F-Prime/Fw/Types/ActiveEnumAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Types/SuccessEnumAc.hpp
 
-F-Prime/Fw/Types/ActiveEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp
-F-Prime/Fw/Types/ActiveEnumAi.xml: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ActiveEnumAi.xml, DeserialStatusEnumAi.xml, DirectionEnumAi.xml, EnabledEnumAi.xml, HealthEnumAi.xml, LogicEnumAi.xml, OnEnumAi.xml, OpenEnumAi.xml, SerialStatusEnumAi.xml, SuccessEnumAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Fw/Types/ActiveEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp
+F-Prime/Fw/Types/ActiveEnumAi.xml: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ActiveEnumAi.xml, DeserialStatusEnumAi.xml, DirectionEnumAi.xml, EnabledEnumAi.xml, HealthEnumAi.xml, LogicEnumAi.xml, OnEnumAi.xml, OpenEnumAi.xml, SerialStatusEnumAi.xml, SuccessEnumAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
 F-Prime/Fw/Types/DeserialStatusEnumAi.xml: F-Prime/Fw/Types/ActiveEnumAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Types/DeserialStatusEnumAi.xml
@@ -230,10 +230,10 @@ F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build: Fw_Types_impl
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build
 
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Types_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Types_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/clean
 
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Fw/Types /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/depend
 

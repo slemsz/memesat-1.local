@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,49 +97,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Types//CMakeFiles/progress.marks
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/clean
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Fw_Types: F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/rule
 
 # fast build rule for target.
 Fw_Types/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build
 .PHONY : Fw_Types/fast
 
 # Convenience name for target.
 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/rule
 .PHONY : F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Fw_Types_impl: F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/rule
 
 # fast build rule for target.
 Fw_Types_impl/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types_impl.dir/build
 .PHONY : Fw_Types_impl/fast
 
 ActiveEnumAc.o: ActiveEnumAc.cpp.o
@@ -194,7 +194,7 @@ ActiveEnumAc.o: ActiveEnumAc.cpp.o
 
 # target to build an object file
 ActiveEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/ActiveEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/ActiveEnumAc.cpp.o
 .PHONY : ActiveEnumAc.cpp.o
 
 ActiveEnumAc.i: ActiveEnumAc.cpp.i
@@ -202,7 +202,7 @@ ActiveEnumAc.i: ActiveEnumAc.cpp.i
 
 # target to preprocess a source file
 ActiveEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/ActiveEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/ActiveEnumAc.cpp.i
 .PHONY : ActiveEnumAc.cpp.i
 
 ActiveEnumAc.s: ActiveEnumAc.cpp.s
@@ -210,7 +210,7 @@ ActiveEnumAc.s: ActiveEnumAc.cpp.s
 
 # target to generate assembly for a file
 ActiveEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/ActiveEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/ActiveEnumAc.cpp.s
 .PHONY : ActiveEnumAc.cpp.s
 
 Assert.o: Assert.cpp.o
@@ -218,7 +218,7 @@ Assert.o: Assert.cpp.o
 
 # target to build an object file
 Assert.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Assert.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Assert.cpp.o
 .PHONY : Assert.cpp.o
 
 Assert.i: Assert.cpp.i
@@ -226,7 +226,7 @@ Assert.i: Assert.cpp.i
 
 # target to preprocess a source file
 Assert.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Assert.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Assert.cpp.i
 .PHONY : Assert.cpp.i
 
 Assert.s: Assert.cpp.s
@@ -234,7 +234,7 @@ Assert.s: Assert.cpp.s
 
 # target to generate assembly for a file
 Assert.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Assert.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Assert.cpp.s
 .PHONY : Assert.cpp.s
 
 DeserialStatusEnumAc.o: DeserialStatusEnumAc.cpp.o
@@ -242,7 +242,7 @@ DeserialStatusEnumAc.o: DeserialStatusEnumAc.cpp.o
 
 # target to build an object file
 DeserialStatusEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DeserialStatusEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DeserialStatusEnumAc.cpp.o
 .PHONY : DeserialStatusEnumAc.cpp.o
 
 DeserialStatusEnumAc.i: DeserialStatusEnumAc.cpp.i
@@ -250,7 +250,7 @@ DeserialStatusEnumAc.i: DeserialStatusEnumAc.cpp.i
 
 # target to preprocess a source file
 DeserialStatusEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DeserialStatusEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DeserialStatusEnumAc.cpp.i
 .PHONY : DeserialStatusEnumAc.cpp.i
 
 DeserialStatusEnumAc.s: DeserialStatusEnumAc.cpp.s
@@ -258,7 +258,7 @@ DeserialStatusEnumAc.s: DeserialStatusEnumAc.cpp.s
 
 # target to generate assembly for a file
 DeserialStatusEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DeserialStatusEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DeserialStatusEnumAc.cpp.s
 .PHONY : DeserialStatusEnumAc.cpp.s
 
 DirectionEnumAc.o: DirectionEnumAc.cpp.o
@@ -266,7 +266,7 @@ DirectionEnumAc.o: DirectionEnumAc.cpp.o
 
 # target to build an object file
 DirectionEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DirectionEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DirectionEnumAc.cpp.o
 .PHONY : DirectionEnumAc.cpp.o
 
 DirectionEnumAc.i: DirectionEnumAc.cpp.i
@@ -274,7 +274,7 @@ DirectionEnumAc.i: DirectionEnumAc.cpp.i
 
 # target to preprocess a source file
 DirectionEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DirectionEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DirectionEnumAc.cpp.i
 .PHONY : DirectionEnumAc.cpp.i
 
 DirectionEnumAc.s: DirectionEnumAc.cpp.s
@@ -282,7 +282,7 @@ DirectionEnumAc.s: DirectionEnumAc.cpp.s
 
 # target to generate assembly for a file
 DirectionEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DirectionEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/DirectionEnumAc.cpp.s
 .PHONY : DirectionEnumAc.cpp.s
 
 EnabledEnumAc.o: EnabledEnumAc.cpp.o
@@ -290,7 +290,7 @@ EnabledEnumAc.o: EnabledEnumAc.cpp.o
 
 # target to build an object file
 EnabledEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/EnabledEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/EnabledEnumAc.cpp.o
 .PHONY : EnabledEnumAc.cpp.o
 
 EnabledEnumAc.i: EnabledEnumAc.cpp.i
@@ -298,7 +298,7 @@ EnabledEnumAc.i: EnabledEnumAc.cpp.i
 
 # target to preprocess a source file
 EnabledEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/EnabledEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/EnabledEnumAc.cpp.i
 .PHONY : EnabledEnumAc.cpp.i
 
 EnabledEnumAc.s: EnabledEnumAc.cpp.s
@@ -306,7 +306,7 @@ EnabledEnumAc.s: EnabledEnumAc.cpp.s
 
 # target to generate assembly for a file
 EnabledEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/EnabledEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/EnabledEnumAc.cpp.s
 .PHONY : EnabledEnumAc.cpp.s
 
 HealthEnumAc.o: HealthEnumAc.cpp.o
@@ -314,7 +314,7 @@ HealthEnumAc.o: HealthEnumAc.cpp.o
 
 # target to build an object file
 HealthEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/HealthEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/HealthEnumAc.cpp.o
 .PHONY : HealthEnumAc.cpp.o
 
 HealthEnumAc.i: HealthEnumAc.cpp.i
@@ -322,7 +322,7 @@ HealthEnumAc.i: HealthEnumAc.cpp.i
 
 # target to preprocess a source file
 HealthEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/HealthEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/HealthEnumAc.cpp.i
 .PHONY : HealthEnumAc.cpp.i
 
 HealthEnumAc.s: HealthEnumAc.cpp.s
@@ -330,7 +330,7 @@ HealthEnumAc.s: HealthEnumAc.cpp.s
 
 # target to generate assembly for a file
 HealthEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/HealthEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/HealthEnumAc.cpp.s
 .PHONY : HealthEnumAc.cpp.s
 
 InternalInterfaceString.o: InternalInterfaceString.cpp.o
@@ -338,7 +338,7 @@ InternalInterfaceString.o: InternalInterfaceString.cpp.o
 
 # target to build an object file
 InternalInterfaceString.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/InternalInterfaceString.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/InternalInterfaceString.cpp.o
 .PHONY : InternalInterfaceString.cpp.o
 
 InternalInterfaceString.i: InternalInterfaceString.cpp.i
@@ -346,7 +346,7 @@ InternalInterfaceString.i: InternalInterfaceString.cpp.i
 
 # target to preprocess a source file
 InternalInterfaceString.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/InternalInterfaceString.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/InternalInterfaceString.cpp.i
 .PHONY : InternalInterfaceString.cpp.i
 
 InternalInterfaceString.s: InternalInterfaceString.cpp.s
@@ -354,7 +354,7 @@ InternalInterfaceString.s: InternalInterfaceString.cpp.s
 
 # target to generate assembly for a file
 InternalInterfaceString.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/InternalInterfaceString.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/InternalInterfaceString.cpp.s
 .PHONY : InternalInterfaceString.cpp.s
 
 LogicEnumAc.o: LogicEnumAc.cpp.o
@@ -362,7 +362,7 @@ LogicEnumAc.o: LogicEnumAc.cpp.o
 
 # target to build an object file
 LogicEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/LogicEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/LogicEnumAc.cpp.o
 .PHONY : LogicEnumAc.cpp.o
 
 LogicEnumAc.i: LogicEnumAc.cpp.i
@@ -370,7 +370,7 @@ LogicEnumAc.i: LogicEnumAc.cpp.i
 
 # target to preprocess a source file
 LogicEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/LogicEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/LogicEnumAc.cpp.i
 .PHONY : LogicEnumAc.cpp.i
 
 LogicEnumAc.s: LogicEnumAc.cpp.s
@@ -378,7 +378,7 @@ LogicEnumAc.s: LogicEnumAc.cpp.s
 
 # target to generate assembly for a file
 LogicEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/LogicEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/LogicEnumAc.cpp.s
 .PHONY : LogicEnumAc.cpp.s
 
 MallocAllocator.o: MallocAllocator.cpp.o
@@ -386,7 +386,7 @@ MallocAllocator.o: MallocAllocator.cpp.o
 
 # target to build an object file
 MallocAllocator.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MallocAllocator.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MallocAllocator.cpp.o
 .PHONY : MallocAllocator.cpp.o
 
 MallocAllocator.i: MallocAllocator.cpp.i
@@ -394,7 +394,7 @@ MallocAllocator.i: MallocAllocator.cpp.i
 
 # target to preprocess a source file
 MallocAllocator.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MallocAllocator.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MallocAllocator.cpp.i
 .PHONY : MallocAllocator.cpp.i
 
 MallocAllocator.s: MallocAllocator.cpp.s
@@ -402,7 +402,7 @@ MallocAllocator.s: MallocAllocator.cpp.s
 
 # target to generate assembly for a file
 MallocAllocator.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MallocAllocator.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MallocAllocator.cpp.s
 .PHONY : MallocAllocator.cpp.s
 
 MemAllocator.o: MemAllocator.cpp.o
@@ -410,7 +410,7 @@ MemAllocator.o: MemAllocator.cpp.o
 
 # target to build an object file
 MemAllocator.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MemAllocator.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MemAllocator.cpp.o
 .PHONY : MemAllocator.cpp.o
 
 MemAllocator.i: MemAllocator.cpp.i
@@ -418,7 +418,7 @@ MemAllocator.i: MemAllocator.cpp.i
 
 # target to preprocess a source file
 MemAllocator.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MemAllocator.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MemAllocator.cpp.i
 .PHONY : MemAllocator.cpp.i
 
 MemAllocator.s: MemAllocator.cpp.s
@@ -426,7 +426,7 @@ MemAllocator.s: MemAllocator.cpp.s
 
 # target to generate assembly for a file
 MemAllocator.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MemAllocator.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/MemAllocator.cpp.s
 .PHONY : MemAllocator.cpp.s
 
 OnEnumAc.o: OnEnumAc.cpp.o
@@ -434,7 +434,7 @@ OnEnumAc.o: OnEnumAc.cpp.o
 
 # target to build an object file
 OnEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OnEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OnEnumAc.cpp.o
 .PHONY : OnEnumAc.cpp.o
 
 OnEnumAc.i: OnEnumAc.cpp.i
@@ -442,7 +442,7 @@ OnEnumAc.i: OnEnumAc.cpp.i
 
 # target to preprocess a source file
 OnEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OnEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OnEnumAc.cpp.i
 .PHONY : OnEnumAc.cpp.i
 
 OnEnumAc.s: OnEnumAc.cpp.s
@@ -450,7 +450,7 @@ OnEnumAc.s: OnEnumAc.cpp.s
 
 # target to generate assembly for a file
 OnEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OnEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OnEnumAc.cpp.s
 .PHONY : OnEnumAc.cpp.s
 
 OpenEnumAc.o: OpenEnumAc.cpp.o
@@ -458,7 +458,7 @@ OpenEnumAc.o: OpenEnumAc.cpp.o
 
 # target to build an object file
 OpenEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OpenEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OpenEnumAc.cpp.o
 .PHONY : OpenEnumAc.cpp.o
 
 OpenEnumAc.i: OpenEnumAc.cpp.i
@@ -466,7 +466,7 @@ OpenEnumAc.i: OpenEnumAc.cpp.i
 
 # target to preprocess a source file
 OpenEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OpenEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OpenEnumAc.cpp.i
 .PHONY : OpenEnumAc.cpp.i
 
 OpenEnumAc.s: OpenEnumAc.cpp.s
@@ -474,7 +474,7 @@ OpenEnumAc.s: OpenEnumAc.cpp.s
 
 # target to generate assembly for a file
 OpenEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OpenEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/OpenEnumAc.cpp.s
 .PHONY : OpenEnumAc.cpp.s
 
 PolyType.o: PolyType.cpp.o
@@ -482,7 +482,7 @@ PolyType.o: PolyType.cpp.o
 
 # target to build an object file
 PolyType.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/PolyType.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/PolyType.cpp.o
 .PHONY : PolyType.cpp.o
 
 PolyType.i: PolyType.cpp.i
@@ -490,7 +490,7 @@ PolyType.i: PolyType.cpp.i
 
 # target to preprocess a source file
 PolyType.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/PolyType.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/PolyType.cpp.i
 .PHONY : PolyType.cpp.i
 
 PolyType.s: PolyType.cpp.s
@@ -498,7 +498,7 @@ PolyType.s: PolyType.cpp.s
 
 # target to generate assembly for a file
 PolyType.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/PolyType.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/PolyType.cpp.s
 .PHONY : PolyType.cpp.s
 
 SerialBuffer.o: SerialBuffer.cpp.o
@@ -506,7 +506,7 @@ SerialBuffer.o: SerialBuffer.cpp.o
 
 # target to build an object file
 SerialBuffer.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialBuffer.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialBuffer.cpp.o
 .PHONY : SerialBuffer.cpp.o
 
 SerialBuffer.i: SerialBuffer.cpp.i
@@ -514,7 +514,7 @@ SerialBuffer.i: SerialBuffer.cpp.i
 
 # target to preprocess a source file
 SerialBuffer.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialBuffer.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialBuffer.cpp.i
 .PHONY : SerialBuffer.cpp.i
 
 SerialBuffer.s: SerialBuffer.cpp.s
@@ -522,7 +522,7 @@ SerialBuffer.s: SerialBuffer.cpp.s
 
 # target to generate assembly for a file
 SerialBuffer.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialBuffer.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialBuffer.cpp.s
 .PHONY : SerialBuffer.cpp.s
 
 SerialStatusEnumAc.o: SerialStatusEnumAc.cpp.o
@@ -530,7 +530,7 @@ SerialStatusEnumAc.o: SerialStatusEnumAc.cpp.o
 
 # target to build an object file
 SerialStatusEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialStatusEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialStatusEnumAc.cpp.o
 .PHONY : SerialStatusEnumAc.cpp.o
 
 SerialStatusEnumAc.i: SerialStatusEnumAc.cpp.i
@@ -538,7 +538,7 @@ SerialStatusEnumAc.i: SerialStatusEnumAc.cpp.i
 
 # target to preprocess a source file
 SerialStatusEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialStatusEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialStatusEnumAc.cpp.i
 .PHONY : SerialStatusEnumAc.cpp.i
 
 SerialStatusEnumAc.s: SerialStatusEnumAc.cpp.s
@@ -546,7 +546,7 @@ SerialStatusEnumAc.s: SerialStatusEnumAc.cpp.s
 
 # target to generate assembly for a file
 SerialStatusEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialStatusEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SerialStatusEnumAc.cpp.s
 .PHONY : SerialStatusEnumAc.cpp.s
 
 Serializable.o: Serializable.cpp.o
@@ -554,7 +554,7 @@ Serializable.o: Serializable.cpp.o
 
 # target to build an object file
 Serializable.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Serializable.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Serializable.cpp.o
 .PHONY : Serializable.cpp.o
 
 Serializable.i: Serializable.cpp.i
@@ -562,7 +562,7 @@ Serializable.i: Serializable.cpp.i
 
 # target to preprocess a source file
 Serializable.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Serializable.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Serializable.cpp.i
 .PHONY : Serializable.cpp.i
 
 Serializable.s: Serializable.cpp.s
@@ -570,7 +570,7 @@ Serializable.s: Serializable.cpp.s
 
 # target to generate assembly for a file
 Serializable.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Serializable.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/Serializable.cpp.s
 .PHONY : Serializable.cpp.s
 
 String.o: String.cpp.o
@@ -578,7 +578,7 @@ String.o: String.cpp.o
 
 # target to build an object file
 String.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/String.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/String.cpp.o
 .PHONY : String.cpp.o
 
 String.i: String.cpp.i
@@ -586,7 +586,7 @@ String.i: String.cpp.i
 
 # target to preprocess a source file
 String.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/String.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/String.cpp.i
 .PHONY : String.cpp.i
 
 String.s: String.cpp.s
@@ -594,7 +594,7 @@ String.s: String.cpp.s
 
 # target to generate assembly for a file
 String.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/String.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/String.cpp.s
 .PHONY : String.cpp.s
 
 StringType.o: StringType.cpp.o
@@ -602,7 +602,7 @@ StringType.o: StringType.cpp.o
 
 # target to build an object file
 StringType.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringType.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringType.cpp.o
 .PHONY : StringType.cpp.o
 
 StringType.i: StringType.cpp.i
@@ -610,7 +610,7 @@ StringType.i: StringType.cpp.i
 
 # target to preprocess a source file
 StringType.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringType.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringType.cpp.i
 .PHONY : StringType.cpp.i
 
 StringType.s: StringType.cpp.s
@@ -618,7 +618,7 @@ StringType.s: StringType.cpp.s
 
 # target to generate assembly for a file
 StringType.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringType.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringType.cpp.s
 .PHONY : StringType.cpp.s
 
 StringUtils.o: StringUtils.cpp.o
@@ -626,7 +626,7 @@ StringUtils.o: StringUtils.cpp.o
 
 # target to build an object file
 StringUtils.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringUtils.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringUtils.cpp.o
 .PHONY : StringUtils.cpp.o
 
 StringUtils.i: StringUtils.cpp.i
@@ -634,7 +634,7 @@ StringUtils.i: StringUtils.cpp.i
 
 # target to preprocess a source file
 StringUtils.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringUtils.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringUtils.cpp.i
 .PHONY : StringUtils.cpp.i
 
 StringUtils.s: StringUtils.cpp.s
@@ -642,7 +642,7 @@ StringUtils.s: StringUtils.cpp.s
 
 # target to generate assembly for a file
 StringUtils.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringUtils.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/StringUtils.cpp.s
 .PHONY : StringUtils.cpp.s
 
 SuccessEnumAc.o: SuccessEnumAc.cpp.o
@@ -650,7 +650,7 @@ SuccessEnumAc.o: SuccessEnumAc.cpp.o
 
 # target to build an object file
 SuccessEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SuccessEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SuccessEnumAc.cpp.o
 .PHONY : SuccessEnumAc.cpp.o
 
 SuccessEnumAc.i: SuccessEnumAc.cpp.i
@@ -658,7 +658,7 @@ SuccessEnumAc.i: SuccessEnumAc.cpp.i
 
 # target to preprocess a source file
 SuccessEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SuccessEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SuccessEnumAc.cpp.i
 .PHONY : SuccessEnumAc.cpp.i
 
 SuccessEnumAc.s: SuccessEnumAc.cpp.s
@@ -666,7 +666,7 @@ SuccessEnumAc.s: SuccessEnumAc.cpp.s
 
 # target to generate assembly for a file
 SuccessEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SuccessEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/build.make F-Prime/Fw/Types/CMakeFiles/Fw_Types.dir/SuccessEnumAc.cpp.s
 .PHONY : SuccessEnumAc.cpp.s
 
 # Help Target
@@ -754,6 +754,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

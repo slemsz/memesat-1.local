@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_Deframer.a"
+  "../../../lib/Darwin/libSvc_Deframer.a"
 )

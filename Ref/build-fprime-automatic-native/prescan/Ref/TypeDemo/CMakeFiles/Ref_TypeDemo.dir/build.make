@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan
 
 # Include any dependencies generated for this target.
 include Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/depend.make
@@ -69,43 +69,43 @@ include Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/progress.make
 # Include the compile flags for this target's objects.
 include Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/flags.make
 
-Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/flags.make
-Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp
-Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o -MF CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o.d -o CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp
+Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/flags.make
+Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp
+Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o -MF CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o.d -o CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp
 
-Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp > CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i
+Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp > CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i
 
-Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp -o CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s
+Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp -o CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s
 
 # Object files for target Ref_TypeDemo
 Ref_TypeDemo_OBJECTS = \
-"CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o"
+"CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
 
 # External object files for target Ref_TypeDemo
 Ref_TypeDemo_EXTERNAL_OBJECTS =
 
-lib/Linux/libRef_TypeDemo.a: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o
-lib/Linux/libRef_TypeDemo.a: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make
-lib/Linux/libRef_TypeDemo.a: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/Linux/libRef_TypeDemo.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && $(CMAKE_COMMAND) -P CMakeFiles/Ref_TypeDemo.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ref_TypeDemo.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libRef_TypeDemo.a: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o
+lib/Darwin/libRef_TypeDemo.a: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make
+lib/Darwin/libRef_TypeDemo.a: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../lib/Darwin/libRef_TypeDemo.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && $(CMAKE_COMMAND) -P CMakeFiles/Ref_TypeDemo.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ref_TypeDemo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build: lib/Linux/libRef_TypeDemo.a
+Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build: lib/Darwin/libRef_TypeDemo.a
 .PHONY : Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build
 
 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && $(CMAKE_COMMAND) -P CMakeFiles/Ref_TypeDemo.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo && $(CMAKE_COMMAND) -P CMakeFiles/Ref_TypeDemo.dir/cmake_clean.cmake
 .PHONY : Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/clean
 
 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/TypeDemo /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/depend
 

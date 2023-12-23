@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include config/CMakeFiles/config.dir/depend.make
@@ -69,10 +69,10 @@ include config/CMakeFiles/config.dir/progress.make
 # Include the compile flags for this target's objects.
 include config/CMakeFiles/config.dir/flags.make
 
-config/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp
-config/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating FppConstantsAc.cpp, FppConstantsAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+config/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp
+config/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating FppConstantsAc.cpp, FppConstantsAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config /Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 config/FppConstantsAc.hpp: config/FppConstantsAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate config/FppConstantsAc.hpp
@@ -80,16 +80,16 @@ config/FppConstantsAc.hpp: config/FppConstantsAc.cpp
 config/CMakeFiles/config.dir/FppConstantsAc.cpp.o: config/CMakeFiles/config.dir/flags.make
 config/CMakeFiles/config.dir/FppConstantsAc.cpp.o: config/FppConstantsAc.cpp
 config/CMakeFiles/config.dir/FppConstantsAc.cpp.o: config/CMakeFiles/config.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object config/CMakeFiles/config.dir/FppConstantsAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8ce37fa0 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp"' -MD -MT config/CMakeFiles/config.dir/FppConstantsAc.cpp.o -MF CMakeFiles/config.dir/FppConstantsAc.cpp.o.d -o CMakeFiles/config.dir/FppConstantsAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object config/CMakeFiles/config.dir/FppConstantsAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8ce37fa0 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp"' -MD -MT config/CMakeFiles/config.dir/FppConstantsAc.cpp.o -MF CMakeFiles/config.dir/FppConstantsAc.cpp.o.d -o CMakeFiles/config.dir/FppConstantsAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp
 
 config/CMakeFiles/config.dir/FppConstantsAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/config.dir/FppConstantsAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8ce37fa0 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp > CMakeFiles/config.dir/FppConstantsAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8ce37fa0 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp > CMakeFiles/config.dir/FppConstantsAc.cpp.i
 
 config/CMakeFiles/config.dir/FppConstantsAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/config.dir/FppConstantsAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8ce37fa0 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp -o CMakeFiles/config.dir/FppConstantsAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x8ce37fa0 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config/FppConstantsAc.cpp -o CMakeFiles/config.dir/FppConstantsAc.cpp.s
 
 # Object files for target config
 config_OBJECTS = \
@@ -98,23 +98,23 @@ config_OBJECTS = \
 # External object files for target config
 config_EXTERNAL_OBJECTS =
 
-lib/Linux/libconfig.a: config/CMakeFiles/config.dir/FppConstantsAc.cpp.o
-lib/Linux/libconfig.a: config/CMakeFiles/config.dir/build.make
-lib/Linux/libconfig.a: config/CMakeFiles/config.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../lib/Linux/libconfig.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config && $(CMAKE_COMMAND) -P CMakeFiles/config.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/config.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libconfig.a: config/CMakeFiles/config.dir/FppConstantsAc.cpp.o
+lib/Darwin/libconfig.a: config/CMakeFiles/config.dir/build.make
+lib/Darwin/libconfig.a: config/CMakeFiles/config.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../lib/Darwin/libconfig.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config && $(CMAKE_COMMAND) -P CMakeFiles/config.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/config.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-config/CMakeFiles/config.dir/build: lib/Linux/libconfig.a
+config/CMakeFiles/config.dir/build: lib/Darwin/libconfig.a
 .PHONY : config/CMakeFiles/config.dir/build
 
 config/CMakeFiles/config.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config && $(CMAKE_COMMAND) -P CMakeFiles/config.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config && $(CMAKE_COMMAND) -P CMakeFiles/config.dir/cmake_clean.cmake
 .PHONY : config/CMakeFiles/config.dir/clean
 
 config/CMakeFiles/config.dir/depend: config/FppConstantsAc.cpp
 config/CMakeFiles/config.dir/depend: config/FppConstantsAc.hpp
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/config/CMakeFiles/config.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/config /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/config/CMakeFiles/config.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : config/CMakeFiles/config.dir/depend
 

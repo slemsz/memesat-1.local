@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_BufferRepeater.a"
+  "../../../lib/Darwin/libSvc_BufferRepeater.a"
 )

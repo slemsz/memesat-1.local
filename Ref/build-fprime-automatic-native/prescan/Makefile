@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1312,29 +1312,29 @@ Ref_Top/fast:
 	$(MAKE) $(MAKESILENT) -f Ref/Top/CMakeFiles/Ref_Top.dir/build.make Ref/Top/CMakeFiles/Ref_Top.dir/build
 .PHONY : Ref_Top/fast
 
-home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.o: home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o
-.PHONY : home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.o
+Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.o: Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o
+.PHONY : Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.o
 
 # target to build an object file
-home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o
-.PHONY : home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o
+Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o
+.PHONY : Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o
 
-home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.i: home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i
-.PHONY : home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.i
+Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.i: Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i
+.PHONY : Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.i
 
 # target to preprocess a source file
-home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i
-.PHONY : home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i
+Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i
+.PHONY : Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i
 
-home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.s: home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s
-.PHONY : home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.s
+Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.s: Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s
+.PHONY : Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.s
 
 # target to generate assembly for a file
-home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s
-.PHONY : home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s
+Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Ref.dir/build.make CMakeFiles/Ref.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s
+.PHONY : Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s
 
 # Help Target
 help:
@@ -1436,9 +1436,9 @@ help:
 	@echo "... Utils_Hash"
 	@echo "... Utils_Types"
 	@echo "... config"
-	@echo "... home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.o"
-	@echo "... home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.i"
-	@echo "... home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.s"
+	@echo "... Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.o"
+	@echo "... Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.i"
+	@echo "... Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.s"
 .PHONY : help
 
 

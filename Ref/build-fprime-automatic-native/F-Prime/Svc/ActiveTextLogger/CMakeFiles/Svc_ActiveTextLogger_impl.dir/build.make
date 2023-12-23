@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Svc_ActiveTextLogger_impl.
 
@@ -69,39 +69,39 @@ include F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/pr
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.hpp
-F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template
-F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template
+F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template
+F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template
 
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: lib/Linux/libFw_Log.a
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: lib/Linux/libFw_CompQueued.a
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ActiveTextLoggerComponentAc.cpp, ActiveTextLoggerComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: lib/Darwin/libFw_Log.a
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: lib/Darwin/libFw_CompQueued.a
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ActiveTextLoggerComponentAc.cpp, ActiveTextLoggerComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.hpp: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.hpp
 
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: lib/Linux/libFw_Log.a
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: lib/Linux/libFw_CompQueued.a
-F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ActiveTextLoggerComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: lib/Darwin/libFw_Log.a
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: lib/Darwin/libFw_CompQueued.a
+F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ActiveTextLoggerComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLogger.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template
 
 Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.cpp
 Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAc.hpp
 Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/ActiveTextLoggerComponentAi.xml
 Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl
-Svc_ActiveTextLogger_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template
-Svc_ActiveTextLogger_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template
+Svc_ActiveTextLogger_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.cpp-template
+Svc_ActiveTextLogger_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger/ActiveTextLoggerComponentImpl.hpp-template
 Svc_ActiveTextLogger_impl: F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/build.make
 .PHONY : Svc_ActiveTextLogger_impl
 
@@ -110,10 +110,10 @@ F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/build: Svc
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/build
 
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && $(CMAKE_COMMAND) -P CMakeFiles/Svc_ActiveTextLogger_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger && $(CMAKE_COMMAND) -P CMakeFiles/Svc_ActiveTextLogger_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/clean
 
 F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveTextLogger /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveTextLogger /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/ActiveTextLogger/CMakeFiles/Svc_ActiveTextLogger_impl.dir/depend
 

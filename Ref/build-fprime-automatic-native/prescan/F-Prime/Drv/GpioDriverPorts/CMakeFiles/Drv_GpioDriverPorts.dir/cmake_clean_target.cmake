@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_GpioDriverPorts.a"
+  "../../../lib/Darwin/libDrv_GpioDriverPorts.a"
 )

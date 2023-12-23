@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_WatchDog.a"
+  "../../../lib/Darwin/libSvc_WatchDog.a"
 )

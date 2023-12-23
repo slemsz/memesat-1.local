@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/depend.make
@@ -69,50 +69,50 @@ include F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/flags.make
 
-F-Prime/Fw/Time/TimePortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp
-F-Prime/Fw/Time/TimePortAi.xml: lib/Linux/libFw_Port.a
-F-Prime/Fw/Time/TimePortAi.xml: lib/Linux/libFw_Types.a
-F-Prime/Fw/Time/TimePortAi.xml: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TimePortAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Fw/Time/TimePortAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp
+F-Prime/Fw/Time/TimePortAi.xml: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Time/TimePortAi.xml: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Time/TimePortAi.xml: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TimePortAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-F-Prime/Fw/Time/TimePortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp
-F-Prime/Fw/Time/TimePortAc.cpp: lib/Linux/libFw_Port.a
-F-Prime/Fw/Time/TimePortAc.cpp: lib/Linux/libFw_Types.a
-F-Prime/Fw/Time/TimePortAc.cpp: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TimePortAc.cpp, TimePortAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Fw/Time/TimePortAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp
+F-Prime/Fw/Time/TimePortAc.cpp: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Time/TimePortAc.cpp: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Time/TimePortAc.cpp: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TimePortAc.cpp, TimePortAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Fw/Time/TimePortAc.hpp: F-Prime/Fw/Time/TimePortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Time/TimePortAc.hpp
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/flags.make
-F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.cpp
+F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.cpp
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x365b8329 -DASSERT_RELATIVE_PATH='"Fw/Time/Time.cpp"' -MD -MT F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o -MF CMakeFiles/Fw_Time.dir/Time.cpp.o.d -o CMakeFiles/Fw_Time.dir/Time.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x365b8329 -DASSERT_RELATIVE_PATH='"Fw/Time/Time.cpp"' -MD -MT F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o -MF CMakeFiles/Fw_Time.dir/Time.cpp.o.d -o CMakeFiles/Fw_Time.dir/Time.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.cpp
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Time.dir/Time.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x365b8329 -DASSERT_RELATIVE_PATH='"Fw/Time/Time.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.cpp > CMakeFiles/Fw_Time.dir/Time.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x365b8329 -DASSERT_RELATIVE_PATH='"Fw/Time/Time.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.cpp > CMakeFiles/Fw_Time.dir/Time.cpp.i
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Time.dir/Time.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x365b8329 -DASSERT_RELATIVE_PATH='"Fw/Time/Time.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.cpp -o CMakeFiles/Fw_Time.dir/Time.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x365b8329 -DASSERT_RELATIVE_PATH='"Fw/Time/Time.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.cpp -o CMakeFiles/Fw_Time.dir/Time.cpp.s
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/flags.make
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o: F-Prime/Fw/Time/TimePortAc.cpp
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe668ff2e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp"' -MD -MT F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o -MF CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o.d -o CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe668ff2e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp"' -MD -MT F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o -MF CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o.d -o CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_Time.dir/TimePortAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe668ff2e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp > CMakeFiles/Fw_Time.dir/TimePortAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe668ff2e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp > CMakeFiles/Fw_Time.dir/TimePortAc.cpp.i
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_Time.dir/TimePortAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe668ff2e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp -o CMakeFiles/Fw_Time.dir/TimePortAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe668ff2e -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/TimePortAc.cpp -o CMakeFiles/Fw_Time.dir/TimePortAc.cpp.s
 
 # Object files for target Fw_Time
 Fw_Time_OBJECTS = \
@@ -122,25 +122,25 @@ Fw_Time_OBJECTS = \
 # External object files for target Fw_Time
 Fw_Time_EXTERNAL_OBJECTS =
 
-lib/Linux/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o
-lib/Linux/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o
-lib/Linux/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make
-lib/Linux/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libFw_Time.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Time.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Time.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/Time.cpp.o
+lib/Darwin/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/TimePortAc.cpp.o
+lib/Darwin/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build.make
+lib/Darwin/libFw_Time.a: F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Darwin/libFw_Time.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Time.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_Time.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build: lib/Linux/libFw_Time.a
+F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build: lib/Darwin/libFw_Time.a
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/build
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Time.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Time.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/clean
 
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/depend: F-Prime/Fw/Time/TimePortAc.cpp
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/depend: F-Prime/Fw/Time/TimePortAc.hpp
 F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/depend: F-Prime/Fw/Time/TimePortAi.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Fw/Time /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/Time/CMakeFiles/Fw_Time.dir/depend
 

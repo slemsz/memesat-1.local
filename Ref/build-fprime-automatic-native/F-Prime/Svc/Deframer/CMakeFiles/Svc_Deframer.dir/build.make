@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/depend.make
@@ -69,56 +69,56 @@ include F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/flags.make
 
-F-Prime/Svc/Deframer/DeframerComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.fpp
-F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Linux/libFw_Cmd.a
-F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Linux/libFw_Com.a
-F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Linux/libSvc_Sched.a
-F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Linux/libOs.a
-F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating DeframerComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/Deframer/DeframerComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.fpp
+F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Darwin/libDrv_ByteStreamDriverModel.a
+F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Darwin/libFw_Cmd.a
+F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Darwin/libFw_Com.a
+F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Darwin/libSvc_Sched.a
+F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Darwin/libOs.a
+F-Prime/Svc/Deframer/DeframerComponentAi.xml: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating DeframerComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-F-Prime/Svc/Deframer/DeframerComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.fpp
-F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Linux/libFw_Cmd.a
-F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Linux/libFw_Com.a
-F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Linux/libSvc_Sched.a
-F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Linux/libOs.a
-F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating DeframerComponentAc.cpp, DeframerComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/Deframer/DeframerComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.fpp
+F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Darwin/libDrv_ByteStreamDriverModel.a
+F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Darwin/libFw_Cmd.a
+F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Darwin/libFw_Com.a
+F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Darwin/libSvc_Sched.a
+F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Darwin/libOs.a
+F-Prime/Svc/Deframer/DeframerComponentAc.cpp: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating DeframerComponentAc.cpp, DeframerComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/Deframer/DeframerComponentAc.hpp: F-Prime/Svc/Deframer/DeframerComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/Deframer/DeframerComponentAc.hpp
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/flags.make
-F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.cpp
+F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.cpp
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5211ffca -DASSERT_RELATIVE_PATH='"Svc/Deframer/Deframer.cpp"' -MD -MT F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o -MF CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o.d -o CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5211ffca -DASSERT_RELATIVE_PATH='"Svc/Deframer/Deframer.cpp"' -MD -MT F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o -MF CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o.d -o CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.cpp
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_Deframer.dir/Deframer.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5211ffca -DASSERT_RELATIVE_PATH='"Svc/Deframer/Deframer.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.cpp > CMakeFiles/Svc_Deframer.dir/Deframer.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5211ffca -DASSERT_RELATIVE_PATH='"Svc/Deframer/Deframer.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.cpp > CMakeFiles/Svc_Deframer.dir/Deframer.cpp.i
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_Deframer.dir/Deframer.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5211ffca -DASSERT_RELATIVE_PATH='"Svc/Deframer/Deframer.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.cpp -o CMakeFiles/Svc_Deframer.dir/Deframer.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5211ffca -DASSERT_RELATIVE_PATH='"Svc/Deframer/Deframer.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.cpp -o CMakeFiles/Svc_Deframer.dir/Deframer.cpp.s
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/flags.make
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o: F-Prime/Svc/Deframer/DeframerComponentAc.cpp
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2e0c97df -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp"' -MD -MT F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o -MF CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o.d -o CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2e0c97df -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp"' -MD -MT F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o -MF CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o.d -o CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2e0c97df -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp > CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2e0c97df -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp > CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.i
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2e0c97df -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp -o CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x2e0c97df -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp -o CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.s
 
 # Object files for target Svc_Deframer
 Svc_Deframer_OBJECTS = \
@@ -128,25 +128,25 @@ Svc_Deframer_OBJECTS = \
 # External object files for target Svc_Deframer
 Svc_Deframer_EXTERNAL_OBJECTS =
 
-lib/Linux/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o
-lib/Linux/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o
-lib/Linux/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build.make
-lib/Linux/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Linux/libSvc_Deframer.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Deframer.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_Deframer.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/Deframer.cpp.o
+lib/Darwin/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DeframerComponentAc.cpp.o
+lib/Darwin/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build.make
+lib/Darwin/libSvc_Deframer.a: F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../../lib/Darwin/libSvc_Deframer.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Deframer.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_Deframer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build: lib/Linux/libSvc_Deframer.a
+F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build: lib/Darwin/libSvc_Deframer.a
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/build
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Deframer.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer && $(CMAKE_COMMAND) -P CMakeFiles/Svc_Deframer.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/clean
 
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/depend: F-Prime/Svc/Deframer/DeframerComponentAc.cpp
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/depend: F-Prime/Svc/Deframer/DeframerComponentAc.hpp
 F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/depend: F-Prime/Svc/Deframer/DeframerComponentAi.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/Deframer/CMakeFiles/Svc_Deframer.dir/depend
 

@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_ActiveLogger.a"
+  "../../../lib/Darwin/libSvc_ActiveLogger.a"
 )

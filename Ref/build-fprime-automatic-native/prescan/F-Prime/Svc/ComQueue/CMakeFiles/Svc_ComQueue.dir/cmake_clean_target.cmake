@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_ComQueue.a"
+  "../../../lib/Darwin/libSvc_ComQueue.a"
 )

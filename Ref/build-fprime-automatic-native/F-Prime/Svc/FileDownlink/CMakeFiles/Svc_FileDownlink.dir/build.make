@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend.make
@@ -69,98 +69,98 @@ include F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/flags.make
 
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Commands.fppi
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Events.fppi
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libFw_Buffer.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libFw_Cmd.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libFw_Log.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libFw_Time.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libFw_Tlm.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libSvc_FileDownlinkPorts.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libSvc_Ping.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libSvc_Sched.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libFw_CompQueued.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating FileDownlinkComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Commands.fppi
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Events.fppi
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libFw_Buffer.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libFw_Cmd.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libFw_Log.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libFw_Time.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libFw_Tlm.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libSvc_FileDownlinkPorts.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libSvc_Ping.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libSvc_Sched.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libFw_CompQueued.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating FileDownlinkComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Ping/Ping.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Commands.fppi
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Events.fppi
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libFw_Buffer.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libFw_Cmd.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libFw_Log.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libFw_Time.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libFw_Tlm.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libSvc_FileDownlinkPorts.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libSvc_Ping.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libSvc_Sched.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libFw_CompQueued.a
-F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating FileDownlinkComponentAc.cpp, FileDownlinkComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Commands.fppi
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Events.fppi
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libFw_Buffer.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libFw_Cmd.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libFw_Log.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libFw_Time.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libFw_Tlm.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libSvc_FileDownlinkPorts.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libSvc_Ping.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libSvc_Sched.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libFw_CompQueued.a
+F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating FileDownlinkComponentAc.cpp, FileDownlinkComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Ping/Ping.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.hpp: F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.hpp
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/flags.make
-F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp
+F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd569ee5b -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/FileDownlink.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd569ee5b -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/FileDownlink.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd569ee5b -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/FileDownlink.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp > CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd569ee5b -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/FileDownlink.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp > CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.i
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd569ee5b -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/FileDownlink.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp -o CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd569ee5b -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/FileDownlink.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.cpp -o CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.s
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/flags.make
-F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/File.cpp
+F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/File.cpp
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe7b204b3 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/File.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/File.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/File.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/File.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe7b204b3 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/File.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/File.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/File.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/File.cpp
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_FileDownlink.dir/File.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe7b204b3 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/File.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/File.cpp > CMakeFiles/Svc_FileDownlink.dir/File.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe7b204b3 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/File.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/File.cpp > CMakeFiles/Svc_FileDownlink.dir/File.cpp.i
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_FileDownlink.dir/File.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe7b204b3 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/File.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/File.cpp -o CMakeFiles/Svc_FileDownlink.dir/File.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xe7b204b3 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/File.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/File.cpp -o CMakeFiles/Svc_FileDownlink.dir/File.cpp.s
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/flags.make
-F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Warnings.cpp
+F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Warnings.cpp
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbbf54ec4 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/Warnings.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Warnings.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbbf54ec4 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/Warnings.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Warnings.cpp
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbbf54ec4 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/Warnings.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Warnings.cpp > CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbbf54ec4 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/Warnings.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Warnings.cpp > CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.i
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbbf54ec4 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/Warnings.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Warnings.cpp -o CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xbbf54ec4 -DASSERT_RELATIVE_PATH='"Svc/FileDownlink/Warnings.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Warnings.cpp -o CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.s
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/flags.make
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o: F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x73f88fae -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x73f88fae -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp"' -MD -MT F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o -MF CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o.d -o CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x73f88fae -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp > CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x73f88fae -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp > CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.i
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x73f88fae -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp -o CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x73f88fae -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp -o CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.s
 
 # Object files for target Svc_FileDownlink
 Svc_FileDownlink_OBJECTS = \
@@ -172,27 +172,27 @@ Svc_FileDownlink_OBJECTS = \
 # External object files for target Svc_FileDownlink
 Svc_FileDownlink_EXTERNAL_OBJECTS =
 
-lib/Linux/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o
-lib/Linux/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o
-lib/Linux/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o
-lib/Linux/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o
-lib/Linux/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make
-lib/Linux/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../../lib/Linux/libSvc_FileDownlink.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FileDownlink.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_FileDownlink.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlink.cpp.o
+lib/Darwin/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/File.cpp.o
+lib/Darwin/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/Warnings.cpp.o
+lib/Darwin/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/FileDownlinkComponentAc.cpp.o
+lib/Darwin/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build.make
+lib/Darwin/libSvc_FileDownlink.a: F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library ../../../lib/Darwin/libSvc_FileDownlink.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FileDownlink.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_FileDownlink.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build: lib/Linux/libSvc_FileDownlink.a
+F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build: lib/Darwin/libSvc_FileDownlink.a
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/build
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FileDownlink.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink && $(CMAKE_COMMAND) -P CMakeFiles/Svc_FileDownlink.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/clean
 
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend: F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.cpp
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend: F-Prime/Svc/FileDownlink/FileDownlinkComponentAc.hpp
 F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend: F-Prime/Svc/FileDownlink/FileDownlinkComponentAi.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/FileDownlink/CMakeFiles/Svc_FileDownlink.dir/depend
 

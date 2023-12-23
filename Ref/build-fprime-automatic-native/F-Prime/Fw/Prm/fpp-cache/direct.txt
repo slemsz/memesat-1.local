@@ -1,1 +1,1 @@
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp
+/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp

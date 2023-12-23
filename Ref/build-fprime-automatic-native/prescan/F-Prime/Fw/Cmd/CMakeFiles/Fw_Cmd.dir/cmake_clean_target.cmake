@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libFw_Cmd.a"
+  "../../../lib/Darwin/libFw_Cmd.a"
 )

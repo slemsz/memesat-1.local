@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Fw_Buffer_impl.
 
@@ -73,18 +73,18 @@ F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl: F-Prime/Fw/Buffer/BufferGetPortAc.h
 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl: F-Prime/Fw/Buffer/BufferSendPortAc.cpp
 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl: F-Prime/Fw/Buffer/BufferSendPortAc.hpp
 
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Prm.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Cmd.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Log.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Tlm.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Com.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Time.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Port.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Types.a
-F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating BufferGetPortAc.cpp, BufferGetPortAc.hpp, BufferSendPortAc.cpp, BufferSendPortAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Prm.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Cmd.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Log.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Tlm.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Com.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Time.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Buffer/BufferGetPortAc.cpp: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating BufferGetPortAc.cpp, BufferGetPortAc.hpp, BufferSendPortAc.cpp, BufferSendPortAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Fw/Buffer/BufferGetPortAc.hpp: F-Prime/Fw/Buffer/BufferGetPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Buffer/BufferGetPortAc.hpp
@@ -95,18 +95,18 @@ F-Prime/Fw/Buffer/BufferSendPortAc.cpp: F-Prime/Fw/Buffer/BufferGetPortAc.cpp
 F-Prime/Fw/Buffer/BufferSendPortAc.hpp: F-Prime/Fw/Buffer/BufferGetPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Buffer/BufferSendPortAc.hpp
 
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Prm.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Cmd.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Log.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Tlm.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Com.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Time.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Port.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Types.a
-F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Linux/libFw_Cfg.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating BufferGetPortAi.xml, BufferSendPortAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Prm.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Cmd.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Log.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Tlm.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Com.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Time.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Port.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Types.a
+F-Prime/Fw/Buffer/BufferGetPortAi.xml: lib/Darwin/libFw_Cfg.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating BufferGetPortAi.xml, BufferSendPortAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
 F-Prime/Fw/Buffer/BufferSendPortAi.xml: F-Prime/Fw/Buffer/BufferGetPortAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Fw/Buffer/BufferSendPortAi.xml
@@ -126,10 +126,10 @@ F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/build: Fw_Buffer_impl
 .PHONY : F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/build
 
 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Buffer_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer && $(CMAKE_COMMAND) -P CMakeFiles/Fw_Buffer_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/clean
 
 F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/Buffer/CMakeFiles/Fw_Buffer_impl.dir/depend
 

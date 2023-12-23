@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include Ref/Top/CMakeFiles/Ref_Top.dir/depend.make
@@ -69,55 +69,55 @@ include Ref/Top/CMakeFiles/Ref_Top.dir/progress.make
 # Include the compile flags for this target's objects.
 include Ref/Top/CMakeFiles/Ref_Top.dir/flags.make
 
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/instances.fpp
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/topology.fpp
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/BlockDriver/Tlm.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferManager/Events.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferManager/Telemetry.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/Commands.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/Events.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/Telemetry.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Commands.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Events.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Commands.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Events.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Telemetry.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileUplink/Events.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileUplink/Telemetry.fppi
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libDrv_BlockDriver.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libDrv_ByteStreamDriverModel.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libRef_PingReceiver.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libRef_RecvBuffApp.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libRef_SendBuffApp.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libRef_SignalGen.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libRef_TypeDemo.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_ActiveLogger.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_ActiveRateGroup.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_AssertFatalAdapter.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_BufferManager.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_CmdDispatcher.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_CmdSequencer.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_Deframer.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_FatalHandler.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_FileDownlink.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_FileManager.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_FileUplink.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_Framer.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_Health.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_PassiveConsoleTextLogger.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_PrmDb.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_RateGroupDriver.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_StaticMemory.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_SystemResources.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_Time.a
-Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Linux/libSvc_TlmChan.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Ports_RateGroupsEnumAi.xml, Ports_StaticMemoryEnumAi.xml, RefTopologyAppAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/BlockDriver/BlockDriver.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Prm/Prm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/RecvBuffApp/RecvBuffApp.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/TypeDemo/TypeDemo.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferManager/BufferManager.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/CmdSequencer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Fatal/Fatal.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandler.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/FileManager.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileUplink/FileUplink.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/Framer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Health/Health.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/PassiveConsoleTextLogger/PassiveConsoleTextLogger.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/PrmDb/PrmDb.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/RateGroupDriver/RateGroupDriver.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Seq/Seq.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/StaticMemory/StaticMemory.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/SystemResources/SystemResources.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/TlmChan/TlmChan.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/WatchDog/WatchDog.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/instances.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/topology.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/instances.fpp
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/topology.fpp
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Drv/BlockDriver/Tlm.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/Commands.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/Events.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/BufferManager/Events.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/BufferManager/Telemetry.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/Commands.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/Events.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/Telemetry.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Commands.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Events.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/Commands.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/Events.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/Telemetry.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/Events.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/Telemetry.fppi
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libDrv_BlockDriver.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libDrv_ByteStreamDriverModel.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libRef_PingReceiver.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libRef_RecvBuffApp.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libRef_SendBuffApp.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libRef_SignalGen.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libRef_TypeDemo.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_ActiveLogger.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_ActiveRateGroup.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_AssertFatalAdapter.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_BufferManager.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_CmdDispatcher.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_CmdSequencer.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_Deframer.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_FatalHandler.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_FileDownlink.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_FileManager.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_FileUplink.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_Framer.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_Health.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_PassiveConsoleTextLogger.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_PrmDb.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_RateGroupDriver.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_StaticMemory.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_SystemResources.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_Time.a
+Ref/Top/Ports_RateGroupsEnumAi.xml: lib/Darwin/libSvc_TlmChan.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Ports_RateGroupsEnumAi.xml, Ports_StaticMemoryEnumAi.xml, RefTopologyAppAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/BlockDriver/BlockDriver.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Prm/Prm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/RecvBuffApp/RecvBuffApp.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/SignalGen.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/BufferManager/BufferManager.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/CmdSequencer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle/Cycle.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Fatal/Fatal.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FatalHandler/FatalHandler.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/FileManager.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/FileUplink.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/Framer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Health/Health.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/PassiveConsoleTextLogger/PassiveConsoleTextLogger.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Ping/Ping.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/PrmDb/PrmDb.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/RateGroupDriver/RateGroupDriver.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Seq/Seq.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/StaticMemory/StaticMemory.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/SystemResources/SystemResources.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/TlmChan/TlmChan.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/WatchDog/WatchDog.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/instances.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/topology.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
 Ref/Top/Ports_StaticMemoryEnumAi.xml: Ref/Top/Ports_RateGroupsEnumAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/Top/Ports_StaticMemoryEnumAi.xml
@@ -125,55 +125,55 @@ Ref/Top/Ports_StaticMemoryEnumAi.xml: Ref/Top/Ports_RateGroupsEnumAi.xml
 Ref/Top/RefTopologyAppAi.xml: Ref/Top/Ports_RateGroupsEnumAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/Top/RefTopologyAppAi.xml
 
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/instances.fpp
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/topology.fpp
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/BlockDriver/Tlm.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Commands.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Events.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferManager/Events.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferManager/Telemetry.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/Commands.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/Events.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/Telemetry.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Commands.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Events.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Commands.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Events.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/Telemetry.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileUplink/Events.fppi
-Ref/Top/FppConstantsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileUplink/Telemetry.fppi
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libDrv_BlockDriver.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libDrv_ByteStreamDriverModel.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libRef_PingReceiver.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libRef_RecvBuffApp.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libRef_SendBuffApp.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libRef_SignalGen.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libRef_TypeDemo.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_ActiveLogger.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_ActiveRateGroup.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_AssertFatalAdapter.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_BufferManager.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_CmdDispatcher.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_CmdSequencer.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_Deframer.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_FatalHandler.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_FileDownlink.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_FileManager.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_FileUplink.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_Framer.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_Health.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_PassiveConsoleTextLogger.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_PrmDb.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_RateGroupDriver.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_StaticMemory.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_SystemResources.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_Time.a
-Ref/Top/FppConstantsAc.cpp: lib/Linux/libSvc_TlmChan.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating FppConstantsAc.cpp, FppConstantsAc.hpp, Ports_RateGroupsEnumAc.cpp, Ports_RateGroupsEnumAc.hpp, Ports_StaticMemoryEnumAc.cpp, Ports_StaticMemoryEnumAc.hpp, RefTopologyAc.cpp, RefTopologyAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/BlockDriver/BlockDriver.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Com/Com.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Prm/Prm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/RecvBuffApp/RecvBuffApp.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SignalGen/SignalGen.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/TypeDemo/TypeDemo.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/BufferManager/BufferManager.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/CmdSequencer/CmdSequencer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Cycle/Cycle.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Deframer/Deframer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Fatal/Fatal.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FatalHandler/FatalHandler.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileManager/FileManager.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/FileUplink/FileUplink.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Framer/Framer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Health/Health.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/PassiveConsoleTextLogger/PassiveConsoleTextLogger.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Ping/Ping.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/PrmDb/PrmDb.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/RateGroupDriver/RateGroupDriver.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Seq/Seq.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/StaticMemory/StaticMemory.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/SystemResources/SystemResources.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/TlmChan/TlmChan.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/WatchDog/WatchDog.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/instances.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/topology.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/instances.fpp
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/topology.fpp
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Drv/BlockDriver/Tlm.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/Commands.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/Events.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/Telemetry.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalEvents.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/BufferManager/Events.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/BufferManager/Telemetry.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/Commands.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/Events.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/Telemetry.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Commands.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Events.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/Telemetry.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/Commands.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/Events.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/Telemetry.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/Events.fppi
+Ref/Top/FppConstantsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/Telemetry.fppi
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libDrv_BlockDriver.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libDrv_ByteStreamDriverModel.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libRef_PingReceiver.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libRef_RecvBuffApp.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libRef_SendBuffApp.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libRef_SignalGen.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libRef_TypeDemo.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_ActiveLogger.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_ActiveRateGroup.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_AssertFatalAdapter.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_BufferManager.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_CmdDispatcher.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_CmdSequencer.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_Deframer.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_FatalHandler.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_FileDownlink.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_FileManager.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_FileUplink.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_Framer.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_Health.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_PassiveConsoleTextLogger.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_PrmDb.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_RateGroupDriver.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_StaticMemory.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_SystemResources.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_Time.a
+Ref/Top/FppConstantsAc.cpp: lib/Darwin/libSvc_TlmChan.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating FppConstantsAc.cpp, FppConstantsAc.hpp, Ports_RateGroupsEnumAc.cpp, Ports_RateGroupsEnumAc.hpp, Ports_StaticMemoryEnumAc.cpp, Ports_StaticMemoryEnumAc.hpp, RefTopologyAc.cpp, RefTopologyAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/BlockDriver/BlockDriver.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Prm/Prm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/PingReceiver/PingReceiver.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/RecvBuffApp/RecvBuffApp.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/SignalGen/SignalGen.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Ref/TypeDemo/TypeDemo.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveLogger/ActiveLogger.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/ActiveRateGroup/ActiveRateGroup.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/AssertFatalAdapter/AssertFatalAdapter.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/BufferManager/BufferManager.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdDispatcher/CmdDispatcher.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/CmdSequencer/CmdSequencer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Cycle/Cycle.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Deframer/Deframer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Fatal/Fatal.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FatalHandler/FatalHandler.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlink/FileDownlink.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileDownlinkPorts/FileDownlinkPorts.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileManager/FileManager.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/FileUplink.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Framer/Framer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Health/Health.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/PassiveConsoleTextLogger/PassiveConsoleTextLogger.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Ping/Ping.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/PrmDb/PrmDb.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/RateGroupDriver/RateGroupDriver.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Seq/Seq.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/StaticMemory/StaticMemory.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/SystemResources/SystemResources.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/TlmChan/TlmChan.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/WatchDog/WatchDog.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/instances.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/topology.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 Ref/Top/FppConstantsAc.hpp: Ref/Top/FppConstantsAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/Top/FppConstantsAc.hpp
@@ -197,102 +197,102 @@ Ref/Top/RefTopologyAc.hpp: Ref/Top/FppConstantsAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/Top/RefTopologyAc.hpp
 
 Ref/Top/RefTopologyAppDictionary.xml: Ref/Top/RefTopologyAppAi.xml
-Ref/Top/RefTopologyAppDictionary.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating RefTopologyAppDictionary.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top --build_root --connect_only --xml_topology_dict /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppAi.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/cmake -E remove /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppAc.hpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppAc.cpp
+Ref/Top/RefTopologyAppDictionary.xml: /Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating RefTopologyAppDictionary.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top --build_root --connect_only --xml_topology_dict /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppAi.xml
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E remove /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppAc.hpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAppAc.cpp
 
-Ref/Top/RefPacketsAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/RefPackets.xml
+Ref/Top/RefPacketsAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefPackets.xml
 Ref/Top/RefPacketsAc.cpp: Ref/Top/RefTopologyAppAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating RefPacketsAc.cpp, RefPacketsAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/tlm_packet_gen.py /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/RefPackets.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating RefPacketsAc.cpp, RefPacketsAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/tlm_packet_gen.py /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefPackets.xml
 
 Ref/Top/RefPacketsAc.hpp: Ref/Top/RefPacketsAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/Top/RefPacketsAc.hpp
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/flags.make
-Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/RefTopology.cpp
+Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopology.cpp
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xff4e9ba9 -DASSERT_RELATIVE_PATH='"Ref/Top/RefTopology.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o -MF CMakeFiles/Ref_Top.dir/RefTopology.cpp.o.d -o CMakeFiles/Ref_Top.dir/RefTopology.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/RefTopology.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xff4e9ba9 -DASSERT_RELATIVE_PATH='"Ref/Top/RefTopology.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o -MF CMakeFiles/Ref_Top.dir/RefTopology.cpp.o.d -o CMakeFiles/Ref_Top.dir/RefTopology.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopology.cpp
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_Top.dir/RefTopology.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xff4e9ba9 -DASSERT_RELATIVE_PATH='"Ref/Top/RefTopology.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/RefTopology.cpp > CMakeFiles/Ref_Top.dir/RefTopology.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xff4e9ba9 -DASSERT_RELATIVE_PATH='"Ref/Top/RefTopology.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopology.cpp > CMakeFiles/Ref_Top.dir/RefTopology.cpp.i
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_Top.dir/RefTopology.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xff4e9ba9 -DASSERT_RELATIVE_PATH='"Ref/Top/RefTopology.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top/RefTopology.cpp -o CMakeFiles/Ref_Top.dir/RefTopology.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xff4e9ba9 -DASSERT_RELATIVE_PATH='"Ref/Top/RefTopology.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top/RefTopology.cpp -o CMakeFiles/Ref_Top.dir/RefTopology.cpp.s
 
 Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/flags.make
 Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o: Ref/Top/FppConstantsAc.cpp
 Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x0f127686 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o -MF CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x0f127686 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o -MF CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp
 
 Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x0f127686 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp > CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x0f127686 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp > CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.i
 
 Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x0f127686 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp -o CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x0f127686 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/FppConstantsAc.cpp -o CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.s
 
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/flags.make
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o: Ref/Top/Ports_RateGroupsEnumAc.cpp
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfa7c370b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o -MF CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfa7c370b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o -MF CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp
 
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfa7c370b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp > CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfa7c370b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp > CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.i
 
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfa7c370b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp -o CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xfa7c370b -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_RateGroupsEnumAc.cpp -o CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.s
 
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/flags.make
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o: Ref/Top/Ports_StaticMemoryEnumAc.cpp
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x29ac1e82 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o -MF CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x29ac1e82 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o -MF CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp
 
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x29ac1e82 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp > CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x29ac1e82 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp > CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.i
 
 Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x29ac1e82 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp -o CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x29ac1e82 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/Ports_StaticMemoryEnumAc.cpp -o CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.s
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/flags.make
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o: Ref/Top/RefTopologyAc.cpp
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5c028381 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o -MF CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5c028381 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o -MF CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5c028381 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp > CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5c028381 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp > CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.i
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5c028381 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp -o CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x5c028381 -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefTopologyAc.cpp -o CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.s
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/flags.make
 Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o: Ref/Top/RefPacketsAc.cpp
 Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o: Ref/Top/CMakeFiles/Ref_Top.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7a32206d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o -MF CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7a32206d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp"' -MD -MT Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o -MF CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o.d -o CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7a32206d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp > CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7a32206d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp > CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.i
 
 Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7a32206d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp -o CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x7a32206d -DASSERT_RELATIVE_PATH='"Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/RefPacketsAc.cpp -o CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.s
 
 # Object files for target Ref_Top
 Ref_Top_OBJECTS = \
@@ -306,24 +306,24 @@ Ref_Top_OBJECTS = \
 # External object files for target Ref_Top
 Ref_Top_EXTERNAL_OBJECTS =
 
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/build.make
-lib/Linux/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ../../lib/Linux/libRef_Top.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && $(CMAKE_COMMAND) -P CMakeFiles/Ref_Top.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ref_Top.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/RefTopology.cpp.o
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/FppConstantsAc.cpp.o
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/Ports_RateGroupsEnumAc.cpp.o
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/Ports_StaticMemoryEnumAc.cpp.o
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/RefTopologyAc.cpp.o
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/RefPacketsAc.cpp.o
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/build.make
+lib/Darwin/libRef_Top.a: Ref/Top/CMakeFiles/Ref_Top.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ../../lib/Darwin/libRef_Top.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && $(CMAKE_COMMAND) -P CMakeFiles/Ref_Top.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ref_Top.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Ref/Top/CMakeFiles/Ref_Top.dir/build: lib/Linux/libRef_Top.a
+Ref/Top/CMakeFiles/Ref_Top.dir/build: lib/Darwin/libRef_Top.a
 .PHONY : Ref/Top/CMakeFiles/Ref_Top.dir/build
 
 Ref/Top/CMakeFiles/Ref_Top.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && $(CMAKE_COMMAND) -P CMakeFiles/Ref_Top.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top && $(CMAKE_COMMAND) -P CMakeFiles/Ref_Top.dir/cmake_clean.cmake
 .PHONY : Ref/Top/CMakeFiles/Ref_Top.dir/clean
 
 Ref/Top/CMakeFiles/Ref_Top.dir/depend: Ref/Top/FppConstantsAc.cpp
@@ -340,6 +340,6 @@ Ref/Top/CMakeFiles/Ref_Top.dir/depend: Ref/Top/RefTopologyAc.cpp
 Ref/Top/CMakeFiles/Ref_Top.dir/depend: Ref/Top/RefTopologyAc.hpp
 Ref/Top/CMakeFiles/Ref_Top.dir/depend: Ref/Top/RefTopologyAppAi.xml
 Ref/Top/CMakeFiles/Ref_Top.dir/depend: Ref/Top/RefTopologyAppDictionary.xml
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/Top /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/Ref_Top.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Ref/Top /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/Top/CMakeFiles/Ref_Top.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Ref/Top/CMakeFiles/Ref_Top.dir/depend
 

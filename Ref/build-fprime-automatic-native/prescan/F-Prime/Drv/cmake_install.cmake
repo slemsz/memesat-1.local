@@ -1,8 +1,8 @@
-# Install script for directory: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv
+# Install script for directory: /Users/heron/Desktop/memedir/memesat-1.local/Drv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-artifacts")
+  set(CMAKE_INSTALL_PREFIX "/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,26 +34,26 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/DataTypes/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/GpioDriverPorts/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/SpiDriverPorts/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/I2cDriverPorts/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/BlockDriver/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/ByteStreamDriverModel/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxGpioDriver/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxUartDriver/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxSpiDriver/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxI2cDriver/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/StreamCrossover/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/Ip/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/TcpClient/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/TcpServer/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/Udp/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/DataTypes/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/GpioDriverPorts/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/SpiDriverPorts/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/I2cDriverPorts/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/BlockDriver/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/ByteStreamDriverModel/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxGpioDriver/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxUartDriver/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxSpiDriver/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/LinuxI2cDriver/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/StreamCrossover/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/Ip/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/TcpClient/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/TcpServer/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/Udp/cmake_install.cmake")
 
 endif()
 

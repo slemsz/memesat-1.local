@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/Darwin/libAutocoders_Python_test_tlm1.a CMakeFiles/Autocoders_Python_test_tlm1.dir/TestTelemImpl.cpp.o CMakeFiles/Autocoders_Python_test_tlm1.dir/TestTelemRecvImpl.cpp.o CMakeFiles/Autocoders_Python_test_tlm1.dir/main.cpp.o CMakeFiles/Autocoders_Python_test_tlm1.dir/TestComponentAc.cpp.o CMakeFiles/Autocoders_Python_test_tlm1.dir/TestPortAc.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/Darwin/libAutocoders_Python_test_tlm1.a

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Drv_LinuxI2cDriver_impl.
 
@@ -69,35 +69,35 @@ include F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/progre
 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml
 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp
 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.hpp
-F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template
-F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template
+F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template
+F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template
 
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: lib/Linux/libDrv_I2cDriverPorts.a
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: lib/Linux/libOs.a
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating LinuxI2cDriverComponentAc.cpp, LinuxI2cDriverComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: lib/Darwin/libDrv_I2cDriverPorts.a
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: lib/Darwin/libOs.a
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating LinuxI2cDriverComponentAc.cpp, LinuxI2cDriverComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.hpp: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.hpp
 
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: lib/Linux/libDrv_I2cDriverPorts.a
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: lib/Linux/libOs.a
-F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating LinuxI2cDriverComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: lib/Darwin/libDrv_I2cDriverPorts.a
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: lib/Darwin/libOs.a
+F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating LinuxI2cDriverComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriver.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-Drv_LinuxI2cDriver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template
-Drv_LinuxI2cDriver_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template
+Drv_LinuxI2cDriver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.cpp-template
+Drv_LinuxI2cDriver_impl: /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver/LinuxI2cDriverComponentImpl.hpp-template
 Drv_LinuxI2cDriver_impl: F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl
 Drv_LinuxI2cDriver_impl: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp
 Drv_LinuxI2cDriver_impl: F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.hpp
@@ -110,10 +110,10 @@ F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/build: Drv_Lin
 .PHONY : F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/build
 
 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && $(CMAKE_COMMAND) -P CMakeFiles/Drv_LinuxI2cDriver_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver && $(CMAKE_COMMAND) -P CMakeFiles/Drv_LinuxI2cDriver_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/clean
 
 F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/LinuxI2cDriver /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxI2cDriver /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Drv/LinuxI2cDriver/CMakeFiles/Drv_LinuxI2cDriver_impl.dir/depend
 

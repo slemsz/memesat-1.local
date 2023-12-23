@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../lib/Linux/libOs.a"
+  "../../lib/Darwin/libOs.a"
 )

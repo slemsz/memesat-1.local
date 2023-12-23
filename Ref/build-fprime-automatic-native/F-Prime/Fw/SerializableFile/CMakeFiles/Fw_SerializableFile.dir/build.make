@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/depend.make
@@ -70,18 +70,18 @@ include F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/progress.
 include F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/flags.make
 
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/flags.make
-F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp
+F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54d26abd -DASSERT_RELATIVE_PATH='"Fw/SerializableFile/SerializableFile.cpp"' -MD -MT F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o -MF CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o.d -o CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54d26abd -DASSERT_RELATIVE_PATH='"Fw/SerializableFile/SerializableFile.cpp"' -MD -MT F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o -MF CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o.d -o CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp
 
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54d26abd -DASSERT_RELATIVE_PATH='"Fw/SerializableFile/SerializableFile.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp > CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54d26abd -DASSERT_RELATIVE_PATH='"Fw/SerializableFile/SerializableFile.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp > CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.i
 
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54d26abd -DASSERT_RELATIVE_PATH='"Fw/SerializableFile/SerializableFile.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp -o CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54d26abd -DASSERT_RELATIVE_PATH='"Fw/SerializableFile/SerializableFile.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Fw/SerializableFile/SerializableFile.cpp -o CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.s
 
 # Object files for target Fw_SerializableFile
 Fw_SerializableFile_OBJECTS = \
@@ -90,22 +90,22 @@ Fw_SerializableFile_OBJECTS = \
 # External object files for target Fw_SerializableFile
 Fw_SerializableFile_EXTERNAL_OBJECTS =
 
-lib/Linux/libFw_SerializableFile.a: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o
-lib/Linux/libFw_SerializableFile.a: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build.make
-lib/Linux/libFw_SerializableFile.a: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Linux/libFw_SerializableFile.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && $(CMAKE_COMMAND) -P CMakeFiles/Fw_SerializableFile.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_SerializableFile.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libFw_SerializableFile.a: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/SerializableFile.cpp.o
+lib/Darwin/libFw_SerializableFile.a: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build.make
+lib/Darwin/libFw_SerializableFile.a: F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Darwin/libFw_SerializableFile.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && $(CMAKE_COMMAND) -P CMakeFiles/Fw_SerializableFile.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fw_SerializableFile.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build: lib/Linux/libFw_SerializableFile.a
+F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build: lib/Darwin/libFw_SerializableFile.a
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/build
 
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && $(CMAKE_COMMAND) -P CMakeFiles/Fw_SerializableFile.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile && $(CMAKE_COMMAND) -P CMakeFiles/Fw_SerializableFile.dir/cmake_clean.cmake
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/clean
 
 F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/SerializableFile /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Fw/SerializableFile /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Fw/SerializableFile/CMakeFiles/Fw_SerializableFile.dir/depend
 

@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,49 +97,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/Ip//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/Ip//CMakeFiles/progress.marks
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/clean
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule
 .PHONY : F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Drv_Ip: F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/rule
 
 # fast build rule for target.
 Drv_Ip/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build
 .PHONY : Drv_Ip/fast
 
 # Convenience name for target.
 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/rule
 .PHONY : F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Drv_Ip_impl: F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/rule
 
 # fast build rule for target.
 Drv_Ip_impl/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip_impl.dir/build
 .PHONY : Drv_Ip_impl/fast
 
 IpSocket.o: IpSocket.cpp.o
@@ -194,7 +194,7 @@ IpSocket.o: IpSocket.cpp.o
 
 # target to build an object file
 IpSocket.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.o
 .PHONY : IpSocket.cpp.o
 
 IpSocket.i: IpSocket.cpp.i
@@ -202,7 +202,7 @@ IpSocket.i: IpSocket.cpp.i
 
 # target to preprocess a source file
 IpSocket.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.i
 .PHONY : IpSocket.cpp.i
 
 IpSocket.s: IpSocket.cpp.s
@@ -210,7 +210,7 @@ IpSocket.s: IpSocket.cpp.s
 
 # target to generate assembly for a file
 IpSocket.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/IpSocket.cpp.s
 .PHONY : IpSocket.cpp.s
 
 SocketReadTask.o: SocketReadTask.cpp.o
@@ -218,7 +218,7 @@ SocketReadTask.o: SocketReadTask.cpp.o
 
 # target to build an object file
 SocketReadTask.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.o
 .PHONY : SocketReadTask.cpp.o
 
 SocketReadTask.i: SocketReadTask.cpp.i
@@ -226,7 +226,7 @@ SocketReadTask.i: SocketReadTask.cpp.i
 
 # target to preprocess a source file
 SocketReadTask.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.i
 .PHONY : SocketReadTask.cpp.i
 
 SocketReadTask.s: SocketReadTask.cpp.s
@@ -234,7 +234,7 @@ SocketReadTask.s: SocketReadTask.cpp.s
 
 # target to generate assembly for a file
 SocketReadTask.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/SocketReadTask.cpp.s
 .PHONY : SocketReadTask.cpp.s
 
 TcpClientSocket.o: TcpClientSocket.cpp.o
@@ -242,7 +242,7 @@ TcpClientSocket.o: TcpClientSocket.cpp.o
 
 # target to build an object file
 TcpClientSocket.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.o
 .PHONY : TcpClientSocket.cpp.o
 
 TcpClientSocket.i: TcpClientSocket.cpp.i
@@ -250,7 +250,7 @@ TcpClientSocket.i: TcpClientSocket.cpp.i
 
 # target to preprocess a source file
 TcpClientSocket.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.i
 .PHONY : TcpClientSocket.cpp.i
 
 TcpClientSocket.s: TcpClientSocket.cpp.s
@@ -258,7 +258,7 @@ TcpClientSocket.s: TcpClientSocket.cpp.s
 
 # target to generate assembly for a file
 TcpClientSocket.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpClientSocket.cpp.s
 .PHONY : TcpClientSocket.cpp.s
 
 TcpServerSocket.o: TcpServerSocket.cpp.o
@@ -266,7 +266,7 @@ TcpServerSocket.o: TcpServerSocket.cpp.o
 
 # target to build an object file
 TcpServerSocket.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.o
 .PHONY : TcpServerSocket.cpp.o
 
 TcpServerSocket.i: TcpServerSocket.cpp.i
@@ -274,7 +274,7 @@ TcpServerSocket.i: TcpServerSocket.cpp.i
 
 # target to preprocess a source file
 TcpServerSocket.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.i
 .PHONY : TcpServerSocket.cpp.i
 
 TcpServerSocket.s: TcpServerSocket.cpp.s
@@ -282,7 +282,7 @@ TcpServerSocket.s: TcpServerSocket.cpp.s
 
 # target to generate assembly for a file
 TcpServerSocket.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/TcpServerSocket.cpp.s
 .PHONY : TcpServerSocket.cpp.s
 
 UdpSocket.o: UdpSocket.cpp.o
@@ -290,7 +290,7 @@ UdpSocket.o: UdpSocket.cpp.o
 
 # target to build an object file
 UdpSocket.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.o
 .PHONY : UdpSocket.cpp.o
 
 UdpSocket.i: UdpSocket.cpp.i
@@ -298,7 +298,7 @@ UdpSocket.i: UdpSocket.cpp.i
 
 # target to preprocess a source file
 UdpSocket.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.i
 .PHONY : UdpSocket.cpp.i
 
 UdpSocket.s: UdpSocket.cpp.s
@@ -306,7 +306,7 @@ UdpSocket.s: UdpSocket.cpp.s
 
 # target to generate assembly for a file
 UdpSocket.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/build.make F-Prime/Drv/Ip/CMakeFiles/Drv_Ip.dir/UdpSocket.cpp.s
 .PHONY : UdpSocket.cpp.s
 
 # Help Target
@@ -349,6 +349,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/Darwin/libAutocoders_Python_test_string_port.a "CMakeFiles/Autocoders_Python_test_string_port.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/Darwin/libAutocoders_Python_test_string_port.a

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Svc_ComStub_impl.
 
@@ -69,39 +69,39 @@ include F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/progress.make
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl: F-Prime/Svc/ComStub/ComStubComponentAi.xml
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl: F-Prime/Svc/ComStub/ComStubComponentAc.cpp
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl: F-Prime/Svc/ComStub/ComStubComponentAc.hpp
-F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template
-F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template
+F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template
+F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template
 
-F-Prime/Svc/ComStub/ComStubComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStub.fpp
-F-Prime/Svc/ComStub/ComStubComponentAc.cpp: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Svc/ComStub/ComStubComponentAc.cpp: lib/Linux/libFw_Ports_SuccessCondition.a
-F-Prime/Svc/ComStub/ComStubComponentAc.cpp: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ComStubComponentAc.cpp, ComStubComponentAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStub.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Svc/ComStub/ComStubComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStub.fpp
+F-Prime/Svc/ComStub/ComStubComponentAc.cpp: lib/Darwin/libDrv_ByteStreamDriverModel.a
+F-Prime/Svc/ComStub/ComStubComponentAc.cpp: lib/Darwin/libFw_Ports_SuccessCondition.a
+F-Prime/Svc/ComStub/ComStubComponentAc.cpp: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ComStubComponentAc.cpp, ComStubComponentAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStub.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Svc/ComStub/ComStubComponentAc.hpp: F-Prime/Svc/ComStub/ComStubComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Svc/ComStub/ComStubComponentAc.hpp
 
-F-Prime/Svc/ComStub/ComStubComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStub.fpp
-F-Prime/Svc/ComStub/ComStubComponentAi.xml: lib/Linux/libDrv_ByteStreamDriverModel.a
-F-Prime/Svc/ComStub/ComStubComponentAi.xml: lib/Linux/libFw_Ports_SuccessCondition.a
-F-Prime/Svc/ComStub/ComStubComponentAi.xml: lib/Linux/libFw_Comp.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ComStubComponentAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Types/Types.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStub.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Svc/ComStub/ComStubComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStub.fpp
+F-Prime/Svc/ComStub/ComStubComponentAi.xml: lib/Darwin/libDrv_ByteStreamDriverModel.a
+F-Prime/Svc/ComStub/ComStubComponentAi.xml: lib/Darwin/libFw_Ports_SuccessCondition.a
+F-Prime/Svc/ComStub/ComStubComponentAi.xml: lib/Darwin/libFw_Comp.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ComStubComponentAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Types/Types.fpp /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStub.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template: F-Prime/Svc/ComStub/ComStubComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub/ComStubComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template: F-Prime/Svc/ComStub/ComStubComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub/ComStubComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template
 
 Svc_ComStub_impl: F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl
 Svc_ComStub_impl: F-Prime/Svc/ComStub/ComStubComponentAc.cpp
 Svc_ComStub_impl: F-Prime/Svc/ComStub/ComStubComponentAc.hpp
 Svc_ComStub_impl: F-Prime/Svc/ComStub/ComStubComponentAi.xml
-Svc_ComStub_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template
-Svc_ComStub_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template
+Svc_ComStub_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.cpp-template
+Svc_ComStub_impl: /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub/ComStubComponentImpl.hpp-template
 Svc_ComStub_impl: F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/build.make
 .PHONY : Svc_ComStub_impl
 
@@ -110,10 +110,10 @@ F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/build: Svc_ComStub_impl
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/build
 
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && $(CMAKE_COMMAND) -P CMakeFiles/Svc_ComStub_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub && $(CMAKE_COMMAND) -P CMakeFiles/Svc_ComStub_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/clean
 
 F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/ComStub /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/ComStub /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/ComStub/CMakeFiles/Svc_ComStub_impl.dir/depend
 

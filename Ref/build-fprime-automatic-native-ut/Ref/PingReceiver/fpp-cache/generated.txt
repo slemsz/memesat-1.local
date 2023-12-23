@@ -1,0 +1,3 @@
+PingReceiverComponentAc.cpp
+PingReceiverComponentAc.hpp
+PingReceiverComponentAi.xml

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Drv_I2cDriverPorts_impl.
 
@@ -76,10 +76,10 @@ F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl: F-Prime/Drv/I2cDr
 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl: F-Prime/Drv/I2cDriverPorts/I2cWriteReadPortAc.cpp
 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl: F-Prime/Drv/I2cDriverPorts/I2cWriteReadPortAc.hpp
 
-F-Prime/Drv/I2cDriverPorts/I2cPortAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp
-F-Prime/Drv/I2cDriverPorts/I2cPortAc.cpp: lib/Linux/libFw_Buffer.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating I2cPortAc.cpp, I2cPortAc.hpp, I2cStatusEnumAc.cpp, I2cStatusEnumAc.hpp, I2cWriteReadPortAc.cpp, I2cWriteReadPortAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+F-Prime/Drv/I2cDriverPorts/I2cPortAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp
+F-Prime/Drv/I2cDriverPorts/I2cPortAc.cpp: lib/Darwin/libFw_Buffer.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating I2cPortAc.cpp, I2cPortAc.hpp, I2cStatusEnumAc.cpp, I2cStatusEnumAc.hpp, I2cWriteReadPortAc.cpp, I2cWriteReadPortAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp /Users/heron/Desktop/memedir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 F-Prime/Drv/I2cDriverPorts/I2cPortAc.hpp: F-Prime/Drv/I2cDriverPorts/I2cPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/I2cDriverPorts/I2cPortAc.hpp
@@ -96,10 +96,10 @@ F-Prime/Drv/I2cDriverPorts/I2cWriteReadPortAc.cpp: F-Prime/Drv/I2cDriverPorts/I2
 F-Prime/Drv/I2cDriverPorts/I2cWriteReadPortAc.hpp: F-Prime/Drv/I2cDriverPorts/I2cPortAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/I2cDriverPorts/I2cWriteReadPortAc.hpp
 
-F-Prime/Drv/I2cDriverPorts/I2cPortAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp
-F-Prime/Drv/I2cDriverPorts/I2cPortAi.xml: lib/Linux/libFw_Buffer.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating I2cPortAi.xml, I2cStatusEnumAi.xml, I2cWriteReadPortAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Buffer/Buffer.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+F-Prime/Drv/I2cDriverPorts/I2cPortAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp
+F-Prime/Drv/I2cDriverPorts/I2cPortAi.xml: lib/Darwin/libFw_Buffer.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating I2cPortAi.xml, I2cStatusEnumAi.xml, I2cWriteReadPortAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts -i /Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp /Users/heron/Desktop/memedir/memesat-1.local/Drv/I2cDriverPorts/I2cDriverPorts.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
 F-Prime/Drv/I2cDriverPorts/I2cStatusEnumAi.xml: F-Prime/Drv/I2cDriverPorts/I2cPortAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate F-Prime/Drv/I2cDriverPorts/I2cStatusEnumAi.xml
@@ -125,10 +125,10 @@ F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/build: Drv_I2c
 .PHONY : F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/build
 
 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts && $(CMAKE_COMMAND) -P CMakeFiles/Drv_I2cDriverPorts_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts && $(CMAKE_COMMAND) -P CMakeFiles/Drv_I2cDriverPorts_impl.dir/cmake_clean.cmake
 .PHONY : F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/clean
 
 F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/I2cDriverPorts /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Drv/I2cDriverPorts /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Drv/I2cDriverPorts/CMakeFiles/Drv_I2cDriverPorts_impl.dir/depend
 

@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_SpiDriverPorts.a"
+  "../../../lib/Darwin/libDrv_SpiDriverPorts.a"
 )

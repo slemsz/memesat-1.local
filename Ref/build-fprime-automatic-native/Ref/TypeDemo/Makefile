@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,49 +97,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/TypeDemo//CMakeFiles/progress.marks
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/clean
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/rule
 .PHONY : Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Ref_TypeDemo: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/rule
 
 # fast build rule for target.
 Ref_TypeDemo/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build
 .PHONY : Ref_TypeDemo/fast
 
 # Convenience name for target.
 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/rule
 .PHONY : Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Ref_TypeDemo_impl: Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/rule
 
 # fast build rule for target.
 Ref_TypeDemo_impl/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo_impl.dir/build
 .PHONY : Ref_TypeDemo_impl/fast
 
 ChoiceEnumAc.o: ChoiceEnumAc.cpp.o
@@ -194,7 +194,7 @@ ChoiceEnumAc.o: ChoiceEnumAc.cpp.o
 
 # target to build an object file
 ChoiceEnumAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceEnumAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceEnumAc.cpp.o
 .PHONY : ChoiceEnumAc.cpp.o
 
 ChoiceEnumAc.i: ChoiceEnumAc.cpp.i
@@ -202,7 +202,7 @@ ChoiceEnumAc.i: ChoiceEnumAc.cpp.i
 
 # target to preprocess a source file
 ChoiceEnumAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceEnumAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceEnumAc.cpp.i
 .PHONY : ChoiceEnumAc.cpp.i
 
 ChoiceEnumAc.s: ChoiceEnumAc.cpp.s
@@ -210,7 +210,7 @@ ChoiceEnumAc.s: ChoiceEnumAc.cpp.s
 
 # target to generate assembly for a file
 ChoiceEnumAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceEnumAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceEnumAc.cpp.s
 .PHONY : ChoiceEnumAc.cpp.s
 
 ChoicePairSerializableAc.o: ChoicePairSerializableAc.cpp.o
@@ -218,7 +218,7 @@ ChoicePairSerializableAc.o: ChoicePairSerializableAc.cpp.o
 
 # target to build an object file
 ChoicePairSerializableAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoicePairSerializableAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoicePairSerializableAc.cpp.o
 .PHONY : ChoicePairSerializableAc.cpp.o
 
 ChoicePairSerializableAc.i: ChoicePairSerializableAc.cpp.i
@@ -226,7 +226,7 @@ ChoicePairSerializableAc.i: ChoicePairSerializableAc.cpp.i
 
 # target to preprocess a source file
 ChoicePairSerializableAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoicePairSerializableAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoicePairSerializableAc.cpp.i
 .PHONY : ChoicePairSerializableAc.cpp.i
 
 ChoicePairSerializableAc.s: ChoicePairSerializableAc.cpp.s
@@ -234,7 +234,7 @@ ChoicePairSerializableAc.s: ChoicePairSerializableAc.cpp.s
 
 # target to generate assembly for a file
 ChoicePairSerializableAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoicePairSerializableAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoicePairSerializableAc.cpp.s
 .PHONY : ChoicePairSerializableAc.cpp.s
 
 ChoiceSlurrySerializableAc.o: ChoiceSlurrySerializableAc.cpp.o
@@ -242,7 +242,7 @@ ChoiceSlurrySerializableAc.o: ChoiceSlurrySerializableAc.cpp.o
 
 # target to build an object file
 ChoiceSlurrySerializableAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceSlurrySerializableAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceSlurrySerializableAc.cpp.o
 .PHONY : ChoiceSlurrySerializableAc.cpp.o
 
 ChoiceSlurrySerializableAc.i: ChoiceSlurrySerializableAc.cpp.i
@@ -250,7 +250,7 @@ ChoiceSlurrySerializableAc.i: ChoiceSlurrySerializableAc.cpp.i
 
 # target to preprocess a source file
 ChoiceSlurrySerializableAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceSlurrySerializableAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceSlurrySerializableAc.cpp.i
 .PHONY : ChoiceSlurrySerializableAc.cpp.i
 
 ChoiceSlurrySerializableAc.s: ChoiceSlurrySerializableAc.cpp.s
@@ -258,7 +258,7 @@ ChoiceSlurrySerializableAc.s: ChoiceSlurrySerializableAc.cpp.s
 
 # target to generate assembly for a file
 ChoiceSlurrySerializableAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceSlurrySerializableAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ChoiceSlurrySerializableAc.cpp.s
 .PHONY : ChoiceSlurrySerializableAc.cpp.s
 
 FloatSetArrayAc.o: FloatSetArrayAc.cpp.o
@@ -266,7 +266,7 @@ FloatSetArrayAc.o: FloatSetArrayAc.cpp.o
 
 # target to build an object file
 FloatSetArrayAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FloatSetArrayAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FloatSetArrayAc.cpp.o
 .PHONY : FloatSetArrayAc.cpp.o
 
 FloatSetArrayAc.i: FloatSetArrayAc.cpp.i
@@ -274,7 +274,7 @@ FloatSetArrayAc.i: FloatSetArrayAc.cpp.i
 
 # target to preprocess a source file
 FloatSetArrayAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FloatSetArrayAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FloatSetArrayAc.cpp.i
 .PHONY : FloatSetArrayAc.cpp.i
 
 FloatSetArrayAc.s: FloatSetArrayAc.cpp.s
@@ -282,7 +282,7 @@ FloatSetArrayAc.s: FloatSetArrayAc.cpp.s
 
 # target to generate assembly for a file
 FloatSetArrayAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FloatSetArrayAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FloatSetArrayAc.cpp.s
 .PHONY : FloatSetArrayAc.cpp.s
 
 FppConstantsAc.o: FppConstantsAc.cpp.o
@@ -290,7 +290,7 @@ FppConstantsAc.o: FppConstantsAc.cpp.o
 
 # target to build an object file
 FppConstantsAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FppConstantsAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FppConstantsAc.cpp.o
 .PHONY : FppConstantsAc.cpp.o
 
 FppConstantsAc.i: FppConstantsAc.cpp.i
@@ -298,7 +298,7 @@ FppConstantsAc.i: FppConstantsAc.cpp.i
 
 # target to preprocess a source file
 FppConstantsAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FppConstantsAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FppConstantsAc.cpp.i
 .PHONY : FppConstantsAc.cpp.i
 
 FppConstantsAc.s: FppConstantsAc.cpp.s
@@ -306,7 +306,7 @@ FppConstantsAc.s: FppConstantsAc.cpp.s
 
 # target to generate assembly for a file
 FppConstantsAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FppConstantsAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/FppConstantsAc.cpp.s
 .PHONY : FppConstantsAc.cpp.s
 
 ManyChoicesArrayAc.o: ManyChoicesArrayAc.cpp.o
@@ -314,7 +314,7 @@ ManyChoicesArrayAc.o: ManyChoicesArrayAc.cpp.o
 
 # target to build an object file
 ManyChoicesArrayAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ManyChoicesArrayAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ManyChoicesArrayAc.cpp.o
 .PHONY : ManyChoicesArrayAc.cpp.o
 
 ManyChoicesArrayAc.i: ManyChoicesArrayAc.cpp.i
@@ -322,7 +322,7 @@ ManyChoicesArrayAc.i: ManyChoicesArrayAc.cpp.i
 
 # target to preprocess a source file
 ManyChoicesArrayAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ManyChoicesArrayAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ManyChoicesArrayAc.cpp.i
 .PHONY : ManyChoicesArrayAc.cpp.i
 
 ManyChoicesArrayAc.s: ManyChoicesArrayAc.cpp.s
@@ -330,7 +330,7 @@ ManyChoicesArrayAc.s: ManyChoicesArrayAc.cpp.s
 
 # target to generate assembly for a file
 ManyChoicesArrayAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ManyChoicesArrayAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/ManyChoicesArrayAc.cpp.s
 .PHONY : ManyChoicesArrayAc.cpp.s
 
 TooManyChoicesArrayAc.o: TooManyChoicesArrayAc.cpp.o
@@ -338,7 +338,7 @@ TooManyChoicesArrayAc.o: TooManyChoicesArrayAc.cpp.o
 
 # target to build an object file
 TooManyChoicesArrayAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TooManyChoicesArrayAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TooManyChoicesArrayAc.cpp.o
 .PHONY : TooManyChoicesArrayAc.cpp.o
 
 TooManyChoicesArrayAc.i: TooManyChoicesArrayAc.cpp.i
@@ -346,7 +346,7 @@ TooManyChoicesArrayAc.i: TooManyChoicesArrayAc.cpp.i
 
 # target to preprocess a source file
 TooManyChoicesArrayAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TooManyChoicesArrayAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TooManyChoicesArrayAc.cpp.i
 .PHONY : TooManyChoicesArrayAc.cpp.i
 
 TooManyChoicesArrayAc.s: TooManyChoicesArrayAc.cpp.s
@@ -354,7 +354,7 @@ TooManyChoicesArrayAc.s: TooManyChoicesArrayAc.cpp.s
 
 # target to generate assembly for a file
 TooManyChoicesArrayAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TooManyChoicesArrayAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TooManyChoicesArrayAc.cpp.s
 .PHONY : TooManyChoicesArrayAc.cpp.s
 
 TypeDemo.o: TypeDemo.cpp.o
@@ -362,7 +362,7 @@ TypeDemo.o: TypeDemo.cpp.o
 
 # target to build an object file
 TypeDemo.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemo.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemo.cpp.o
 .PHONY : TypeDemo.cpp.o
 
 TypeDemo.i: TypeDemo.cpp.i
@@ -370,7 +370,7 @@ TypeDemo.i: TypeDemo.cpp.i
 
 # target to preprocess a source file
 TypeDemo.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemo.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemo.cpp.i
 .PHONY : TypeDemo.cpp.i
 
 TypeDemo.s: TypeDemo.cpp.s
@@ -378,7 +378,7 @@ TypeDemo.s: TypeDemo.cpp.s
 
 # target to generate assembly for a file
 TypeDemo.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemo.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemo.cpp.s
 .PHONY : TypeDemo.cpp.s
 
 TypeDemoComponentAc.o: TypeDemoComponentAc.cpp.o
@@ -386,7 +386,7 @@ TypeDemoComponentAc.o: TypeDemoComponentAc.cpp.o
 
 # target to build an object file
 TypeDemoComponentAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemoComponentAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemoComponentAc.cpp.o
 .PHONY : TypeDemoComponentAc.cpp.o
 
 TypeDemoComponentAc.i: TypeDemoComponentAc.cpp.i
@@ -394,7 +394,7 @@ TypeDemoComponentAc.i: TypeDemoComponentAc.cpp.i
 
 # target to preprocess a source file
 TypeDemoComponentAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemoComponentAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemoComponentAc.cpp.i
 .PHONY : TypeDemoComponentAc.cpp.i
 
 TypeDemoComponentAc.s: TypeDemoComponentAc.cpp.s
@@ -402,7 +402,7 @@ TypeDemoComponentAc.s: TypeDemoComponentAc.cpp.s
 
 # target to generate assembly for a file
 TypeDemoComponentAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemoComponentAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/build.make Ref/TypeDemo/CMakeFiles/Ref_TypeDemo.dir/TypeDemoComponentAc.cpp.s
 .PHONY : TypeDemoComponentAc.cpp.s
 
 # Help Target
@@ -457,6 +457,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

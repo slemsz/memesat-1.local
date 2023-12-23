@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan
 
 # Include any dependencies generated for this target.
 include F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/depend.make
@@ -69,43 +69,43 @@ include F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/progress.make
 # Include the compile flags for this target's objects.
 include F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/flags.make
 
-F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/flags.make
-F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp
-F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o -MF CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o.d -o CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp
+F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/flags.make
+F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp
+F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o -MF CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o.d -o CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp
 
-F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp > CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.i
+F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp > CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.i
 
-F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp -o CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.s
+F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp -o CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.s
 
 # Object files for target Svc_LinuxTime
 Svc_LinuxTime_OBJECTS = \
-"CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o"
+"CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
 
 # External object files for target Svc_LinuxTime
 Svc_LinuxTime_EXTERNAL_OBJECTS =
 
-lib/Linux/libSvc_LinuxTime.a: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/cmake/empty.cpp.o
-lib/Linux/libSvc_LinuxTime.a: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build.make
-lib/Linux/libSvc_LinuxTime.a: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Linux/libSvc_LinuxTime.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && $(CMAKE_COMMAND) -P CMakeFiles/Svc_LinuxTime.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_LinuxTime.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libSvc_LinuxTime.a: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o
+lib/Darwin/libSvc_LinuxTime.a: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build.make
+lib/Darwin/libSvc_LinuxTime.a: F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/Darwin/libSvc_LinuxTime.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && $(CMAKE_COMMAND) -P CMakeFiles/Svc_LinuxTime.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Svc_LinuxTime.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build: lib/Linux/libSvc_LinuxTime.a
+F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build: lib/Darwin/libSvc_LinuxTime.a
 .PHONY : F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/build
 
 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && $(CMAKE_COMMAND) -P CMakeFiles/Svc_LinuxTime.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime && $(CMAKE_COMMAND) -P CMakeFiles/Svc_LinuxTime.dir/cmake_clean.cmake
 .PHONY : F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/clean
 
 F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/LinuxTime /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Svc/LinuxTime /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Svc/LinuxTime/CMakeFiles/Svc_LinuxTime.dir/depend
 

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Utility rule file for Ref_SendBuffApp_impl.
 
@@ -72,27 +72,27 @@ Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: Ref/SendBuffApp/SendBuffCompone
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: Ref/SendBuffApp/SendBuffComponentAc.hpp
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: Ref/SendBuffApp/SendBuff_ActiveStateEnumAc.cpp
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: Ref/SendBuffApp/SendBuff_ActiveStateEnumAc.hpp
-Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template
-Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template
+Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template
+Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template: Ref/SendBuffApp/SendBuffComponentAi.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template, /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && /usr/bin/cmake -E env PYTHONPATH=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/src:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native:/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/python3 /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp --build_root -t /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp/SendBuffComponentAi.xml
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template: Ref/SendBuffApp/SendBuffComponentAi.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template, /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E env PYTHONPATH=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/src:/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/utils BUILD_ROOT=/Users/heron/Desktop/memedir/memesat-1.local:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native:/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime FPRIME_AC_CONSTANTS_FILE=/Users/heron/Desktop/memedir/memesat-1.local/config/AcConstants.ini PYTHON_AUTOCODER_DIR=/Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python /Users/heron/Desktop/memedir/fprime-venv/bin/python3 /Users/heron/Desktop/memedir/memesat-1.local/Autocoders/Python/bin/codegen.py -p /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp --build_root -t /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp/SendBuffComponentAi.xml
 
-/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template
+/Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template
+	@$(CMAKE_COMMAND) -E touch_nocreate /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template
 
-Ref/SendBuffApp/SendBuffComponentAc.cpp: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libDrv_DataTypes.a
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libFw_Cmd.a
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libFw_Log.a
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libFw_Prm.a
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libFw_Tlm.a
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libSvc_Sched.a
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libFw_CompQueued.a
-Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating SendBuffComponentAc.cpp, SendBuffComponentAc.hpp, SendBuff_ActiveStateEnumAc.cpp, SendBuff_ActiveStateEnumAc.hpp"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-cpp -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Prm/Prm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+Ref/SendBuffApp/SendBuffComponentAc.cpp: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libDrv_DataTypes.a
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libFw_Cmd.a
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libFw_Log.a
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libFw_Prm.a
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libFw_Tlm.a
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libSvc_Sched.a
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libFw_CompQueued.a
+Ref/SendBuffApp/SendBuffComponentAc.cpp: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating SendBuffComponentAc.cpp, SendBuffComponentAc.hpp, SendBuff_ActiveStateEnumAc.cpp, SendBuff_ActiveStateEnumAc.hpp"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-cpp -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Prm/Prm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp -p /Users/heron/Desktop/memedir/memesat-1.local,/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 Ref/SendBuffApp/SendBuffComponentAc.hpp: Ref/SendBuffApp/SendBuffComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/SendBuffApp/SendBuffComponentAc.hpp
@@ -103,23 +103,23 @@ Ref/SendBuffApp/SendBuff_ActiveStateEnumAc.cpp: Ref/SendBuffApp/SendBuffComponen
 Ref/SendBuffApp/SendBuff_ActiveStateEnumAc.hpp: Ref/SendBuffApp/SendBuffComponentAc.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/SendBuffApp/SendBuff_ActiveStateEnumAc.hpp
 
-Ref/SendBuffApp/SendBuffComponentAi.xml: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libDrv_DataTypes.a
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libFw_Cmd.a
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libFw_Log.a
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libFw_Prm.a
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libFw_Tlm.a
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libSvc_Sched.a
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libFw_CompQueued.a
-Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Linux/libOs.a
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating SendBuffComponentAi.xml, SendBuff_ActiveStateEnumAi.xml"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && /home/krokko/Desktop/ssrl/MEMEdir/fprime-venv/bin/fpp-to-xml -d /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp -i /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Cmd/Cmd.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Log/Log.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Prm/Prm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Time/Time.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Fw/Tlm/Tlm.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Svc/Sched/Sched.fpp,/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/config/FpConfig.fpp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp -p /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local
+Ref/SendBuffApp/SendBuffComponentAi.xml: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libDrv_DataTypes.a
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libFw_Cmd.a
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libFw_Log.a
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libFw_Prm.a
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libFw_Tlm.a
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libSvc_Sched.a
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libFw_CompQueued.a
+Ref/SendBuffApp/SendBuffComponentAi.xml: lib/Darwin/libOs.a
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating SendBuffComponentAi.xml, SendBuff_ActiveStateEnumAi.xml"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && /Users/heron/Desktop/memedir/fprime-venv/bin/fpp-to-xml -d /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp -i /Users/heron/Desktop/memedir/memesat-1.local/Drv/DataTypes/DataTypes.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Prm/Prm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp,/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp,/Users/heron/Desktop/memedir/memesat-1.local/config/FpConfig.fpp /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffApp.fpp -p /Users/heron/Desktop/memedir/memesat-1.local
 
 Ref/SendBuffApp/SendBuff_ActiveStateEnumAi.xml: Ref/SendBuffApp/SendBuffComponentAi.xml
 	@$(CMAKE_COMMAND) -E touch_nocreate Ref/SendBuffApp/SendBuff_ActiveStateEnumAi.xml
 
-Ref_SendBuffApp_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template
-Ref_SendBuffApp_impl: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template
+Ref_SendBuffApp_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.cpp-template
+Ref_SendBuffApp_impl: /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp/SendBuffComponentImpl.hpp-template
 Ref_SendBuffApp_impl: Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl
 Ref_SendBuffApp_impl: Ref/SendBuffApp/SendBuffComponentAc.cpp
 Ref_SendBuffApp_impl: Ref/SendBuffApp/SendBuffComponentAc.hpp
@@ -135,10 +135,10 @@ Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/build: Ref_SendBuffApp_impl
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/build
 
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && $(CMAKE_COMMAND) -P CMakeFiles/Ref_SendBuffApp_impl.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp && $(CMAKE_COMMAND) -P CMakeFiles/Ref_SendBuffApp_impl.dir/cmake_clean.cmake
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/clean
 
 Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/SendBuffApp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Ref/SendBuffApp /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : Ref/SendBuffApp/CMakeFiles/Ref_SendBuffApp_impl.dir/depend
 

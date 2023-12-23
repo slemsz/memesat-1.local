@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_TcpServer.a"
+  "../../../lib/Darwin/libDrv_TcpServer.a"
 )

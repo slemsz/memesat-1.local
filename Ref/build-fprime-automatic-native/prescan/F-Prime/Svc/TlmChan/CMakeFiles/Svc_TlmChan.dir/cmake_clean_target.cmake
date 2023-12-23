@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_TlmChan.a"
+  "../../../lib/Darwin/libSvc_TlmChan.a"
 )

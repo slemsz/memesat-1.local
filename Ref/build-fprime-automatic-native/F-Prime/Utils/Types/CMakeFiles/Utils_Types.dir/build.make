@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/depend.make
@@ -70,32 +70,32 @@ include F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/progress.make
 include F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/flags.make
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/flags.make
-F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/CircularBuffer.cpp
+F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/CircularBuffer.cpp
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x24ce4129 -DASSERT_RELATIVE_PATH='"Utils/Types/CircularBuffer.cpp"' -MD -MT F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o -MF CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o.d -o CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/CircularBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x24ce4129 -DASSERT_RELATIVE_PATH='"Utils/Types/CircularBuffer.cpp"' -MD -MT F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o -MF CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o.d -o CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/CircularBuffer.cpp
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x24ce4129 -DASSERT_RELATIVE_PATH='"Utils/Types/CircularBuffer.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/CircularBuffer.cpp > CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x24ce4129 -DASSERT_RELATIVE_PATH='"Utils/Types/CircularBuffer.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/CircularBuffer.cpp > CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.i
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x24ce4129 -DASSERT_RELATIVE_PATH='"Utils/Types/CircularBuffer.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/CircularBuffer.cpp -o CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x24ce4129 -DASSERT_RELATIVE_PATH='"Utils/Types/CircularBuffer.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/CircularBuffer.cpp -o CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.s
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/flags.make
-F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/Queue.cpp
+F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/Queue.cpp
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x09671f84 -DASSERT_RELATIVE_PATH='"Utils/Types/Queue.cpp"' -MD -MT F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o -MF CMakeFiles/Utils_Types.dir/Queue.cpp.o.d -o CMakeFiles/Utils_Types.dir/Queue.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x09671f84 -DASSERT_RELATIVE_PATH='"Utils/Types/Queue.cpp"' -MD -MT F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o -MF CMakeFiles/Utils_Types.dir/Queue.cpp.o.d -o CMakeFiles/Utils_Types.dir/Queue.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/Queue.cpp
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Utils_Types.dir/Queue.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x09671f84 -DASSERT_RELATIVE_PATH='"Utils/Types/Queue.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/Queue.cpp > CMakeFiles/Utils_Types.dir/Queue.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x09671f84 -DASSERT_RELATIVE_PATH='"Utils/Types/Queue.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/Queue.cpp > CMakeFiles/Utils_Types.dir/Queue.cpp.i
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Utils_Types.dir/Queue.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x09671f84 -DASSERT_RELATIVE_PATH='"Utils/Types/Queue.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types/Queue.cpp -o CMakeFiles/Utils_Types.dir/Queue.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x09671f84 -DASSERT_RELATIVE_PATH='"Utils/Types/Queue.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types/Queue.cpp -o CMakeFiles/Utils_Types.dir/Queue.cpp.s
 
 # Object files for target Utils_Types
 Utils_Types_OBJECTS = \
@@ -105,23 +105,23 @@ Utils_Types_OBJECTS = \
 # External object files for target Utils_Types
 Utils_Types_EXTERNAL_OBJECTS =
 
-lib/Linux/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o
-lib/Linux/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o
-lib/Linux/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build.make
-lib/Linux/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/Linux/libUtils_Types.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && $(CMAKE_COMMAND) -P CMakeFiles/Utils_Types.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Utils_Types.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/CircularBuffer.cpp.o
+lib/Darwin/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/Queue.cpp.o
+lib/Darwin/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build.make
+lib/Darwin/libUtils_Types.a: F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/Darwin/libUtils_Types.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && $(CMAKE_COMMAND) -P CMakeFiles/Utils_Types.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Utils_Types.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build: lib/Linux/libUtils_Types.a
+F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build: lib/Darwin/libUtils_Types.a
 .PHONY : F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/build
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && $(CMAKE_COMMAND) -P CMakeFiles/Utils_Types.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types && $(CMAKE_COMMAND) -P CMakeFiles/Utils_Types.dir/cmake_clean.cmake
 .PHONY : F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/clean
 
 F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/Types /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Utils/Types /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Utils/Types/CMakeFiles/Utils_Types.dir/depend
 

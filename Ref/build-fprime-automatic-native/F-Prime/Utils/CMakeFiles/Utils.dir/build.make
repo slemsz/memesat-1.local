@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 # Include any dependencies generated for this target.
 include F-Prime/Utils/CMakeFiles/Utils.dir/depend.make
@@ -70,60 +70,60 @@ include F-Prime/Utils/CMakeFiles/Utils.dir/progress.make
 include F-Prime/Utils/CMakeFiles/Utils.dir/flags.make
 
 F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/flags.make
-F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/RateLimiter.cpp
+F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Utils/RateLimiter.cpp
 F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd680284b -DASSERT_RELATIVE_PATH='"Utils/RateLimiter.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o -MF CMakeFiles/Utils.dir/RateLimiter.cpp.o.d -o CMakeFiles/Utils.dir/RateLimiter.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/RateLimiter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd680284b -DASSERT_RELATIVE_PATH='"Utils/RateLimiter.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o -MF CMakeFiles/Utils.dir/RateLimiter.cpp.o.d -o CMakeFiles/Utils.dir/RateLimiter.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Utils/RateLimiter.cpp
 
 F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Utils.dir/RateLimiter.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd680284b -DASSERT_RELATIVE_PATH='"Utils/RateLimiter.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/RateLimiter.cpp > CMakeFiles/Utils.dir/RateLimiter.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd680284b -DASSERT_RELATIVE_PATH='"Utils/RateLimiter.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Utils/RateLimiter.cpp > CMakeFiles/Utils.dir/RateLimiter.cpp.i
 
 F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Utils.dir/RateLimiter.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd680284b -DASSERT_RELATIVE_PATH='"Utils/RateLimiter.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/RateLimiter.cpp -o CMakeFiles/Utils.dir/RateLimiter.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xd680284b -DASSERT_RELATIVE_PATH='"Utils/RateLimiter.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Utils/RateLimiter.cpp -o CMakeFiles/Utils.dir/RateLimiter.cpp.s
 
 F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/flags.make
-F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/TokenBucket.cpp
+F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Utils/TokenBucket.cpp
 F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xee6ac8cb -DASSERT_RELATIVE_PATH='"Utils/TokenBucket.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o -MF CMakeFiles/Utils.dir/TokenBucket.cpp.o.d -o CMakeFiles/Utils.dir/TokenBucket.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/TokenBucket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xee6ac8cb -DASSERT_RELATIVE_PATH='"Utils/TokenBucket.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o -MF CMakeFiles/Utils.dir/TokenBucket.cpp.o.d -o CMakeFiles/Utils.dir/TokenBucket.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Utils/TokenBucket.cpp
 
 F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Utils.dir/TokenBucket.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xee6ac8cb -DASSERT_RELATIVE_PATH='"Utils/TokenBucket.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/TokenBucket.cpp > CMakeFiles/Utils.dir/TokenBucket.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xee6ac8cb -DASSERT_RELATIVE_PATH='"Utils/TokenBucket.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Utils/TokenBucket.cpp > CMakeFiles/Utils.dir/TokenBucket.cpp.i
 
 F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Utils.dir/TokenBucket.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xee6ac8cb -DASSERT_RELATIVE_PATH='"Utils/TokenBucket.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/TokenBucket.cpp -o CMakeFiles/Utils.dir/TokenBucket.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0xee6ac8cb -DASSERT_RELATIVE_PATH='"Utils/TokenBucket.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Utils/TokenBucket.cpp -o CMakeFiles/Utils.dir/TokenBucket.cpp.s
 
 F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/flags.make
-F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/LockGuard.cpp
+F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Utils/LockGuard.cpp
 F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3896a9a6 -DASSERT_RELATIVE_PATH='"Utils/LockGuard.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o -MF CMakeFiles/Utils.dir/LockGuard.cpp.o.d -o CMakeFiles/Utils.dir/LockGuard.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/LockGuard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3896a9a6 -DASSERT_RELATIVE_PATH='"Utils/LockGuard.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o -MF CMakeFiles/Utils.dir/LockGuard.cpp.o.d -o CMakeFiles/Utils.dir/LockGuard.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Utils/LockGuard.cpp
 
 F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Utils.dir/LockGuard.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3896a9a6 -DASSERT_RELATIVE_PATH='"Utils/LockGuard.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/LockGuard.cpp > CMakeFiles/Utils.dir/LockGuard.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3896a9a6 -DASSERT_RELATIVE_PATH='"Utils/LockGuard.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Utils/LockGuard.cpp > CMakeFiles/Utils.dir/LockGuard.cpp.i
 
 F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Utils.dir/LockGuard.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3896a9a6 -DASSERT_RELATIVE_PATH='"Utils/LockGuard.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/LockGuard.cpp -o CMakeFiles/Utils.dir/LockGuard.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x3896a9a6 -DASSERT_RELATIVE_PATH='"Utils/LockGuard.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Utils/LockGuard.cpp -o CMakeFiles/Utils.dir/LockGuard.cpp.s
 
 F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/flags.make
-F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/CRCChecker.cpp
+F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o: /Users/heron/Desktop/memedir/memesat-1.local/Utils/CRCChecker.cpp
 F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o: F-Prime/Utils/CMakeFiles/Utils.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54c247ab -DASSERT_RELATIVE_PATH='"Utils/CRCChecker.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o -MF CMakeFiles/Utils.dir/CRCChecker.cpp.o.d -o CMakeFiles/Utils.dir/CRCChecker.cpp.o -c /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/CRCChecker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54c247ab -DASSERT_RELATIVE_PATH='"Utils/CRCChecker.cpp"' -MD -MT F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o -MF CMakeFiles/Utils.dir/CRCChecker.cpp.o.d -o CMakeFiles/Utils.dir/CRCChecker.cpp.o -c /Users/heron/Desktop/memedir/memesat-1.local/Utils/CRCChecker.cpp
 
 F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Utils.dir/CRCChecker.cpp.i"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54c247ab -DASSERT_RELATIVE_PATH='"Utils/CRCChecker.cpp"' -E /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/CRCChecker.cpp > CMakeFiles/Utils.dir/CRCChecker.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54c247ab -DASSERT_RELATIVE_PATH='"Utils/CRCChecker.cpp"' -E /Users/heron/Desktop/memedir/memesat-1.local/Utils/CRCChecker.cpp > CMakeFiles/Utils.dir/CRCChecker.cpp.i
 
 F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Utils.dir/CRCChecker.cpp.s"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54c247ab -DASSERT_RELATIVE_PATH='"Utils/CRCChecker.cpp"' -S /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils/CRCChecker.cpp -o CMakeFiles/Utils.dir/CRCChecker.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -DASSERT_FILE_ID=0x54c247ab -DASSERT_RELATIVE_PATH='"Utils/CRCChecker.cpp"' -S /Users/heron/Desktop/memedir/memesat-1.local/Utils/CRCChecker.cpp -o CMakeFiles/Utils.dir/CRCChecker.cpp.s
 
 # Object files for target Utils
 Utils_OBJECTS = \
@@ -135,25 +135,25 @@ Utils_OBJECTS = \
 # External object files for target Utils
 Utils_EXTERNAL_OBJECTS =
 
-lib/Linux/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o
-lib/Linux/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o
-lib/Linux/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o
-lib/Linux/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o
-lib/Linux/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/build.make
-lib/Linux/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/Linux/libUtils.a"
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -P CMakeFiles/Utils.dir/cmake_clean_target.cmake
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Utils.dir/link.txt --verbose=$(VERBOSE)
+lib/Darwin/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/RateLimiter.cpp.o
+lib/Darwin/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/TokenBucket.cpp.o
+lib/Darwin/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/LockGuard.cpp.o
+lib/Darwin/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/CRCChecker.cpp.o
+lib/Darwin/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/build.make
+lib/Darwin/libUtils.a: F-Prime/Utils/CMakeFiles/Utils.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library ../../lib/Darwin/libUtils.a"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -P CMakeFiles/Utils.dir/cmake_clean_target.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Utils.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-F-Prime/Utils/CMakeFiles/Utils.dir/build: lib/Linux/libUtils.a
+F-Prime/Utils/CMakeFiles/Utils.dir/build: lib/Darwin/libUtils.a
 .PHONY : F-Prime/Utils/CMakeFiles/Utils.dir/build
 
 F-Prime/Utils/CMakeFiles/Utils.dir/clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -P CMakeFiles/Utils.dir/cmake_clean.cmake
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils && $(CMAKE_COMMAND) -P CMakeFiles/Utils.dir/cmake_clean.cmake
 .PHONY : F-Prime/Utils/CMakeFiles/Utils.dir/clean
 
 F-Prime/Utils/CMakeFiles/Utils.dir/depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Utils /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/CMakeFiles/Utils.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/heron/Desktop/memedir/memesat-1.local/Ref /Users/heron/Desktop/memedir/memesat-1.local/Utils /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Utils/CMakeFiles/Utils.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : F-Prime/Utils/CMakeFiles/Utils.dir/depend
 

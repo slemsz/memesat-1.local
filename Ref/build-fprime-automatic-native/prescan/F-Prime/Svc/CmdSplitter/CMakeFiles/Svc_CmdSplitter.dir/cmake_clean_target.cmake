@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_CmdSplitter.a"
+  "../../../lib/Darwin/libSvc_CmdSplitter.a"
 )

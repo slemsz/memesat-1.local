@@ -369,7 +369,7 @@ Svc/LinuxTime/LinuxTimeImpl.cpp: 0x545b69ef
 Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTime/TimeComponentAi.xml: 0x43189143
 Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTime/TimeComponentAc.cpp: 0xc60325b7
 Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTime/TimeComponentAc.hpp: 0xcfbeadc5
-Svc/LinuxTimer/LinuxTimerComponentImplTimerFd.cpp: 0xc6da2557
+Svc/LinuxTimer/LinuxTimerComponentImplTaskDelay.cpp: 0xcb52f622
 Svc/LinuxTimer/LinuxTimerComponentImplCommon.cpp: 0x08c2c996
 Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTimer/LinuxTimerComponentAi.xml: 0x647d80cc
 Ref/build-fprime-automatic-native/F-Prime/Svc/LinuxTimer/LinuxTimerComponentAc.cpp: 0xd4922f14
@@ -400,9 +400,8 @@ Os/Posix/Mutex.cpp: 0xca91df23
 Os/Linux/FileSystem.cpp: 0x7b83cf05
 Os/Posix/TaskId.cpp: 0x2215f858
 Os/Linux/Directory.cpp: 0x8e02c7aa
-Os/Posix/IPCQueue.cpp: 0xdf5e2bec
-Os/Posix/LocklessQueue.cpp: 0xec84a4ec
-Os/Linux/SystemResources.cpp: 0x4b93994a
+Os/MacOs/IPCQueueStub.cpp: 0x44a13c78
+Os/MacOs/SystemResources.cpp: 0xe2a8d59a
 Drv/DataTypes/DataBuffer.cpp: 0x8b7c083e
 Ref/build-fprime-automatic-native/F-Prime/Drv/DataTypes/DataBufferPortAi.xml: 0x3f6d1f30
 Ref/build-fprime-automatic-native/F-Prime/Drv/DataTypes/DataBufferPortAc.cpp: 0x1da88a8f
@@ -454,7 +453,7 @@ Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/RecvStatusEn
 Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.cpp: 0x6983a261
 Ref/build-fprime-automatic-native/F-Prime/Drv/ByteStreamDriverModel/SendStatusEnumAc.hpp: 0x7c147926
 Drv/LinuxGpioDriver/LinuxGpioDriverComponentImplCommon.cpp: 0xd87f07da
-Drv/LinuxGpioDriver/LinuxGpioDriverComponentImpl.cpp: 0x1a4e9526
+Drv/LinuxGpioDriver/LinuxGpioDriverComponentImplStub.cpp: 0x2f313b44
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxGpioDriver/LinuxGpioDriverComponentAi.xml: 0x5f8f3e44
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxGpioDriver/LinuxGpioDriverComponentAc.cpp: 0x6a5bf1e4
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxGpioDriver/LinuxGpioDriverComponentAc.hpp: 0x19de00c1
@@ -463,11 +462,11 @@ Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxUartDriver/LinuxUartDriverCom
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxUartDriver/LinuxUartDriverComponentAc.cpp: 0xe789e808
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxUartDriver/LinuxUartDriverComponentAc.hpp: 0x4823f8ac
 Drv/LinuxSpiDriver/LinuxSpiDriverComponentImplCommon.cpp: 0x06173988
-Drv/LinuxSpiDriver/LinuxSpiDriverComponentImpl.cpp: 0xceb23c8b
+Drv/LinuxSpiDriver/LinuxSpiDriverComponentImplStub.cpp: 0x2602b9d8
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver/LinuxSpiDriverComponentAi.xml: 0xf3fb6db4
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver/LinuxSpiDriverComponentAc.cpp: 0x86b68ca4
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver/LinuxSpiDriverComponentAc.hpp: 0x3fce400a
-Drv/LinuxI2cDriver/LinuxI2cDriver.cpp: 0x7bdf70c2
+Drv/LinuxI2cDriver/LinuxI2cDriverStub.cpp: 0x318e63e1
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAi.xml: 0x340f221b
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.cpp: 0xdaa13cfc
 Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxI2cDriver/LinuxI2cDriverComponentAc.hpp: 0x5459d9e2

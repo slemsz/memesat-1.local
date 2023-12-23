@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libCFDP_Checksum.a"
+  "../../../lib/Darwin/libCFDP_Checksum.a"
 )

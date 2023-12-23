@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libDrv_DataTypes.a"
+  "../../../lib/Darwin/libDrv_DataTypes.a"
 )

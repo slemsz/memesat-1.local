@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/Darwin/libFw_Types_GTest.a "CMakeFiles/Fw_Types_GTest.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
+/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/Darwin/libFw_Types_GTest.a

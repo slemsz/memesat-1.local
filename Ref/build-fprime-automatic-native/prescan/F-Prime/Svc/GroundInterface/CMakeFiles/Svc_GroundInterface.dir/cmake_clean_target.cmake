@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_GroundInterface.a"
+  "../../../lib/Darwin/libSvc_GroundInterface.a"
 )

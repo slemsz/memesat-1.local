@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/Linux/libSvc_FatalHandler.a"
+  "../../../lib/Darwin/libSvc_FatalHandler.a"
 )

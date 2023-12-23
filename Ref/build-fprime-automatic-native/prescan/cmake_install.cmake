@@ -1,8 +1,8 @@
-# Install script for directory: /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+# Install script for directory: /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-artifacts")
+  set(CMAKE_INSTALL_PREFIX "/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-artifacts")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -27,11 +27,6 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-# Install shared libraries without execute permission?
-if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
-  set(CMAKE_INSTALL_SO_NO_EXE "1")
-endif()
-
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
@@ -39,25 +34,25 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Autocoders/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/config/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Fw/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Os/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/CFDP/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Utils/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/PingReceiver/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/RecvBuffApp/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SendBuffApp/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SignalGen/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo/cmake_install.cmake")
-  include("/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/Top/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Autocoders/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/config/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Fw/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Svc/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Os/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Drv/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/CFDP/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/F-Prime/Utils/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/PingReceiver/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/RecvBuffApp/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SendBuffApp/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/SignalGen/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/TypeDemo/cmake_install.cmake")
+  include("/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/Ref/Top/cmake_install.cmake")
 
 endif()
 
@@ -69,5 +64,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/prescan/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

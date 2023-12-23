@@ -48,19 +48,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref
+CMAKE_SOURCE_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native
+CMAKE_BINARY_DIR = /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,7 +68,7 @@ CMAKE_BINARY_DIR = /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-f
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -78,7 +78,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -97,49 +97,49 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/Users/heron/Library/Python/3.9/lib/python/site-packages/cmake/data/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver//CMakeFiles/progress.marks
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/F-Prime/Drv/LinuxSpiDriver//CMakeFiles/progress.marks
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/clean
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: cmake_check_build_system
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/preinstall
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/rule
 .PHONY : F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ Drv_LinuxSpiDriver: F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir
 
 # fast build rule for target.
 Drv_LinuxSpiDriver/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build
 .PHONY : Drv_LinuxSpiDriver/fast
 
 # Convenience name for target.
 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/rule:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/rule
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/rule
 .PHONY : F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ Drv_LinuxSpiDriver_impl: F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDrive
 
 # fast build rule for target.
 Drv_LinuxSpiDriver_impl/fast:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/build
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver_impl.dir/build
 .PHONY : Drv_LinuxSpiDriver_impl/fast
 
 LinuxSpiDriverComponentAc.o: LinuxSpiDriverComponentAc.cpp.o
@@ -194,7 +194,7 @@ LinuxSpiDriverComponentAc.o: LinuxSpiDriverComponentAc.cpp.o
 
 # target to build an object file
 LinuxSpiDriverComponentAc.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentAc.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentAc.cpp.o
 .PHONY : LinuxSpiDriverComponentAc.cpp.o
 
 LinuxSpiDriverComponentAc.i: LinuxSpiDriverComponentAc.cpp.i
@@ -202,7 +202,7 @@ LinuxSpiDriverComponentAc.i: LinuxSpiDriverComponentAc.cpp.i
 
 # target to preprocess a source file
 LinuxSpiDriverComponentAc.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentAc.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentAc.cpp.i
 .PHONY : LinuxSpiDriverComponentAc.cpp.i
 
 LinuxSpiDriverComponentAc.s: LinuxSpiDriverComponentAc.cpp.s
@@ -210,39 +210,15 @@ LinuxSpiDriverComponentAc.s: LinuxSpiDriverComponentAc.cpp.s
 
 # target to generate assembly for a file
 LinuxSpiDriverComponentAc.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentAc.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentAc.cpp.s
 .PHONY : LinuxSpiDriverComponentAc.cpp.s
-
-LinuxSpiDriverComponentImpl.o: LinuxSpiDriverComponentImpl.cpp.o
-.PHONY : LinuxSpiDriverComponentImpl.o
-
-# target to build an object file
-LinuxSpiDriverComponentImpl.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImpl.cpp.o
-.PHONY : LinuxSpiDriverComponentImpl.cpp.o
-
-LinuxSpiDriverComponentImpl.i: LinuxSpiDriverComponentImpl.cpp.i
-.PHONY : LinuxSpiDriverComponentImpl.i
-
-# target to preprocess a source file
-LinuxSpiDriverComponentImpl.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImpl.cpp.i
-.PHONY : LinuxSpiDriverComponentImpl.cpp.i
-
-LinuxSpiDriverComponentImpl.s: LinuxSpiDriverComponentImpl.cpp.s
-.PHONY : LinuxSpiDriverComponentImpl.s
-
-# target to generate assembly for a file
-LinuxSpiDriverComponentImpl.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImpl.cpp.s
-.PHONY : LinuxSpiDriverComponentImpl.cpp.s
 
 LinuxSpiDriverComponentImplCommon.o: LinuxSpiDriverComponentImplCommon.cpp.o
 .PHONY : LinuxSpiDriverComponentImplCommon.o
 
 # target to build an object file
 LinuxSpiDriverComponentImplCommon.cpp.o:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplCommon.cpp.o
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplCommon.cpp.o
 .PHONY : LinuxSpiDriverComponentImplCommon.cpp.o
 
 LinuxSpiDriverComponentImplCommon.i: LinuxSpiDriverComponentImplCommon.cpp.i
@@ -250,7 +226,7 @@ LinuxSpiDriverComponentImplCommon.i: LinuxSpiDriverComponentImplCommon.cpp.i
 
 # target to preprocess a source file
 LinuxSpiDriverComponentImplCommon.cpp.i:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplCommon.cpp.i
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplCommon.cpp.i
 .PHONY : LinuxSpiDriverComponentImplCommon.cpp.i
 
 LinuxSpiDriverComponentImplCommon.s: LinuxSpiDriverComponentImplCommon.cpp.s
@@ -258,8 +234,32 @@ LinuxSpiDriverComponentImplCommon.s: LinuxSpiDriverComponentImplCommon.cpp.s
 
 # target to generate assembly for a file
 LinuxSpiDriverComponentImplCommon.cpp.s:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplCommon.cpp.s
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplCommon.cpp.s
 .PHONY : LinuxSpiDriverComponentImplCommon.cpp.s
+
+LinuxSpiDriverComponentImplStub.o: LinuxSpiDriverComponentImplStub.cpp.o
+.PHONY : LinuxSpiDriverComponentImplStub.o
+
+# target to build an object file
+LinuxSpiDriverComponentImplStub.cpp.o:
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplStub.cpp.o
+.PHONY : LinuxSpiDriverComponentImplStub.cpp.o
+
+LinuxSpiDriverComponentImplStub.i: LinuxSpiDriverComponentImplStub.cpp.i
+.PHONY : LinuxSpiDriverComponentImplStub.i
+
+# target to preprocess a source file
+LinuxSpiDriverComponentImplStub.cpp.i:
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplStub.cpp.i
+.PHONY : LinuxSpiDriverComponentImplStub.cpp.i
+
+LinuxSpiDriverComponentImplStub.s: LinuxSpiDriverComponentImplStub.cpp.s
+.PHONY : LinuxSpiDriverComponentImplStub.s
+
+# target to generate assembly for a file
+LinuxSpiDriverComponentImplStub.cpp.s:
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(MAKE) $(MAKESILENT) -f F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/build.make F-Prime/Drv/LinuxSpiDriver/CMakeFiles/Drv_LinuxSpiDriver.dir/LinuxSpiDriverComponentImplStub.cpp.s
+.PHONY : LinuxSpiDriverComponentImplStub.cpp.s
 
 # Help Target
 help:
@@ -278,12 +278,12 @@ help:
 	@echo "... LinuxSpiDriverComponentAc.o"
 	@echo "... LinuxSpiDriverComponentAc.i"
 	@echo "... LinuxSpiDriverComponentAc.s"
-	@echo "... LinuxSpiDriverComponentImpl.o"
-	@echo "... LinuxSpiDriverComponentImpl.i"
-	@echo "... LinuxSpiDriverComponentImpl.s"
 	@echo "... LinuxSpiDriverComponentImplCommon.o"
 	@echo "... LinuxSpiDriverComponentImplCommon.i"
 	@echo "... LinuxSpiDriverComponentImplCommon.s"
+	@echo "... LinuxSpiDriverComponentImplStub.o"
+	@echo "... LinuxSpiDriverComponentImplStub.i"
+	@echo "... LinuxSpiDriverComponentImplStub.s"
 .PHONY : help
 
 
@@ -295,6 +295,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/krokko/Desktop/ssrl/MEMEdir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/heron/Desktop/memedir/memesat-1.local/Ref/build-fprime-automatic-native && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

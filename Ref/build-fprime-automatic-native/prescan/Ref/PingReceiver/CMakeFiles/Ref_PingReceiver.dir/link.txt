@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../lib/Darwin/libRef_PingReceiver.a "CMakeFiles/Ref_PingReceiver.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../lib/Darwin/libRef_PingReceiver.a

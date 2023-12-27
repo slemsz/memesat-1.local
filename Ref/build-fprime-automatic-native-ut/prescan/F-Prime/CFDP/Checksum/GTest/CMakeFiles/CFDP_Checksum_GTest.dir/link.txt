@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../lib/Darwin/libCFDP_Checksum_GTest.a "CMakeFiles/CFDP_Checksum_GTest.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../lib/Darwin/libCFDP_Checksum_GTest.a

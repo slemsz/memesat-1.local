@@ -1,2 +1,0 @@
-/Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxSpiDriver/Events.fppi
-/Users/heron/Desktop/memedir/memesat-1.local/Drv/LinuxSpiDriver/Telemetry.fppi

@@ -1,3 +1,0 @@
-PassiveTextLoggerComponentAc.cpp
-PassiveTextLoggerComponentAc.hpp
-PassiveTextLoggerComponentAi.xml

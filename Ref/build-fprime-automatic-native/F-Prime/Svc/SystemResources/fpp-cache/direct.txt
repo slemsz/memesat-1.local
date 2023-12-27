@@ -1,5 +1,0 @@
-/Users/heron/Desktop/memedir/memesat-1.local/Fw/Cmd/Cmd.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Fw/Log/Log.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Fw/Time/Time.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Fw/Tlm/Tlm.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Svc/Sched/Sched.fpp

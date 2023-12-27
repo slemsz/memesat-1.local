@@ -1,3 +1,0 @@
-BufferRepeaterComponentAc.cpp
-BufferRepeaterComponentAc.hpp
-BufferRepeaterComponentAi.xml

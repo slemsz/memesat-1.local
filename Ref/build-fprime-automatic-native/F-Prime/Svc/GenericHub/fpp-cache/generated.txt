@@ -1,3 +1,0 @@
-GenericHubComponentAc.cpp
-GenericHubComponentAc.hpp
-GenericHubComponentAi.xml

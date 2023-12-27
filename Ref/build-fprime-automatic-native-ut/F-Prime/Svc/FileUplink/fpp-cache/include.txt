@@ -1,2 +1,0 @@
-/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/Events.fppi
-/Users/heron/Desktop/memedir/memesat-1.local/Svc/FileUplink/Telemetry.fppi

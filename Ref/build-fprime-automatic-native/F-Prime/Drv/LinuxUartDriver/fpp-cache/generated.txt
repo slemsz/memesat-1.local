@@ -1,3 +1,0 @@
-LinuxUartDriverComponentAc.cpp
-LinuxUartDriverComponentAc.hpp
-LinuxUartDriverComponentAi.xml

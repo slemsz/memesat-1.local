@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../lib/Darwin/libSvc_PassiveRateGroup.a "CMakeFiles/Svc_PassiveRateGroup.dir/Users/heron/Desktop/memedir/memesat-1.local/cmake/empty.cpp.o"
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../lib/Darwin/libSvc_PassiveRateGroup.a

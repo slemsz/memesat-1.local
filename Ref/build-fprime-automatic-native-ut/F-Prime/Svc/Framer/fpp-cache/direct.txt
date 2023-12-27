@@ -1,4 +1,0 @@
-/Users/heron/Desktop/memedir/memesat-1.local/Drv/ByteStreamDriverModel/ByteStreamDriverModel.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Fw/Buffer/Buffer.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Fw/Com/Com.fpp
-/Users/heron/Desktop/memedir/memesat-1.local/Fw/Ports/SuccessCondition/SuccessCondition.fpp

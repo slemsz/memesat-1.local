@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../lib/Darwin/libPortSelector.a CMakeFiles/PortSelector.dir/test/ut/PortSelector.cpp.o CMakeFiles/PortSelector.dir/test/ut/SocketTestHelper.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../lib/Darwin/libPortSelector.a

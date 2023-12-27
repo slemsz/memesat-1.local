@@ -1,3 +1,0 @@
-TimeComponentAc.cpp
-TimeComponentAc.hpp
-TimeComponentAi.xml

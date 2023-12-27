@@ -1,3 +1,0 @@
-ActiveRateGroupComponentAc.cpp
-ActiveRateGroupComponentAc.hpp
-ActiveRateGroupComponentAi.xml

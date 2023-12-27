@@ -1,3 +1,0 @@
-GroundInterfaceComponentAc.cpp
-GroundInterfaceComponentAc.hpp
-GroundInterfaceComponentAi.xml

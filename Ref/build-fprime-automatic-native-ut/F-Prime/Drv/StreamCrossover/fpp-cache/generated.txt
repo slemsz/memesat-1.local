@@ -1,3 +1,0 @@
-StreamCrossoverComponentAc.cpp
-StreamCrossoverComponentAc.hpp
-StreamCrossoverComponentAi.xml

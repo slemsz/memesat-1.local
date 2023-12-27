@@ -1,3 +1,0 @@
-FramerComponentAc.cpp
-FramerComponentAc.hpp
-FramerComponentAi.xml

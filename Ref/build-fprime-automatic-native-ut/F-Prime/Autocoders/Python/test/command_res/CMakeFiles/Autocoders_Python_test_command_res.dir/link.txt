@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../../../../../lib/Darwin/libAutocoders_Python_test_command_res.a CMakeFiles/Autocoders_Python_test_command_res.dir/Test1ComponentImpl.cpp.o CMakeFiles/Autocoders_Python_test_command_res.dir/Test1ComponentAc.cpp.o CMakeFiles/Autocoders_Python_test_command_res.dir/Test2PortAc.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../../../../../lib/Darwin/libAutocoders_Python_test_command_res.a

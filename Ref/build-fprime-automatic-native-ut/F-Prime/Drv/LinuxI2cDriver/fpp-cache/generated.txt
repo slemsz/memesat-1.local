@@ -1,3 +1,0 @@
-LinuxI2cDriverComponentAc.cpp
-LinuxI2cDriverComponentAc.hpp
-LinuxI2cDriverComponentAi.xml

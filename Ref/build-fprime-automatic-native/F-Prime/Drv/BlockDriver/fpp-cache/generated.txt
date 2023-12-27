@@ -1,3 +1,0 @@
-BlockDriverComponentAc.cpp
-BlockDriverComponentAc.hpp
-BlockDriverComponentAi.xml

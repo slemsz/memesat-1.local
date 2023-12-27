@@ -1,3 +1,0 @@
-SG1.PairOutput
-SG1.History
-SG1.PairHistory

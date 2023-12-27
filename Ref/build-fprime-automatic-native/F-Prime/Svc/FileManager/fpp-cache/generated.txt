@@ -1,3 +1,0 @@
-FileManagerComponentAc.cpp
-FileManagerComponentAc.hpp
-FileManagerComponentAi.xml

@@ -1,3 +1,0 @@
-TlmChanComponentAc.cpp
-TlmChanComponentAc.hpp
-TlmChanComponentAi.xml

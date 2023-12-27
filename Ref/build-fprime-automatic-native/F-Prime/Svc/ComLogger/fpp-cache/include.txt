@@ -1,2 +1,0 @@
-/Users/heron/Desktop/memedir/memesat-1.local/Svc/ComLogger/Commands.fppi
-/Users/heron/Desktop/memedir/memesat-1.local/Svc/ComLogger/Events.fppi

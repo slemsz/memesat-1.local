@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Fw/Buffer/Buffer.cpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Fw/Buffer/BufferGetPortAi.xml;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Fw/Buffer/BufferSendPortAi.xml;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Fw/Buffer/BufferGetPortAc.cpp;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Fw/Buffer/BufferGetPortAc.hpp;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Fw/Buffer/BufferSendPortAc.cpp;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Fw/Buffer/BufferSendPortAc.hpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Fw/Buffer/Buffer.fpp
+Fw/Types

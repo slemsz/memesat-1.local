@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/Components/MathReceiver/MathReceiver.cpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/Components/MathReceiver/MathReceiverComponentAi.xml;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/Components/MathReceiver/MathReceiverComponentAc.cpp;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/Components/MathReceiver/MathReceiverComponentAc.hpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/Components/MathReceiver/MathReceiver.fpp
+

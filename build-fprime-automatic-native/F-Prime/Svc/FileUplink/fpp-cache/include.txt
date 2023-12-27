@@ -1,0 +1,2 @@
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Svc/FileUplink/Events.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Svc/FileUplink/Telemetry.fppi

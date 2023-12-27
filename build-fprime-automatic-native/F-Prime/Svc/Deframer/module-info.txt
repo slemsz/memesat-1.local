@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Svc/Deframer/Deframer.cpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAi.xml;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.cpp;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/build-fprime-automatic-native/F-Prime/Svc/Deframer/DeframerComponentAc.hpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Svc/Deframer/Deframer.fpp
+Svc/FramingProtocol;Utils/Types

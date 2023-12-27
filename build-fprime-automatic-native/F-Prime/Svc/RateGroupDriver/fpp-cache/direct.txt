@@ -1,0 +1,2 @@
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Svc/Cycle/Cycle.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/config/AcConstants.fpp

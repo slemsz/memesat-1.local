@@ -1,0 +1,2 @@
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Drv/I2cDriverPorts/I2cDriverPorts.fpp
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Fw/Buffer/Buffer.fpp

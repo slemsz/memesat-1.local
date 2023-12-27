@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Fw/SerializableFile/SerializableFile.cpp
+
+
+Fw/Cfg;Fw/Types

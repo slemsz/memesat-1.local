@@ -1,0 +1,3 @@
+PassiveRateGroupComponentAc.cpp
+PassiveRateGroupComponentAc.hpp
+PassiveRateGroupComponentAi.xml

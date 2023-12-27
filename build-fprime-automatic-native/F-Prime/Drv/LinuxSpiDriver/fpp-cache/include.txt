@@ -1,0 +1,2 @@
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Drv/LinuxSpiDriver/Events.fppi
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Drv/LinuxSpiDriver/Telemetry.fppi

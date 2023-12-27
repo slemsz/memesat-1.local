@@ -1,0 +1,3 @@
+BufferManagerComponentAc.cpp
+BufferManagerComponentAc.hpp
+BufferManagerComponentAi.xml

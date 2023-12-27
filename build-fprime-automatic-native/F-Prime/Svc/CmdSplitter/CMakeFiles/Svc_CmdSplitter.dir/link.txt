@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/Linux/libSvc_CmdSplitter.a CMakeFiles/Svc_CmdSplitter.dir/CmdSplitter.cpp.o CMakeFiles/Svc_CmdSplitter.dir/CmdSplitterComponentAc.cpp.o
+/usr/bin/ranlib ../../../lib/Linux/libSvc_CmdSplitter.a

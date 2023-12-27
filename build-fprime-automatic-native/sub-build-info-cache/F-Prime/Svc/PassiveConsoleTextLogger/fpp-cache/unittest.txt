@@ -1,0 +1,5 @@
+PassiveTextLoggerGTestBase.cpp
+PassiveTextLoggerGTestBase.hpp
+PassiveTextLoggerTesterBase.cpp
+PassiveTextLoggerTesterBase.hpp
+PassiveTextLoggerTesterHelpers.cpp

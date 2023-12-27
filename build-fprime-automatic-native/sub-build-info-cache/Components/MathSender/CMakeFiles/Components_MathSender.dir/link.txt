@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/Linux/libComponents_MathSender.a CMakeFiles/Components_MathSender.dir/__/__/fprime/cmake/empty.cpp.o
+/usr/bin/ranlib ../../lib/Linux/libComponents_MathSender.a

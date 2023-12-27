@@ -1,0 +1,3 @@
+ActiveTextLoggerComponentAc.cpp
+ActiveTextLoggerComponentAc.hpp
+ActiveTextLoggerComponentAi.xml

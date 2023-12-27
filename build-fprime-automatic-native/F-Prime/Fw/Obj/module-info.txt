@@ -1,0 +1,5 @@
+
+/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Fw/Obj/ObjBase.cpp;/home/krokko/Desktop/ssrl/MEMEdir/fprime_tutorials/memesat/fprime/Fw/Obj/SimpleObjRegistry.cpp
+
+
+Fw/Cfg;Fw/Types;Fw/Logger

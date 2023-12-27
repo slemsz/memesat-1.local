@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/Linux/libPorts.a CMakeFiles/Ports.dir/MathResultPortAc.cpp.o CMakeFiles/Ports.dir/OpRequestPortAc.cpp.o
+/usr/bin/ranlib ../lib/Linux/libPorts.a

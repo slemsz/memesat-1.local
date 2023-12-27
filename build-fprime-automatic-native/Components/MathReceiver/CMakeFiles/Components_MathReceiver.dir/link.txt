@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/Linux/libComponents_MathReceiver.a CMakeFiles/Components_MathReceiver.dir/MathReceiver.cpp.o CMakeFiles/Components_MathReceiver.dir/MathReceiverComponentAc.cpp.o
+/usr/bin/ranlib ../../lib/Linux/libComponents_MathReceiver.a

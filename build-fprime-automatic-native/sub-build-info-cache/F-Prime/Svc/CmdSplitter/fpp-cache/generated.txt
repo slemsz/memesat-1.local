@@ -1,0 +1,3 @@
+CmdSplitterComponentAc.cpp
+CmdSplitterComponentAc.hpp
+CmdSplitterComponentAi.xml
